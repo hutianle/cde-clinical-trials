@@ -1,28 +1,39 @@
 import asyncio
 import os
+import sys
 import json
 import datetime
 import re
 from pathlib import Path
 from playwright.async_api import async_playwright
+
+# Force unbuffered output so logs appear immediately
+sys.stdout.reconfigure(line_buffering=True)
+
 from summarizer import process_trial
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 TRIALS_FILE = DATA_DIR / "trials.json"
 DAILY_DIR = DATA_DIR / "daily"
 SUMMARY_FILE = DATA_DIR / "summary.json"
+STATE_FILE = DATA_DIR / "state.json"
 
 WEB_DATA_DIR = Path(__file__).resolve().parent.parent / "web" / "data"
 WEB_TRIALS_FILE = WEB_DATA_DIR / "trials.json"
 WEB_SUMMARY_FILE = WEB_DATA_DIR / "summary.json"
+WEB_STATE_FILE = WEB_DATA_DIR / "state.json"
 
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 DAILY_DIR.mkdir(parents=True, exist_ok=True)
 WEB_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
+# Default batch target per execution: 10 records.
+# When run 5 times a day spaced out, this achieves ~50 new drug records per day!
+RUN_TARGET = int(os.environ.get("RUN_TARGET", "10"))
+
 def is_generic_be_study(text: str) -> bool:
     """
-    Checks if a trial listing is a generic bioequivalence (BE) study.
+    Checks if a trial is a generic bioequivalence (BE) study.
     Returns True if it's a generic BE study (to be skipped).
     """
     text_lower = text.lower()
@@ -40,8 +51,31 @@ def load_existing_trials() -> list:
             return []
     return []
 
+def load_crawler_state() -> dict:
+    default_state = {
+        "current_history_page": 2,
+        "total_ingested": 0,
+        "last_run": None,
+        "daily_target": 50,
+        "run_target": RUN_TARGET
+    }
+    if STATE_FILE.exists():
+        try:
+            with open(STATE_FILE, "r", encoding="utf-8") as f:
+                state = json.load(f)
+                return {**default_state, **state}
+        except Exception:
+            return default_state
+    return default_state
+
+def save_crawler_state(state: dict):
+    state["last_run"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
+    with open(STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+    with open(WEB_STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+
 def save_trials(all_trials: list, new_trials: list):
-    # Sort all trials by date descending, then CTR descending
     all_trials.sort(
         key=lambda x: (x.get("first_disclosure_date", ""), x.get("registration_id", "")),
         reverse=True
@@ -52,7 +86,6 @@ def save_trials(all_trials: list, new_trials: list):
     with open(WEB_TRIALS_FILE, "w", encoding="utf-8") as f:
         json.dump(all_trials, f, ensure_ascii=False, indent=2)
 
-    # Save daily batch
     today_str = datetime.date.today().isoformat()
     daily_file = DAILY_DIR / f"{today_str}.json"
     web_daily_file = WEB_DATA_DIR / "daily" / f"{today_str}.json"
@@ -77,7 +110,6 @@ def save_trials(all_trials: list, new_trials: list):
     with open(web_daily_file, "w", encoding="utf-8") as f:
         json.dump(existing_daily, f, ensure_ascii=False, indent=2)
 
-    # Summary stats focusing 100% on new drug trials
     summary = {
         "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC"),
         "total_trials": len(all_trials),
@@ -93,9 +125,6 @@ def save_trials(all_trials: list, new_trials: list):
     print(f"Database successfully updated. Total: {len(all_trials)} new drug clinical trials.")
 
 async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
-    """
-    Extracts structured fields from the trial detail page.
-    """
     raw_data = await detail_page.evaluate("""() => {
         const result = {};
         const tables = document.querySelectorAll('table');
@@ -113,7 +142,6 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
         return result;
     }""")
 
-    # Extract Sponsor name specifically
     sponsor = await detail_page.evaluate("""() => {
         const bodyText = document.body.innerText;
         const m = bodyText.match(/申请人名称[\\s\\t]*([^\\n\\r]+)/);
@@ -135,7 +163,6 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
         return '';
     }""")
 
-    # Extract sample size
     sample_size = await detail_page.evaluate("""() => {
         const bodyText = document.body.innerText;
         const m = bodyText.match(/目标入组人数[\\s\\S]*?国内:[\\s\\xa0]*(\\d+)/);
@@ -143,7 +170,6 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
         return '';
     }""")
 
-    # Extract primary endpoint
     endpoints = await detail_page.evaluate("""() => {
         const bodyText = document.body.innerText;
         const m = bodyText.match(/主要终点指标及评价时间[\\s\\S]*?(指标[\\s\\S]*?)(?=次要终点|二、申请人|三、临床试验|$)/);
@@ -153,7 +179,6 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
         return '';
     }""")
 
-    # Extract PI and leading hospital
     lead_info = await detail_page.evaluate("""() => {
         const bodyText = document.body.innerText;
         const instMatch = bodyText.match(/机构名称[\\s\\S]*?主要研究者[\\s\\S]*?1[\\s\\n\\t]+([^\\n\\r\\t]+)[\\s\\n\\t]+([^\\n\\r\\t]+)/);
@@ -194,16 +219,62 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
 
     return trial
 
-async def scrape_new_trials(max_items: int = 15):
-    """
-    Scrapes ONLY new drug clinical trials from Page 1, skipping generic BE studies.
-    """
+async def get_page_candidates(page, existing_ids: set) -> list:
+    rows = await page.query_selector_all("table tr")
+    candidates = []
+    for i, row in enumerate(rows[1:], start=1):
+        text = await row.inner_text()
+        parts = [p.strip() for p in text.split("\t") if p.strip()]
+        if len(parts) >= 5 and "CTR" in parts[1]:
+            ctr_id = parts[1]
+            status = parts[2]
+            drug_name = parts[3]
+            indication = parts[4]
+            title_lay = parts[5] if len(parts) > 5 else parts[4]
+
+            # Filter out generic BE
+            full_text = f"{title_lay} {drug_name} {indication}"
+            if is_generic_be_study(full_text):
+                continue
+            
+            if ctr_id not in existing_ids:
+                candidates.append({
+                    "row_index": i,
+                    "ctr_id": ctr_id,
+                    "status": status,
+                    "drug_name": drug_name,
+                    "indication": indication,
+                    "title_lay": title_lay
+                })
+    return candidates
+
+async def navigate_to_page(page, page_number: int):
+    print(f"Navigating to CDE listing Page {page_number}...")
+    async with page.expect_navigation():
+        await page.evaluate(f"""() => {{
+            const f = document.forms[0];
+            if (f) {{
+                f.action = 'https://www.chinadrugtrials.org.cn/clinicaltrials.searchlist.dhtml';
+                f.target = '_self';
+                const input = document.querySelector("input[name='currentpage']");
+                if (input) input.value = '{page_number}';
+                f.submit();
+            }}
+        }}""")
+    await page.wait_for_timeout(2500)
+
+async def run_crawl_session(target_count: int = RUN_TARGET):
     all_trials = load_existing_trials()
     existing_ids = {t["registration_id"] for t in all_trials}
-    print(f"Loaded {len(all_trials)} existing new drug trials from database.")
+    crawler_state = load_crawler_state()
+    history_page = crawler_state.get("current_history_page", 2)
+
+    print("=" * 60)
+    print(f"Starting CDE Crawl Session | Batch Target: {target_count} new drug trials")
+    print(f"Existing DB: {len(all_trials)} trials | History Page Cursor: {history_page}")
+    print("=" * 60)
 
     async with async_playwright() as p:
-        print("Launching Chromium browser...")
         browser = await p.chromium.launch(
             headless=True,
             args=[
@@ -222,99 +293,113 @@ async def scrape_new_trials(max_items: int = 15):
         await page.goto("https://www.chinadrugtrials.org.cn/index.html", timeout=60000)
         await page.wait_for_timeout(3000)
 
-        print("Navigating to search listing...")
+        # -------------------------------------------------------------
+        # STAGE 1: Check Page 1 (Today's New Registrations)
+        # -------------------------------------------------------------
+        print("\n--- STAGE 1: Checking Page 1 for Today's New Registrations ---")
         await page.goto("https://www.chinadrugtrials.org.cn/clinicaltrials.searchlist.dhtml", timeout=60000)
         await page.wait_for_timeout(4000)
 
-        # Parse Page 1 rows
-        rows = await page.query_selector_all("table tr")
-        print(f"Found {len(rows)} table rows on Page 1.")
+        page1_candidates = await get_page_candidates(page, existing_ids)
+        print(f"Page 1: Found {len(page1_candidates)} unseen new drug candidates.")
 
-        candidates = []
-        for i, row in enumerate(rows[1:], start=1):
-            text = await row.inner_text()
-            parts = [p.strip() for p in text.split("\t") if p.strip()]
-            if len(parts) >= 5 and "CTR" in parts[1]:
-                ctr_id = parts[1]
-                status = parts[2]
-                drug_name = parts[3]
-                indication = parts[4]
-                title_lay = parts[5] if len(parts) > 5 else parts[4]
+        newly_ingested = []
 
-                # FILTER OUT GENERICS: Skip if it is a bioequivalence (BE) study
-                full_row_text = f"{title_lay} {drug_name} {indication}"
-                if is_generic_be_study(full_row_text):
-                    print(f"Skipping generic BE study: {ctr_id} ({drug_name})")
-                    continue
-                
-                candidates.append({
-                    "row_index": i,
-                    "ctr_id": ctr_id,
-                    "status": status,
-                    "drug_name": drug_name,
-                    "indication": indication,
-                    "title_lay": title_lay
-                })
+        for cand in page1_candidates:
+            if len(newly_ingested) >= target_count:
+                break
+            ctr_id = cand["ctr_id"]
+            existing_ids.add(ctr_id) # Ensure seen
 
-        print(f"Identified {len(candidates)} NEW DRUG clinical trial listings on Page 1.")
-
-        # Determine which candidates are new
-        new_candidates = [c for c in candidates if c["ctr_id"] not in existing_ids]
-        print(f"New drug trials to ingest: {len(new_candidates)} (out of {len(candidates)})")
-
-        if not new_candidates:
-            print("No new drug trials registered since last run. Database is already up-to-date!")
-            await browser.close()
-            return []
-
-        new_candidates = new_candidates[:max_items]
-
-        newly_processed = []
-        for idx, candidate in enumerate(new_candidates, start=1):
-            ctr_id = candidate["ctr_id"]
-            print(f"[{idx}/{len(new_candidates)}] Extracting detail for new drug {ctr_id} ({candidate['drug_name']})...")
-
+            print(f"[Today's New] Ingesting {ctr_id} ({cand['drug_name']})...")
             try:
                 link = await page.query_selector(f"table tr a:has-text('{ctr_id}')")
                 if not link:
-                    print(f"Could not find link for {ctr_id}, skipping.")
                     continue
-
                 async with page.expect_popup() as popup_info:
                     await link.click()
-                
                 detail_page = await popup_info.value
                 await detail_page.wait_for_load_state("networkidle")
                 await detail_page.wait_for_timeout(2000)
 
-                trial_raw = await parse_detail_page(detail_page, candidate)
+                trial_raw = await parse_detail_page(detail_page, cand)
                 await detail_page.close()
 
-                # Double check detail page for BE keywords
-                detail_check_text = f"{trial_raw.get('title_lay')} {trial_raw.get('phase')} {trial_raw.get('title_professional')}"
-                if is_generic_be_study(detail_check_text):
-                    print(f"Skipping trial {ctr_id} identified as BE in detail.")
+                if is_generic_be_study(f"{trial_raw.get('title_lay')} {trial_raw.get('phase')}"):
+                    print(f"Skipping {ctr_id} (identified as BE).")
                     continue
 
-                print(f"Translating & summarizing new drug trial {ctr_id} into English...")
-                enriched_trial = process_trial(trial_raw)
-
-                newly_processed.append(enriched_trial)
-                all_trials.append(enriched_trial)
-
-                await page.wait_for_timeout(1500)
-
+                enriched = process_trial(trial_raw)
+                newly_ingested.append(enriched)
+                all_trials.append(enriched)
+                await page.wait_for_timeout(1200)
             except Exception as e:
                 print(f"Error extracting {ctr_id}: {e}")
-                continue
+
+        # -------------------------------------------------------------
+        # STAGE 2: Historical Backfill
+        # -------------------------------------------------------------
+        remaining_needed = target_count - len(newly_ingested)
+        print(f"\n--- STAGE 2: Historical Backfill (Quota remaining: {remaining_needed}) ---")
+
+        while remaining_needed > 0 and history_page <= 1500:
+            await navigate_to_page(page, history_page)
+            hist_candidates = await get_page_candidates(page, existing_ids)
+            print(f"Page {history_page}: Found {len(hist_candidates)} new drug candidates.")
+
+            if hist_candidates:
+                for cand in hist_candidates:
+                    if remaining_needed <= 0:
+                        break
+                    ctr_id = cand["ctr_id"]
+                    existing_ids.add(ctr_id)
+
+                    print(f"[Backfill P{history_page}] Ingesting {ctr_id} ({cand['drug_name']})...")
+                    try:
+                        link = await page.query_selector(f"table tr a:has-text('{ctr_id}')")
+                        if not link:
+                            continue
+                        async with page.expect_popup() as popup_info:
+                            await link.click()
+                        detail_page = await popup_info.value
+                        await detail_page.wait_for_load_state("networkidle")
+                        await detail_page.wait_for_timeout(2000)
+
+                        trial_raw = await parse_detail_page(detail_page, cand)
+                        await detail_page.close()
+
+                        if is_generic_be_study(f"{trial_raw.get('title_lay')} {trial_raw.get('phase')}"):
+                            print(f"Skipping {ctr_id} (identified as BE).")
+                            continue
+
+                        enriched = process_trial(trial_raw)
+                        newly_ingested.append(enriched)
+                        all_trials.append(enriched)
+                        remaining_needed -= 1
+                        print(f"   -> Enriched {ctr_id}. (Quota left: {remaining_needed})")
+                        await page.wait_for_timeout(1200)
+                    except Exception as e:
+                        print(f"Error extracting {ctr_id}: {e}")
+
+            # Advance to the next historical page
+            history_page += 1
 
         await browser.close()
 
-        if newly_processed:
-            print(f"Saving {len(newly_processed)} newly ingested new drug trials...")
-            save_trials(all_trials, newly_processed)
+        # Save state and database
+        crawler_state["current_history_page"] = history_page
+        crawler_state["total_ingested"] = len(all_trials)
+        save_crawler_state(crawler_state)
 
-        return newly_processed
+        if newly_ingested:
+            print(f"\nSuccessfully ingested and translated {len(newly_ingested)} new drug clinical trials.")
+            save_trials(all_trials, newly_ingested)
+        else:
+            print("\nNo new records ingested this session. Everything up to date.")
+
+        print(f"History Page Cursor now at: Page {history_page}")
+        print("=" * 60)
+        return newly_ingested
 
 if __name__ == "__main__":
-    asyncio.run(scrape_new_trials(max_items=15))
+    asyncio.run(run_crawl_session())

@@ -1,10 +1,11 @@
-name: Daily CDE Clinical Trials Ingestion & Web Deploy
+name: Scheduled CDE New Drug Ingestion & Deploy
 
 on:
   schedule:
-    # Runs daily at 01:00 UTC (09:00 AM Beijing Time)
-    - cron: '0 1 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+    # Runs every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC
+    # Spaced out evenly (6 times a day x ~8-10 trials = ~50 new drug trials/day)
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # Allows manual trigger anytime from GitHub Actions UI
 
 permissions:
   contents: write
@@ -37,21 +38,22 @@ jobs:
           pip install -r requirements.txt
           playwright install --with-deps chromium
 
-      - name: Run CDE Daily Scraper & AI Summarizer
+      - name: Run CDE Incremental & Historical Backfill Scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RUN_TARGET: 10 # 10 new drug trials per batch run (~50/day across 5 runs)
         run: |
           python crawler/scraper.py
 
-      - name: Commit and push updated clinical trials data
+      - name: Commit and push updated database & crawler state
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ web/data/
           if git diff --staged --quiet; then
-            echo "No new trials detected today. Skipping commit."
+            echo "No changes to commit."
           else
-            git commit -m "Auto-update CDE clinical trials database [skip ci]"
+            git commit -m "Auto-ingest CDE new drug trials & update cursor [skip ci]"
             git push origin HEAD
           fi
 
