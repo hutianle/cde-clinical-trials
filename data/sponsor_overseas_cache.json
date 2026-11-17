@@ -531,5 +531,62 @@
     "query_term": "Amgen Inc.",
     "has_us_site": false,
     "us_trials": []
+  },
+  "明慧医药（上海）有限公司": {
+    "sponsor_en": "Pharmaceuticals () Co., Ltd.",
+    "query_term": "() .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中山康方生物医药有限公司": {
+    "sponsor_en": "BiomedicineCo., Ltd.",
+    "query_term": "BiomedicineCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东恒瑞医药有限公司/ 苏州盛迪亚生物医药有限公司": {
+    "sponsor_en": "PharmaceuticalsCo., Ltd./ BiomedicineCo., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03203811",
+      "NCT04446260",
+      "NCT03764293",
+      "NCT04691804",
+      "NCT07286032"
+    ]
+  },
+  "精医和生医药（广东横琴粤澳深度合作区）有限公司/ 北京精医和生医药科技有限公司": {
+    "sponsor_en": "Pharmaceuticals () Co., Ltd./ Pharmaceutical TechnologyCo., Ltd.",
+    "query_term": "() .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "智翔（上海）医药科技有限公司/ 重庆智翔金泰生物制药股份有限公司": {
+    "sponsor_en": "() Pharmaceutical TechnologyCo., Ltd./ BiopharmaCo., Ltd.",
+    "query_term": "Zhixiang",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "丹麦诺和诺德公司/ 诺和诺德（中国）制药有限公司/ BAG Health Care GmbH": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": ""
+  },
+  "北京百洋智心医学研究有限公司": {
+    "sponsor_en": "Co., Ltd.",
+    "query_term": "Co., Ltd.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05599308",
+      "NCT00166543",
+      "NCT02857426"
+    ]
+  },
+  "AstraZeneca AB/ 阿斯利康投资（中国）有限公司/ Simtra Deutschland GmbH": {
+    "sponsor_en": "AstraZeneca AB/ () Co., Ltd./ Simtra Deutschland GmbH",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
