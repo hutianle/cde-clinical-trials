@@ -1,0 +1,35 @@
+# BD Target List: China Biopharma Sponsors with Overseas Intent
+
+> **Methodology & Source Verification:**
+> - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
+> - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
+> - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
+> - **Generated Date:** 2026-11-17 | **Identified High-Priority Sponsors:** 21
+
+| # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
+| :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Chengdu Kanghong Pharmaceutical Group Co., Ltd. | 成都康弘药业集团股份有限公司 | US Trial Site | CTR20264334 | NCT03577899, NCT03630952 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 2 | Hisun Biopharmaceutical Co., Ltd. | 海正生物制药有限公司 | US Trial Site | CTR20264331 | NCT03625401, NCT01733082 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 3 | Beijing Simcere Xiangrui Biological Products Co., Ltd. | 北京先声祥瑞生物制品股份有限公司 | US Trial Site | CTR20264311 | NCT06375044, NCT05781360 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 4 | Not applicable/ Boehringer Ingelheim (China) Investment Co., Ltd. | 不适用/ 勃林格殷格翰（中国）投资有限公司 | US Trial Site | CTR20264235 | NCT02579603, NCT04846868 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 5 | Eli Lilly and Company/ Eli Lilly Suzhou Pharmaceutical Co., Ltd./ AtomVie Global Radiopharma Inc. | Eli Lilly and Company/ 礼来苏州制药有限公司/ AtomVie Global Radiopharma Inc. | US Trial Site | CTR20264343 | NCT00077233, NCT00292955 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 6 | Jitai Technology (Beijing) Co., Ltd./Beijing Jitai Life Technology Co., Ltd. | 剂泰科技（北京）股份有限公司/ 北京剂泰生命科技有限公司 | US Trial Site | CTR20264205 | NCT05038033, NCT04769089 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 7 | Novartis Pharma AG/ Novartis (China) Biomedical Research Co., Ltd./ Novartis Pharmaceutical Manufacturing GmbH/ Fisher Clinical Services GmbH | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Novartis Pharmaceutical Manufacturing GmbH/ Fisher Clinical Services GmbH | US Trial Site | CTR20264326 | NCT00183833, NCT04929249 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 8 | Eli Lilly and Company/ Eli Lilly (Beijing) Medical Technology Innovation Co., Ltd./ Patheon Italia S.P.A | Eli Lilly and Company/ 礼来（北京）医学技术创新有限公司/ Patheon Italia S.P.A | US Trial Site | CTR20264317 | NCT00077233, NCT00292955 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 9 | Jiangsu Xiancere Pharmaceutical Co., Ltd./Xiancere Pharmaceutical Co., Ltd. | 江苏先声药业有限公司/ 先声药业有限公司 | US Trial Site | CTR20264312 | NCT06375044, NCT05781360 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 10 | China Cell Engineering Co., Ltd. | 神州细胞工程有限公司 | US Trial Site | CTR20264236 | NCT04644185 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 11 | Takeda Development Center Americas, Inc./ BiomedicineCo., Ltd./ Vetter Pharma-Fertigung GmbH & Co. KG; Spera Pharma Inc. | Takeda Development Center Americas, Inc./ 武田亚太生物医药研发有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG; Spera Pharma Inc. | US Trial Site | CTR20264193 | NCT04465396, NCT03771898 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 12 | Biotech | 长春百克生物科技股份公司 | US Trial Site | CTR20264188 | NCT07454915, NCT03098550 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 13 | Jiangsu Hansoh Pharmaceutical Group Co., Ltd. | 江苏豪森药业集团有限公司 | US Trial Site | CTR20264242 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 14 | UCB Pharma S.A./ UCB Trading (Shanghai) Co., Ltd./ UCB Pharma S.A.; Vetter Pharma- Fertigung GmbH & Co. KG/ UCB Pharma S.A.; Vetter Pharma-Fertigung GmbH & Co. KG | UCB Pharma S.A./ 优时比贸易（上海）有限公司/ UCB Pharma S.A.；Vetter Pharma- Fertigung GmbH & Co. KG/ UCB Pharma S.A.; Vetter Pharma-Fertigung GmbH & Co. KG | US Trial Site | CTR20264241 | NCT01364597, NCT00291213 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 15 | Shanghai Hansen Biomedical Technology Co., Ltd./Changzhou Hengbang Pharmaceutical Co., Ltd. | 上海翰森生物医药科技有限公司/ 常州恒邦药业有限公司 | US Trial Site | CTR20264229 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 16 | Boehringer Ingelheim International GmbH/ Boehringer Ingelheim (China) Investment Co., Ltd./ Boehringer Ingelheim Pharma GmbH & Co. KG | Boehringer lngelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Boehringer lngelheim Pharma GmbH & Co. KG | US Trial Site | CTR20264271 | NCT02579603, NCT04846868 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 17 | BeiGene (Suzhou) Biotechnology Co., Ltd. | 百济神州（苏州）生物科技有限公司 | US Trial Site | CTR20264238 | NCT05635708, NCT04746924 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 18 | Novartis Pharma AG/ () BioCo., Ltd./ Novartis Pharma Stein AG | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Novartis Pharma Stein AG | US Trial Site | CTR20264186 | NCT00183833, NCT04929249 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 19 | Eli Lilly and Company/ () Co., Ltd. | Eli Lilly and Company/ 礼来（北京）医学技术创新有限公司 | US Trial Site | CTR20264195 | NCT00077233, NCT00292955 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 20 | Jiangsu Hengrui Pharmaceutical Co., Ltd. | 江苏恒瑞医药股份有限公司 | US Trial Site | CTR20264209 | NCT03203811, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 21 | BiomedicineCo., Ltd./ Pharmaceutical TechnologyCo., Ltd. | 厦门甘宝利生物医药有限公司/ 上海正大天晴医药科技开发有限公司 | US Trial Site | CTR20264177 | NCT03625401, NCT01733082 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+
+### Strategic BD Guidance:
+1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
+2. **Phase II/III Acceleration:** Sponsors in Phase II/III represent prime targets for ex-China out-licensing, co-development partnerships, and global CRO services.

@@ -157,12 +157,19 @@ function createTrialCard(trial) {
     phaseBadgeColor = "bg-indigo-100 text-indigo-800 border-indigo-200";
   }
 
+  const overseasBadge = trial.overseas_intent ? `
+    <span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200 flex items-center space-x-1" title="Confirmed overseas clinical signal (US site on ClinicalTrials.gov or Dual filing)">
+      <i data-lucide="globe" class="w-3 h-3 text-blue-600"></i>
+      <span>Global / US Site</span>
+    </span>
+  ` : '';
+
   return `
     <div class="trial-card bg-white rounded-xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm hover:border-emerald-400">
       <div>
         <!-- Badges and Registration ID -->
         <div class="flex items-center justify-between mb-3 gap-2">
-          <div class="flex items-center space-x-2">
+          <div class="flex items-center flex-wrap gap-1.5">
             <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold border ${phaseBadgeColor} flex items-center space-x-1">
               <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
               <span>${escapeHtml(trial.phase_en.replace(/[\n\t]/g, ' ').slice(0, 20))}</span>
@@ -170,6 +177,7 @@ function createTrialCard(trial) {
             <span class="text-xs px-2 py-0.5 rounded bg-slate-100 text-slate-600 font-medium border border-slate-200">
               ${escapeHtml(trial.drug_type_en || "Innovative Candidate")}
             </span>
+            ${overseasBadge}
           </div>
           <span class="text-xs font-mono font-bold text-slate-400">${trial.registration_id}</span>
         </div>
@@ -221,8 +229,11 @@ function createTrialCard(trial) {
 function applyFilters() {
   const query = (document.getElementById("search-input").value || "").toLowerCase().trim();
   const phase = document.getElementById("phase-filter").value;
+  const overseasOnly = document.getElementById("overseas-filter") ? document.getElementById("overseas-filter").checked : false;
 
   const filtered = allTrials.filter(t => {
+    if (overseasOnly && !t.overseas_intent) return false;
+
     if (query) {
       const haystack = [
         t.registration_id,
@@ -251,6 +262,8 @@ function applyFilters() {
 function resetFilters() {
   document.getElementById("search-input").value = "";
   document.getElementById("phase-filter").value = "all";
+  const overseasToggle = document.getElementById("overseas-filter");
+  if (overseasToggle) overseasToggle.checked = false;
   renderDatabaseTable(allTrials);
 }
 
@@ -270,6 +283,13 @@ function renderDatabaseTable(trials) {
   emptyState.classList.add("hidden");
 
   tbody.innerHTML = trials.map(t => {
+    let phaseBadgeColor = "bg-emerald-50 text-emerald-800 border-emerald-200";
+    if (t.phase_en.includes("Phase III") || t.phase_en.includes("Phase IV")) {
+      phaseBadgeColor = "bg-purple-50 text-purple-800 border-purple-200";
+    } else if (t.phase_en.includes("Phase II")) {
+      phaseBadgeColor = "bg-indigo-50 text-indigo-800 border-indigo-200";
+    }
+
     return `
       <tr class="hover:bg-slate-50 transition border-b border-slate-100">
         <td class="px-4 py-3 whitespace-nowrap">
@@ -284,11 +304,19 @@ function renderDatabaseTable(trials) {
           <div class="text-xs font-semibold text-slate-900 line-clamp-2">${escapeHtml(t.indication_en || t.indication)}</div>
           ${t.indication !== t.indication_en ? `<div class="text-[11px] text-slate-400 truncate">${escapeHtml(t.indication)}</div>` : ''}
         </td>
-        <td class="px-4 py-3 max-w-xs whitespace-nowrap truncate text-xs text-slate-700">
-          ${escapeHtml(t.sponsor_en || t.sponsor)}
+        <td class="px-4 py-3 max-w-xs text-xs text-slate-700">
+          <div class="font-medium truncate">${escapeHtml(t.sponsor_en || t.sponsor)}</div>
+          ${t.overseas_intent ? `
+            <div class="mt-1">
+              <span class="inline-flex items-center space-x-1 px-1.5 py-0.5 rounded text-[10px] font-semibold bg-blue-50 text-blue-700 border border-blue-200" title="Confirmed overseas signal: US site on ClinicalTrials.gov">
+                <i data-lucide="globe" class="w-2.5 h-2.5 text-blue-600"></i>
+                <span>Overseas Intent (US Site)</span>
+              </span>
+            </div>
+          ` : ''}
         </td>
         <td class="px-4 py-3 whitespace-nowrap">
-          <span class="px-2.5 py-0.5 text-xs rounded-full font-medium bg-emerald-50 text-emerald-800 border border-emerald-200">
+          <span class="px-2.5 py-0.5 text-xs rounded-full font-medium ${phaseBadgeColor} border">
             ${escapeHtml((t.phase_en || t.phase).slice(0, 15))}
           </span>
         </td>
@@ -383,6 +411,40 @@ function openModal(regId) {
   document.getElementById("modal-executive-summary").innerHTML = formatMarkdownSummary(trial.executive_summary);
   document.getElementById("modal-cde-link").href = "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlist.dhtml";
 
+  // Populate Overseas Intent & BD Outreach container
+  const overseasEl = document.getElementById("modal-overseas-container");
+  if (overseasEl) {
+    if (trial.overseas_intent) {
+      const signalsList = (trial.overseas_signals || []).map(s => {
+        if (s === 'us_site') {
+          return '<li class="flex items-center space-x-1.5"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-blue-600 flex-shrink-0"></i><span><strong class="text-slate-900">US Clinical Site:</strong> Sponsor has confirmed clinical trial(s) in the United States registered on ClinicalTrials.gov (API v2).</span></li>';
+        }
+        if (s === 'dual_filing') {
+          return '<li class="flex items-center space-x-1.5"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-blue-600 flex-shrink-0"></i><span><strong class="text-slate-900">Dual FDA+CDE Filing:</strong> Phase II/III innovative new drug with international trial registration identifier.</span></li>';
+        }
+        return `<li>${s}</li>`;
+      }).join("");
+
+      overseasEl.className = "p-3.5 rounded-xl border bg-blue-50/70 border-blue-200 text-xs text-blue-900 mb-3 space-y-1.5";
+      overseasEl.innerHTML = `
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-1.5 font-bold text-blue-900 text-xs uppercase tracking-wide">
+            <i data-lucide="globe" class="w-3.5 h-3.5 text-blue-600"></i>
+            <span>Overseas Intent Confirmed (BD Outreach Target)</span>
+          </div>
+          <span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-blue-600 text-white">Global Track</span>
+        </div>
+        <ul class="space-y-1 text-slate-700 mt-1">${signalsList}</ul>
+      `;
+    } else {
+      overseasEl.className = "p-2.5 rounded-xl border bg-slate-50 border-slate-200 text-xs text-slate-500 mb-3 flex items-center space-x-1.5";
+      overseasEl.innerHTML = `
+        <i data-lucide="info" class="w-3.5 h-3.5 text-slate-400"></i>
+        <span>No active overseas clinical sites or dual filings currently detected for this sponsor.</span>
+      `;
+    }
+  }
+
   document.getElementById("trial-modal").classList.remove("hidden");
   lucide.createIcons();
 }
@@ -407,12 +469,17 @@ function exportData(format) {
     dlAnchor.click();
   } else if (format === 'csv') {
     if (allTrials.length === 0) return;
-    const headers = ["registration_id", "first_disclosure_date", "drug_name", "drug_name_en", "phase_en", "indication_en", "sponsor_en"];
+    const headers = ["registration_id", "first_disclosure_date", "drug_name", "drug_name_en", "phase_en", "indication_en", "sponsor_en", "overseas_intent", "overseas_signals"];
     const csvRows = [headers.join(",")];
     
     allTrials.forEach(t => {
       const row = headers.map(h => {
-        let val = (t[h] !== undefined ? t[h] : "").toString();
+        let val = "";
+        if (h === 'overseas_signals') {
+          val = (t[h] || []).join("; ");
+        } else {
+          val = (t[h] !== undefined ? t[h] : "").toString();
+        }
         val = val.replace(/"/g, '""');
         return `"${val}"`;
       });
