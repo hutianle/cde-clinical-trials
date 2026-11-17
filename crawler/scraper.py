@@ -2,6 +2,7 @@ import asyncio
 import os
 import json
 import datetime
+import re
 from pathlib import Path
 from playwright.async_api import async_playwright
 from summarizer import process_trial
@@ -18,6 +19,16 @@ WEB_SUMMARY_FILE = WEB_DATA_DIR / "summary.json"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 DAILY_DIR.mkdir(parents=True, exist_ok=True)
 WEB_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+def is_generic_be_study(text: str) -> bool:
+    """
+    Checks if a trial listing is a generic bioequivalence (BE) study.
+    Returns True if it's a generic BE study (to be skipped).
+    """
+    text_lower = text.lower()
+    return any(k in text_lower for k in [
+        "生物等效性", "be试验", "bioequivalence", "等效性研究", "等效性试验"
+    ])
 
 def load_existing_trials() -> list:
     if TRIALS_FILE.exists():
@@ -44,6 +55,9 @@ def save_trials(all_trials: list, new_trials: list):
     # Save daily batch
     today_str = datetime.date.today().isoformat()
     daily_file = DAILY_DIR / f"{today_str}.json"
+    web_daily_file = WEB_DATA_DIR / "daily" / f"{today_str}.json"
+    web_daily_file.parent.mkdir(parents=True, exist_ok=True)
+
     existing_daily = []
     if daily_file.exists():
         try:
@@ -52,7 +66,6 @@ def save_trials(all_trials: list, new_trials: list):
         except Exception:
             existing_daily = []
     
-    # Merge daily uniquely
     seen_daily = {t["registration_id"] for t in existing_daily}
     for t in new_trials:
         if t["registration_id"] not in seen_daily:
@@ -61,16 +74,14 @@ def save_trials(all_trials: list, new_trials: list):
 
     with open(daily_file, "w", encoding="utf-8") as f:
         json.dump(existing_daily, f, ensure_ascii=False, indent=2)
+    with open(web_daily_file, "w", encoding="utf-8") as f:
+        json.dump(existing_daily, f, ensure_ascii=False, indent=2)
 
-    # Generate summary stats
-    new_drug_count = sum(1 for t in all_trials if t.get("is_new_drug"))
-    be_count = len(all_trials) - new_drug_count
-    
+    # Summary stats focusing 100% on new drug trials
     summary = {
         "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC"),
         "total_trials": len(all_trials),
-        "total_new_drugs": new_drug_count,
-        "total_be_studies": be_count,
+        "total_new_drugs": len(all_trials),
         "latest_disclosure_date": all_trials[0].get("first_disclosure_date") if all_trials else today_str,
         "daily_archives": [f.stem for f in sorted(DAILY_DIR.glob("*.json"), reverse=True)]
     }
@@ -79,11 +90,11 @@ def save_trials(all_trials: list, new_trials: list):
     with open(WEB_SUMMARY_FILE, "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
 
-    print(f"Database successfully updated. Total: {len(all_trials)} trials (New Drugs: {new_drug_count}, BE: {be_count}).")
+    print(f"Database successfully updated. Total: {len(all_trials)} new drug clinical trials.")
 
 async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
     """
-    Extracts structured fields from the 19 tables in the trial detail page.
+    Extracts structured fields from the trial detail page.
     """
     raw_data = await detail_page.evaluate("""() => {
         const result = {};
@@ -102,14 +113,13 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
         return result;
     }""")
 
-    # Extract Sponsor name specifically from Table 0 or Table 2
+    # Extract Sponsor name specifically
     sponsor = await detail_page.evaluate("""() => {
         const bodyText = document.body.innerText;
         const m = bodyText.match(/申请人名称[\\s\\t]*([^\\n\\r]+)/);
         if (m && m[1] && m[1].trim() !== '1') {
             return m[1].trim();
         }
-        // Fallback to table 2 first row value
         const tables = document.querySelectorAll('table');
         for (let t of tables) {
             const text = t.innerText;
@@ -161,7 +171,7 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
     indication = raw_data.get("适应症") or list_row_info.get("indication", "")
     title_lay = raw_data.get("试验通俗题目") or list_row_info.get("title_lay", "")
     title_prof = raw_data.get("试验专业题目") or title_lay
-    phase = raw_data.get("试验分期") or ("生物等效性试验" if "生物等效性" in title_lay else "I期")
+    phase = raw_data.get("试验分期") or "I期"
 
     trial = {
         "registration_id": reg_id,
@@ -177,7 +187,8 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
         "target_sample_size": sample_size or "30-100",
         "lead_institution": lead_info.get("institution", ""),
         "principal_investigator": lead_info.get("pi", ""),
-        "primary_endpoints": endpoints or "Pharmacokinetics (PK) / Safety & Tolerability",
+        "primary_endpoints": endpoints or "Safety, Tolerability & Pharmacokinetics (PK)",
+        "is_new_drug": True,
         "cde_url": "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlist.dhtml"
     }
 
@@ -185,15 +196,11 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
 
 async def scrape_new_trials(max_items: int = 15):
     """
-    Main crawling loop:
-    1. Loads existing trials to avoid duplicate fetches.
-    2. Navigates to search list.
-    3. Finds new CTR numbers.
-    4. Extracts detailed protocol and enriches with translations & executive summaries.
+    Scrapes ONLY new drug clinical trials from Page 1, skipping generic BE studies.
     """
     all_trials = load_existing_trials()
     existing_ids = {t["registration_id"] for t in all_trials}
-    print(f"Loaded {len(all_trials)} existing trials from database.")
+    print(f"Loaded {len(all_trials)} existing new drug trials from database.")
 
     async with async_playwright() as p:
         print("Launching Chromium browser...")
@@ -211,7 +218,7 @@ async def scrape_new_trials(max_items: int = 15):
         )
         page = await context.new_page()
 
-        print("Connecting to CDE portal (https://www.chinadrugtrials.org.cn/index.html)...")
+        print("Connecting to CDE portal...")
         await page.goto("https://www.chinadrugtrials.org.cn/index.html", timeout=60000)
         await page.wait_for_timeout(3000)
 
@@ -233,6 +240,12 @@ async def scrape_new_trials(max_items: int = 15):
                 drug_name = parts[3]
                 indication = parts[4]
                 title_lay = parts[5] if len(parts) > 5 else parts[4]
+
+                # FILTER OUT GENERICS: Skip if it is a bioequivalence (BE) study
+                full_row_text = f"{title_lay} {drug_name} {indication}"
+                if is_generic_be_study(full_row_text):
+                    print(f"Skipping generic BE study: {ctr_id} ({drug_name})")
+                    continue
                 
                 candidates.append({
                     "row_index": i,
@@ -243,27 +256,25 @@ async def scrape_new_trials(max_items: int = 15):
                     "title_lay": title_lay
                 })
 
-        print(f"Identified {len(candidates)} trial listings on Page 1.")
+        print(f"Identified {len(candidates)} NEW DRUG clinical trial listings on Page 1.")
 
         # Determine which candidates are new
         new_candidates = [c for c in candidates if c["ctr_id"] not in existing_ids]
-        print(f"New trials to ingest: {len(new_candidates)} (out of {len(candidates)})")
+        print(f"New drug trials to ingest: {len(new_candidates)} (out of {len(candidates)})")
 
         if not new_candidates:
-            print("No new trials registered since last run. Database is already up-to-date!")
+            print("No new drug trials registered since last run. Database is already up-to-date!")
             await browser.close()
             return []
 
-        # Limit to max_items if specified
         new_candidates = new_candidates[:max_items]
 
         newly_processed = []
         for idx, candidate in enumerate(new_candidates, start=1):
             ctr_id = candidate["ctr_id"]
-            print(f"[{idx}/{len(new_candidates)}] Extracting detail for {ctr_id} ({candidate['drug_name']})...")
+            print(f"[{idx}/{len(new_candidates)}] Extracting detail for new drug {ctr_id} ({candidate['drug_name']})...")
 
             try:
-                # Find and click the link with this CTR id
                 link = await page.query_selector(f"table tr a:has-text('{ctr_id}')")
                 if not link:
                     print(f"Could not find link for {ctr_id}, skipping.")
@@ -276,18 +287,21 @@ async def scrape_new_trials(max_items: int = 15):
                 await detail_page.wait_for_load_state("networkidle")
                 await detail_page.wait_for_timeout(2000)
 
-                # Parse detailed fields
                 trial_raw = await parse_detail_page(detail_page, candidate)
                 await detail_page.close()
 
-                # Process translations & executive summary
-                print(f"Generating English translation & executive summary for {ctr_id}...")
+                # Double check detail page for BE keywords
+                detail_check_text = f"{trial_raw.get('title_lay')} {trial_raw.get('phase')} {trial_raw.get('title_professional')}"
+                if is_generic_be_study(detail_check_text):
+                    print(f"Skipping trial {ctr_id} identified as BE in detail.")
+                    continue
+
+                print(f"Translating & summarizing new drug trial {ctr_id} into English...")
                 enriched_trial = process_trial(trial_raw)
 
                 newly_processed.append(enriched_trial)
                 all_trials.append(enriched_trial)
 
-                # Respectful delay between requests
                 await page.wait_for_timeout(1500)
 
             except Exception as e:
@@ -297,7 +311,7 @@ async def scrape_new_trials(max_items: int = 15):
         await browser.close()
 
         if newly_processed:
-            print(f"Saving {len(newly_processed)} newly ingested trials to database...")
+            print(f"Saving {len(newly_processed)} newly ingested new drug trials...")
             save_trials(all_trials, newly_processed)
 
         return newly_processed
