@@ -380,19 +380,19 @@ function renderDatabaseTable(trials) {
 
     return `
       <tr class="hover:bg-slate-50 transition border-b border-slate-100">
-        <td class="px-4 py-3 whitespace-nowrap">
+        <td class="px-3 py-2.5 whitespace-nowrap">
           <div class="font-mono font-bold text-xs text-slate-800">${t.registration_id}</div>
           <div class="text-[11px] text-slate-400">${t.first_disclosure_date}</div>
         </td>
-        <td class="px-4 py-3 max-w-xs">
-          <div class="font-semibold text-slate-900">${escapeHtml(t.drug_name_en || t.drug_name)}</div>
+        <td class="px-3 py-2.5 break-words">
+          <div class="font-semibold text-slate-900 leading-snug">${escapeHtml(t.drug_name_en || t.drug_name)}</div>
           <div class="text-[11px] text-slate-400 truncate">${escapeHtml(t.drug_type_en || t.drug_type)}</div>
         </td>
-        <td class="px-4 py-3 max-w-sm">
-          <div class="text-xs font-semibold text-slate-900 line-clamp-2">${escapeHtml(t.indication_en || t.indication)}</div>
+        <td class="px-3 py-2.5 break-words">
+          <div class="text-xs font-semibold text-slate-900 leading-snug line-clamp-2">${escapeHtml(t.indication_en || t.indication)}</div>
           ${t.indication !== t.indication_en ? `<div class="text-[11px] text-slate-400 truncate">${escapeHtml(t.indication)}</div>` : ''}
         </td>
-        <td class="px-4 py-3 max-w-xs text-xs text-slate-700">
+        <td class="px-3 py-2.5 break-words text-xs text-slate-700">
           <div class="font-medium truncate">${escapeHtml(t.sponsor_en || t.sponsor)}</div>
           ${t.overseas_intent ? `
             <div class="mt-1">
@@ -403,12 +403,12 @@ function renderDatabaseTable(trials) {
             </div>
           ` : ''}
         </td>
-        <td class="px-4 py-3 whitespace-nowrap">
-          <span class="px-2.5 py-0.5 text-xs rounded-full font-medium ${phaseBadgeColor} border">
+        <td class="px-3 py-2.5 whitespace-nowrap">
+          <span class="px-2 py-0.5 text-xs rounded-full font-medium ${phaseBadgeColor} border inline-block">
             ${escapeHtml((t.phase_en || t.phase).slice(0, 15))}
           </span>
         </td>
-        <td class="px-4 py-3 whitespace-nowrap text-center">
+        <td class="px-3 py-2.5 whitespace-nowrap text-center">
           <button onclick="openModal('${t.registration_id}')" 
                   class="text-xs px-2.5 py-1 bg-slate-100 hover:bg-emerald-50 hover:text-emerald-700 text-slate-700 font-medium rounded border border-slate-200 transition">
             View Protocol
