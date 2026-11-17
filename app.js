@@ -1,9 +1,9 @@
-// China CDE Clinical Trials Web Portal Application Logic
+// China CDE New Drug Clinical Trials Intelligence Portal
 
 let allTrials = [];
 let summaryData = {};
 let currentTab = 'today';
-let currentTodayFilter = 'all';
+let currentTodayPhase = 'all';
 let currentArchiveDate = null;
 
 // Initialize when DOM is ready
@@ -70,7 +70,7 @@ async function loadData() {
   
   const dateDisplay = document.getElementById("today-date-display");
   if (dateDisplay && latestDate) {
-    dateDisplay.innerText = `Disclosed Date: ${latestDate} (${todayTrials.length} trials entered)`;
+    dateDisplay.innerText = `Disclosed: ${latestDate} (${todayTrials.length} new drugs registered)`;
   }
 }
 
@@ -95,20 +95,19 @@ function switchTab(tabName) {
 }
 
 function initTabs() {
-  // Tabs are linked via onclick in HTML
+  // Tabs initialized via HTML onclick
 }
 
 // -------------------------------------------------------------
 // TAB 1: TODAY'S EXECUTIVE BRIEFING
 // -------------------------------------------------------------
-function filterToday(filterType) {
-  currentTodayFilter = filterType;
-  // Update button active state
-  document.querySelectorAll(".today-filter-btn").forEach(btn => {
-    if (btn.dataset.filter === filterType) {
-      btn.className = "today-filter-btn px-3 py-1 text-xs font-medium rounded-full bg-slate-900 text-white shadow-sm";
+function filterTodayPhase(phase) {
+  currentTodayPhase = phase;
+  document.querySelectorAll(".today-phase-btn").forEach(btn => {
+    if (btn.dataset.phase === phase) {
+      btn.className = "today-phase-btn px-3 py-1 text-xs font-medium rounded-full bg-slate-900 text-white shadow-sm";
     } else {
-      btn.className = "today-filter-btn px-3 py-1 text-xs font-medium rounded-full bg-white text-slate-700 hover:bg-slate-100 border border-slate-200";
+      btn.className = "today-phase-btn px-3 py-1 text-xs font-medium rounded-full bg-white text-slate-700 hover:bg-slate-100 border border-slate-200";
     }
   });
 
@@ -121,19 +120,17 @@ function renderTodayBriefing() {
   
   let trials = allTrials.filter(t => t.first_disclosure_date === latestDate);
   if (trials.length === 0) {
-    trials = allTrials.slice(0, 10); // Fallback to latest 10
+    trials = allTrials.slice(0, 10);
   }
 
-  if (currentTodayFilter === 'new_drug') {
-    trials = trials.filter(t => t.is_new_drug);
-  } else if (currentTodayFilter === 'be') {
-    trials = trials.filter(t => !t.is_new_drug);
+  if (currentTodayPhase !== 'all') {
+    trials = trials.filter(t => t.phase_en.includes(currentTodayPhase) || t.phase.includes(currentTodayPhase));
   }
 
   if (trials.length === 0) {
     container.innerHTML = `
       <div class="col-span-full py-12 text-center text-slate-400 bg-white rounded-xl border border-slate-200">
-        No trials found matching the selected filter for today.
+        No new drug trials found for the selected phase.
       </div>`;
     return;
   }
@@ -144,7 +141,6 @@ function renderTodayBriefing() {
 
 function formatMarkdownSummary(text) {
   if (!text) return "";
-  // Simple markdown bullet to html converter
   const lines = text.split("\n\n");
   return lines.map(line => {
     line = line.replace(/^\*\*(.*?)\*\*:/g, '<strong class="text-slate-900">$1:</strong>');
@@ -154,30 +150,25 @@ function formatMarkdownSummary(text) {
 }
 
 function createTrialCard(trial) {
-  const isNew = trial.is_new_drug;
-  const categoryBadge = isNew
-    ? `<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 border border-emerald-200 flex items-center space-x-1">
-         <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-         <span>Innovative New Drug</span>
-       </span>`
-    : `<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-200">
-         Generic Bioequivalence (BE)
-       </span>`;
-
-  let phaseBadgeColor = "bg-blue-100 text-blue-800 border-blue-200";
-  if (trial.phase_en.includes("Phase III")) phaseBadgeColor = "bg-purple-100 text-purple-800 border-purple-200";
-  if (trial.phase_en.includes("Phase II")) phaseBadgeColor = "bg-indigo-100 text-indigo-800 border-indigo-200";
-  if (trial.phase_en.includes("BE")) phaseBadgeColor = "bg-slate-100 text-slate-600 border-slate-200";
+  let phaseBadgeColor = "bg-emerald-100 text-emerald-800 border-emerald-200";
+  if (trial.phase_en.includes("Phase III") || trial.phase_en.includes("Phase IV")) {
+    phaseBadgeColor = "bg-purple-100 text-purple-800 border-purple-200";
+  } else if (trial.phase_en.includes("Phase II")) {
+    phaseBadgeColor = "bg-indigo-100 text-indigo-800 border-indigo-200";
+  }
 
   return `
-    <div class="trial-card bg-white rounded-xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm hover:border-emerald-300">
+    <div class="trial-card bg-white rounded-xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm hover:border-emerald-400">
       <div>
         <!-- Badges and Registration ID -->
         <div class="flex items-center justify-between mb-3 gap-2">
-          <div class="flex flex-wrap items-center gap-1.5">
-            ${categoryBadge}
-            <span class="px-2 py-0.5 rounded text-xs font-medium border ${phaseBadgeColor}">
-              ${escapeHtml(trial.phase_en.replace(/[\n\t]/g, ' ').slice(0, 20))}
+          <div class="flex items-center space-x-2">
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold border ${phaseBadgeColor} flex items-center space-x-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+              <span>${escapeHtml(trial.phase_en.replace(/[\n\t]/g, ' ').slice(0, 20))}</span>
+            </span>
+            <span class="text-xs px-2 py-0.5 rounded bg-slate-100 text-slate-600 font-medium border border-slate-200">
+              ${escapeHtml(trial.drug_type_en || "Innovative Candidate")}
             </span>
           </div>
           <span class="text-xs font-mono font-bold text-slate-400">${trial.registration_id}</span>
@@ -189,23 +180,23 @@ function createTrialCard(trial) {
         </h3>
         ${trial.drug_name !== trial.drug_name_en ? `<p class="text-xs text-slate-400 mb-3">${escapeHtml(trial.drug_name)}</p>` : '<div class="mb-3"></div>'}
 
-        <!-- Indication & Sponsor Brief -->
-        <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 mb-4 space-y-1.5 text-xs">
-          <div>
-            <span class="font-semibold text-slate-700">Target Indication: </span>
-            <span class="text-slate-600">${escapeHtml(trial.indication_en || trial.indication)}</span>
+        <!-- Highlighted Target Indication in English -->
+        <div class="bg-emerald-50/60 p-3.5 rounded-xl border border-emerald-100 mb-4 space-y-1.5">
+          <div class="text-xs">
+            <span class="font-bold text-emerald-900 uppercase tracking-wide text-[11px] block mb-0.5">Target Indication (English):</span>
+            <span class="text-slate-900 font-semibold text-sm leading-snug">${escapeHtml(trial.indication_en || trial.indication)}</span>
           </div>
-          <div>
-            <span class="font-semibold text-slate-700">Sponsor: </span>
-            <span class="text-slate-600">${escapeHtml(trial.sponsor_en || trial.sponsor)}</span>
+          <div class="text-xs pt-1 border-t border-emerald-100/60 flex items-center justify-between">
+            <span class="text-slate-600"><span class="font-medium text-slate-700">Sponsor: </span>${escapeHtml(trial.sponsor_en || trial.sponsor)}</span>
+            <span class="text-[11px] text-slate-400 font-mono">${trial.first_disclosure_date}</span>
           </div>
         </div>
 
         <!-- Executive Summary Digest -->
         <div class="border-l-2 border-emerald-500 pl-3 py-1 mb-4">
-          <div class="text-xs font-semibold uppercase tracking-wider text-emerald-800 mb-1 flex items-center space-x-1">
+          <div class="text-xs font-semibold uppercase tracking-wider text-emerald-800 mb-1.5 flex items-center space-x-1">
             <i data-lucide="file-check" class="w-3.5 h-3.5"></i>
-            <span>Executive Digest</span>
+            <span>Executive Briefing</span>
           </div>
           ${formatMarkdownSummary(trial.executive_summary)}
         </div>
@@ -213,7 +204,7 @@ function createTrialCard(trial) {
 
       <!-- Action Button -->
       <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
-        <span class="text-xs text-slate-400">Date: ${trial.first_disclosure_date}</span>
+        <span class="text-xs text-slate-400">Cohort: ~${trial.target_sample_size || '30-100'}</span>
         <button onclick="openModal('${trial.registration_id}')" 
                 class="inline-flex items-center space-x-1 text-xs font-semibold text-emerald-600 hover:text-emerald-700 p-1.5 hover:bg-emerald-50 rounded transition">
           <span>Full Protocol & Details</span>
@@ -230,10 +221,8 @@ function createTrialCard(trial) {
 function applyFilters() {
   const query = (document.getElementById("search-input").value || "").toLowerCase().trim();
   const phase = document.getElementById("phase-filter").value;
-  const drugType = document.getElementById("type-filter").value;
 
   const filtered = allTrials.filter(t => {
-    // Keyword match
     if (query) {
       const haystack = [
         t.registration_id,
@@ -249,14 +238,9 @@ function applyFilters() {
       if (!haystack.includes(query)) return false;
     }
 
-    // Phase match
     if (phase !== 'all') {
       if (!t.phase_en.includes(phase) && !t.phase.includes(phase)) return false;
     }
-
-    // Category match
-    if (drugType === 'new_drug' && !t.is_new_drug) return false;
-    if (drugType === 'be' && t.is_new_drug) return false;
 
     return true;
   });
@@ -267,7 +251,6 @@ function applyFilters() {
 function resetFilters() {
   document.getElementById("search-input").value = "";
   document.getElementById("phase-filter").value = "all";
-  document.getElementById("type-filter").value = "all";
   renderDatabaseTable(allTrials);
 }
 
@@ -287,11 +270,6 @@ function renderDatabaseTable(trials) {
   emptyState.classList.add("hidden");
 
   tbody.innerHTML = trials.map(t => {
-    const isNew = t.is_new_drug;
-    const catBadge = isNew
-      ? `<span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-emerald-100 text-emerald-800">New Drug</span>`
-      : `<span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-slate-100 text-slate-600">BE</span>`;
-
     return `
       <tr class="hover:bg-slate-50 transition border-b border-slate-100">
         <td class="px-4 py-3 whitespace-nowrap">
@@ -300,27 +278,24 @@ function renderDatabaseTable(trials) {
         </td>
         <td class="px-4 py-3 max-w-xs">
           <div class="font-semibold text-slate-900">${escapeHtml(t.drug_name_en || t.drug_name)}</div>
-          <div class="text-xs text-slate-400 truncate">${escapeHtml(t.drug_name)}</div>
-        </td>
-        <td class="px-4 py-3 whitespace-nowrap">
-          <div class="text-xs text-slate-700">${escapeHtml(t.drug_type_en || t.drug_type)}</div>
-          <div class="mt-0.5">${catBadge}</div>
+          <div class="text-[11px] text-slate-400 truncate">${escapeHtml(t.drug_type_en || t.drug_type)}</div>
         </td>
         <td class="px-4 py-3 max-w-sm">
-          <div class="text-xs text-slate-700 line-clamp-2">${escapeHtml(t.indication_en || t.indication)}</div>
+          <div class="text-xs font-semibold text-slate-900 line-clamp-2">${escapeHtml(t.indication_en || t.indication)}</div>
+          ${t.indication !== t.indication_en ? `<div class="text-[11px] text-slate-400 truncate">${escapeHtml(t.indication)}</div>` : ''}
         </td>
-        <td class="px-4 py-3 max-w-xs whitespace-nowrap truncate text-xs text-slate-600">
+        <td class="px-4 py-3 max-w-xs whitespace-nowrap truncate text-xs text-slate-700">
           ${escapeHtml(t.sponsor_en || t.sponsor)}
         </td>
         <td class="px-4 py-3 whitespace-nowrap">
-          <span class="px-2 py-0.5 text-xs rounded font-medium bg-slate-100 text-slate-700 border border-slate-200">
+          <span class="px-2.5 py-0.5 text-xs rounded-full font-medium bg-emerald-50 text-emerald-800 border border-emerald-200">
             ${escapeHtml((t.phase_en || t.phase).slice(0, 15))}
           </span>
         </td>
         <td class="px-4 py-3 whitespace-nowrap text-center">
           <button onclick="openModal('${t.registration_id}')" 
                   class="text-xs px-2.5 py-1 bg-slate-100 hover:bg-emerald-50 hover:text-emerald-700 text-slate-700 font-medium rounded border border-slate-200 transition">
-            View
+            View Protocol
           </button>
         </td>
       </tr>
@@ -361,7 +336,6 @@ function renderArchiveList() {
 function viewArchiveDate(date) {
   currentArchiveDate = date;
   const resultsContainer = document.getElementById("archive-results-container");
-  
   const trials = allTrials.filter(t => t.first_disclosure_date === date);
 
   resultsContainer.innerHTML = `
@@ -369,7 +343,7 @@ function viewArchiveDate(date) {
       <div class="flex items-center justify-between border-b border-slate-100 pb-3">
         <h4 class="font-bold text-slate-900 text-sm flex items-center space-x-2">
           <i data-lucide="archive" class="w-4 h-4 text-emerald-600"></i>
-          <span>Batch Archive: ${date} (${trials.length} trials)</span>
+          <span>Batch Archive: ${date} (${trials.length} new drugs)</span>
         </h4>
         <button onclick="document.getElementById('archive-results-container').innerHTML = ''" class="text-xs text-slate-400 hover:text-slate-600">Clear</button>
       </div>
@@ -400,29 +374,15 @@ function openModal(regId) {
   document.getElementById("modal-status").innerText = trial.status_en || trial.status;
 
   document.getElementById("modal-sample-size").innerText = trial.target_sample_size || "30-100";
-  document.getElementById("modal-institution").innerText = trial.lead_institution || "Leading Clinical Site";
-  document.getElementById("modal-pi").innerText = trial.principal_investigator || "Clinical PI";
-  document.getElementById("modal-endpoints").innerText = trial.primary_endpoints || "PK & Safety Endpoints";
-
-  // Badges
-  const typeBadge = document.getElementById("modal-badge-type");
-  if (trial.is_new_drug) {
-    typeBadge.className = "px-2.5 py-0.5 rounded text-xs font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30";
-    typeBadge.innerText = "Innovative Drug";
-  } else {
-    typeBadge.className = "px-2.5 py-0.5 rounded text-xs font-semibold bg-slate-500/20 text-slate-300 border border-slate-500/30";
-    typeBadge.innerText = "Generic BE";
-  }
+  document.getElementById("modal-institution").innerText = trial.lead_institution || "Leading Clinical Research Hospital";
+  document.getElementById("modal-pi").innerText = trial.principal_investigator || "Principal Investigator";
+  document.getElementById("modal-endpoints").innerText = trial.primary_endpoints || "PK, Safety & Tolerability";
 
   document.getElementById("modal-badge-phase").innerText = (trial.phase_en || trial.phase).replace(/[\n\t]/g, ' ').slice(0, 15);
 
-  // Executive Summary in modal
   document.getElementById("modal-executive-summary").innerHTML = formatMarkdownSummary(trial.executive_summary);
-
-  // CDE Link
   document.getElementById("modal-cde-link").href = "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlist.dhtml";
 
-  // Show modal
   document.getElementById("trial-modal").classList.remove("hidden");
   lucide.createIcons();
 }
@@ -431,7 +391,6 @@ function closeModal() {
   document.getElementById("trial-modal").classList.add("hidden");
 }
 
-// Close modal on Escape
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeModal();
 });
@@ -444,11 +403,11 @@ function exportData(format) {
     const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(allTrials, null, 2));
     const dlAnchor = document.createElement('a');
     dlAnchor.setAttribute("href", dataStr);
-    dlAnchor.setAttribute("download", `china_cde_trials_${new Date().toISOString().slice(0,10)}.json`);
+    dlAnchor.setAttribute("download", `china_cde_new_drugs_${new Date().toISOString().slice(0,10)}.json`);
     dlAnchor.click();
   } else if (format === 'csv') {
     if (allTrials.length === 0) return;
-    const headers = ["registration_id", "first_disclosure_date", "drug_name", "drug_name_en", "is_new_drug", "phase_en", "indication", "indication_en", "sponsor", "sponsor_en"];
+    const headers = ["registration_id", "first_disclosure_date", "drug_name", "drug_name_en", "phase_en", "indication_en", "sponsor_en"];
     const csvRows = [headers.join(",")];
     
     allTrials.forEach(t => {
@@ -463,12 +422,11 @@ function exportData(format) {
     const csvStr = "data:text/csv;charset=utf-8," + encodeURIComponent(csvRows.join("\n"));
     const dlAnchor = document.createElement('a');
     dlAnchor.setAttribute("href", csvStr);
-    dlAnchor.setAttribute("download", `china_cde_trials_${new Date().toISOString().slice(0,10)}.csv`);
+    dlAnchor.setAttribute("download", `china_cde_new_drugs_${new Date().toISOString().slice(0,10)}.csv`);
     dlAnchor.click();
   }
 }
 
-// Utility: HTML escape
 function escapeHtml(str) {
   if (!str) return '';
   return str
