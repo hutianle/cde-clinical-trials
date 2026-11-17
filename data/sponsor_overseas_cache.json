@@ -417,5 +417,64 @@
       "NCT01733082",
       "NCT02087917"
     ]
+  },
+  "烁磊生物医药（上海）有限公司/ 无锡药明生物技术股份有限公司": {
+    "sponsor_en": "Biomedicine () Co., Ltd./ BioCo., Ltd.",
+    "query_term": "Biomedicine () .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏联环药业股份有限公司": {
+    "sponsor_en": "PharmaceuticalCo., Ltd.",
+    "query_term": "PharmaceuticalCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "凯复（苏州）生物医药有限公司": {
+    "sponsor_en": "() BiomedicineCo., Ltd.",
+    "query_term": "() BiomedicineCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京卓凯生物技术有限公司": {
+    "sponsor_en": "BioCo., Ltd.",
+    "query_term": "BioCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Cilag AG/ Janssen Pharmaceutica NV; Thermo Electron Limited; Fisher Clinical Services GmbH; Fisher Clinical Services Inc.; Almac Clinical Services; Almac Clinical Services LLC": {
+    "sponsor_en": "Janssen Research & Development, LLC/ () Co., Ltd./ Cilag AG/ Janssen Pharmaceutica NV; Thermo Electron Limited; Fisher Clinical Services GmbH; Fisher Clinical Services Inc.; Almac Clinical Services; Almac Clinical Services LLC",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05050097",
+      "NCT01110408",
+      "NCT02865668",
+      "NCT06028438"
+    ]
+  },
+  "南昌弘益药业有限公司": {
+    "sponsor_en": "PharmaceuticalCo., Ltd.",
+    "query_term": "PharmaceuticalCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海先声再明科技有限公司": {
+    "sponsor_en": "TechnologyCo., Ltd.",
+    "query_term": "Simcere",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06375044",
+      "NCT05781360",
+      "NCT06792552",
+      "NCT05940883",
+      "NCT05569057"
+    ]
+  },
+  "博瑞制药（苏州）有限公司": {
+    "sponsor_en": "Pharma () Co., Ltd.",
+    "query_term": "Pharma () .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
