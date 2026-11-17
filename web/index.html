@@ -155,26 +155,46 @@
       <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-4">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-4">
           <!-- Keyword Search -->
-          <div class="md:col-span-8 relative">
+          <div class="md:col-span-7 relative">
             <label class="block text-xs font-medium text-slate-700 mb-1">Search New Drug Clinical Trials</label>
             <div class="relative">
               <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3 top-3"></i>
               <input type="text" id="search-input" oninput="applyFilters()" 
-                     placeholder="Search by Indication (e.g. Cancer, AF, Weight), Drug Name, Sponsor, or CTR ID..." 
+                     placeholder="Search by Indication (e.g. Cancer, MASH, Weight), Drug, Sponsor, or CTR..." 
                      class="w-full pl-9 pr-4 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent">
             </div>
           </div>
 
-          <!-- Phase Filter -->
-          <div class="md:col-span-4">
-            <label class="block text-xs font-medium text-slate-700 mb-1">Trial Phase</label>
-            <select id="phase-filter" onchange="applyFilters()" class="w-full py-2 px-3 border border-slate-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500">
-              <option value="all">All Phases</option>
-              <option value="Phase I">Phase I (Ia / Ib)</option>
-              <option value="Phase II">Phase II (IIa / IIb)</option>
-              <option value="Phase III">Phase III</option>
-              <option value="Phase IV">Phase IV</option>
-            </select>
+          <!-- Phase Multi-Choice Filter Chips -->
+          <div class="md:col-span-5">
+            <div class="flex items-center justify-between mb-1.5">
+              <label class="block text-xs font-semibold text-slate-700">
+                Trial Phase <span class="text-slate-400 font-normal">(Select Multiple)</span>
+              </label>
+              <button type="button" onclick="selectAllPhases()" class="text-[11px] text-emerald-600 hover:text-emerald-700 font-medium">All Phases</button>
+            </div>
+            <div class="flex flex-wrap items-center gap-1.5" id="phase-chips-container">
+              <button type="button" onclick="togglePhase('all')" id="phase-chip-all" 
+                      class="phase-filter-chip px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-900 text-white shadow-sm border border-slate-900 transition flex items-center space-x-1">
+                <span>All</span>
+              </button>
+              <button type="button" onclick="togglePhase('Phase I')" id="phase-chip-Phase I" 
+                      class="phase-filter-chip px-3 py-1.5 text-xs font-medium rounded-lg bg-white text-slate-700 hover:bg-slate-50 border border-slate-200 transition flex items-center space-x-1.5">
+                <span>Phase I</span>
+              </button>
+              <button type="button" onclick="togglePhase('Phase II')" id="phase-chip-Phase II" 
+                      class="phase-filter-chip px-3 py-1.5 text-xs font-medium rounded-lg bg-white text-slate-700 hover:bg-slate-50 border border-slate-200 transition flex items-center space-x-1.5">
+                <span>Phase II</span>
+              </button>
+              <button type="button" onclick="togglePhase('Phase III')" id="phase-chip-Phase III" 
+                      class="phase-filter-chip px-3 py-1.5 text-xs font-medium rounded-lg bg-white text-slate-700 hover:bg-slate-50 border border-slate-200 transition flex items-center space-x-1.5">
+                <span>Phase III</span>
+              </button>
+              <button type="button" onclick="togglePhase('Phase IV')" id="phase-chip-Phase IV" 
+                      class="phase-filter-chip px-3 py-1.5 text-xs font-medium rounded-lg bg-white text-slate-700 hover:bg-slate-50 border border-slate-200 transition flex items-center space-x-1.5">
+                <span>Phase IV</span>
+              </button>
+            </div>
           </div>
         </div>
 
