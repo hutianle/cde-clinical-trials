@@ -35,7 +35,7 @@
 
   <!-- Top Announcement Bar -->
   <header class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white border-b border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-4">
+    <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-4">
       <div class="flex items-center space-x-3">
         <div class="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 shadow-sm">
           <i data-lucide="dna" class="w-6 h-6"></i>
@@ -74,7 +74,7 @@
 
   <!-- Navigation / View Tabs -->
   <div class="bg-white border-b border-slate-200 sticky top-0 z-20 shadow-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+    <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
       <nav class="flex space-x-8" aria-label="Tabs">
         <button id="tab-today-btn" onclick="switchTab('today')" 
                 class="py-4 px-1 border-b-2 font-medium text-sm border-emerald-600 text-emerald-600 flex items-center space-x-2">
@@ -111,7 +111,7 @@
   </div>
 
   <!-- Main Content Container -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-grow w-full">
+  <main class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-grow w-full">
 
     <!-- TAB 1: TODAY'S EXECUTIVE BRIEFING -->
     <section id="tab-today" class="space-y-6">
@@ -229,15 +229,15 @@
       <!-- Database Table Container -->
       <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
         <div class="overflow-x-auto">
-          <table class="min-w-full divide-y divide-slate-200 text-sm">
+          <table class="w-full table-fixed divide-y divide-slate-200 text-sm">
             <thead class="bg-slate-50 text-slate-700 font-semibold text-xs uppercase tracking-wider">
               <tr>
-                <th scope="col" class="px-4 py-3.5 text-left">Registration / Date</th>
-                <th scope="col" class="px-4 py-3.5 text-left">Drug Candidate</th>
-                <th scope="col" class="px-4 py-3.5 text-left">Target Indication (English)</th>
-                <th scope="col" class="px-4 py-3.5 text-left">Sponsor / Developer</th>
-                <th scope="col" class="px-4 py-3.5 text-left">Phase</th>
-                <th scope="col" class="px-4 py-3.5 text-center">Action</th>
+                <th scope="col" class="w-[125px] px-3 py-3 text-left">Registration / Date</th>
+                <th scope="col" class="w-[180px] px-3 py-3 text-left">Drug Candidate</th>
+                <th scope="col" class="w-auto px-3 py-3 text-left">Target Indication (English)</th>
+                <th scope="col" class="w-[210px] px-3 py-3 text-left">Sponsor / Developer</th>
+                <th scope="col" class="w-[115px] px-3 py-3 text-left">Phase</th>
+                <th scope="col" class="w-[110px] px-3 py-3 text-center">Action</th>
               </tr>
             </thead>
             <tbody id="database-table-body" class="divide-y divide-slate-200 bg-white">
@@ -370,7 +370,7 @@
 
   <!-- Footer -->
   <footer class="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-1">
+    <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 space-y-1">
       <p>China CDE New Drug Clinical Trials Intelligence &bull; Automated Daily Tracking</p>
       <p class="text-slate-400">Targeting innovative new drug registrations from China National Medical Products Administration (NMPA) CDE.</p>
     </div>
