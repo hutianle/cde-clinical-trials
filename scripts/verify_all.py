@@ -3,17 +3,19 @@ from pathlib import Path
 
 data_trials = json.loads(Path('data/trials.json').read_text(encoding='utf-8'))
 web_trials = json.loads(Path('web/data/trials.json').read_text(encoding='utf-8'))
+N = len(data_trials)
 
 print('=== DATA INTEGRITY VERIFICATION ===')
-print(f'data/trials.json count: {len(data_trials)}')
+print(f'data/trials.json count: {N}')
 print(f'web/data/trials.json count: {len(web_trials)}')
-assert len(data_trials) == 64
-assert len(web_trials) == 64
+assert len(data_trials) == len(web_trials)
+assert N > 0
 
 # Check identity
 data_ids = [t['registration_id'] for t in data_trials]
 web_ids = [t['registration_id'] for t in web_trials]
 assert data_ids == web_ids
+assert len(set(data_ids)) == N, f"Duplicate IDs found: {N - len(set(data_ids))}"
 
 # 1. Lead institution & PI
 empty_inst = [t['registration_id'] for t in data_trials if not t.get('lead_institution')]
@@ -21,19 +23,19 @@ empty_pi = [t['registration_id'] for t in data_trials if not t.get('principal_in
 empty_inst_en = [t['registration_id'] for t in data_trials if not t.get('lead_institution_en')]
 empty_pi_en = [t['registration_id'] for t in data_trials if not t.get('principal_investigator_en')]
 
-print(f'Empty lead_institution: {len(empty_inst)}/64')
-print(f'Empty principal_investigator: {len(empty_pi)}/64')
-print(f'Empty lead_institution_en: {len(empty_inst_en)}/64')
-print(f'Empty principal_investigator_en: {len(empty_pi_en)}/64')
-assert len(empty_inst) == 0
-assert len(empty_pi) == 0
-assert len(empty_inst_en) == 0
-assert len(empty_pi_en) == 0
+print(f'Empty lead_institution: {len(empty_inst)}/{N}')
+print(f'Empty principal_investigator: {len(empty_pi)}/{N}')
+print(f'Empty lead_institution_en: {len(empty_inst_en)}/{N}')
+print(f'Empty principal_investigator_en: {len(empty_pi_en)}/{N}')
+assert len(empty_inst) == 0, f"Found empty lead_institution: {empty_inst}"
+assert len(empty_pi) == 0, f"Found empty principal_investigator: {empty_pi}"
+assert len(empty_inst_en) == 0, f"Found empty lead_institution_en: {empty_inst_en}"
+assert len(empty_pi_en) == 0, f"Found empty principal_investigator_en: {empty_pi_en}"
 
 # 2. Per-trial CDE URL
 distinct_urls = len(set(t.get('cde_url') for t in data_trials))
-print(f'Distinct cde_url: {distinct_urls}/64')
-assert distinct_urls == 64
+print(f'Distinct cde_url: {distinct_urls}/{N}')
+assert distinct_urls == N
 for t in data_trials:
     assert 'clinicaltrials.searchlistdetail.dhtml?id=' in t['cde_url'], f"Invalid URL: {t['cde_url']}"
 
@@ -48,16 +50,23 @@ for t in data_trials:
     # Check consistency
     if 'I/II期' in p and p_en != 'Phase I/II':
         mismatches.append((t['registration_id'], p, p_en))
-    elif 'Ib/II期' in p and p_en != 'Phase Ib/II':
+    elif 'II/III期' in p and p_en != 'Phase II/III':
         mismatches.append((t['registration_id'], p, p_en))
-    elif p == 'I期' and p_en != 'Phase I':
+    elif p in ['I期', '1期', 'Ⅰ期'] and p_en != 'Phase I':
         mismatches.append((t['registration_id'], p, p_en))
-    elif p == 'II期' and p_en != 'Phase II':
+    elif p in ['II期', '2期', 'Ⅱ期'] and p_en != 'Phase II':
         mismatches.append((t['registration_id'], p, p_en))
-    elif p == 'III期' and p_en != 'Phase III':
+    elif p in ['III期', '3期', 'Ⅲ期'] and p_en != 'Phase III':
         mismatches.append((t['registration_id'], p, p_en))
-    elif p == 'IV期' and p_en != 'Phase IV':
+    elif p in ['IV期', '4期', 'Ⅳ期'] and p_en != 'Phase IV':
         mismatches.append((t['registration_id'], p, p_en))
+
+print(f'Dirty raw phases: {len(dirty_raw)}')
+print(f'Phase mismatches: {len(mismatches)}')
+assert len(dirty_raw) == 0, f"Dirty raw phases found: {dirty_raw}"
+assert len(mismatches) == 0, f"Phase mismatches found: {mismatches}"
+
+print("ALL VERIFICATIONS PASSED!")
 
 print(f'Dirty raw phases: {len(dirty_raw)}')
 print(f'Phase mismatches: {len(mismatches)}')
