@@ -490,14 +490,21 @@ function openModal(regId) {
   document.getElementById("modal-status").innerText = trial.status_en || trial.status;
 
   document.getElementById("modal-sample-size").innerText = trial.target_sample_size || "30-100";
-  document.getElementById("modal-institution").innerText = trial.lead_institution || "Leading Clinical Research Hospital";
-  document.getElementById("modal-pi").innerText = trial.principal_investigator || "Principal Investigator";
+  const instDisplay = trial.lead_institution_en
+    ? (trial.lead_institution ? `${trial.lead_institution_en} (${trial.lead_institution})` : trial.lead_institution_en)
+    : (trial.lead_institution || "Leading Clinical Research Hospital");
+  document.getElementById("modal-institution").innerText = instDisplay;
+
+  const piDisplay = trial.principal_investigator_en
+    ? (trial.principal_investigator ? `${trial.principal_investigator_en} (${trial.principal_investigator})` : trial.principal_investigator_en)
+    : (trial.principal_investigator || "Principal Investigator");
+  document.getElementById("modal-pi").innerText = piDisplay;
   document.getElementById("modal-endpoints").innerText = trial.primary_endpoints || "PK, Safety & Tolerability";
 
   document.getElementById("modal-badge-phase").innerText = (trial.phase_en || trial.phase).replace(/[\n\t]/g, ' ').slice(0, 15);
 
   document.getElementById("modal-executive-summary").innerHTML = formatMarkdownSummary(trial.executive_summary);
-  document.getElementById("modal-cde-link").href = "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlist.dhtml";
+  document.getElementById("modal-cde-link").href = trial.cde_url || "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlist.dhtml";
 
   // Populate Overseas Intent & BD Outreach container
   const overseasEl = document.getElementById("modal-overseas-container");

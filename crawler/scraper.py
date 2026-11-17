@@ -10,7 +10,7 @@ from playwright.async_api import async_playwright
 # Force unbuffered output so logs appear immediately
 sys.stdout.reconfigure(line_buffering=True)
 
-from summarizer import process_trial
+from summarizer import process_trial, normalize_raw_phase, determine_new_drug
 from overseas_screener import screen_trial_overseas_signals, generate_overseas_targets_report
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -37,9 +37,10 @@ def is_generic_be_study(text: str) -> bool:
     Checks if a trial is a generic bioequivalence (BE) study.
     Returns True if it's a generic BE study (to be skipped).
     """
-    text_lower = text.lower()
+    text_lower = str(text).lower()
     return any(k in text_lower for k in [
-        "生物等效性", "be试验", "bioequivalence", "等效性研究", "等效性试验"
+        "生物等效性", "be试验", "bioequivalence", "等效性研究", "等效性试验",
+        "仿制药", "参比制剂", "双交叉空腹", "受试制剂与参比制剂"
     ])
 
 def load_existing_trials() -> list:
@@ -188,13 +189,43 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
         return '';
     }""")
 
-    lead_info = await detail_page.evaluate("""() => {
-        const bodyText = document.body.innerText;
-        const instMatch = bodyText.match(/机构名称[\\s\\S]*?主要研究者[\\s\\S]*?1[\\s\\n\\t]+([^\\n\\r\\t]+)[\\s\\n\\t]+([^\\n\\r\\t]+)/);
-        if (instMatch && instMatch[1] && instMatch[2]) {
-            return { institution: instMatch[1].trim(), pi: instMatch[2].trim() };
+    site_and_url_info = await detail_page.evaluate("""() => {
+        let lead_institution = '';
+        let principal_investigator = '';
+        
+        const tables = document.querySelectorAll('table');
+        for (const t of tables) {
+            const trs = Array.from(t.querySelectorAll('tr'));
+            if (trs.length < 2) continue;
+            
+            const headerCells = Array.from(trs[0].querySelectorAll('th, td')).map(c => c.innerText.trim());
+            const instIdx = headerCells.findIndex(h => h.includes('机构名称') || h.includes('单位名称'));
+            const piIdx = headerCells.findIndex(h => h.includes('主要研究者') || h.includes('研究者姓名'));
+            
+            if (instIdx !== -1 && piIdx !== -1) {
+                for (let r = 1; r < trs.length; r++) {
+                    const cells = Array.from(trs[r].querySelectorAll('td')).map(c => c.innerText.trim());
+                    if (cells.length > Math.max(instIdx, piIdx)) {
+                        lead_institution = cells[instIdx];
+                        principal_investigator = cells[piIdx];
+                        if (lead_institution && principal_investigator) break;
+                    }
+                }
+                if (lead_institution && principal_investigator) break;
+            }
         }
-        return { institution: '', pi: '' };
+        
+        let trial_id = '';
+        const idInput = document.querySelector('input[name="id"]');
+        if (idInput && idInput.value) {
+            trial_id = idInput.value.trim();
+        }
+
+        return {
+            institution: lead_institution,
+            pi: principal_investigator,
+            trial_id: trial_id
+        };
     }""")
 
     reg_id = raw_data.get("登记号") or list_row_info.get("ctr_id", "")
@@ -205,7 +236,14 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
     indication = raw_data.get("适应症") or list_row_info.get("indication", "")
     title_lay = raw_data.get("试验通俗题目") or list_row_info.get("title_lay", "")
     title_prof = raw_data.get("试验专业题目") or title_lay
-    phase = raw_data.get("试验分期") or "I期"
+    raw_phase = raw_data.get("试验分期") or "I期"
+    phase = normalize_raw_phase(raw_phase)
+
+    trial_internal_id = site_and_url_info.get("trial_id") or list_row_info.get("row_id", "")
+    if trial_internal_id:
+        cde_url = f"https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml?id={trial_internal_id}"
+    else:
+        cde_url = detail_page.url
 
     trial = {
         "registration_id": reg_id,
@@ -219,11 +257,11 @@ async def parse_detail_page(detail_page, list_row_info: dict) -> dict:
         "title_professional": title_prof,
         "phase": phase,
         "target_sample_size": sample_size or "30-100",
-        "lead_institution": lead_info.get("institution", ""),
-        "principal_investigator": lead_info.get("pi", ""),
+        "lead_institution": site_and_url_info.get("institution", ""),
+        "principal_investigator": site_and_url_info.get("pi", ""),
         "primary_endpoints": endpoints or "Safety, Tolerability & Pharmacokinetics (PK)",
         "is_new_drug": True,
-        "cde_url": "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlist.dhtml"
+        "cde_url": cde_url
     }
 
     return trial
@@ -325,6 +363,7 @@ async def run_crawl_session(target_count: int = RUN_TARGET):
                 link = await page.query_selector(f"table tr a:has-text('{ctr_id}')")
                 if not link:
                     continue
+                cand["row_id"] = await link.get_attribute("id")
                 async with page.expect_popup() as popup_info:
                     await link.click()
                 detail_page = await popup_info.value
@@ -334,11 +373,15 @@ async def run_crawl_session(target_count: int = RUN_TARGET):
                 trial_raw = await parse_detail_page(detail_page, cand)
                 await detail_page.close()
 
-                if is_generic_be_study(f"{trial_raw.get('title_lay')} {trial_raw.get('phase')}"):
+                if is_generic_be_study(f"{trial_raw.get('title_lay')} {trial_raw.get('title_professional')} {trial_raw.get('drug_name')} {trial_raw.get('phase')}"):
                     print(f"Skipping {ctr_id} (identified as BE).")
                     continue
 
                 enriched = process_trial(trial_raw)
+                if not enriched.get("is_new_drug", True):
+                    print(f"Skipping {ctr_id} (is_new_drug is False).")
+                    continue
+
                 screen_trial_overseas_signals(enriched)
                 newly_ingested.append(enriched)
                 all_trials.append(enriched)
@@ -369,6 +412,7 @@ async def run_crawl_session(target_count: int = RUN_TARGET):
                         link = await page.query_selector(f"table tr a:has-text('{ctr_id}')")
                         if not link:
                             continue
+                        cand["row_id"] = await link.get_attribute("id")
                         async with page.expect_popup() as popup_info:
                             await link.click()
                         detail_page = await popup_info.value
@@ -378,11 +422,15 @@ async def run_crawl_session(target_count: int = RUN_TARGET):
                         trial_raw = await parse_detail_page(detail_page, cand)
                         await detail_page.close()
 
-                        if is_generic_be_study(f"{trial_raw.get('title_lay')} {trial_raw.get('phase')}"):
+                        if is_generic_be_study(f"{trial_raw.get('title_lay')} {trial_raw.get('title_professional')} {trial_raw.get('drug_name')} {trial_raw.get('phase')}"):
                             print(f"Skipping {ctr_id} (identified as BE).")
                             continue
 
                         enriched = process_trial(trial_raw)
+                        if not enriched.get("is_new_drug", True):
+                            print(f"Skipping {ctr_id} (is_new_drug is False).")
+                            continue
+
                         screen_trial_overseas_signals(enriched)
                         newly_ingested.append(enriched)
                         all_trials.append(enriched)

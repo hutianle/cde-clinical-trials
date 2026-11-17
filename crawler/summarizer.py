@@ -3,6 +3,7 @@ import json
 import re
 import urllib.request
 import urllib.parse
+import pypinyin
 
 # Medical dictionary mappings
 PHASE_MAP = {
@@ -332,11 +333,93 @@ def translate_zh_to_en(text: str) -> str:
 
     return clean_residual_chinese(translated)
 
+def romanize_chinese_name(name: str) -> str:
+    """
+    Romanizes a person's name using standard pinyin if in Chinese characters.
+    Properly handles compound surnames (欧阳, 司马, 诸葛, etc.).
+    Preserves English/Latin characters. Never invents a translation.
+    """
+    if not name or not str(name).strip():
+        return ""
+    clean = str(name).strip()
+    # If no Chinese characters, return as is
+    if not any('\u4e00' <= c <= '\u9fff' for c in clean):
+        return clean
+    
+    compound_surnames = ["欧阳", "司马", "上官", "诸葛", "皇甫", "东方", "令狐", "申屠", "公孙", "慕容"]
+    surname = ""
+    given_name = ""
+    for cs in compound_surnames:
+        if clean.startswith(cs):
+            surname = cs
+            given_name = clean[len(cs):]
+            break
+    if not surname:
+        surname = clean[0]
+        given_name = clean[1:]
+    
+    sur_pinyin = "".join(pypinyin.lazy_pinyin(surname)).capitalize()
+    given_pinyin = "".join(pypinyin.lazy_pinyin(given_name)).capitalize()
+    
+    if given_pinyin:
+        return f"{given_pinyin} {sur_pinyin}"
+    return sur_pinyin
+
+def normalize_raw_phase(raw: str) -> str:
+    """
+    Normalizes dirty raw phase strings from CDE detail pages.
+    Strips whitespace/newlines; extracts explanation if wrapped in '其它...其他说明:...';
+    converts to canonical Chinese phase representation.
+    """
+    if not raw:
+        return ""
+    s = re.sub(r'[\s\r\n\t]+', '', str(raw)).strip()
+    if ("其它" in s or "其他" in s) and any(k in s for k in ["说明:", "说明："]):
+        m = re.search(r'(?:其他说明|其它说明|说明)[:：](.+)', s)
+        if m:
+            s = m.group(1).strip()
+    
+    char_map = {
+        'Ⅰ': 'I', 'Ⅱ': 'II', 'Ⅲ': 'III', 'Ⅳ': 'IV',
+        'ⅰ': 'i', 'ⅱ': 'ii', 'ⅲ': 'iii', 'ⅳ': 'iv',
+        '１': '1', '２': '2', '３': '3', '４': '4',
+        '／': '/'
+    }
+    for k, v in char_map.items():
+        s = s.replace(k, v)
+
+    if s in ["I/II期", "I/II", "I期/II期", "I期/II", "I/II期试验"]:
+        return "I/II期"
+    elif s in ["Ib/II期", "Ib/II", "Ib期/II期", "Ib期/II"]:
+        return "Ib/II期"
+    elif s in ["Ia/Ib期", "Ia/Ib", "Ia期/Ib期"]:
+        return "Ia/Ib期"
+    elif s in ["II/III期", "II/III", "II期/III期"]:
+        return "II/III期"
+    elif s in ["III/IV期", "III/IV", "III期/IV期"]:
+        return "III/IV期"
+    elif s in ["I期", "1期", "Phase I", "Phase 1"]:
+        return "I期"
+    elif s in ["II期", "2期", "Phase II", "Phase 2"]:
+        return "II期"
+    elif s in ["III期", "3期", "Phase III", "Phase 3"]:
+        return "III期"
+    elif s in ["IV期", "4期", "Phase IV", "Phase 4"]:
+        return "IV期"
+    elif s in ["Ia期", "Ib期", "Ic期", "IIa期", "IIb期", "IIIa期", "IIIb期"]:
+        return s
+
+    if s.endswith("期"):
+        return s
+    if any(k in s for k in ["I", "II", "III", "IV"]):
+        return s + "期"
+    return s
+
 def normalize_phase_str(s: str) -> str:
     """Normalizes Roman, full-width, and Chinese numerals in clinical phase strings."""
     if not s:
         return ""
-    cleaned = re.sub(r'[\r\n\t]+', ' ', str(s)).strip()
+    cleaned = normalize_raw_phase(s)
     char_map = {
         'Ⅰ': 'I', 'Ⅱ': 'II', 'Ⅲ': 'III', 'Ⅳ': 'IV',
         'ⅰ': 'i', 'ⅱ': 'ii', 'ⅲ': 'iii', 'ⅳ': 'iv',
@@ -369,12 +452,12 @@ def clean_phase(raw_phase: str) -> str:
         (r'\bI/IIb\b|I/IIb期', "Phase I/IIb"),
         (r'\bIa/Ib\b|Ia/Ib期', "Phase Ia/Ib"),
         (r'\bIb/IIa\b|Ib/IIa期', "Phase Ib/IIa"),
-        (r'\bIb/II\b|Ib/II期', "Phase Ib/II"),
-        (r'\bI/II\b|I/II期', "Phase I/II"),
+        (r'\bIb/II\b|Ib/II期|Ib期/II期|Ib期/II', "Phase Ib/II"),
+        (r'\bI/II\b|I/II期|I期/II期|I期/II', "Phase I/II"),
         (r'\bIIa/IIb\b|IIa/IIb期', "Phase IIa/IIb"),
         (r'\bIIa/III\b|IIa/III期', "Phase IIa/III"),
-        (r'\bII/III\b|II/III期', "Phase II/III"),
-        (r'\bIII/IV\b|III/IV期', "Phase III/IV"),
+        (r'\bII/III\b|II/III期|II期/III期|II期/III', "Phase II/III"),
+        (r'\bIII/IV\b|III/IV期|III期/IV期|III期/IV', "Phase III/IV"),
 
         # Sub-phases
         (r'\bIa\b|Ia期', "Phase Ia"),
@@ -405,13 +488,17 @@ def clean_phase(raw_phase: str) -> str:
 
 def determine_new_drug(raw_trial: dict) -> bool:
     text = " ".join([
-        raw_trial.get("phase", ""),
-        raw_trial.get("title_lay", ""),
-        raw_trial.get("title_professional", ""),
-        raw_trial.get("drug_name", "")
+        str(raw_trial.get("phase", "")),
+        str(raw_trial.get("title_lay", "")),
+        str(raw_trial.get("title_professional", "")),
+        str(raw_trial.get("drug_name", "")),
+        str(raw_trial.get("indication", ""))
     ]).lower()
 
-    if "生物等效性" in text or "be试验" in text or "bioequivalence" in text:
+    if any(k in text for k in [
+        "生物等效性", "be试验", "bioequivalence", "等效性研究", "等效性试验",
+        "仿制药", "参比制剂", "双交叉空腹", "受试制剂与参比制剂"
+    ]):
         return False
     return True
 
@@ -533,6 +620,10 @@ Ensure the JSON is strictly valid with NO markdown code fences."""
         return fallback_summarize(trial)
 
 def process_trial(trial: dict) -> dict:
+    # Always normalize raw phase string first
+    raw_phase = normalize_raw_phase(trial.get("phase", ""))
+    trial["phase"] = raw_phase
+
     api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     if api_key:
         enriched = summarize_with_gemini(trial, api_key)
@@ -540,7 +631,8 @@ def process_trial(trial: dict) -> dict:
         enriched = fallback_summarize(trial)
 
     # Always guarantee accurate deterministic phase_en translation
-    enriched["phase_en"] = clean_phase(trial.get("phase", ""))
+    enriched["phase_en"] = clean_phase(raw_phase)
+    enriched["is_new_drug"] = determine_new_drug(trial)
 
     # Safety checks: enforce 100% English across all key fields
     for field in ["indication_en", "drug_name_en", "sponsor_en"]:
@@ -549,16 +641,30 @@ def process_trial(trial: dict) -> dict:
             raw_zh = trial.get(field.replace("_en", ""), val)
             enriched[field] = translate_zh_to_en(raw_zh)
 
+    # Institution and PI translations
+    lead_inst = trial.get("lead_institution", "")
+    lead_inst_en = trial.get("lead_institution_en")
+    if not lead_inst_en or has_chinese(lead_inst_en):
+        lead_inst_en = translate_zh_to_en(lead_inst) if lead_inst else ""
+    enriched["lead_institution_en"] = lead_inst_en
+
+    pi = trial.get("principal_investigator", "")
+    pi_en = trial.get("principal_investigator_en")
+    if not pi_en or has_chinese(pi_en):
+        pi_en = romanize_chinese_name(pi) if pi else ""
+    enriched["principal_investigator_en"] = pi_en
+
     # Ensure executive summary has accurate phase and no residual Chinese characters
     summary = enriched.get("executive_summary", "")
-    if has_chinese(summary) or "Phase I" in summary and enriched["phase_en"] != "Phase I":
+    if has_chinese(summary) or ("Phase I" in summary and enriched["phase_en"] != "Phase I"):
         # Regenerate summary bullets using clean English fields
         modality = enriched.get("drug_type_en", "Innovative Therapeutic")
+        lead_summary = lead_inst_en or "accredited clinical research centers in China"
         bullets = [
             f"**Candidate & Modality:** {enriched.get('drug_name_en')} ({modality}), developed by {enriched.get('sponsor_en')}.",
             f"**Target Indication:** Investigated for {enriched.get('indication_en')}.",
             f"**Study Protocol & Design:** {enriched.get('phase_en')} clinical evaluation enrolling an estimated {trial.get('target_sample_size', 'standard')} participants.",
-            f"**Clinical Setting:** Conducted across accredited clinical research centers in China under CDE oversight."
+            f"**Clinical Setting:** Conducted across accredited clinical research centers ({lead_summary}) under China CDE supervision."
         ]
         enriched["executive_summary"] = "\n\n".join(bullets)
 
