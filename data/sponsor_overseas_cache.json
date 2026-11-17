@@ -588,5 +588,101 @@
     "query_term": "AstraZeneca AB",
     "has_us_site": false,
     "us_trials": []
+  },
+  "江西科睿药业有限公司": {
+    "sponsor_en": "PharmaceuticalCo., Ltd.",
+    "query_term": "PharmaceuticalCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Développement/ 赛诺菲（中国）投资有限公司/ Sanofi S.r.l.; Patheon Inc.": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement/ () Co., Ltd./ Sanofi S.r.l.; Patheon Inc.",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东百诺医药股份有限公司": {
+    "sponsor_en": "PharmaceuticalsCo., Ltd.",
+    "query_term": "PharmaceuticalsCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "知微生物医药（新乡）有限公司": {
+    "sponsor_en": "Biomedicine () Co., Ltd.",
+    "query_term": "Biomedicine () .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海麦济生物技术有限公司": {
+    "sponsor_en": "BioCo., Ltd.",
+    "query_term": "BioCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "甘李药业股份有限公司": {
+    "sponsor_en": "PharmaceuticalCo., Ltd.",
+    "query_term": "PharmaceuticalCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州智耀生物科技有限公司/ 苏州智耀生物科技有限公司/ 智耀生物医药（苏州）有限公司": {
+    "sponsor_en": "BiotechCo., Ltd./ BiotechCo., Ltd./ Biomedicine () Co., Ltd.",
+    "query_term": "BiotechCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "石药集团巨石生物制药有限公司": {
+    "sponsor_en": "BiopharmaCo., Ltd.",
+    "query_term": "BiopharmaCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州派诺生物技术有限公司/ 烟台派诺生物技术有限公司": {
+    "sponsor_en": "BioCo., Ltd./ BioCo., Ltd.",
+    "query_term": "BioCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海汇伦医药股份有限公司": {
+    "sponsor_en": "PharmaceuticalsCo., Ltd.",
+    "query_term": "PharmaceuticalsCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "无锡奕拓医药科技有限责任公司": {
+    "sponsor_en": "Pharmaceutical TechnologyCo., Ltd.",
+    "query_term": "TechnologyCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京博恩特药业有限公司": {
+    "sponsor_en": "PharmaceuticalCo., Ltd.",
+    "query_term": "PharmaceuticalCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "甘李药业山东有限公司/ 甘李药业股份有限公司": {
+    "sponsor_en": "PharmaceuticalCo., Ltd./ PharmaceuticalCo., Ltd.",
+    "query_term": "PharmaceuticalCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "信达生物制药（苏州）有限公司": {
+    "sponsor_en": "Biopharma () Co., Ltd.",
+    "query_term": "Biopharma () .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "石药集团恩必普药业有限公司/ 北京抗创联生物制药技术研究有限公司": {
+    "sponsor_en": "PharmaceuticalCo., Ltd./ BiopharmaCo., Ltd.",
+    "query_term": "PharmaceuticalCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "艾立康（合肥）医药科技有限公司": {
+    "sponsor_en": "() Pharmaceutical TechnologyCo., Ltd.",
+    "query_term": "()  TechnologyCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
