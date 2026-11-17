@@ -332,14 +332,76 @@ def translate_zh_to_en(text: str) -> str:
 
     return clean_residual_chinese(translated)
 
+def normalize_phase_str(s: str) -> str:
+    """Normalizes Roman, full-width, and Chinese numerals in clinical phase strings."""
+    if not s:
+        return ""
+    cleaned = re.sub(r'[\r\n\t]+', ' ', str(s)).strip()
+    char_map = {
+        'Ⅰ': 'I', 'Ⅱ': 'II', 'Ⅲ': 'III', 'Ⅳ': 'IV',
+        'ⅰ': 'i', 'ⅱ': 'ii', 'ⅲ': 'iii', 'ⅳ': 'iv',
+        '１': '1', '２': '2', '３': '3', '４': '4',
+        '／': '/', '（': '(', '）': ')', '：': ':'
+    }
+    for k, v in char_map.items():
+        cleaned = cleaned.replace(k, v)
+    return cleaned
+
 def clean_phase(raw_phase: str) -> str:
-    cleaned = re.sub(r'\s+', ' ', raw_phase or '').strip()
-    if "生物等效性" in cleaned or "be" in cleaned.lower():
+    """
+    Translates raw Chinese clinical trial phases to standard English phases.
+    Handles full-width numerals (Ⅰ/Ⅱ/Ⅲ/Ⅳ), compound phases (I/II, II/III, Ib/II),
+    and descriptive text. Never guesses — leaves unknown values untranslated and flags them.
+    """
+    if not raw_phase:
+        return ""
+    
+    cleaned = normalize_phase_str(raw_phase)
+    
+    # 1. Check for Bioequivalence (BE)
+    if "生物等效性" in cleaned or re.search(r'\bBE\b', cleaned, re.I):
         return "Bioequivalence (BE)"
-    for zh, en in PHASE_MAP.items():
-        if zh in cleaned:
-            return en
-    return "Phase I" if "I" in cleaned else "Early Phase"
+
+    # 2. Check compound and sub-phases in priority order (longest & most specific first)
+    patterns = [
+        # Compound phase combinations
+        (r'\bI/IIa\b|I/IIa期', "Phase I/IIa"),
+        (r'\bI/IIb\b|I/IIb期', "Phase I/IIb"),
+        (r'\bIa/Ib\b|Ia/Ib期', "Phase Ia/Ib"),
+        (r'\bIb/IIa\b|Ib/IIa期', "Phase Ib/IIa"),
+        (r'\bIb/II\b|Ib/II期', "Phase Ib/II"),
+        (r'\bI/II\b|I/II期', "Phase I/II"),
+        (r'\bIIa/IIb\b|IIa/IIb期', "Phase IIa/IIb"),
+        (r'\bIIa/III\b|IIa/III期', "Phase IIa/III"),
+        (r'\bII/III\b|II/III期', "Phase II/III"),
+        (r'\bIII/IV\b|III/IV期', "Phase III/IV"),
+
+        # Sub-phases
+        (r'\bIa\b|Ia期', "Phase Ia"),
+        (r'\bIb\b|Ib期', "Phase Ib"),
+        (r'\bIc\b|Ic期', "Phase Ic"),
+        (r'\bIIa\b|IIa期', "Phase IIa"),
+        (r'\bIIb\b|IIb期', "Phase IIb"),
+        (r'\bIIIa\b|IIIa期', "Phase IIIa"),
+        (r'\bIIIb\b|IIIb期', "Phase IIIb"),
+
+        # Standard phases (must test IV, III, II before I)
+        (r'\bIV\b|IV期|4期|Phase\s*IV|Phase\s*4|四期', "Phase IV"),
+        (r'\bIII\b|III期|3期|Phase\s*III|Phase\s*3|三期', "Phase III"),
+        (r'\bII\b|II期|2期|Phase\s*II|Phase\s*2|二期', "Phase II"),
+        (r'\bI\b|I期|1期|Phase\s*I|Phase\s*1|一期', "Phase I"),
+
+        # Exploratory / Early
+        (r'0期|Phase\s*0|探索性|早期临床', "Phase 0 / Exploratory")
+    ]
+
+    for pat, label in patterns:
+        if re.search(pat, cleaned, re.I):
+            return label
+
+    # Never guess — leave unknown values untranslated and flag them
+    print(f"[FLAG UNKNOWN PHASE] Could not determine phase for: {repr(raw_phase)}")
+    return cleaned
 
 def determine_new_drug(raw_trial: dict) -> bool:
     text = " ".join([
@@ -477,6 +539,9 @@ def process_trial(trial: dict) -> dict:
     else:
         enriched = fallback_summarize(trial)
 
+    # Always guarantee accurate deterministic phase_en translation
+    enriched["phase_en"] = clean_phase(trial.get("phase", ""))
+
     # Safety checks: enforce 100% English across all key fields
     for field in ["indication_en", "drug_name_en", "sponsor_en"]:
         val = enriched.get(field, "")
@@ -484,15 +549,15 @@ def process_trial(trial: dict) -> dict:
             raw_zh = trial.get(field.replace("_en", ""), val)
             enriched[field] = translate_zh_to_en(raw_zh)
 
-    # Ensure executive summary has no residual Chinese characters
+    # Ensure executive summary has accurate phase and no residual Chinese characters
     summary = enriched.get("executive_summary", "")
-    if has_chinese(summary):
+    if has_chinese(summary) or "Phase I" in summary and enriched["phase_en"] != "Phase I":
         # Regenerate summary bullets using clean English fields
         modality = enriched.get("drug_type_en", "Innovative Therapeutic")
         bullets = [
             f"**Candidate & Modality:** {enriched.get('drug_name_en')} ({modality}), developed by {enriched.get('sponsor_en')}.",
             f"**Target Indication:** Investigated for {enriched.get('indication_en')}.",
-            f"**Study Protocol & Design:** {enriched.get('phase_en', 'Phase I')} clinical evaluation enrolling an estimated {trial.get('target_sample_size', 'standard')} participants.",
+            f"**Study Protocol & Design:** {enriched.get('phase_en')} clinical evaluation enrolling an estimated {trial.get('target_sample_size', 'standard')} participants.",
             f"**Clinical Setting:** Conducted across accredited clinical research centers in China under CDE oversight."
         ]
         enriched["executive_summary"] = "\n\n".join(bullets)

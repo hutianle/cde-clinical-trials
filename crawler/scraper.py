@@ -11,6 +11,7 @@ from playwright.async_api import async_playwright
 sys.stdout.reconfigure(line_buffering=True)
 
 from summarizer import process_trial
+from overseas_screener import screen_trial_overseas_signals, generate_overseas_targets_report
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 TRIALS_FILE = DATA_DIR / "trials.json"
@@ -121,6 +122,14 @@ def save_trials(all_trials: list, new_trials: list):
         json.dump(summary, f, ensure_ascii=False, indent=2)
     with open(WEB_SUMMARY_FILE, "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
+
+    # Generate and update BD overseas targets report
+    try:
+        generate_overseas_targets_report(all_trials, DATA_DIR / "overseas_targets.md", DATA_DIR / "overseas_targets.csv")
+        (WEB_DATA_DIR / "overseas_targets.md").write_text((DATA_DIR / "overseas_targets.md").read_text(encoding="utf-8"), encoding="utf-8")
+        (WEB_DATA_DIR / "overseas_targets.csv").write_text((DATA_DIR / "overseas_targets.csv").read_text(encoding="utf-8"), encoding="utf-8")
+    except Exception as e:
+        print(f"Notice: Failed to update overseas targets report: {e}")
 
     print(f"Database successfully updated. Total: {len(all_trials)} new drug clinical trials.")
 
@@ -330,6 +339,7 @@ async def run_crawl_session(target_count: int = RUN_TARGET):
                     continue
 
                 enriched = process_trial(trial_raw)
+                screen_trial_overseas_signals(enriched)
                 newly_ingested.append(enriched)
                 all_trials.append(enriched)
                 await page.wait_for_timeout(1200)
@@ -373,6 +383,7 @@ async def run_crawl_session(target_count: int = RUN_TARGET):
                             continue
 
                         enriched = process_trial(trial_raw)
+                        screen_trial_overseas_signals(enriched)
                         newly_ingested.append(enriched)
                         all_trials.append(enriched)
                         remaining_needed -= 1
