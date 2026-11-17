@@ -5,16 +5,16 @@ on:
     # Runs every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC
     # Spaced out evenly (6 times a day x ~8-10 trials = ~50 new drug trials/day)
     - cron: '0 */4 * * *'
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - '.gitignore'
   workflow_dispatch: # Allows manual trigger anytime from GitHub Actions UI
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   crawl-and-deploy:
@@ -41,30 +41,25 @@ jobs:
       - name: Run CDE Incremental & Historical Backfill Scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          RUN_TARGET: 10 # 10 new drug trials per batch run (~50/day across 5 runs)
+          RUN_TARGET: 10 # 10 new drug trials per batch run (~50/day across runs)
         run: |
           python crawler/scraper.py
 
-      - name: Commit and push updated database & crawler state
+      - name: Commit and push updated database & crawler state to main
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ web/data/
           if git diff --staged --quiet; then
-            echo "No changes to commit."
+            echo "No changes to commit to main."
           else
             git commit -m "Auto-ingest CDE new drug trials & update cursor [skip ci]"
-            git push origin HEAD
+            git push origin HEAD:main
           fi
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to GitHub Pages (gh-pages branch)
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: './web'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web
+          publish_branch: gh-pages
