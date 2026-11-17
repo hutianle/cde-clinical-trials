@@ -2,9 +2,8 @@ name: Scheduled CDE New Drug Ingestion & Deploy
 
 on:
   schedule:
-    # Runs every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC
-    # Spaced out evenly (6 times a day x ~8-10 trials = ~50 new drug trials/day)
-    - cron: '0 */4 * * *'
+    # Runs hourly at minute 0: 24 runs/day x 9 trials = ~216 new drug trials/day (~6,000 in ~28 days)
+    - cron: '0 * * * *'
   push:
     branches:
       - main
@@ -41,7 +40,7 @@ jobs:
       - name: Run CDE Incremental & Historical Backfill Scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          RUN_TARGET: 10 # 10 new drug trials per batch run (~50/day across runs)
+          RUN_TARGET: 9 # 9 new drug trials per batch run (24 runs/day x 9 = ~216/day)
         run: |
           python crawler/scraper.py
 
