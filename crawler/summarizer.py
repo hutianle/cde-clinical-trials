@@ -3,7 +3,10 @@ import json
 import re
 import urllib.request
 import urllib.parse
-import pypinyin
+try:
+    import pypinyin
+except ImportError:
+    pypinyin = None
 
 # Medical dictionary mappings
 PHASE_MAP = {
@@ -358,12 +361,14 @@ def romanize_chinese_name(name: str) -> str:
         surname = clean[0]
         given_name = clean[1:]
     
-    sur_pinyin = "".join(pypinyin.lazy_pinyin(surname)).capitalize()
-    given_pinyin = "".join(pypinyin.lazy_pinyin(given_name)).capitalize()
-    
-    if given_pinyin:
-        return f"{given_pinyin} {sur_pinyin}"
-    return sur_pinyin
+    if pypinyin is not None:
+        sur_pinyin = "".join(pypinyin.lazy_pinyin(surname)).capitalize()
+        given_pinyin = "".join(pypinyin.lazy_pinyin(given_name)).capitalize()
+        if given_pinyin:
+            return f"{given_pinyin} {sur_pinyin}"
+        return sur_pinyin
+
+    return clean
 
 def normalize_raw_phase(raw: str) -> str:
     """
