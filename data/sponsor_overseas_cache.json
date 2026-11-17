@@ -336,5 +336,86 @@
       "NCT04691804",
       "NCT07286032"
     ]
+  },
+  "Eli Lilly and Company/ 礼来（北京）医学技术创新有限公司": {
+    "sponsor_en": "Eli Lilly and Company/ () Co., Ltd.",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00077233",
+      "NCT00292955",
+      "NCT07476118",
+      "NCT05080660",
+      "NCT01115790"
+    ]
+  },
+  "Takeda Development Center Americas, Inc./ 武田亚太生物医药研发有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG; Spera Pharma Inc.": {
+    "sponsor_en": "Takeda Development Center Americas, Inc./ BiomedicineCo., Ltd./ Vetter Pharma-Fertigung GmbH & Co. KG; Spera Pharma Inc.",
+    "query_term": "Takeda Development Center Americas, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04465396",
+      "NCT03771898",
+      "NCT04445129",
+      "NCT04583007",
+      "NCT04503603"
+    ]
+  },
+  "长春百克生物科技股份公司": {
+    "sponsor_en": "Biotech",
+    "query_term": "Biotech",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07454915",
+      "NCT03098550",
+      "NCT05539430",
+      "NCT00184002"
+    ]
+  },
+  "F. Hoffmann-La Roche Ltd/ 罗氏（中国）投资有限公司/ Corden Pharma S.p.A.": {
+    "sponsor_en": "F. Hoffmann-La Roche Ltd/ () Co., Ltd./ Corden Pharma S.p.A.",
+    "query_term": "F. Hoffmann-La Roche Ltd",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Novartis Pharma Stein AG": {
+    "sponsor_en": "Novartis Pharma AG/ () BioCo., Ltd./ Novartis Pharma Stein AG",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00183833",
+      "NCT04929249",
+      "NCT06726148",
+      "NCT01487785",
+      "NCT00251433"
+    ]
+  },
+  "重庆华智生物制药有限公司/ 华淞（上海）生物医药科技有限公司": {
+    "sponsor_en": "BiopharmaCo., Ltd./ () BioPharmaceutical TechnologyCo., Ltd.",
+    "query_term": "BiopharmaCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州信诺维医药科技有限公司": {
+    "sponsor_en": "Pharmaceutical TechnologyCo., Ltd.",
+    "query_term": "TechnologyCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都锐翼生物科技有限公司": {
+    "sponsor_en": "BiotechCo., Ltd.",
+    "query_term": "BiotechCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "厦门甘宝利生物医药有限公司/ 上海正大天晴医药科技开发有限公司": {
+    "sponsor_en": "BiomedicineCo., Ltd./ Pharmaceutical TechnologyCo., Ltd.",
+    "query_term": "Hisun",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03625401",
+      "NCT01733082",
+      "NCT02087917"
+    ]
   }
 }
