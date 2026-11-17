@@ -3,7 +3,8 @@
 let allTrials = [];
 let summaryData = {};
 let currentTab = 'today';
-let currentTodayPhase = 'all';
+let selectedTodayPhases = new Set(); // Multi-choice for Today's Briefing
+let selectedPhases = new Set();      // Multi-choice for Database & Search Explorer
 let currentArchiveDate = null;
 
 // Initialize when DOM is ready
@@ -99,15 +100,32 @@ function initTabs() {
 }
 
 // -------------------------------------------------------------
-// TAB 1: TODAY'S EXECUTIVE BRIEFING
+// TAB 1: TODAY'S EXECUTIVE BRIEFING (Multi-Choice Phase Support)
 // -------------------------------------------------------------
 function filterTodayPhase(phase) {
-  currentTodayPhase = phase;
-  document.querySelectorAll(".today-phase-btn").forEach(btn => {
-    if (btn.dataset.phase === phase) {
-      btn.className = "today-phase-btn px-3 py-1 text-xs font-medium rounded-full bg-slate-900 text-white shadow-sm";
+  if (phase === 'all') {
+    selectedTodayPhases.clear();
+  } else {
+    if (selectedTodayPhases.has(phase)) {
+      selectedTodayPhases.delete(phase);
     } else {
-      btn.className = "today-phase-btn px-3 py-1 text-xs font-medium rounded-full bg-white text-slate-700 hover:bg-slate-100 border border-slate-200";
+      selectedTodayPhases.add(phase);
+    }
+  }
+
+  const isAll = selectedTodayPhases.size === 0;
+  document.querySelectorAll(".today-phase-btn").forEach(btn => {
+    const p = btn.dataset.phase;
+    if (p === 'all') {
+      btn.className = isAll 
+        ? "today-phase-btn px-3 py-1 text-xs font-semibold rounded-full bg-slate-900 text-white shadow-sm"
+        : "today-phase-btn px-3 py-1 text-xs font-medium rounded-full bg-white text-slate-700 hover:bg-slate-100 border border-slate-200";
+    } else {
+      if (selectedTodayPhases.has(p)) {
+        btn.className = "today-phase-btn px-3 py-1 text-xs font-semibold rounded-full bg-emerald-600 text-white shadow-sm border border-emerald-600";
+      } else {
+        btn.className = "today-phase-btn px-3 py-1 text-xs font-medium rounded-full bg-white text-slate-700 hover:bg-slate-100 border border-slate-200";
+      }
     }
   });
 
@@ -123,14 +141,21 @@ function renderTodayBriefing() {
     trials = allTrials.slice(0, 10);
   }
 
-  if (currentTodayPhase !== 'all') {
-    trials = trials.filter(t => t.phase_en.includes(currentTodayPhase) || t.phase.includes(currentTodayPhase));
+  if (selectedTodayPhases.size > 0) {
+    trials = trials.filter(t => {
+      return Array.from(selectedTodayPhases).some(p => {
+        if (p === 'Phase I') return t.phase_en.includes('Phase I') || t.phase.includes('I期');
+        if (p === 'Phase II') return t.phase_en.includes('Phase II') || t.phase.includes('II期');
+        if (p === 'Phase III') return t.phase_en.includes('Phase III') || t.phase_en.includes('Phase IV') || t.phase.includes('III期') || t.phase.includes('IV期');
+        return t.phase_en.includes(p) || t.phase.includes(p);
+      });
+    });
   }
 
   if (trials.length === 0) {
     container.innerHTML = `
       <div class="col-span-full py-12 text-center text-slate-400 bg-white rounded-xl border border-slate-200">
-        No new drug trials found for the selected phase.
+        No new drug trials found matching the selected phase choices.
       </div>`;
     return;
   }
@@ -224,11 +249,65 @@ function createTrialCard(trial) {
 }
 
 // -------------------------------------------------------------
-// TAB 2: DATABASE & SEARCH EXPLORER
+// TAB 2: DATABASE & SEARCH EXPLORER (Multi-Choice Phase Support)
 // -------------------------------------------------------------
+function togglePhase(phase) {
+  if (phase === 'all') {
+    selectedPhases.clear();
+  } else {
+    if (selectedPhases.has(phase)) {
+      selectedPhases.delete(phase);
+    } else {
+      selectedPhases.add(phase);
+    }
+  }
+  updatePhaseChipsUI();
+  applyFilters();
+}
+
+function selectAllPhases() {
+  selectedPhases.clear();
+  updatePhaseChipsUI();
+  applyFilters();
+}
+
+function updatePhaseChipsUI() {
+  const isAll = selectedPhases.size === 0;
+
+  const allChip = document.getElementById("phase-chip-all");
+  if (allChip) {
+    if (isAll) {
+      allChip.className = "phase-filter-chip px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-900 text-white shadow-sm border border-slate-900 transition flex items-center space-x-1";
+    } else {
+      allChip.className = "phase-filter-chip px-3 py-1.5 text-xs font-medium rounded-lg bg-white text-slate-700 hover:bg-slate-50 border border-slate-200 transition flex items-center space-x-1";
+    }
+  }
+
+  const phaseConfig = [
+    { id: "Phase I", activeClass: "bg-emerald-600 text-white border-emerald-600 font-semibold shadow-sm" },
+    { id: "Phase II", activeClass: "bg-indigo-600 text-white border-indigo-600 font-semibold shadow-sm" },
+    { id: "Phase III", activeClass: "bg-purple-600 text-white border-purple-600 font-semibold shadow-sm" },
+    { id: "Phase IV", activeClass: "bg-fuchsia-600 text-white border-fuchsia-600 font-semibold shadow-sm" }
+  ];
+
+  phaseConfig.forEach(p => {
+    const chip = document.getElementById(`phase-chip-${p.id}`);
+    if (chip) {
+      if (selectedPhases.has(p.id)) {
+        chip.className = `phase-filter-chip px-3 py-1.5 text-xs rounded-lg transition flex items-center space-x-1.5 border ${p.activeClass}`;
+        chip.innerHTML = `<i data-lucide="check" class="w-3.5 h-3.5"></i><span>${p.id}</span>`;
+      } else {
+        chip.className = "phase-filter-chip px-3 py-1.5 text-xs font-medium rounded-lg bg-white text-slate-700 hover:bg-slate-50 border border-slate-200 transition flex items-center space-x-1.5";
+        chip.innerHTML = `<span>${p.id}</span>`;
+      }
+    }
+  });
+
+  if (window.lucide) lucide.createIcons();
+}
+
 function applyFilters() {
   const query = (document.getElementById("search-input").value || "").toLowerCase().trim();
-  const phase = document.getElementById("phase-filter").value;
   const overseasOnly = document.getElementById("overseas-filter") ? document.getElementById("overseas-filter").checked : false;
 
   const filtered = allTrials.filter(t => {
@@ -249,8 +328,16 @@ function applyFilters() {
       if (!haystack.includes(query)) return false;
     }
 
-    if (phase !== 'all') {
-      if (!t.phase_en.includes(phase) && !t.phase.includes(phase)) return false;
+    // Multi-choice Phase Filter
+    if (selectedPhases.size > 0) {
+      const match = Array.from(selectedPhases).some(p => {
+        if (p === 'Phase I') return t.phase_en.includes('Phase I') || t.phase.includes('I期') || t.phase.includes('1期');
+        if (p === 'Phase II') return t.phase_en.includes('Phase II') || t.phase.includes('II期') || t.phase.includes('2期');
+        if (p === 'Phase III') return t.phase_en.includes('Phase III') || t.phase.includes('III期') || t.phase.includes('3期');
+        if (p === 'Phase IV') return t.phase_en.includes('Phase IV') || t.phase.includes('IV期') || t.phase.includes('4期');
+        return t.phase_en.includes(p) || t.phase.includes(p);
+      });
+      if (!match) return false;
     }
 
     return true;
@@ -261,7 +348,8 @@ function applyFilters() {
 
 function resetFilters() {
   document.getElementById("search-input").value = "";
-  document.getElementById("phase-filter").value = "all";
+  selectedPhases.clear();
+  updatePhaseChipsUI();
   const overseasToggle = document.getElementById("overseas-filter");
   if (overseasToggle) overseasToggle.checked = false;
   renderDatabaseTable(allTrials);
