@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>China CDE Clinical Trials Intelligence | Daily English Monitor</title>
+  <meta name="description" content="Daily monitoring, English translation, and executive intelligence briefings for newly registered drug clinical trials from China CDE (NMPA).">
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              500: '#22c55e',
+              600: '#16a34a',
+              700: '#15803d',
+              800: '#166534',
+              900: '#14532d',
+            },
+            navy: {
+              800: '#1e293b',
+              900: '#0f172a',
+              950: '#020617'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col font-sans antialiased">
+
+  <!-- Top Announcement Bar -->
+  <header class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center space-x-3">
+        <div class="w-9 h-9 rounded-lg bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400">
+          <i data-lucide="activity" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <div class="flex items-center space-x-2">
+            <h1 class="text-lg font-bold tracking-tight text-white">China CDE Clinical Trials Intelligence</h1>
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+              Live Daily Sync
+            </span>
+          </div>
+          <p class="text-xs text-slate-400">Tracking China NMPA Center for Drug Evaluation (CDE) registrations with English executive digests</p>
+        </div>
+      </div>
+
+      <!-- Live Pipeline Stats in Header -->
+      <div class="flex items-center space-x-6 text-xs">
+        <div class="flex items-center space-x-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span class="text-slate-300">Last Sync:</span>
+          <span id="stat-last-sync" class="font-semibold text-white">Checking...</span>
+        </div>
+        <div class="hidden sm:block text-slate-400">|</div>
+        <div class="hidden sm:flex items-center space-x-3">
+          <span class="text-slate-300">Total Tracked:</span>
+          <span id="stat-total-trials" class="font-semibold text-white">--</span>
+        </div>
+        <a href="https://www.chinadrugtrials.org.cn/index.html" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center space-x-1 px-3 py-1.5 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium border border-slate-700 transition">
+          <span>Official CDE Portal</span>
+          <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation / View Tabs -->
+  <div class="bg-white border-b border-slate-200 sticky top-0 z-20 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <nav class="flex space-x-8" aria-label="Tabs">
+        <button id="tab-today-btn" onclick="switchTab('today')" 
+                class="py-4 px-1 border-b-2 font-medium text-sm border-emerald-600 text-emerald-600 flex items-center space-x-2">
+          <i data-lucide="sparkles" class="w-4 h-4"></i>
+          <span>Today's Executive Briefing</span>
+          <span id="today-count-badge" class="ml-1.5 py-0.5 px-2 rounded-full text-xs bg-emerald-100 text-emerald-800 font-bold">--</span>
+        </button>
+
+        <button id="tab-database-btn" onclick="switchTab('database')" 
+                class="py-4 px-1 border-b-2 font-medium text-sm border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300 flex items-center space-x-2">
+          <i data-lucide="database" class="w-4 h-4"></i>
+          <span>Database & Search Explorer</span>
+        </button>
+
+        <button id="tab-archive-btn" onclick="switchTab('archive')" 
+                class="py-4 px-1 border-b-2 font-medium text-sm border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300 flex items-center space-x-2">
+          <i data-lucide="calendar" class="w-4 h-4"></i>
+          <span>Daily Archive</span>
+        </button>
+      </nav>
+
+      <!-- Quick Export Buttons -->
+      <div class="flex items-center space-x-2">
+        <button onclick="exportData('json')" class="text-xs text-slate-600 hover:text-slate-900 px-2.5 py-1.5 rounded border border-slate-200 hover:bg-slate-100 transition flex items-center space-x-1">
+          <i data-lucide="download" class="w-3.5 h-3.5"></i>
+          <span>JSON</span>
+        </button>
+        <button onclick="exportData('csv')" class="text-xs text-slate-600 hover:text-slate-900 px-2.5 py-1.5 rounded border border-slate-200 hover:bg-slate-100 transition flex items-center space-x-1">
+          <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i>
+          <span>CSV</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-grow w-full">
+
+    <!-- TAB 1: TODAY'S EXECUTIVE BRIEFING -->
+    <section id="tab-today" class="space-y-6">
+      <div class="bg-gradient-to-r from-emerald-900 to-teal-900 rounded-2xl p-6 text-white shadow-md relative overflow-hidden">
+        <div class="relative z-10 max-w-3xl">
+          <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 mb-3">
+            <i data-lucide="zap" class="w-3.5 h-3.5"></i>
+            <span>Daily Intelligence Digest</span>
+          </div>
+          <h2 class="text-2xl font-bold tracking-tight mb-2">New Drug Clinical Trials Disclosed Today</h2>
+          <p class="text-emerald-100 text-sm leading-relaxed">
+            Every day, China's CDE registers new clinical trials. Below are today's newly entered records, translated into medical English with executive summaries highlighting drug mechanism, indication, trial protocol, and clinical significance.
+          </p>
+        </div>
+        <div class="absolute right-0 bottom-0 opacity-10 pointer-events-none transform translate-x-10 translate-y-10">
+          <i data-lucide="microscope" class="w-80 h-80 text-white"></i>
+        </div>
+      </div>
+
+      <!-- Quick Filter Chips for Today -->
+      <div class="flex flex-wrap items-center justify-between gap-4 py-2">
+        <div class="flex items-center space-x-2">
+          <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Filter:</span>
+          <button onclick="filterToday('all')" class="today-filter-btn px-3 py-1 text-xs font-medium rounded-full bg-slate-900 text-white shadow-sm" data-filter="all">All Today</button>
+          <button onclick="filterToday('new_drug')" class="today-filter-btn px-3 py-1 text-xs font-medium rounded-full bg-white text-slate-700 hover:bg-slate-100 border border-slate-200" data-filter="new_drug">Innovative New Drugs Only</button>
+          <button onclick="filterToday('be')" class="today-filter-btn px-3 py-1 text-xs font-medium rounded-full bg-white text-slate-700 hover:bg-slate-100 border border-slate-200" data-filter="be">Generic Bioequivalence (BE)</button>
+        </div>
+        <div id="today-date-display" class="text-xs text-slate-500 font-medium"></div>
+      </div>
+
+      <!-- Today's Cards Grid -->
+      <div id="today-cards-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Rendered dynamically by app.js -->
+        <div class="col-span-full py-12 text-center text-slate-500">
+          <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-slate-200 border-t-emerald-600 mb-3"></div>
+          <p>Loading today's clinical trial intelligence...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: DATABASE & SEARCH EXPLORER -->
+    <section id="tab-database" class="hidden space-y-6">
+      <!-- Search & Filter Controls -->
+      <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-4">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-4">
+          <!-- Keyword Search -->
+          <div class="md:col-span-6 relative">
+            <label class="block text-xs font-medium text-slate-700 mb-1">Search Database</label>
+            <div class="relative">
+              <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3 top-3"></i>
+              <input type="text" id="search-input" oninput="applyFilters()" 
+                     placeholder="Search by Drug Name, Indication, Sponsor, CTR Number (English or Chinese)..." 
+                     class="w-full pl-9 pr-4 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent">
+            </div>
+          </div>
+
+          <!-- Phase Filter -->
+          <div class="md:col-span-3">
+            <label class="block text-xs font-medium text-slate-700 mb-1">Trial Phase</label>
+            <select id="phase-filter" onchange="applyFilters()" class="w-full py-2 px-3 border border-slate-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500">
+              <option value="all">All Phases</option>
+              <option value="Phase I">Phase I / Ia / Ib</option>
+              <option value="Phase II">Phase II / IIa / IIb</option>
+              <option value="Phase III">Phase III</option>
+              <option value="Phase IV">Phase IV</option>
+              <option value="Bioequivalence (BE)">Bioequivalence (BE)</option>
+            </select>
+          </div>
+
+          <!-- Drug Type Filter -->
+          <div class="md:col-span-3">
+            <label class="block text-xs font-medium text-slate-700 mb-1">Drug Category</label>
+            <select id="type-filter" onchange="applyFilters()" class="w-full py-2 px-3 border border-slate-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500">
+              <option value="all">All Categories</option>
+              <option value="new_drug">Innovative New Drugs Only</option>
+              <option value="be">Bioequivalence (BE) Only</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Filter Badges / Active Count -->
+        <div class="flex items-center justify-between pt-2 border-t border-slate-100 text-xs text-slate-500">
+          <div>
+            Showing <span id="filtered-count" class="font-semibold text-slate-900">0</span> trials matching criteria
+          </div>
+          <button onclick="resetFilters()" class="text-emerald-600 hover:text-emerald-700 font-medium">Reset Filters</button>
+        </div>
+      </div>
+
+      <!-- Database Table Container -->
+      <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="min-w-full divide-y divide-slate-200 text-sm">
+            <thead class="bg-slate-50 text-slate-700 font-semibold text-xs uppercase tracking-wider">
+              <tr>
+                <th scope="col" class="px-4 py-3.5 text-left">Registration / Date</th>
+                <th scope="col" class="px-4 py-3.5 text-left">Drug Name</th>
+                <th scope="col" class="px-4 py-3.5 text-left">Classification</th>
+                <th scope="col" class="px-4 py-3.5 text-left">Target Indication</th>
+                <th scope="col" class="px-4 py-3.5 text-left">Sponsor</th>
+                <th scope="col" class="px-4 py-3.5 text-left">Phase</th>
+                <th scope="col" class="px-4 py-3.5 text-center">Action</th>
+              </tr>
+            </thead>
+            <tbody id="database-table-body" class="divide-y divide-slate-200 bg-white">
+              <!-- Populated by app.js -->
+            </tbody>
+          </table>
+        </div>
+        <!-- Pagination controls if needed -->
+        <div id="table-empty-state" class="hidden p-12 text-center text-slate-500">
+          No clinical trials found matching the selected filters.
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: DAILY ARCHIVE -->
+    <section id="tab-archive" class="hidden space-y-6">
+      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+        <h3 class="text-lg font-bold text-slate-900 mb-2">Historical Daily Archives</h3>
+        <p class="text-sm text-slate-500 mb-6">Select a date to inspect historical daily batches archived by the crawler.</p>
+        <div id="archive-dates-list" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Container to view selected archive date's trials -->
+      <div id="archive-results-container" class="space-y-4"></div>
+    </section>
+
+  </main>
+
+  <!-- MODAL: Detailed Trial Intelligence View -->
+  <div id="trial-modal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-hidden shadow-2xl flex flex-col border border-slate-200">
+      <!-- Modal Header -->
+      <div class="px-6 py-4 bg-slate-900 text-white flex items-center justify-between border-b border-slate-800">
+        <div class="flex items-center space-x-3">
+          <span id="modal-badge-type" class="px-2.5 py-0.5 rounded text-xs font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+            Innovative Drug
+          </span>
+          <span id="modal-badge-phase" class="px-2.5 py-0.5 rounded text-xs font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+            Phase I
+          </span>
+          <span id="modal-ctr-id" class="text-sm font-mono text-slate-300">CTR20264362</span>
+        </div>
+        <button onclick="closeModal()" class="text-slate-400 hover:text-white transition p-1 rounded-lg hover:bg-slate-800">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body (Scrollable) -->
+      <div class="p-6 overflow-y-auto space-y-6 text-sm">
+        <!-- Title and Names -->
+        <div>
+          <h3 id="modal-drug-name-en" class="text-xl font-bold text-slate-900 mb-1">Drug Name</h3>
+          <p id="modal-drug-name-zh" class="text-xs text-slate-500 font-medium mb-3">Chinese Name</p>
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-200 text-xs text-slate-700 leading-relaxed">
+            <span class="font-semibold text-slate-900">Study Title: </span>
+            <span id="modal-study-title">Study Title</span>
+          </div>
+        </div>
+
+        <!-- Executive Summary Section -->
+        <div class="bg-emerald-50/70 border border-emerald-200/80 rounded-xl p-4 text-slate-800 space-y-2">
+          <div class="flex items-center space-x-2 text-emerald-800 font-semibold text-sm">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+            <span>Executive Briefing</span>
+          </div>
+          <div id="modal-executive-summary" class="text-xs text-slate-700 leading-relaxed space-y-2 prose prose-emerald max-w-none">
+            <!-- Rendered Markdown -->
+          </div>
+        </div>
+
+        <!-- Metadata Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+          <div class="space-y-3 bg-slate-50 p-4 rounded-xl border border-slate-200">
+            <div>
+              <span class="text-slate-500 block">Indication</span>
+              <span id="modal-indication" class="font-medium text-slate-900">--</span>
+            </div>
+            <div>
+              <span class="text-slate-500 block">Sponsor / Company</span>
+              <span id="modal-sponsor" class="font-medium text-slate-900">--</span>
+            </div>
+            <div>
+              <span class="text-slate-500 block">First Disclosure Date</span>
+              <span id="modal-date" class="font-medium text-slate-900">--</span>
+            </div>
+            <div>
+              <span class="text-slate-500 block">Recruitment Status</span>
+              <span id="modal-status" class="font-medium text-slate-900">--</span>
+            </div>
+          </div>
+
+          <div class="space-y-3 bg-slate-50 p-4 rounded-xl border border-slate-200">
+            <div>
+              <span class="text-slate-500 block">Target Enrollment Cohort</span>
+              <span id="modal-sample-size" class="font-medium text-slate-900">--</span>
+            </div>
+            <div>
+              <span class="text-slate-500 block">Lead Clinical Site</span>
+              <span id="modal-institution" class="font-medium text-slate-900">--</span>
+            </div>
+            <div>
+              <span class="text-slate-500 block">Principal Investigator (PI)</span>
+              <span id="modal-pi" class="font-medium text-slate-900">--</span>
+            </div>
+            <div>
+              <span class="text-slate-500 block">Primary Endpoints</span>
+              <span id="modal-endpoints" class="font-medium text-slate-900 truncate block">--</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="px-6 py-3 bg-slate-50 border-t border-slate-200 flex items-center justify-between text-xs">
+        <a id="modal-cde-link" href="#" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center space-x-1 text-emerald-700 hover:text-emerald-800 font-medium">
+          <span>View on China CDE Official Portal</span>
+          <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+        </a>
+        <button onclick="closeModal()" class="px-4 py-2 bg-slate-200 hover:bg-slate-300 text-slate-800 rounded-lg font-medium transition">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-1">
+      <p>China CDE Clinical Trials English Intelligence Platform &bull; Automated Daily Extraction</p>
+      <p class="text-slate-400">Data sourced publicly from National Medical Products Administration (NMPA) Center for Drug Evaluation (CDE).</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
