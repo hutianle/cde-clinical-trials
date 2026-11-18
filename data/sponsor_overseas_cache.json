@@ -814,5 +814,105 @@
     "query_term": "TechnologyCo., Ltd.",
     "has_us_site": false,
     "us_trials": []
+  },
+  "山东绿叶制药有限公司": {
+    "sponsor_en": "Shandong Lu Ye Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Lu Ye  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "合肥医工医药股份有限公司/ 合肥恩瑞特药业有限公司": {
+    "sponsor_en": "Hefei Medical Engineering Pharmaceutical Co., Ltd. / Hefei Enretech Pharmaceutical Co., Ltd.",
+    "query_term": "Hefei Medical Engineering  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "辟埃赛医药科技（上海）有限公司": {
+    "sponsor_en": "Piether Medical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Piether Medical  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京东方百泰生物科技股份有限公司/ 北京精益泰翔技术发展有限公司": {
+    "sponsor_en": "Beijing Orient Biotech Co., Ltd. / Beijing Jingyitaixiang Technology Development Co., Ltd.",
+    "query_term": "Beijing Orient Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海中泽医药科技有限公司": {
+    "sponsor_en": "Shanghai Zhongze Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Zhongze   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Amgen Inc./ 安进生物技术咨询（上海）有限公司/ AstraZeneca Nijmegen B.V.": {
+    "sponsor_en": "Amgen Inc. / Amgen Biotechnology Consulting (Shanghai) Co., Ltd. / AstraZeneca Nijmegen B.V.",
+    "query_term": "Amgen Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康方赛诺医药有限公司/ 康方药业有限公司": {
+    "sponsor_en": "CSPC Pharmaceutical Group Limited / CSPC Pharmaceutical Group Limited",
+    "query_term": "CSPC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06265727",
+      "NCT03657550",
+      "NCT02905565"
+    ]
+  },
+  "思合基因（北京）生物科技有限公司": {
+    "sponsor_en": "Sihe Gene (Beijing) Biotechnology Co., Ltd.",
+    "query_term": "Sihe Gene (Beijing)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州盛迪亚生物医药有限公司": {
+    "sponsor_en": "Suzhou Shengdiya Biopharmaceuticals Co., Ltd.",
+    "query_term": "Suzhou Shengdiya Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京诺诚健华医药科技有限公司": {
+    "sponsor_en": "Beijing Innocare Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Innocare   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康百达（四川）生物医药科技有限公司/ 四川宏明博思药业有限公司": {
+    "sponsor_en": "Conba (Sichuan) Biopharmaceutical Technology Co., Ltd. / Sichuan Hongming Boshi Pharmaceutical Co., Ltd.",
+    "query_term": "Conba (Sichuan)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Merck Sharp & Dohme B.V./ 默沙东研发（中国）有限公司/ Merck Sharp & Dohme LLC/ FAREVA Mirabel": {
+    "sponsor_en": "Merck Sharp & Dohme B.V. / Merck Research Laboratories (China) Co., Ltd. / Merck Sharp & Dohme LLC / FAREVA Mirabel",
+    "query_term": "Merck Sharp & Dohme B.V.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏奥赛康药业有限公司": {
+    "sponsor_en": "Jiangsu Ausonpharm Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Ausonpharm  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Merck Sharp & Dohme B.V./ 默沙东研发（中国）有限公司/ Steri-Pharma, LLC/ FAREVA Mirabel": {
+    "sponsor_en": "Merck Sharp & Dohme B.V. / Merck Research Laboratories (China) Co., Ltd. / Steri-Pharma, LLC / FAREVA Mirabel",
+    "query_term": "Merck Sharp & Dohme B.V.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海诗健生物科技有限公司": {
+    "sponsor_en": "Shanghai Shijian Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Shijian  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江尖峰亦恩生物科技有限公司": {
+    "sponsor_en": "Zhejiang Jianfeng Yien Biotechnology Co., Ltd.",
+    "query_term": "Zhejiang Jianfeng Yien  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
