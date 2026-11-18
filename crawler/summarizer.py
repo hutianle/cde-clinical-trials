@@ -3,10 +3,39 @@ import json
 import re
 import urllib.request
 import urllib.parse
+from pathlib import Path
 try:
     import pypinyin
 except ImportError:
     pypinyin = None
+
+CACHE_FILE = Path(__file__).resolve().parent.parent / "data" / "translation_cache.json"
+WEB_CACHE_FILE = Path(__file__).resolve().parent.parent / "web" / "data" / "translation_cache.json"
+
+TRANSLATION_CACHE = {}
+
+def load_translation_cache():
+    global TRANSLATION_CACHE
+    for p in [CACHE_FILE, WEB_CACHE_FILE]:
+        if p.exists():
+            try:
+                with open(p, "r", encoding="utf-8") as f:
+                    TRANSLATION_CACHE.update(json.load(f))
+            except Exception:
+                pass
+
+def save_translation_cache():
+    if not TRANSLATION_CACHE:
+        return
+    for p in [CACHE_FILE, WEB_CACHE_FILE]:
+        p.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            with open(p, "w", encoding="utf-8") as f:
+                json.dump(TRANSLATION_CACHE, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print(f"Error saving translation cache to {p}: {e}")
+
+load_translation_cache()
 
 # Medical dictionary mappings
 PHASE_MAP = {
@@ -227,11 +256,132 @@ MEDICAL_TERMS = {
     "双特异性抗体": "Bispecific Antibody",
     "抗体偶联药物": "Antibody-Drug Conjugate (ADC)",
 
+    # Specific Indications, Clinical Terms & Formulations
+    "痔疮术后局部镇痛": "Local analgesia after hemorrhoid surgery",
+    "痔切除术": "Hemorrhoidectomy",
+    "痔疮": "Hemorrhoids",
+    "术后镇痛": "Postoperative Analgesia",
+    "局部镇痛": "Local Analgesia",
+    "镇痛": "Analgesia",
+    "周围神经病理性疼痛": "Peripheral Neuropathic Pain",
+    "神经病理性疼痛": "Neuropathic Pain",
+    "神经痛": "Neuralgia",
+    "疼痛": "Pain",
+    "增生性瘢痕": "Hypertrophic Scar",
+    "病理性瘢痕": "Pathological Scar",
+    "瘢痕": "Scar",
+    "物质平衡": "Mass Balance",
+    "物料平衡": "Mass Balance",
+    "茯苓运化颗粒": "Fuling Yunhua Granules",
+    "茯苓": "Poria Cocos",
+    "运化": "Yunhua",
+    "颗粒剂": "Granules",
+    "颗粒": "Granules",
+    "乙磺酸尼达尼布吸入粉雾剂": "Nintedanib Esilate Powder for Inhalation",
+    "乙磺酸尼达尼布": "Nintedanib Esilate",
+    "尼达尼布": "Nintedanib",
+    "吸入粉雾剂": "Powder for Inhalation",
+    "粉雾剂": "Powder for Inhalation",
+    "气雾剂": "Aerosol",
+    "喷雾剂": "Spray",
+    "凝胶剂": "Gel",
+    "凝胶": "Gel",
+    "软膏剂": "Ointment",
+    "贴膏剂": "Plaster / Patch",
+    "滴丸剂": "Drop Pills",
+    "洗剂": "Lotion",
+
+    # Key Sponsors & Pharma Companies
+    "诺和诺德": "Novo Nordisk",
+    "赛诺菲": "Sanofi",
+    "阿斯利康": "AstraZeneca",
+    "信达生物": "Innovent Biologics",
+    "石药集团": "CSPC Pharmaceutical Group",
+    "甘李药业": "Gan & Lee Pharmaceuticals",
+    "博恩特": "Boerente",
+    "科睿药业": "Kerui Pharma",
+    "智翔金泰": "Zhixiang Jintai",
+    "知微生物": "Zhiwei Biomedicine",
+    "精医和生": "Jingyi Hesheng",
+    "智耀": "Zhiyao",
+    "艾立康": "Ailikang",
+    "明慧医药": "Minghui Pharma",
+    "抗创联": "Kangchuanglian",
+    "恩必普": "NBP",
+    "恒瑞医药": "Hengrui Pharma",
+    "百济神州": "BeiGene",
+    "君实生物": "Junshi Biosciences",
+    "和黄医药": "HUTCHMED",
+    "康方生物": "Akeso",
+    "齐鲁制药": "Qilu Pharma",
+    "正大天晴": "CTTQ Pharma",
+    "先声药业": "Simcere",
+    "豪森药业": "Hansoh Pharma",
+
+    # Regions, Provinces & Cities
+    "广东横琴粤澳深度合作区": "Guangdong Hengqin",
+    "横琴": "Hengqin",
+    "合肥": "Hefei",
+    "上海": "Shanghai",
+    "北京": "Beijing",
+    "广州": "Guangzhou",
+    "苏州": "Suzhou",
+    "新乡": "Xinxiang",
+    "重庆": "Chongqing",
+    "江西": "Jiangxi",
+    "山东": "Shandong",
+    "丹麦": "Denmark ",
+    "中国": "China",
+    "香港": "Hong Kong",
+    "澳门": "Macau",
+    "台湾": "Taiwan",
+    "天津": "Tianjin",
+    "杭州": "Hangzhou",
+    "南京": "Nanjing",
+    "武汉": "Wuhan",
+    "成都": "Chengdu",
+    "西安": "Xi'an",
+    "长沙": "Changsha",
+
+    # Prominent Hospitals & Universities
+    "中南大学湘雅三医院": "The Third Xiangya Hospital of Central South University",
+    "中南大学湘雅二医院": "The Second Xiangya Hospital of Central South University",
+    "中南大学湘雅医院": "Xiangya Hospital of Central South University",
+    "北京大学第三医院": "Peking University Third Hospital",
+    "北京大学第一医院": "Peking University First Hospital",
+    "北京大学人民医院": "Peking University People's Hospital",
+    "中山大学孙逸仙纪念医院": "Sun Yat-sen Memorial Hospital, Sun Yat-sen University",
+    "中山大学肿瘤防治中心": "Sun Yat-sen University Cancer Center",
+    "复旦大学附属中山医院": "Zhongshan Hospital, Fudan University",
+    "复旦大学附属华山医院": "Huashan Hospital, Fudan University",
+    "复旦大学附属肿瘤医院": "Fudan University Shanghai Cancer Center",
+    "首都医科大学附属北京友谊医院": "Beijing Friendship Hospital, Capital Medical University",
+    "广州医科大学附属第五医院": "The Fifth Affiliated Hospital of Guangzhou Medical University",
+    "中国医学科学院肿瘤医院": "Cancer Hospital Chinese Academy of Medical Sciences",
+    "中国医学科学院北京协和医院": "Peking Union Medical College Hospital",
+    "上海交通大学医学院附属瑞金医院": "Ruijin Hospital, Shanghai Jiao Tong University School of Medicine",
+    "四川大学华西医院": "West China Hospital, Sichuan University",
+
     # Corporate & Institutional Suffixes
     "股份有限公司": "Co., Ltd.",
     "责任有限公司": "Co., Ltd.",
     "有限责任公司": "Co., Ltd.",
     "有限公司": "Co., Ltd.",
+    "投资有限公司": "Investment Co., Ltd.",
+    "投资（中国）有限公司": "Investment (China) Co., Ltd.",
+    "制药有限公司": "Pharmaceutical Co., Ltd.",
+    "药业有限公司": "Pharmaceutical Co., Ltd.",
+    "医药科技有限公司": "Pharmaceutical Technology Co., Ltd.",
+    "生物科技有限公司": "Biotechnology Co., Ltd.",
+    "生物制药股份有限公司": "Biopharmaceutical Co., Ltd.",
+    "生物医药有限公司": "Biomedicine Co., Ltd.",
+    "制药股份有限公司": "Pharmaceutical Co., Ltd.",
+    "药业股份有限公司": "Pharmaceutical Co., Ltd.",
+    "科技有限公司": "Technology Co., Ltd.",
+    "技术研究有限公司": "Technology Research Co., Ltd.",
+    "生物制药技术研究有限公司": "Biopharmaceutical Technology Research Co., Ltd.",
+    "制药技术研究有限公司": "Pharmaceutical Technology Research Co., Ltd.",
+    "公司": "Co.",
     "药业集团": "Pharma Group",
     "制药集团": "Pharma Group",
     "制药工程": "Pharmaceutical Engineering",
@@ -269,18 +419,35 @@ def has_chinese(text: str) -> bool:
         return False
     return any('\u4e00' <= char <= '\u9fff' for char in str(text))
 
+def pinyin_romanize(text: str) -> str:
+    """Romanizes any Chinese characters into capitalized English words using pinyin."""
+    if not text:
+        return ""
+    if not pypinyin:
+        # Fallback if pypinyin is missing: strip non-ascii
+        return re.sub(r'[\u4e00-\u9fff]+', '', text).strip()
+    result = []
+    for match in re.finditer(r'[\u4e00-\u9fff]+|[^\u4e00-\u9fff]+', str(text)):
+        chunk = match.group(0)
+        if re.search(r'[\u4e00-\u9fff]', chunk):
+            pys = pypinyin.lazy_pinyin(chunk)
+            result.append("".join(p.capitalize() for p in pys))
+        else:
+            result.append(chunk)
+    return " ".join("".join(result).split())
+
 def dictionary_fallback_translate(text: str) -> str:
     """
     Substitutes medical terms using our rich medical dictionary.
     """
     if not text:
         return ""
-    result = text
+    result = str(text)
     # Sort terms by length descending to match longest phrases first
     for cn_term in sorted(MEDICAL_TERMS.keys(), key=len, reverse=True):
         if cn_term in result:
-            result = result.replace(cn_term, MEDICAL_TERMS[cn_term])
-    return result
+            result = result.replace(cn_term, " " + MEDICAL_TERMS[cn_term] + " ")
+    return re.sub(r'\s+', ' ', result).strip()
 
 def clean_residual_chinese(text: str) -> str:
     """
@@ -301,40 +468,94 @@ def translate_zh_to_en(text: str) -> str:
     """
     Translates Chinese medical text to 100% English:
     1. Pre-checks if already English.
-    2. Uses online translation service.
-    3. Runs dictionary replacement for any un-translated medical jargon (e.g. MASH, DFNB9, specific oncology targets).
-    4. Guarantees clean English output without residual Chinese characters.
+    2. Checks persistent translation cache.
+    3. Handles multi-part / compound strings separated by / or ;
+    4. Tries multi-provider online translation (MyMemory API, Google Translate).
+    5. Falls back to dictionary substitution + pinyin romanization.
+    Guarantees 100% non-empty English output with zero residual Chinese characters.
     """
-    if not text or not text.strip():
+    if not text or not str(text).strip():
         return ""
     
-    clean_text = clean_residual_chinese(text)
+    clean_text = clean_residual_chinese(str(text).strip())
     if not has_chinese(clean_text):
         return clean_text
 
+    # 1. Check persistent cache
+    if clean_text in TRANSLATION_CACHE and TRANSLATION_CACHE[clean_text]:
+        cached = TRANSLATION_CACHE[clean_text]
+        if not has_chinese(cached) and len(cached.strip()) > 0:
+            return cached
+
+    # 2. Check exact dictionary match
+    if clean_text in MEDICAL_TERMS:
+        val = MEDICAL_TERMS[clean_text]
+        TRANSLATION_CACHE[clean_text] = val
+        return val
+
+    # 3. Handle compound phrases separated by / or ;
+    if "/" in clean_text:
+        parts = [translate_zh_to_en(p.strip()) for p in clean_text.split("/") if p.strip()]
+        res = " / ".join(parts)
+        TRANSLATION_CACHE[clean_text] = res
+        return res
+    if ";" in clean_text:
+        parts = [translate_zh_to_en(p.strip()) for p in clean_text.split(";") if p.strip()]
+        res = "; ".join(parts)
+        TRANSLATION_CACHE[clean_text] = res
+        return res
+
+    # 4. Try online translation APIs
     translated = None
+    # Engine A: MyMemory Translated API (free, reliable from cloud runners, excellent medical terminology)
     try:
-        url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=" + urllib.parse.quote(clean_text)
+        url = "https://api.mymemory.translated.net/get?q=" + urllib.parse.quote(clean_text) + "&langpair=zh|en"
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-        with urllib.request.urlopen(req, timeout=8) as resp:
+        with urllib.request.urlopen(req, timeout=4) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-            candidate = "".join([part[0] for part in data[0] if part[0]]).strip()
-            if candidate:
+            candidate = data.get("responseData", {}).get("translatedText", "").strip()
+            if candidate and not has_chinese(candidate) and "MYMEMORY" not in candidate.upper():
                 translated = candidate
-    except Exception as e:
-        print(f"Translation API warning for '{clean_text[:30]}': {e}")
+    except Exception:
+        pass
 
-    # If API translation still contains Chinese or failed, apply dictionary replacement
-    if not translated or has_chinese(translated):
-        base_text = translated if translated else clean_text
-        translated = dictionary_fallback_translate(base_text)
+    # Engine B: Google Translate API (gtx client)
+    if not translated:
+        try:
+            url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=" + urllib.parse.quote(clean_text)
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+            with urllib.request.urlopen(req, timeout=4) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                candidate = "".join([part[0] for part in data[0] if part[0]]).strip()
+                if candidate and not has_chinese(candidate):
+                    translated = candidate
+        except Exception:
+            pass
 
-    # Clean residual Chinese characters if any still remain
-    if has_chinese(translated):
-        # Final pass: remove any leftover isolated Chinese characters
-        translated = re.sub(r'[\u4e00-\u9fff]+', '', translated).strip()
+    # 5. If online translation succeeded and has no Chinese characters, clean and return
+    if translated and not has_chinese(translated):
+        final_str = clean_residual_chinese(translated)
+        if final_str:
+            TRANSLATION_CACHE[clean_text] = final_str
+            return final_str
 
-    return clean_residual_chinese(translated)
+    # 6. Fallback: Dictionary substitution
+    res = dictionary_fallback_translate(clean_text)
+
+    # 7. Fallback: If Chinese characters still remain, romanize with pinyin (NEVER strip to empty!)
+    if has_chinese(res):
+        res = pinyin_romanize(res)
+
+    # Clean residual empty brackets like () or extra spaces
+    res = re.sub(r'\(\s*\)|（\s*）', '', res)
+    res = re.sub(r'\s+', ' ', res).strip()
+
+    # Absolute fallback: if somehow empty, romanize original clean_text
+    if not res:
+        res = pinyin_romanize(clean_text)
+
+    TRANSLATION_CACHE[clean_text] = res
+    return res
 
 def romanize_chinese_name(name: str) -> str:
     """
@@ -639,25 +860,39 @@ def process_trial(trial: dict) -> dict:
     enriched["phase_en"] = clean_phase(raw_phase)
     enriched["is_new_drug"] = determine_new_drug(trial)
 
-    # Safety checks: enforce 100% English across all key fields
+    # Safety checks: enforce 100% English across all key fields (no empty, no Chinese, no degraded artifacts)
     for field in ["indication_en", "drug_name_en", "sponsor_en"]:
         val = enriched.get(field, "")
-        if not val or has_chinese(val):
+        is_degraded = (
+            not val or 
+            not str(val).strip() or 
+            has_chinese(val) or 
+            any(bad in str(val) for bad in ['()', '（）', 'BiotechCo., Ltd.', 'PharmaceuticalCo., Ltd.'])
+        )
+        if is_degraded:
             raw_zh = trial.get(field.replace("_en", ""), val)
             enriched[field] = translate_zh_to_en(raw_zh)
 
     # Institution and PI translations
     lead_inst = trial.get("lead_institution", "")
-    lead_inst_en = trial.get("lead_institution_en")
-    if not lead_inst_en or has_chinese(lead_inst_en):
+    lead_inst_en = enriched.get("lead_institution_en") or trial.get("lead_institution_en", "")
+    if (
+        not lead_inst_en or 
+        not str(lead_inst_en).strip() or 
+        has_chinese(lead_inst_en) or 
+        lead_inst_en in ["UniversityHospital", "HospitalHospital", "Medical UniversityHospital"]
+    ):
         lead_inst_en = translate_zh_to_en(lead_inst) if lead_inst else ""
     enriched["lead_institution_en"] = lead_inst_en
 
     pi = trial.get("principal_investigator", "")
-    pi_en = trial.get("principal_investigator_en")
-    if not pi_en or has_chinese(pi_en):
+    pi_en = enriched.get("principal_investigator_en") or trial.get("principal_investigator_en", "")
+    if not pi_en or not str(pi_en).strip() or has_chinese(pi_en):
         pi_en = romanize_chinese_name(pi) if pi else ""
     enriched["principal_investigator_en"] = pi_en
+
+    # Save cache updates
+    save_translation_cache()
 
     # Ensure executive summary has accurate phase and no residual Chinese characters
     summary = enriched.get("executive_summary", "")

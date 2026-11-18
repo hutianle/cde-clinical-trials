@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 
 data_trials = json.loads(Path('data/trials.json').read_text(encoding='utf-8'))
@@ -32,14 +33,27 @@ assert len(empty_pi) == 0, f"Found empty principal_investigator: {empty_pi}"
 assert len(empty_inst_en) == 0, f"Found empty lead_institution_en: {empty_inst_en}"
 assert len(empty_pi_en) == 0, f"Found empty principal_investigator_en: {empty_pi_en}"
 
-# 2. Per-trial CDE URL
+# 2. English fields validation: NO empty strings, NO Chinese characters, NO degraded artifacts
+zh_pattern = re.compile(r'[\u4e00-\u9fa5]')
+for f in ['indication_en', 'drug_name_en', 'sponsor_en', 'lead_institution_en', 'principal_investigator_en']:
+    empty_f = [t['registration_id'] for t in data_trials if not t.get(f) or not str(t.get(f)).strip()]
+    zh_f = [t['registration_id'] for t in data_trials if zh_pattern.search(str(t.get(f, '')))]
+    print(f'Field {f} empty: {len(empty_f)}/{N}, Chinese: {len(zh_f)}/{N}')
+    assert len(empty_f) == 0, f"Found empty {f}: {empty_f}"
+    assert len(zh_f) == 0, f"Found Chinese in {f}: {zh_f}"
+
+degraded_sponsors = [t['registration_id'] for t in data_trials if any(b in t.get('sponsor_en', '') for b in ['()', '（）', 'BiotechCo., Ltd.', 'PharmaceuticalCo., Ltd.'])]
+print(f'Degraded sponsors: {len(degraded_sponsors)}/{N}')
+assert len(degraded_sponsors) == 0, f"Found degraded sponsors: {degraded_sponsors}"
+
+# 3. Per-trial CDE URL
 distinct_urls = len(set(t.get('cde_url') for t in data_trials))
 print(f'Distinct cde_url: {distinct_urls}/{N}')
 assert distinct_urls == N
 for t in data_trials:
     assert 'clinicaltrials.searchlistdetail.dhtml?id=' in t['cde_url'], f"Invalid URL: {t['cde_url']}"
 
-# 3. Phase check
+# 4. Phase check
 mismatches = []
 dirty_raw = []
 for t in data_trials:
@@ -66,17 +80,13 @@ print(f'Phase mismatches: {len(mismatches)}')
 assert len(dirty_raw) == 0, f"Dirty raw phases found: {dirty_raw}"
 assert len(mismatches) == 0, f"Phase mismatches found: {mismatches}"
 
-print("ALL VERIFICATIONS PASSED!")
-
-print(f'Dirty raw phases: {len(dirty_raw)}')
-print(f'Phase mismatches: {len(mismatches)}')
-assert len(dirty_raw) == 0
-assert len(mismatches) == 0
-
-# 4. New drug filter check
+# 5. New drug filter check
 non_new = [t['registration_id'] for t in data_trials if not t.get('is_new_drug', True)]
 print(f'Non-new drug trials: {len(non_new)}')
 assert len(non_new) == 0
 assert 'CTR20264163' not in data_ids
+
+print("\nALL VERIFICATIONS PASSED COMPLETELY!")
+
 
 print('\nALL CHECKS PASSED!')

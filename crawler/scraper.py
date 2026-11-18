@@ -10,7 +10,7 @@ from playwright.async_api import async_playwright
 # Force unbuffered output so logs appear immediately
 sys.stdout.reconfigure(line_buffering=True)
 
-from summarizer import process_trial, normalize_raw_phase, determine_new_drug
+from summarizer import process_trial, normalize_raw_phase, determine_new_drug, save_translation_cache
 from overseas_screener import screen_trial_overseas_signals, generate_overseas_targets_report
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -131,6 +131,12 @@ def save_trials(all_trials: list, new_trials: list):
         (WEB_DATA_DIR / "overseas_targets.csv").write_text((DATA_DIR / "overseas_targets.csv").read_text(encoding="utf-8"), encoding="utf-8")
     except Exception as e:
         print(f"Notice: Failed to update overseas targets report: {e}")
+
+    # Save persistent translation cache
+    try:
+        save_translation_cache()
+    except Exception as e:
+        print(f"Notice: Failed to save translation cache: {e}")
 
     print(f"Database successfully updated. Total: {len(all_trials)} new drug clinical trials.")
 
