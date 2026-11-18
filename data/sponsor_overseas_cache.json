@@ -1804,5 +1804,89 @@
     "query_term": "Suzhou   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "苏州时安生物技术有限公司/ 杭州时安元泰生物技术有限公司/ 时安元泰（上海）生物技术有限公司": {
+    "sponsor_en": "Suzhou Shian Biotechnology Co., Ltd. / Hangzhou Shian Yuantai Biotechnology Co., Ltd. / Shi'anyuantai (Shanghai) Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Shian  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "正大天晴药业集团股份有限公司": {
+    "sponsor_en": "Zhengda Tianqing Pharmaceutical Group Co., Ltd.",
+    "query_term": "Zhengda Tianqing   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "熙源安健医药（北京）有限公司": {
+    "sponsor_en": "Xiyuan Anjian Pharmaceutical (Beijing) Co., Ltd.",
+    "query_term": "Xiyuan Anjian  (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ AstraZeneca AB；AstraZeneca AB；Hovione Farmaciencia S.A.": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / AstraZeneca AB; AstraZeneca AB; Hovione Farmaciencia S.A.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "依诺医药（广东）有限公司": {
+    "sponsor_en": "InnoCare Pharma (Guangdong) Co., Ltd.",
+    "query_term": "InnoCare Pharma (Guangdong) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州泽璟生物制药股份有限公司": {
+    "sponsor_en": "Suzhou Zelgen Biopharmaceuticals Co., Ltd.",
+    "query_term": "Suzhou Zelgen Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江博锐生物制药有限公司/ 杭州博之锐生物制药有限公司": {
+    "sponsor_en": "Zhejiang Borui Biopharmaceuticals Co., Ltd. / Hangzhou Bozhirui Biopharmaceuticals Co., Ltd.",
+    "query_term": "Zhejiang Borui Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "赛诺菲（中国）投资有限公司": {
+    "sponsor_en": "Sanofi (China) Investment Co., Ltd.",
+    "query_term": "Sanofi (China) Investment .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东南芯医疗科技有限公司": {
+    "sponsor_en": "Guangdong Nanxin Medical Technology Co., Ltd.",
+    "query_term": "Guangdong Nanxin Medical  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州先为达生物科技股份有限公司": {
+    "sponsor_en": "Hangzhou Xianwei Biotechnology Co., Ltd.",
+    "query_term": "Hangzhou Xianwei  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东博安生物技术股份有限公司": {
+    "sponsor_en": "Shandong Boan Biological Technology Co., Ltd.",
+    "query_term": "Shandong Boan Biological  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京伯汇生物技术有限公司": {
+    "sponsor_en": "Beijing Bohui Biotechnology Co., Ltd.",
+    "query_term": "Beijing Bohui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华辉安健（北京）生物科技有限公司/ 华辉安健（河南）生物科技有限公司": {
+    "sponsor_en": "Huahui Anjian (Beijing) Biotechnology Co., Ltd. / Huahui Anjian (Henan) Biotechnology Co., Ltd.",
+    "query_term": "Huahui Anjian (Beijing)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "朗天药业（湖北）有限公司/ 北京朗天生物医药有限公司": {
+    "sponsor_en": "Langtian Pharmaceutical (Hubei) Co., Ltd. / Beijing Langtian Biopharmaceutical Co., Ltd.",
+    "query_term": "Langtian  (Hubei) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }

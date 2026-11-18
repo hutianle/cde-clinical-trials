@@ -8,8 +8,8 @@
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Jiangsu Hansoh Pharmaceutical Group Co Ltd Lianyungang Hongchuang Pharmaceutical Co Ltd of Jiangsu Hansoh Pharmaceutical Group Co Ltd / Shanghai Hansoh Biopharmaceuticals Co., Ltd. | 江苏豪森药业集团有限公司/ 上海翰森生物医药科技有限公司 | US Trial Site | CTR20263920, CTR20263872, CTR20263898, CTR20263826 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
-| 2 | China Cell Engineering Co., Ltd. | 神州细胞工程有限公司 | US Trial Site | CTR20264236, CTR20264087, CTR20263775 | NCT04644185 | Pending BD Review | Pending BD Review | Tier 1 (High) |
+| 1 | China Cell Engineering Co., Ltd. | 神州细胞工程有限公司 | US Trial Site | CTR20264236, CTR20264087, CTR20263775, CTR20263621, CTR20263618 | NCT04644185 | Pending BD Review | Pending BD Review | Tier 1 (High) |
+| 2 | Jiangsu Hansoh Pharmaceutical Group Co Ltd Lianyungang Hongchuang Pharmaceutical Co Ltd of Jiangsu Hansoh Pharmaceutical Group Co Ltd / Shanghai Hansoh Biopharmaceuticals Co., Ltd. | 江苏豪森药业集团有限公司/ 上海翰森生物医药科技有限公司 | US Trial Site | CTR20263920, CTR20263872, CTR20263898, CTR20263826 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 3 | Jiangsu Hengrui Pharmaceutical Co., Ltd. | 江苏恒瑞医药股份有限公司 | US Trial Site | CTR20264120, CTR20264209, CTR20263901 | NCT03203811, NCT04446260 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 4 | Shanghai Hansen Biomedical Technology Co., Ltd./Changzhou Hengbang Pharmaceutical Co., Ltd. | 上海翰森生物医药科技有限公司/ 常州恒邦药业有限公司 | US Trial Site | CTR20264229, CTR20263999, CTR20263734 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 5 | Chengdu Kanghong Pharmaceutical Group Co., Ltd. | 成都康弘药业集团股份有限公司 | US Trial Site | CTR20264334, CTR20263973 | NCT03577899, NCT03630952 | Pending BD Review | Pending BD Review | Tier 1 (High) |
