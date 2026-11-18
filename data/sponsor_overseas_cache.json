@@ -684,5 +684,135 @@
     "query_term": "()  TechnologyCo., Ltd.",
     "has_us_site": false,
     "us_trials": []
+  },
+  "浙江文达医药科技有限公司": {
+    "sponsor_en": "Pharmaceutical TechnologyCo., Ltd.",
+    "query_term": "TechnologyCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京奥罗生物科技有限公司": {
+    "sponsor_en": "BiotechCo., Ltd.",
+    "query_term": "BiotechCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "齐鲁制药有限公司/ 齐鲁安替制药有限公司": {
+    "sponsor_en": "PharmaCo., Ltd./ PharmaCo., Ltd.",
+    "query_term": "Qilu Pharmaceutical",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州呼吸药物工程技术有限公司/ 四川海思科制药有限公司": {
+    "sponsor_en": "Co., Ltd./ PharmaCo., Ltd.",
+    "query_term": "Co., Ltd.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05599308",
+      "NCT00166543",
+      "NCT02857426"
+    ]
+  },
+  "海思科医药集团股份有限公司": {
+    "sponsor_en": "PharmaceuticalsCo., Ltd.",
+    "query_term": "PharmaceuticalsCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京正大天晴制药有限公司/ 中国药科大学": {
+    "sponsor_en": "PharmaCo., Ltd./ University",
+    "query_term": "PharmaCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏先声药业有限公司/ 海南先声药业有限公司": {
+    "sponsor_en": "PharmaceuticalCo., Ltd./ PharmaceuticalCo., Ltd.",
+    "query_term": "Simcere",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06375044",
+      "NCT05781360",
+      "NCT06792552",
+      "NCT05940883",
+      "NCT05569057"
+    ]
+  },
+  "开封制药（集团）有限公司/ 北京辅仁瑞辉生物医药研究院有限公司/ 郑州远策生物制药有限公司": {
+    "sponsor_en": "Pharma () Co., Ltd./ BiomedicineResearch InstituteCo., Ltd./ BiopharmaCo., Ltd.",
+    "query_term": "Pharma () .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川科瑞德制药股份有限公司": {
+    "sponsor_en": "PharmaCo., Ltd.",
+    "query_term": "PharmaCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东众生睿创生物科技有限公司": {
+    "sponsor_en": "BiotechCo., Ltd.",
+    "query_term": "Zhongsheng",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "贵州生诺生物科技有限公司": {
+    "sponsor_en": "BiotechCo., Ltd.",
+    "query_term": "BiotechCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海恒瑞医药有限公司/ 江苏恒瑞医药股份有限公司": {
+    "sponsor_en": "PharmaceuticalsCo., Ltd./ PharmaceuticalsCo., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03203811",
+      "NCT04446260",
+      "NCT03764293",
+      "NCT04691804",
+      "NCT07286032"
+    ]
+  },
+  "山东京卫制药有限公司": {
+    "sponsor_en": "PharmaCo., Ltd.",
+    "query_term": "PharmaCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "博骥源（上海）生物医药有限公司": {
+    "sponsor_en": "() BiomedicineCo., Ltd.",
+    "query_term": "() BiomedicineCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中山万汉制药有限公司": {
+    "sponsor_en": "PharmaCo., Ltd.",
+    "query_term": "PharmaCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康诺亚生物医药科技有限公司": {
+    "sponsor_en": "BioPharmaceutical TechnologyCo., Ltd.",
+    "query_term": "TechnologyCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "维眸生物科技（浙江）有限公司": {
+    "sponsor_en": "Biotech () Co., Ltd.",
+    "query_term": "Biotech () .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京艾美斐生物医药科技股份有限公司": {
+    "sponsor_en": "BioPharmaceutical TechnologyCo., Ltd.",
+    "query_term": "TechnologyCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海翊石医药科技有限公司": {
+    "sponsor_en": "Pharmaceutical TechnologyCo., Ltd.",
+    "query_term": "TechnologyCo., Ltd.",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
