@@ -4,14 +4,14 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-18 | **Identified High-Priority Sponsors:** 47
+> - **Generated Date:** 2026-11-18 | **Identified High-Priority Sponsors:** 51
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Jiangsu Hansoh Pharmaceutical Group Co Ltd Lianyungang Hongchuang Pharmaceutical Co Ltd of Jiangsu Hansoh Pharmaceutical Group Co Ltd / Shanghai Hansoh Biopharmaceuticals Co., Ltd. | 江苏豪森药业集团有限公司/ 上海翰森生物医药科技有限公司 | US Trial Site | CTR20263920, CTR20263872, CTR20263898, CTR20263826, CTR20263544, CTR20263545 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 2 | China Cell Engineering Co., Ltd. | 神州细胞工程有限公司 | US Trial Site | CTR20264236, CTR20264087, CTR20263775, CTR20263621, CTR20263618 | NCT04644185 | Pending BD Review | Pending BD Review | Tier 1 (High) |
-| 3 | Jiangsu Hengrui Pharmaceutical Co., Ltd. | 江苏恒瑞医药股份有限公司 | US Trial Site | CTR20264120, CTR20264209, CTR20263901 | NCT03203811, NCT04446260 | Pending BD Review | Pending BD Review | Tier 1 (High) |
-| 4 | Shanghai Hansen Biomedical Technology Co., Ltd./Changzhou Hengbang Pharmaceutical Co., Ltd. | 上海翰森生物医药科技有限公司/ 常州恒邦药业有限公司 | US Trial Site | CTR20264229, CTR20263999, CTR20263734 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
+| 3 | Shanghai Hansen Biomedical Technology Co., Ltd./Changzhou Hengbang Pharmaceutical Co., Ltd. | 上海翰森生物医药科技有限公司/ 常州恒邦药业有限公司 | US Trial Site | CTR20264229, CTR20263999, CTR20263419, CTR20263734 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
+| 4 | Jiangsu Hengrui Pharmaceutical Co., Ltd. | 江苏恒瑞医药股份有限公司 | US Trial Site | CTR20264120, CTR20264209, CTR20263901 | NCT03203811, NCT04446260 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 5 | Chengdu Kanghong Pharmaceutical Group Co., Ltd. | 成都康弘药业集团股份有限公司 | US Trial Site | CTR20264334, CTR20263973 | NCT03577899, NCT03630952 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 6 | Jiangsu Hansoh Pharmaceutical Group Co Ltd Lianyungang Hongchuang Pharmaceutical Co Ltd of Jiangsu Hansoh Pharmaceutical Group Co Ltd; Shanghai Hansoh Biopharmaceuticals Co., Ltd. / Jiangsu Hansoh Pharmaceutical Group Co Ltd Lianyungang Hongchuang Pharmaceutical Co Ltd of Jiangsu Hansoh Pharmaceutical Group Co Ltd | 江苏豪森药业集团有限公司；上海翰森生物医药科技有限公司/ 江苏豪森药业集团有限公司 | US Trial Site | CTR20264018, CTR20264134 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 7 | Novartis Pharma AG/ Novartis (China) Biomedical Research Co., Ltd./ Novartis Pharma Stein AG | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Novartis Pharma Stein AG | US Trial Site | CTR20264186, CTR20263478 | NCT00183833, NCT04929249 | Pending BD Review | Pending BD Review | Tier 1 (High) |
@@ -55,6 +55,10 @@
 | 45 | Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Boehringer Ingelheim Pharma GmbH & Co. KG | Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Boehringer Ingelheim Pharma GmbH & Co. KG | US Trial Site | CTR20263681 | NCT07444203, NCT04424290 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 46 | Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司 | US Trial Site | CTR20263508 | NCT06236724, NCT04925479 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 47 | PIERRE FABRE MEDICAMENT / Pierre Fabre (Shanghai) Medical Technology Co., Ltd. / Pharmaron UK Limited / Fisher Clinical Services UK Limited | PIERRE FABRE MEDICAMENT/ 皮尔法伯（上海）医疗科技有限公司/ Pharmaron UK Limited/ Fisher Clinical Services UK Limited | US Trial Site | CTR20263495 | NCT04913285, NCT06669117 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 48 | Incyte Corporation / Incepta Pharmaceutical Technology (Shanghai) Co., Ltd. / PCI San Diego, Inc. | Incyte Corporation/ 因塞特医药科技（上海）有限公司/ PCI San Diego, Inc. | US Trial Site | CTR20263415 | NCT07214779, NCT05061693 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 49 | Jiangsu Hengrui Medicine Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. | 江苏恒瑞医药股份有限公司/ 上海恒瑞医药有限公司 | US Trial Site | CTR20263427 | NCT02500199, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 50 | Jiangsu Simcere Weike Biopharmaceuticals Co., Ltd. | 江苏先声卫科生物制药有限公司 | US Trial Site | CTR20263422 | NCT06375044, NCT05569057 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 51 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Lilly del Caribe, Inc. | Eli Lilly and Company/ 礼来苏州制药有限公司/ Lilly del Caribe, Inc. | US Trial Site | CTR20263408 | NCT00083720, NCT03936959 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
