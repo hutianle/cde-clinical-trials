@@ -1,7 +1,7 @@
 {
-  "current_history_page": 42,
-  "total_ingested": 403,
-  "last_run": "2026-11-18 21:59:36 UTC",
+  "current_history_page": 44,
+  "total_ingested": 423,
+  "last_run": "2026-11-18 23:04:02 UTC",
   "daily_target": 480,
   "run_target": 20
 }

@@ -2158,5 +2158,125 @@
     "query_term": "Shanghai Youxi Chuang   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "长沙晶易医药科技股份有限公司": {
+    "sponsor_en": "Changsha Jingyi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Changsha Jingyi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东盛迪医药有限公司": {
+    "sponsor_en": "Shandong Shengdi Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Shengdi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "达尔文起点（湖北）生物制药有限责任公司": {
+    "sponsor_en": "Darwin Origin (Hubei) Biopharmaceuticals Co., Ltd.",
+    "query_term": "Darwin Origin (Hubei) Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京赛乐思生物制药有限公司/ 盛禾（中国）生物制药有限公司": {
+    "sponsor_en": "Nanjing Cellaxis Biopharmaceuticals Co., Ltd. / Shenghe (China) Biopharmaceuticals Co., Ltd.",
+    "query_term": "Nanjing Cellaxis Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都纽瑞特医疗科技股份有限公司": {
+    "sponsor_en": "Chengdu NewRate Medical Technology Co., Ltd.",
+    "query_term": "Chengdu NewRate Medical  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏恒瑞医药股份有限公司/ 上海恒瑞医药有限公司": {
+    "sponsor_en": "Jiangsu Hengrui Medicine Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02500199",
+      "NCT04446260",
+      "NCT03764293",
+      "NCT03398720",
+      "NCT05277168"
+    ]
+  },
+  "药捷安康（南京）科技股份有限公司": {
+    "sponsor_en": "Yaojie Ankang (Nanjing) Technology Co., Ltd.",
+    "query_term": "Yaojie Ankang (Nanjing)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏先声卫科生物制药有限公司": {
+    "sponsor_en": "Jiangsu Simcere Weike Biopharmaceuticals Co., Ltd.",
+    "query_term": "Simcere",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06375044",
+      "NCT05569057",
+      "NCT06792552",
+      "NCT05781360",
+      "NCT05940883"
+    ]
+  },
+  "山东亦度生物技术有限公司北京分公司/ 重庆亦度生物技术（集团）有限公司/ 山东亦度生物技术有限公司": {
+    "sponsor_en": "Beijing Branch of Shandong Yidu Biotechnology Co., Ltd. / Chongqing Yidu Biotechnology (Group) Co., Ltd. / Shandong Yidu Biotechnology Co., Ltd.",
+    "query_term": "Beijing Branch of Shandong Yidu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏新元素医药科技有限公司": {
+    "sponsor_en": "Jiangsu New Element Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Jiangsu New Element   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Incyte Corporation/ 因塞特医药科技（上海）有限公司/ PCI San Diego, Inc.": {
+    "sponsor_en": "Incyte Corporation / Incepta Pharmaceutical Technology (Shanghai) Co., Ltd. / PCI San Diego, Inc.",
+    "query_term": "Incyte Corporation",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07214779",
+      "NCT05061693",
+      "NCT06516952",
+      "NCT07018635",
+      "NCT03878199"
+    ]
+  },
+  "北京悦康科创医药科技股份有限公司": {
+    "sponsor_en": "Beijing Yuekang Science and Technology Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Yuekang Science and    .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海拓济医药有限责任公司": {
+    "sponsor_en": "Shanghai Tuoji Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Tuoji  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京驯鹿生物医药有限公司": {
+    "sponsor_en": "Nanjing Reindeer Biopharmaceuticals Co., Ltd.",
+    "query_term": "Nanjing Reindeer Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Eli Lilly and Company/ 礼来苏州制药有限公司/ Lilly del Caribe, Inc.": {
+    "sponsor_en": "Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Lilly del Caribe, Inc.",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00083720",
+      "NCT03936959",
+      "NCT00414323",
+      "NCT03955042",
+      "NCT00661869"
+    ]
+  },
+  "成都施贝康生物医药科技有限公司": {
+    "sponsor_en": "Chengdu Sibicon Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Chengdu Sibicon   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
