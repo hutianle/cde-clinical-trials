@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-18 | **Identified High-Priority Sponsors:** 45
+> - **Generated Date:** 2026-11-18 | **Identified High-Priority Sponsors:** 47
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -53,6 +53,8 @@
 | 43 | Shandong Xiansheng Zaiming Biopharmaceutical Co., Ltd. | 山东先声再明生物制药有限公司 | US Trial Site | CTR20263774 | NCT06375044, NCT05569057 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 44 | Shanghai Zhengda Tianqing Pharmaceutical Technology Development Co., Ltd. | 上海正大天晴医药科技开发有限公司 | US Trial Site | CTR20263729 | NCT03625401, NCT02087917 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 45 | Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Boehringer Ingelheim Pharma GmbH & Co. KG | Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Boehringer Ingelheim Pharma GmbH & Co. KG | US Trial Site | CTR20263681 | NCT07444203, NCT04424290 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 46 | Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司 | US Trial Site | CTR20263508 | NCT06236724, NCT04925479 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 47 | PIERRE FABRE MEDICAMENT / Pierre Fabre (Shanghai) Medical Technology Co., Ltd. / Pharmaron UK Limited / Fisher Clinical Services UK Limited | PIERRE FABRE MEDICAMENT/ 皮尔法伯（上海）医疗科技有限公司/ Pharmaron UK Limited/ Fisher Clinical Services UK Limited | US Trial Site | CTR20263495 | NCT04913285, NCT06669117 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.

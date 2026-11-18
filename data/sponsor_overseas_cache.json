@@ -1966,5 +1966,125 @@
     "query_term": "Shanghai Jinmante  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "苏州晟济药业有限公司/ 上海宝济药业股份有限公司": {
+    "sponsor_en": "Suzhou Shengji Pharmaceutical Co., Ltd. / Shanghai Baoji Pharmaceutical Co., Ltd.",
+    "query_term": "Suzhou Shengji  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Ipsen Bioscience, Inc./ 益普生（上海）医药科技有限公司/ Delpharm Milano S.r.l.": {
+    "sponsor_en": "Ipsen Bioscience, Inc. / Ipsen (Shanghai) Pharmaceutical Technology Co., Ltd. / Delpharm Milano S.r.l.",
+    "query_term": "Ipsen Bioscience, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州绿十字制药股份有限公司": {
+    "sponsor_en": "Guangzhou Green Cross Pharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Green Cross  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "宁波艾科索医药科技有限公司": {
+    "sponsor_en": "Ningbo Aikeso Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Ningbo Aikeso   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖南科伦制药有限公司/ 四川科伦药物研究院有限公司": {
+    "sponsor_en": "Hunan Kelun Pharmaceutical Co., Ltd. / Sichuan Kelun Pharmaceutical Research Institute Co., Ltd.",
+    "query_term": "Hunan Kelun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都弘基生物科技有限公司": {
+    "sponsor_en": "Chengdu Hongji Biotechnology Co., Ltd.",
+    "query_term": "Chengdu Hongji  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京清普生物科技有限公司": {
+    "sponsor_en": "Nanjing Qingpu Biotechnology Co., Ltd.",
+    "query_term": "Nanjing Qingpu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞（中国）研究开发有限公司/ Pfizer Manufacturing Belgium NV": {
+    "sponsor_en": "Pfizer Inc. / Pfizer (China) Research and Development Co., Ltd. / Pfizer Manufacturing Belgium NV",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd.",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06236724",
+      "NCT04925479",
+      "NCT03087942",
+      "NCT00056446",
+      "NCT02228096"
+    ]
+  },
+  "广州诺诚健华医药科技有限公司": {
+    "sponsor_en": "Guangzhou Nuocheng Jianhua Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Guangzhou Nuocheng Jianhua   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海复星医药产业发展有限公司": {
+    "sponsor_en": "Shanghai Fosun Pharmaceutical Industrial Development Co., Ltd.",
+    "query_term": "Shanghai Fosun  Industrial Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "宜昌人福药业有限责任公司/ 辉粒药业（苏州）有限公司": {
+    "sponsor_en": "Yichang Humanwell Pharmaceutical Co., Ltd. / Huili Pharmaceutical (Suzhou) Co., Ltd.",
+    "query_term": "Humanwell",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "复星医药产业发展（深圳）有限公司": {
+    "sponsor_en": "Fosun Pharmaceutical Industrial Development (Shenzhen) Co., Ltd.",
+    "query_term": "Fosun  Industrial Development (Shenzhen) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "联成迅康（珠海横琴）药业有限公司": {
+    "sponsor_en": "United Laboratories Healthcare (Zhuhai Hengqin) Pharmaceutical Co., Ltd.",
+    "query_term": "United Laboratories Healthcare (Zhuhai Hengqin)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "益方生物科技（上海）股份有限公司": {
+    "sponsor_en": "Yifang Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Yifang  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "PIERRE FABRE MEDICAMENT/ 皮尔法伯（上海）医疗科技有限公司/ Pharmaron UK Limited/ Fisher Clinical Services UK Limited": {
+    "sponsor_en": "PIERRE FABRE MEDICAMENT / Pierre Fabre (Shanghai) Medical Technology Co., Ltd. / Pharmaron UK Limited / Fisher Clinical Services UK Limited",
+    "query_term": "PIERRE FABRE MEDICAMENT",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04913285",
+      "NCT06669117",
+      "NCT02928224",
+      "NCT01689038",
+      "NCT03693170"
+    ]
+  },
+  "北京泰德制药股份有限公司": {
+    "sponsor_en": "Beijing Taihed Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Taihed  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
