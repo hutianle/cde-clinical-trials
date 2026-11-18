@@ -208,17 +208,15 @@ function createTrialCard(trial) {
         </div>
 
         <!-- Drug Title -->
-        <h3 class="text-base font-bold text-slate-900 leading-snug mb-1">
+        <h3 class="text-base font-bold text-slate-900 leading-snug mb-3" title="Registry Name: ${escapeHtml(trial.drug_name || '')}">
           ${escapeHtml(trial.drug_name_en || trial.drug_name)}
         </h3>
-        ${trial.drug_name !== trial.drug_name_en ? `<p class="text-xs text-slate-400 mb-3">${escapeHtml(trial.drug_name)}</p>` : '<div class="mb-3"></div>'}
 
         <!-- Highlighted Target Indication in English -->
         <div class="bg-emerald-50/60 p-3.5 rounded-xl border border-emerald-100 mb-4 space-y-1.5">
           <div class="text-xs">
-            <span class="font-bold text-emerald-900 uppercase tracking-wide text-[11px] block mb-0.5">Target Indication (English):</span>
-            <span class="text-slate-900 font-semibold text-sm leading-snug">${escapeHtml(trial.indication_en || trial.indication)}</span>
-            ${trial.indication && trial.indication !== trial.indication_en ? `<div class="text-[11px] text-slate-500 mt-0.5">${escapeHtml(trial.indication)}</div>` : ''}
+            <span class="font-bold text-emerald-900 uppercase tracking-wide text-[11px] block mb-0.5">Target Indication:</span>
+            <span class="text-slate-900 font-semibold text-sm leading-snug" title="Source: ${escapeHtml(trial.indication || '')}">${escapeHtml(trial.indication_en || trial.indication)}</span>
           </div>
           <div class="text-xs pt-1 border-t border-emerald-100/60 flex items-center justify-between">
             <span class="text-slate-600"><span class="font-medium text-slate-700">Sponsor: </span>${escapeHtml(trial.sponsor_en || trial.sponsor)}</span>
@@ -386,15 +384,16 @@ function renderDatabaseTable(trials) {
           <div class="text-[11px] text-slate-400">${t.first_disclosure_date}</div>
         </td>
         <td class="px-3 py-2.5 break-words">
-          <div class="font-semibold text-slate-900 leading-snug">${escapeHtml(t.drug_name_en || t.drug_name)}</div>
+          <div class="font-semibold text-slate-900 leading-snug" title="Source: ${escapeHtml(t.drug_name || '')}">${escapeHtml(t.drug_name_en || t.drug_name)}</div>
           <div class="text-[11px] text-slate-400 truncate">${escapeHtml(t.drug_type_en || t.drug_type)}</div>
         </td>
         <td class="px-3 py-2.5 break-words">
-          <div class="text-xs font-semibold text-slate-900 leading-snug line-clamp-2">${escapeHtml(t.indication_en || t.indication)}</div>
-          ${t.indication !== t.indication_en ? `<div class="text-[11px] text-slate-400 truncate">${escapeHtml(t.indication)}</div>` : ''}
+          <div class="text-xs font-semibold text-slate-900 leading-snug line-clamp-2" title="Source: ${escapeHtml(t.indication || '')}">
+            ${escapeHtml(t.indication_en || t.indication)}
+          </div>
         </td>
         <td class="px-3 py-2.5 break-words text-xs text-slate-700">
-          <div class="font-medium truncate">${escapeHtml(t.sponsor_en || t.sponsor)}</div>
+          <div class="font-medium truncate" title="Source: ${escapeHtml(t.sponsor || '')}">${escapeHtml(t.sponsor_en || t.sponsor)}</div>
           ${t.overseas_intent ? `
             <div class="mt-1">
               <span class="inline-flex items-center space-x-1 px-1.5 py-0.5 rounded text-[10px] font-semibold bg-blue-50 text-blue-700 border border-blue-200" title="Confirmed overseas signal: US site on ClinicalTrials.gov">
@@ -482,32 +481,47 @@ function openModal(regId) {
 
   document.getElementById("modal-ctr-id").innerText = trial.registration_id;
   document.getElementById("modal-drug-name-en").innerText = trial.drug_name_en || trial.drug_name;
-  document.getElementById("modal-drug-name-zh").innerText = trial.drug_name;
-  document.getElementById("modal-study-title").innerText = trial.title_professional || trial.title_lay;
+  
+  const drugZhEl = document.getElementById("modal-drug-name-zh");
+  if (drugZhEl) {
+    drugZhEl.innerText = trial.drug_name && trial.drug_name !== trial.drug_name_en ? `Official CDE Name: ${trial.drug_name}` : '';
+  }
 
-  const indEn = trial.indication_en || trial.indication;
-  document.getElementById("modal-indication").innerText = trial.indication && trial.indication !== indEn ? `${indEn} (${trial.indication})` : indEn;
-  const sponsorDisplay = trial.sponsor_en ? (trial.sponsor ? `${trial.sponsor_en} (${trial.sponsor})` : trial.sponsor_en) : (trial.sponsor || "");
-  document.getElementById("modal-sponsor").innerText = sponsorDisplay;
+  // Fluent English Study Title
+  const studyTitleEn = trial.title_en || `${trial.drug_name_en || 'Investigational Drug'} ${trial.phase_en || ''} Clinical Study for ${trial.indication_en || 'Innovative Indication'}`;
+  document.getElementById("modal-study-title").innerText = studyTitleEn;
+
+  document.getElementById("modal-indication").innerText = trial.indication_en || trial.indication;
+  document.getElementById("modal-sponsor").innerText = trial.sponsor_en || trial.sponsor;
   document.getElementById("modal-date").innerText = trial.first_disclosure_date;
   document.getElementById("modal-status").innerText = trial.status_en || trial.status;
 
   document.getElementById("modal-sample-size").innerText = trial.target_sample_size || "30-100";
-  const instDisplay = trial.lead_institution_en
-    ? (trial.lead_institution ? `${trial.lead_institution_en} (${trial.lead_institution})` : trial.lead_institution_en)
-    : (trial.lead_institution || "Leading Clinical Research Hospital");
-  document.getElementById("modal-institution").innerText = instDisplay;
-
-  const piDisplay = trial.principal_investigator_en
-    ? (trial.principal_investigator ? `${trial.principal_investigator_en} (${trial.principal_investigator})` : trial.principal_investigator_en)
-    : (trial.principal_investigator || "Principal Investigator");
-  document.getElementById("modal-pi").innerText = piDisplay;
+  document.getElementById("modal-institution").innerText = trial.lead_institution_en || trial.lead_institution || "Leading Clinical Research Hospital";
+  document.getElementById("modal-pi").innerText = trial.principal_investigator_en || trial.principal_investigator || "Principal Investigator";
   document.getElementById("modal-endpoints").innerText = trial.primary_endpoints || "PK, Safety & Tolerability";
 
   document.getElementById("modal-badge-phase").innerText = (trial.phase_en || trial.phase).replace(/[\n\t]/g, ' ').slice(0, 15);
 
   document.getElementById("modal-executive-summary").innerHTML = formatMarkdownSummary(trial.executive_summary);
   document.getElementById("modal-cde-link").href = trial.cde_url || "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlist.dhtml";
+
+  // Collapsible Original CDE Chinese Registry Reference Section
+  const sourceRefEl = document.getElementById("modal-source-reference");
+  if (sourceRefEl) {
+    sourceRefEl.innerHTML = `
+      <details class="text-xs bg-slate-50 rounded-xl p-3 border border-slate-200 text-slate-600">
+        <summary class="font-semibold text-slate-700 cursor-pointer select-none">View Original CDE Chinese Registry Reference</summary>
+        <div class="mt-2 space-y-1.5 pt-2 border-t border-slate-200 text-[11px] text-slate-600">
+          <div><span class="font-medium text-slate-700">Official Title:</span> ${escapeHtml(trial.title_professional || trial.title_lay || '')}</div>
+          <div><span class="font-medium text-slate-700">Chinese Indication:</span> ${escapeHtml(trial.indication || '')}</div>
+          <div><span class="font-medium text-slate-700">Chinese Sponsor:</span> ${escapeHtml(trial.sponsor || '')}</div>
+          <div><span class="font-medium text-slate-700">Chinese Lead Center:</span> ${escapeHtml(trial.lead_institution || '')}</div>
+          <div><span class="font-medium text-slate-700">Principal Investigator:</span> ${escapeHtml(trial.principal_investigator || '')}</div>
+        </div>
+      </details>
+    `;
+  }
 
   // Populate Overseas Intent & BD Outreach container
   const overseasEl = document.getElementById("modal-overseas-container");

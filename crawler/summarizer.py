@@ -344,6 +344,10 @@ MEDICAL_TERMS = {
     "长沙": "Changsha",
 
     # Prominent Hospitals & Universities
+    "中国医学科学院北京协和医院": "Peking Union Medical College Hospital",
+    "中国医学科学院肿瘤医院": "Cancer Hospital Chinese Academy of Medical Sciences",
+    "中国医学科学院血液病医院": "Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences",
+    "北京协和医院": "Peking Union Medical College Hospital",
     "中南大学湘雅三医院": "The Third Xiangya Hospital of Central South University",
     "中南大学湘雅二医院": "The Second Xiangya Hospital of Central South University",
     "中南大学湘雅医院": "Xiangya Hospital of Central South University",
@@ -357,10 +361,17 @@ MEDICAL_TERMS = {
     "复旦大学附属肿瘤医院": "Fudan University Shanghai Cancer Center",
     "首都医科大学附属北京友谊医院": "Beijing Friendship Hospital, Capital Medical University",
     "广州医科大学附属第五医院": "The Fifth Affiliated Hospital of Guangzhou Medical University",
-    "中国医学科学院肿瘤医院": "Cancer Hospital Chinese Academy of Medical Sciences",
-    "中国医学科学院北京协和医院": "Peking Union Medical College Hospital",
     "上海交通大学医学院附属瑞金医院": "Ruijin Hospital, Shanghai Jiao Tong University School of Medicine",
     "四川大学华西医院": "West China Hospital, Sichuan University",
+    "重庆医科大学附属第一医院": "The First Affiliated Hospital of Chongqing Medical University",
+    "上海市胸科医院": "Shanghai Chest Hospital",
+    "上海市东方医院": "Shanghai East Hospital",
+    "北京高博医院": "Beijing Gobroad Hospital",
+    "济南市中心医院": "Jinan Central Hospital",
+    "浙江医院": "Zhejiang Hospital",
+    "新郑华信民生医院": "Xinzheng Huaxin Minsheng Hospital",
+    "湖南省疾病预防控制中心": "Hunan Center for Disease Control and Prevention",
+    "中国药科大学": "China Pharmaceutical University",
 
     # Corporate & Institutional Suffixes
     "股份有限公司": "Co., Ltd.",
@@ -845,6 +856,40 @@ Ensure the JSON is strictly valid with NO markdown code fences."""
         print(f"Gemini notice: {e}. Using robust medical translation fallback.")
         return fallback_summarize(trial)
 
+def is_degraded_sponsor(s: str) -> bool:
+    if not s or not str(s).strip():
+        return True
+    s_clean = str(s).strip()
+    if has_chinese(s_clean):
+        return True
+    bad_patterns = [
+        r'\(\s*\)', r'（\s*）',
+        r'\bBiotechCo\.', r'\bPharmaceuticalCo\.', r'\bPharmaceuticalsCo\.',
+        r'\bBiopharmaCo\.', r'\bBiomedicineCo\.', r'\bTechnologyCo\.',
+        r'^\s*Co\., Ltd\.', r'/\s*Co\., Ltd\.',
+        r'^\s*Pharmaceuticals?\s*Co\., Ltd\.',
+        r'^\s*Biopharma\s*Co\., Ltd\.'
+    ]
+    for p in bad_patterns:
+        if re.search(p, s_clean, re.I):
+            return True
+    return False
+
+def is_degraded_lead_institution(inst: str) -> bool:
+    if not inst or not str(inst).strip():
+        return True
+    inst_clean = str(inst).strip()
+    if has_chinese(inst_clean):
+        return True
+    if inst_clean in [
+        "Hospital", "UniversityHospital", "Medical UniversityHospital",
+        "HospitalHospital", "General Hospital", "People's Hospital",
+        "First Affiliated Hospital", "Second Affiliated Hospital",
+        "Third Affiliated Hospital", "Cancer Hospital"
+    ]:
+        return True
+    return False
+
 def process_trial(trial: dict) -> dict:
     # Always normalize raw phase string first
     raw_phase = normalize_raw_phase(trial.get("phase", ""))
@@ -861,27 +906,25 @@ def process_trial(trial: dict) -> dict:
     enriched["is_new_drug"] = determine_new_drug(trial)
 
     # Safety checks: enforce 100% English across all key fields (no empty, no Chinese, no degraded artifacts)
-    for field in ["indication_en", "drug_name_en", "sponsor_en"]:
-        val = enriched.get(field, "")
-        is_degraded = (
-            not val or 
-            not str(val).strip() or 
-            has_chinese(val) or 
-            any(bad in str(val) for bad in ['()', '（）', 'BiotechCo., Ltd.', 'PharmaceuticalCo., Ltd.'])
-        )
-        if is_degraded:
-            raw_zh = trial.get(field.replace("_en", ""), val)
-            enriched[field] = translate_zh_to_en(raw_zh)
+    sponsor_en = enriched.get("sponsor_en", "")
+    if is_degraded_sponsor(sponsor_en):
+        raw_sponsor = trial.get("sponsor", "")
+        enriched["sponsor_en"] = translate_zh_to_en(raw_sponsor)
+
+    ind_en = enriched.get("indication_en", "")
+    if not ind_en or not str(ind_en).strip() or has_chinese(ind_en) or any(bad in str(ind_en) for bad in ['()', '（）']):
+        raw_ind = trial.get("indication", "")
+        enriched["indication_en"] = translate_zh_to_en(raw_ind)
+
+    drug_en = enriched.get("drug_name_en", "")
+    if not drug_en or not str(drug_en).strip() or has_chinese(drug_en):
+        raw_drug = trial.get("drug_name", "")
+        enriched["drug_name_en"] = translate_zh_to_en(raw_drug)
 
     # Institution and PI translations
     lead_inst = trial.get("lead_institution", "")
     lead_inst_en = enriched.get("lead_institution_en") or trial.get("lead_institution_en", "")
-    if (
-        not lead_inst_en or 
-        not str(lead_inst_en).strip() or 
-        has_chinese(lead_inst_en) or 
-        lead_inst_en in ["UniversityHospital", "HospitalHospital", "Medical UniversityHospital"]
-    ):
+    if is_degraded_lead_institution(lead_inst_en):
         lead_inst_en = translate_zh_to_en(lead_inst) if lead_inst else ""
     enriched["lead_institution_en"] = lead_inst_en
 

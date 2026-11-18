@@ -5,7 +5,7 @@ from pathlib import Path
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "crawler"))
 
-from summarizer import process_trial, save_translation_cache, has_chinese
+from summarizer import process_trial, save_translation_cache, has_chinese, is_degraded_sponsor, is_degraded_lead_institution
 from overseas_screener import generate_overseas_targets_report
 
 DATA_DIR = Path("data")
@@ -21,20 +21,25 @@ fixed_count = 0
 for idx, t in enumerate(trials):
     rid = t["registration_id"]
     
-    # Check if this trial has missing, chinese, or degraded translations
     needs_fix = False
-    for f in ["indication_en", "drug_name_en", "sponsor_en"]:
-        val = t.get(f, "")
-        if not val or not str(val).strip() or has_chinese(val) or any(bad in str(val) for bad in ['()', '（）', 'BiotechCo., Ltd.', 'PharmaceuticalCo., Ltd.']):
-            needs_fix = True
-            break
+    sponsor_en = t.get("sponsor_en", "")
+    if is_degraded_sponsor(sponsor_en):
+        needs_fix = True
+
+    ind_en = t.get("indication_en", "")
+    if not ind_en or not str(ind_en).strip() or has_chinese(ind_en) or any(bad in str(ind_en) for bad in ['()', '（）']):
+        needs_fix = True
+
+    drug_en = t.get("drug_name_en", "")
+    if not drug_en or not str(drug_en).strip() or has_chinese(drug_en):
+        needs_fix = True
             
     lead_en = t.get("lead_institution_en", "")
-    if not lead_en or has_chinese(lead_en) or lead_en in ["UniversityHospital", "HospitalHospital", "Medical UniversityHospital"]:
+    if is_degraded_lead_institution(lead_en):
         needs_fix = True
 
     pi_en = t.get("principal_investigator_en", "")
-    if not pi_en or has_chinese(pi_en):
+    if not pi_en or not str(pi_en).strip() or has_chinese(pi_en):
         needs_fix = True
 
     if needs_fix:

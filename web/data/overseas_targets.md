@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-18 | **Identified High-Priority Sponsors:** 31
+> - **Generated Date:** 2026-11-17 | **Identified High-Priority Sponsors:** 31
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -37,7 +37,7 @@
 | 27 | Jiangsu Simcere Pharmaceutical Co., Ltd. / Hainan Simcere Pharmaceutical Co., Ltd. | 江苏先声药业有限公司/ 海南先声药业有限公司 | US Trial Site | CTR20264034 | NCT06375044, NCT05781360 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 28 | Beijing Baiyang Zhixin Medical Research Co., Ltd. | 北京百洋智心医学研究有限公司 | US Trial Site | CTR20264102 | NCT05599308, NCT00166543 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 29 | CSPC Pharmaceutical Group Limited / CSPC Pharmaceutical Group Limited | 康方赛诺医药有限公司/ 康方药业有限公司 | US Trial Site | CTR20263988 | NCT06265727, NCT03657550 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 30 | PharmaceuticalsCo., Ltd./ PharmaceuticalsCo., Ltd. | 上海恒瑞医药有限公司/ 江苏恒瑞医药股份有限公司 | US Trial Site | CTR20264028 | NCT03203811, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 30 | Shanghai Hengrui Medicine Co., Ltd. / Jiangsu Hengrui Medicine Co., Ltd. | 上海恒瑞医药有限公司/ 江苏恒瑞医药股份有限公司 | US Trial Site | CTR20264028 | NCT03203811, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 31 | Guangzhou Respiratory Drug Engineering Technology Co., Ltd. / Sichuan Hisun Pharmaceutical Co., Ltd. | 广州呼吸药物工程技术有限公司/ 四川海思科制药有限公司 | US Trial Site | CTR20264039 | NCT05599308, NCT00166543 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
