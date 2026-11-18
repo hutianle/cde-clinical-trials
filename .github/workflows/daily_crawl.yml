@@ -1,9 +1,9 @@
 name: Scheduled CDE New Drug Ingestion & Deploy
 
 on:
-  schedule:
-    # Runs hourly at minute 17: 24 runs/day x 20 trials = ~480 new drug trials/day (~6,000 in ~13 days)
-    - cron: '17 * * * *'
+  # NOTE 2026-11-18: native schedule REMOVED — GitHub's scheduler never fired reliably
+  # (0 runs Nov 17; 1 late run Nov 18 06:55; 07:17 and 08:17 slots skipped).
+  # Hourly runs are now driven externally via workflow_dispatch (Muse hourly trigger).
   push:
     branches:
       - main
