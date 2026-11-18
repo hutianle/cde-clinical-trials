@@ -218,6 +218,7 @@ function createTrialCard(trial) {
           <div class="text-xs">
             <span class="font-bold text-emerald-900 uppercase tracking-wide text-[11px] block mb-0.5">Target Indication (English):</span>
             <span class="text-slate-900 font-semibold text-sm leading-snug">${escapeHtml(trial.indication_en || trial.indication)}</span>
+            ${trial.indication && trial.indication !== trial.indication_en ? `<div class="text-[11px] text-slate-500 mt-0.5">${escapeHtml(trial.indication)}</div>` : ''}
           </div>
           <div class="text-xs pt-1 border-t border-emerald-100/60 flex items-center justify-between">
             <span class="text-slate-600"><span class="font-medium text-slate-700">Sponsor: </span>${escapeHtml(trial.sponsor_en || trial.sponsor)}</span>
@@ -484,8 +485,10 @@ function openModal(regId) {
   document.getElementById("modal-drug-name-zh").innerText = trial.drug_name;
   document.getElementById("modal-study-title").innerText = trial.title_professional || trial.title_lay;
 
-  document.getElementById("modal-indication").innerText = trial.indication_en || trial.indication;
-  document.getElementById("modal-sponsor").innerText = trial.sponsor_en || trial.sponsor;
+  const indEn = trial.indication_en || trial.indication;
+  document.getElementById("modal-indication").innerText = trial.indication && trial.indication !== indEn ? `${indEn} (${trial.indication})` : indEn;
+  const sponsorDisplay = trial.sponsor_en ? (trial.sponsor ? `${trial.sponsor_en} (${trial.sponsor})` : trial.sponsor_en) : (trial.sponsor || "");
+  document.getElementById("modal-sponsor").innerText = sponsorDisplay;
   document.getElementById("modal-date").innerText = trial.first_disclosure_date;
   document.getElementById("modal-status").innerText = trial.status_en || trial.status;
 
