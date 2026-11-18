@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-18 | **Identified High-Priority Sponsors:** 43
+> - **Generated Date:** 2026-11-18 | **Identified High-Priority Sponsors:** 45
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -47,10 +47,12 @@
 | 37 | UCB Biopharma SRL / U-TIMES Trading (Shanghai) Co., Ltd. / --- | UCB Biopharma SRL/ 优时比贸易（上海）有限公司/ --- | US Trial Site | CTR20263906 | NCT01364597, NCT00291213 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 38 | Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Catalent San Diego, Inc. | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Catalent San Diego, Inc. | US Trial Site | CTR20263946 | NCT00183833, NCT04929249 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 39 | Merck Sharp & Dohme LLC / Merck Research Laboratories (China) Co., Ltd. / Patheon Italia S.p.A. | Merck Sharp & Dohme LLC/ 默沙东研发（中国）有限公司/ Patheon Italia S.p.A. | US Trial Site | CTR20263942 | NCT06136585, NCT00119015 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 40 | Beijing Shengdi Pharmaceutical Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. | 北京盛迪医药有限公司/ 上海恒瑞医药有限公司 | US Trial Site | CTR20263919 | NCT03203811, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 41 | Novartis Pharmaceuticals (Shanghai) Co., Ltd. | 诺为泰医药科技（上海）有限公司 | US Trial Site | CTR20263746 | NCT06236724, NCT04925479 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 42 | Shandong Xiansheng Zaiming Biopharmaceutical Co., Ltd. | 山东先声再明生物制药有限公司 | US Trial Site | CTR20263774 | NCT06375044, NCT05569057 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 43 | Shanghai Zhengda Tianqing Pharmaceutical Technology Development Co., Ltd. | 上海正大天晴医药科技开发有限公司 | US Trial Site | CTR20263729 | NCT03625401, NCT02087917 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 40 | Fujian Shengdi Pharmaceutical Co., Ltd. / Jiangsu Hengrui Medicine Co., Ltd. / Beijing Tuojie Biomedical Technology Co., Ltd. | 福建盛迪医药有限公司/ 江苏恒瑞医药股份有限公司/ 北京拓界生物医药科技有限公司 | US Trial Site | CTR20263695 | NCT02500199, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 41 | Beijing Shengdi Pharmaceutical Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. | 北京盛迪医药有限公司/ 上海恒瑞医药有限公司 | US Trial Site | CTR20263919 | NCT03203811, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 42 | Novartis Pharmaceuticals (Shanghai) Co., Ltd. | 诺为泰医药科技（上海）有限公司 | US Trial Site | CTR20263746 | NCT06236724, NCT04925479 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 43 | Shandong Xiansheng Zaiming Biopharmaceutical Co., Ltd. | 山东先声再明生物制药有限公司 | US Trial Site | CTR20263774 | NCT06375044, NCT05569057 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 44 | Shanghai Zhengda Tianqing Pharmaceutical Technology Development Co., Ltd. | 上海正大天晴医药科技开发有限公司 | US Trial Site | CTR20263729 | NCT03625401, NCT02087917 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 45 | Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Boehringer Ingelheim Pharma GmbH & Co. KG | Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Boehringer Ingelheim Pharma GmbH & Co. KG | US Trial Site | CTR20263681 | NCT07444203, NCT04424290 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.

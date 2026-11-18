@@ -1600,5 +1600,119 @@
     "query_term": "Zhejiang Weiwu Biological  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "杭州畅溪制药有限公司": {
+    "sponsor_en": "Hangzhou Changxi Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Changxi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "创胜生物医药（杭州）有限公司": {
+    "sponsor_en": "Chuangsheng Biopharmaceuticals (Hangzhou) Co., Ltd.",
+    "query_term": "Chuangsheng Biopharmaceuticals (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "枕石生物医药科技（珠海）有限公司": {
+    "sponsor_en": "Zhenshi Biomedicine Technology (Zhuhai) Co., Ltd.",
+    "query_term": "Zhenshi Biomedicine  (Zhuhai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "辉瑞公司/ 辉瑞投资有限公司/ Pfizer Manufacturing Deutschland GmbH": {
+    "sponsor_en": "Pfizer Corporation / Pfizer Inc. / Pfizer Manufacturing Deutschland GmbH",
+    "query_term": "Pfizer Corporation",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "礼新医药科技（上海）有限公司": {
+    "sponsor_en": "Lixin Pharmaceutical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Lixin   (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "青岛睿森生物科技有限公司": {
+    "sponsor_en": "Qingdao Risen Biotechnology Co., Ltd.",
+    "query_term": "Qingdao Risen  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏恩华药业股份有限公司": {
+    "sponsor_en": "Jiangsu Enhua Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Enhua  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Amgen Inc./ 安进生物技术咨询（上海）有限公司": {
+    "sponsor_en": "Amgen Inc. / Amgen Biotechnology Consulting (Shanghai) Co., Ltd.",
+    "query_term": "Amgen Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海致根医药科技有限公司": {
+    "sponsor_en": "Shanghai Zhigen Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Zhigen   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海复宏汉霖生物技术股份有限公司/ 上海复宏汉霖生物制药有限公司": {
+    "sponsor_en": "Shanghai Henlius Biotech, Inc. / Shanghai Henlius Biotech, Inc.",
+    "query_term": "Shanghai Henlius Biotech, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福建盛迪医药有限公司/ 江苏恒瑞医药股份有限公司/ 北京拓界生物医药科技有限公司": {
+    "sponsor_en": "Fujian Shengdi Pharmaceutical Co., Ltd. / Jiangsu Hengrui Medicine Co., Ltd. / Beijing Tuojie Biomedical Technology Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02500199",
+      "NCT04446260",
+      "NCT03764293",
+      "NCT03398720",
+      "NCT05277168"
+    ]
+  },
+  "广西中恒创新医药研究有限公司": {
+    "sponsor_en": "Guangxi Zhongheng Innovative Pharmaceutical Research Co., Ltd.",
+    "query_term": "Guangxi Zhongheng Innovative  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京芩领医药科技有限公司": {
+    "sponsor_en": "Nanjing Qinling Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Nanjing Qinling   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康投资（中国）有限公司/ AstraZeneca AB；AstraZeneca AB": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Investment (China) Co., Ltd. / AstraZeneca AB; AstraZeneca AB",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Boehringer Ingelheim Pharma GmbH & Co. KG": {
+    "sponsor_en": "Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Boehringer Ingelheim Pharma GmbH & Co. KG",
+    "query_term": "Boehringer Ingelheim",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07444203",
+      "NCT04424290",
+      "NCT07064473",
+      "NCT05249426",
+      "NCT00689052"
+    ]
+  },
+  "福建盛迪医药有限公司/ 北京拓界生物医药科技有限公司": {
+    "sponsor_en": "Fujian Shengdi Pharmaceutical Co., Ltd. / Beijing Tuojie Biomedical Technology Co., Ltd.",
+    "query_term": "Fujian Shengdi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市药欣生物科技有限公司": {
+    "sponsor_en": "Shenzhen Yaoxin Biotechnology Co., Ltd.",
+    "query_term": "Shenzhen Yaoxin  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
