@@ -1488,5 +1488,117 @@
     "query_term": "Yuan Da Saiwei Life Sciences (Hangzhou) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "四川科伦博泰生物医药股份有限公司": {
+    "sponsor_en": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Kelun-Biotech  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "益祺生物科技（北京）有限公司": {
+    "sponsor_en": "Yiqi Biotechnology (Beijing) Co., Ltd.",
+    "query_term": "Yiqi  (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京鞍石生物科技股份有限公司": {
+    "sponsor_en": "Beijing Anshi Biotechnology Co., Ltd.",
+    "query_term": "Beijing Anshi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳零一生命科技有限责任公司": {
+    "sponsor_en": "Shenzhen Lingyi Life Science Technology Co., Ltd.",
+    "query_term": "Shenzhen Lingyi Life Science  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杉竹曜（北京）生物医药科技有限公司": {
+    "sponsor_en": "ShanZhuYao (Beijing) Biomedical Technology Co., Ltd.",
+    "query_term": "ShanZhuYao (Beijing)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "诺为泰医药科技（上海）有限公司": {
+    "sponsor_en": "Novartis Pharmaceuticals (Shanghai) Co., Ltd.",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06236724",
+      "NCT04925479",
+      "NCT03087942",
+      "NCT00056446",
+      "NCT02228096"
+    ]
+  },
+  "启元生物（杭州）有限公司": {
+    "sponsor_en": "Qiyuan Biotechnology (Hangzhou) Co., Ltd.",
+    "query_term": "Qiyuan  (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "京东方再生医学科技有限公司": {
+    "sponsor_en": "BOE Regenerative Medicine Technology Co., Ltd.",
+    "query_term": "BOE Regenerative Medicine  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "珠海市华海康医药科技有限责任公司": {
+    "sponsor_en": "Zhuhai Huahaikang Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Zhuhai Huahaikang   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞（北京）研究开发有限公司/ Catalent U.K. Swindon Zydis Limited": {
+    "sponsor_en": "Pfizer Inc. / Pfizer (Beijing) Research and Development Co., Ltd. / Catalent U.K. Swindon Zydis Limited",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京华睿鼎信科技有限公司": {
+    "sponsor_en": "Beijing Huaruidin Information Technology Co., Ltd.",
+    "query_term": "Beijing Huaruidin Information  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "迪哲（江苏）医药股份有限公司": {
+    "sponsor_en": "Dizhi (Jiangsu) Pharmaceutical Co., Ltd.",
+    "query_term": "Dizhi (Jiangsu)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "石药集团欧意药业有限公司/ 石药集团中诺药业（石家庄）有限公司": {
+    "sponsor_en": "Shiyao Group Ouyi Pharmaceutical Co., Ltd. / SIPC Zhongnuo Pharmaceutical (Shijiazhuang) Co., Ltd.",
+    "query_term": "Shiyao  Ouyi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海正大天晴医药科技开发有限公司": {
+    "sponsor_en": "Shanghai Zhengda Tianqing Pharmaceutical Technology Development Co., Ltd.",
+    "query_term": "Hisun",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03625401",
+      "NCT02087917",
+      "NCT01733082"
+    ]
+  },
+  "远大碑林（西安）药业有限公司/ 恩施土家族苗族自治州中心医院": {
+    "sponsor_en": "Yuanda Beilin (Xi'an) Pharmaceutical Co., Ltd. / Enshi Tujia and Miao Autonomous Prefecture Central Hospital",
+    "query_term": "Yuanda Beilin (Xi'an)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳赛保尔生物药业有限公司": {
+    "sponsor_en": "Shenzhen Saibaoer Biopharmaceutical Co., Ltd.",
+    "query_term": "Shenzhen Saibaoer  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江我武生物科技股份有限公司": {
+    "sponsor_en": "Zhejiang Weiwu Biological Technology Co., Ltd.",
+    "query_term": "Zhejiang Weiwu Biological  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
