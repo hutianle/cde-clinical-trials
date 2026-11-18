@@ -914,5 +914,113 @@
     "query_term": "Zhejiang Jianfeng Yien  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "苏州旺山旺水生物医药股份有限公司/ 中国科学院上海药物研究所": {
+    "sponsor_en": "Suzhou Wangshan Wangshui Biomedical Co., Ltd. / Shanghai Institute of Materia Medica, Chinese Academy of Sciences",
+    "query_term": "Suzhou Wangshan Wangshui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "河南真实生物科技有限公司": {
+    "sponsor_en": "Henan Zhenshi Biotechnology Co., Ltd.",
+    "query_term": "Henan Zhenshi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "维申医药科技（上海）有限公司": {
+    "sponsor_en": "Visun Pharmaceutical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Visun   (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州阿诺生物医药科技有限公司": {
+    "sponsor_en": "Hangzhou Arno Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Hangzhou Arno   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州百诚医药科技股份有限公司": {
+    "sponsor_en": "Hangzhou Baicheng Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Hangzhou Baicheng   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京悦康科创医药科技股份有限公司/ 杭州天龙药业有限公司": {
+    "sponsor_en": "Beijing Yuekang Science and Technology Pharmaceutical Technology Co., Ltd. / Hangzhou Tianlong Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Yuekang Science and    .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Ipsen Biopharmaceuticals/ 益普生（上海）医药科技有限公司/ Delpharm Milano S.r.l.": {
+    "sponsor_en": "Ipsen Biopharmaceuticals / Ipsen (Shanghai) Pharmaceutical Technology Co., Ltd. / Delpharm Milano S.r.l.",
+    "query_term": "Ipsen Biopharmaceuticals",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京百晖生物科技有限公司/ 博晖生物制药股份有限公司": {
+    "sponsor_en": "Beijing Baihui Biotechnology Co., Ltd. / Bohui Biopharmaceutical Co., Ltd.",
+    "query_term": "Beijing Baihui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Catalent San Diego, Inc.": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Catalent San Diego, Inc.",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00183833",
+      "NCT04929249",
+      "NCT06726148",
+      "NCT01487785",
+      "NCT00251433"
+    ]
+  },
+  "Merck Sharp & Dohme LLC/ 默沙东研发（中国）有限公司/ Patheon Italia S.p.A.": {
+    "sponsor_en": "Merck Sharp & Dohme LLC / Merck Research Laboratories (China) Co., Ltd. / Patheon Italia S.p.A.",
+    "query_term": "Merck Sharp & Dohme LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06136585",
+      "NCT00119015",
+      "NCT03153410",
+      "NCT01327482",
+      "NCT05052996"
+    ]
+  },
+  "Pfizer Inc./ 辉瑞（北京）研究开发有限公司/ /；/": {
+    "sponsor_en": "Pfizer Inc. / Pfizer (Beijing) Research and Development Co., Ltd. / ;",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "青岛海洋生物医药研究院/ 青岛海济生物医药有限公司/ 中国海洋大学": {
+    "sponsor_en": "Qingdao Marine Biomedical Research Institute / Qingdao Haiji Biopharmaceuticals Co., Ltd. / Ocean University of China",
+    "query_term": "Qingdao Marine  Research Institute",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中国中医科学院中药研究所": {
+    "sponsor_en": "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences",
+    "query_term": "Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ AstraZeneca Nijmegen B.V.": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / AstraZeneca Nijmegen B.V.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京三迭纪医药科技有限公司": {
+    "sponsor_en": "Nanjing Triassic Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Nanjing Triassic   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福贝生物医药科技（北京）有限公司": {
+    "sponsor_en": "Fubai Biomedical Technology (Beijing) Co., Ltd.",
+    "query_term": "Fubai   (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
