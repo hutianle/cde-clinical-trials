@@ -2086,5 +2086,77 @@
     "query_term": "Beijing Taihed  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "广州嘉越医药科技有限公司": {
+    "sponsor_en": "Guangzhou Jiayue Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Guangzhou Jiayue   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "长春金赛药业有限责任公司": {
+    "sponsor_en": "Changchun Jinsai Pharmaceutical Co., Ltd.",
+    "query_term": "Changchun Jinsai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海康景生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Kangjing Biomedical Technology Co., Ltd.",
+    "query_term": "Shanghai Kangjing   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "舒泰神（北京）生物制药股份有限公司": {
+    "sponsor_en": "Shutaishan (Beijing) Biopharmaceutical Co., Ltd.",
+    "query_term": "Shutaishan (Beijing)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都倍特药业股份有限公司": {
+    "sponsor_en": "Chengdu Brilliant Pharmaceutical Co., Ltd",
+    "query_term": "Chengdu Brilliant",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "维亚臻生物技术（苏州）有限公司": {
+    "sponsor_en": "ViaGen Biotechnology (Suzhou) Co., Ltd.",
+    "query_term": "ViaGen  (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海美烨生物科技有限公司": {
+    "sponsor_en": "Shanghai Meiye Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Meiye  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "优恺泽生物医药（上海）有限公司": {
+    "sponsor_en": "Youkaizer Biopharmaceuticals (Shanghai) Co., Ltd.",
+    "query_term": "Youkaizer Biopharmaceuticals (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "亿腾医药（珠海）有限公司": {
+    "sponsor_en": "Eddingpharm (Zhuhai) Co., Ltd.",
+    "query_term": "Eddingpharm (Zhuhai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京加科瑞康医药科技有限公司": {
+    "sponsor_en": "Beijing Jiacrecan Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Jiacrecan   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏康宁杰瑞生物制药有限公司": {
+    "sponsor_en": "Jiangsu Hengrui Medicine Co., Ltd.",
+    "query_term": "Jiangsu Hengrui Medicine .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海佑希创医药科技有限公司": {
+    "sponsor_en": "Shanghai Youxi Chuang Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Youxi Chuang   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
