@@ -1133,5 +1133,94 @@
     "query_term": "Shanghai Livzon  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海宝龙药业股份有限公司": {
+    "sponsor_en": "Shanghai Powerlong Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Powerlong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "绿叶嘉奥制药石家庄有限公司": {
+    "sponsor_en": "Greenleaf Jiaao Pharmaceutical (Shijiazhuang) Co., Ltd.",
+    "query_term": "Greenleaf Jiaao  (Shijiazhuang) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "——/ 百时益医药研发（北京）有限公司/ ——；——": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "——"
+  },
+  "杭州浩博医药有限公司": {
+    "sponsor_en": "Hangzhou Haobo Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Haobo  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州星曜坤泽生物制药有限公司": {
+    "sponsor_en": "Suzhou Xingyao Kunze Biopharmaceutical Co., Ltd.",
+    "query_term": "Suzhou Xingyao Kunze  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东东阳光药业有限公司": {
+    "sponsor_en": "Guangdong HEC Pharmaceutical",
+    "query_term": "Guangdong HEC",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖南先施制药有限公司/ 浙江赛默制药有限公司": {
+    "sponsor_en": "Hunan साइनस Pharmaceutical Co., Ltd. / Zhejiang Simo Pharmaceutical Co., Ltd.",
+    "query_term": "Hunan साइनस  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "铂生卓越生物科技（北京）有限公司": {
+    "sponsor_en": "Platinum Excellence Biotechnology (Beijing) Co., Ltd.",
+    "query_term": "Platinum Excellence  (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都倍特锐玛生物医药科技有限公司": {
+    "sponsor_en": "Chengdu Better Pharma Biotech Co., Ltd.",
+    "query_term": "Chengdu Better Pharma Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京协和制药二厂/ 中国医学科学院药物研究所": {
+    "sponsor_en": "Beijing Union Pharmaceutical Factory No. 2 / Institute of Materia Medica, Chinese Academy of Medical Sciences",
+    "query_term": "Beijing Union  Factory No. 2",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "不适用/ 诺华（中国）生物医学研究有限公司": {
+    "sponsor_en": "N/A / Novartis (China) BioMedical Research Co., Ltd.",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00183833",
+      "NCT04929249",
+      "NCT06726148",
+      "NCT01487785",
+      "NCT00251433"
+    ]
+  },
+  "北京康辰药业股份有限公司": {
+    "sponsor_en": "Beijing Kangchen Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Kangchen  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州九源基因生物医药股份有限公司": {
+    "sponsor_en": "Hangzhou JiuYuan Gene Biomedicine Co., Ltd.",
+    "query_term": "Hangzhou JiuYuan Gene Biomedicine .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳珐玛易药品科技有限公司": {
+    "sponsor_en": "Shenzhen PharmEasy Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shenzhen PharmEasy   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
