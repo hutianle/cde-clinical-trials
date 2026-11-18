@@ -2278,5 +2278,99 @@
     "query_term": "Chengdu Sibicon   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "NOVELTY NOBILITY Inc./ 杭州泰格医药科技股份有限公司/ Osong Medical Innovation Foundation Biopharmaceuticals Manufacturing Center": {
+    "sponsor_en": "NOVELTY NOBILITY Inc. / Hangzhou Tigermed Consulting Co., Ltd. / Osong Medical Innovation Foundation Biopharmaceuticals Manufacturing Center",
+    "query_term": "NOVELTY NOBILITY Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "因帆（济南）生物医药科技有限公司": {
+    "sponsor_en": "Yinfan (Jinan) Biomedical Technology Co., Ltd.",
+    "query_term": "Yinfan (Jinan)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东恒瑞医药有限公司": {
+    "sponsor_en": "Guangdong Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02500199",
+      "NCT04446260",
+      "NCT03764293",
+      "NCT03398720",
+      "NCT05277168"
+    ]
+  },
+  "深圳医克生物医药有限公司": {
+    "sponsor_en": "Shenzhen Yike Biopharmaceuticals Co., Ltd.",
+    "query_term": "Shenzhen Yike Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州中美华东制药有限公司": {
+    "sponsor_en": "Hangzhou Sino-American Huadong Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Sino-American Huadong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州一品红制药有限公司": {
+    "sponsor_en": "Guangzhou Yipin Hong Pharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Yipin Hong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州远大生物制药有限公司": {
+    "sponsor_en": "Hangzhou Yuanda Biopharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Yuanda  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "翎泰天润生物技术（上海）有限公司": {
+    "sponsor_en": "Lingtai Tianrun Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Lingtai Tianrun  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州健尔圣医药科技有限公司": {
+    "sponsor_en": "Guangzhou Jiansheng Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Guangzhou Jiansheng   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海复宏瑞霖生物技术有限公司/ 上海复宏汉霖生物医药有限公司": {
+    "sponsor_en": "Shanghai Fosun Pharma RZ Biotechnology Co., Ltd. / Shanghai Henlius Biotech, Inc.",
+    "query_term": "Shanghai Fosun Pharma RZ  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "辅仁药业集团有限公司": {
+    "sponsor_en": "Furen Medicines Group Co., Ltd",
+    "query_term": "Furen Medicines",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江海正药业股份有限公司": {
+    "sponsor_en": "Zhejiang Hisun Pharmaceutical Co., Ltd.",
+    "query_term": "Hisun",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03625401",
+      "NCT02087917",
+      "NCT01733082"
+    ]
+  },
+  "安徽中科拓苒药物科学研究有限公司": {
+    "sponsor_en": "Anhui Zhongke Tuoran Pharmaceutical Science Research Co., Ltd.",
+    "query_term": "Anhui Zhongke Tuoran  Science Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "强生（中国）投资有限公司": {
+    "sponsor_en": "Johnson & Johnson (China) Investment Co., Ltd.",
+    "query_term": "Johnson & Johnson (China) Investment .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }

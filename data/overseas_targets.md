@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-18 | **Identified High-Priority Sponsors:** 51
+> - **Generated Date:** 2026-11-18 | **Identified High-Priority Sponsors:** 53
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -59,6 +59,8 @@
 | 49 | Jiangsu Hengrui Medicine Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. | 江苏恒瑞医药股份有限公司/ 上海恒瑞医药有限公司 | US Trial Site | CTR20263427 | NCT02500199, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 50 | Jiangsu Simcere Weike Biopharmaceuticals Co., Ltd. | 江苏先声卫科生物制药有限公司 | US Trial Site | CTR20263422 | NCT06375044, NCT05569057 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 51 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Lilly del Caribe, Inc. | Eli Lilly and Company/ 礼来苏州制药有限公司/ Lilly del Caribe, Inc. | US Trial Site | CTR20263408 | NCT00083720, NCT03936959 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 52 | Guangdong Hengrui Medicine Co., Ltd. | 广东恒瑞医药有限公司 | US Trial Site | CTR20263395 | NCT02500199, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 53 | Zhejiang Hisun Pharmaceutical Co., Ltd. | 浙江海正药业股份有限公司 | US Trial Site | CTR20263371 | NCT03625401, NCT02087917 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
