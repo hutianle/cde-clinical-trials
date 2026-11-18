@@ -1414,5 +1414,79 @@
     "query_term": "Zhaoke  (Hefei) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海恒润达生生物科技股份有限公司/ 上海恒润达生生物制药有限公司": {
+    "sponsor_en": "Shanghai Hengrun Dasheng Biotechnology Co., Ltd. / Shanghai Hengrun Dasheng Biopharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Hengrun Dasheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江麒正药业有限公司": {
+    "sponsor_en": "Zhejiang Qizheng Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Qizheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东卫伦生物制药有限公司": {
+    "sponsor_en": "Guangdong Weilen Biopharmaceutical Co., Ltd.",
+    "query_term": "Guangdong Weilen  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京顺欣祥宇生物科技有限公司": {
+    "sponsor_en": "Beijing Shunxin Xiangyu Biotechnology Co., Ltd.",
+    "query_term": "Beijing Shunxin Xiangyu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "烟台创和生物科技有限公司": {
+    "sponsor_en": "Yantai Chuanghe Biotechnology Co., Ltd.",
+    "query_term": "Yantai Chuanghe  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Parabilis Medicines, Inc./ 湃历医药（上海）有限公司/ Alcami Carolinas Corporation": {
+    "sponsor_en": "Parabilis Medicines, Inc. / Paili Pharmaceutical (Shanghai) Co., Ltd. / Alcami Carolinas Corporation",
+    "query_term": "Parabilis Medicines, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05919264"
+    ]
+  },
+  "北京科兴生物制品有限公司": {
+    "sponsor_en": "Sinovac Biotech Co., Ltd.",
+    "query_term": "Sinovac Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东先声再明生物制药有限公司": {
+    "sponsor_en": "Shandong Xiansheng Zaiming Biopharmaceutical Co., Ltd.",
+    "query_term": "Simcere",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06375044",
+      "NCT05569057",
+      "NCT06792552",
+      "NCT05781360",
+      "NCT05940883"
+    ]
+  },
+  "中国医学科学院医学生物学研究所": {
+    "sponsor_en": "Institute of Medical Biology, Chinese Academy of Medical Sciences",
+    "query_term": "Institute of Medical Biology, Chinese Academy of Medical Sciences",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州沙砾生物科技有限公司": {
+    "sponsor_en": "Suzhou Shali Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Shali  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "远大赛威信生命科学（杭州）有限公司": {
+    "sponsor_en": "Yuan Da Saiwei Life Sciences (Hangzhou) Co., Ltd.",
+    "query_term": "Yuan Da Saiwei Life Sciences (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
