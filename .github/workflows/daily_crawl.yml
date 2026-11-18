@@ -2,8 +2,8 @@ name: Scheduled CDE New Drug Ingestion & Deploy
 
 on:
   schedule:
-    # Runs hourly at minute 0: 24 runs/day x 20 trials = ~480 new drug trials/day (~6,000 in ~13 days)
-    - cron: '0 * * * *'
+    # Runs hourly at minute 17: 24 runs/day x 20 trials = ~480 new drug trials/day (~6,000 in ~13 days)
+    - cron: '17 * * * *'
   push:
     branches:
       - main
