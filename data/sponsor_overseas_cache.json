@@ -1222,5 +1222,107 @@
     "query_term": "Shenzhen PharmEasy   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "江苏荃信生物医药股份有限公司/ 江苏赛孚士生物技术有限公司": {
+    "sponsor_en": "Jiangsu Quanxin Biopharmaceutical Co., Ltd. / Jiangsu SafeSt Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Quanxin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Full-Life Techinologies UK Limited/ 上海辐联医药科技有限公司/ AtomVie Global Radiopharma Inc.": {
+    "sponsor_en": "Full-Life Techinologies UK Limited / Shanghai FULIAN Medical Technology Co., Ltd. / AtomVie Global Radiopharma Inc.",
+    "query_term": "Full-Life Techinologies UK",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "英百瑞（杭州）生物医药股份有限公司": {
+    "sponsor_en": "Inobridge (Hangzhou) Biopharmaceuticals Co., Ltd.",
+    "query_term": "Inobridge (Hangzhou) Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "丹麦诺和诺德公司/ 诺和诺德（中国）制药有限公司": {
+    "sponsor_en": "Novo Nordisk A/S, Denmark / Novo Nordisk (China) Pharmaceuticals Co., Ltd.",
+    "query_term": "Novo Nordisk A",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00095082",
+      "NCT02918279",
+      "NCT07444203",
+      "NCT06411210",
+      "NCT04777409"
+    ]
+  },
+  "新景智源生物科技（苏州）有限公司": {
+    "sponsor_en": "Xinjing Zhiyuan Biotechnology (Suzhou) Co., Ltd.",
+    "query_term": "Xinjing Zhiyuan  (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "联邦生物科技（珠海横琴）有限公司": {
+    "sponsor_en": "Federal Biotechnology (Zhuhai Hengqin) Co., Ltd.",
+    "query_term": "Federal  (Zhuhai Hengqin) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京康诺亚生物医药有限公司/ 成都康诺行生物医药科技有限公司": {
+    "sponsor_en": "Beijing Conpro Biotechnology Co., Ltd. / Chengdu Connaught Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Conpro  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏万戎生物医药科技有限公司/ 江苏万邦医药科技有限公司/ 和元生物技术(上海)股份有限公司": {
+    "sponsor_en": "Jiangsu Wanrong Biomedical Technology Co., Ltd. / Jiangsu Wanbang Pharmaceutical Technology Co., Ltd. / Heyuan Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Jiangsu Wanrong   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都苑东生物制药股份有限公司/ 中国科学院上海药物研究所/ 中科中山药物创新研究院": {
+    "sponsor_en": "Chengdu Yuandong Biopharmaceutical Co., Ltd. / Shanghai Institute of Materia Medica, Chinese Academy of Sciences / Zhongke Zhongshan Pharmaceutical Innovation Research Institute",
+    "query_term": "Chengdu Yuandong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州迪新宸科生物科技有限公司": {
+    "sponsor_en": "Suzhou Dixinchenke Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Dixinchenke  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京先通国际医药科技股份有限公司": {
+    "sponsor_en": "Beijing Xiantong International Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Xiantong International   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天津铂泰医药科技有限公司": {
+    "sponsor_en": "Tianjin Botai Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Tianjin Botai   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "罗氏研发（中国）有限公司": {
+    "sponsor_en": "Roche Research and Development (China) Co., Ltd.",
+    "query_term": "Roche Research and Development (China) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京抗创联生物制药技术研究有限公司": {
+    "sponsor_en": "Beijing Kangchuanglian Biopharmaceutical Technology Research Co., Ltd.",
+    "query_term": "Beijing Kangchuanglian   Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海云晟研新生物科技有限公司": {
+    "sponsor_en": "Shanghai YunShengYanXin Biotechnology Co., Ltd.",
+    "query_term": "Shanghai YunShengYanXin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州旺山旺水生物医药股份有限公司/ 旺山旺水（上海）生物医药有限公司/ 中国科学院上海药物研究所": {
+    "sponsor_en": "Suzhou Wangshan Wangshui Biomedical Co., Ltd. / Wanshan Wangshui (Shanghai) Biomedical Co., Ltd. / Shanghai Institute of Materia Medica, Chinese Academy of Sciences",
+    "query_term": "Suzhou Wangshan Wangshui  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
