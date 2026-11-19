@@ -3892,5 +3892,58 @@
     "query_term": "Exothera (Beijing)   Development .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Cilag AG": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Cilag AG",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03945903",
+      "NCT01804686",
+      "NCT05663866",
+      "NCT04077463"
+    ]
+  },
+  "浙江道尔生物科技有限公司": {
+    "sponsor_en": "Zhejiang Dor Biotechnology Co., Ltd.",
+    "query_term": "Zhejiang Dor  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "沛肽（上海）医药科技有限公司/ 成都圣诺生物制药有限公司": {
+    "sponsor_en": "Peite (Shanghai) Pharmaceutical Technology Co., Ltd. / Chengdu Sainuo Biopharmaceutical Co., Ltd.",
+    "query_term": "Peite (Shanghai)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海天泽云泰生物医药有限公司": {
+    "sponsor_en": "Shanghai Tianze Yuntai Biopharmaceuticals Co., Ltd.",
+    "query_term": "Shanghai Tianze Yuntai Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东海雅医药科技有限公司/ 山东大学": {
+    "sponsor_en": "Shandong Haiya Pharmaceutical Technology Co., Ltd. / Shandong University",
+    "query_term": "Shandong Haiya   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海复诺健生物科技有限公司": {
+    "sponsor_en": "Shanghai FvG Biotech Co., Ltd.",
+    "query_term": "Shanghai FvG Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "盛世泰科生物医药技术（苏州）股份有限公司": {
+    "sponsor_en": "Shengshi Taike Biopharmaceutical Technology (Suzhou) Co., Ltd.",
+    "query_term": "Shengshi Taike   (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "信达生物医药科技（杭州）有限公司/ 信达生物制药（苏州）有限公司": {
+    "sponsor_en": "Innovent Biologics (Hangzhou) Co., Ltd. / Innovent Biologics (Suzhou) Co., Ltd.",
+    "query_term": "Innovent Biologics (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
