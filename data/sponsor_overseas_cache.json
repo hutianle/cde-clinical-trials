@@ -3593,5 +3593,70 @@
     "query_term": "Chengdu Huahao Zhongtian  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "深圳恩瑞恺诺生物技术有限公司": {
+    "sponsor_en": "Shenzhen Enruikaino Biotechnology Co., Ltd.",
+    "query_term": "Shenzhen Enruikaino  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "海南元盈医药科技有限公司": {
+    "sponsor_en": "Hainan Yuanying Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Hainan Yuanying   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京师宏药业有限公司": {
+    "sponsor_en": "Beijing Shihong Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Shihong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海和誉生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Heyu Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Heyu   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海循曜生物科技有限公司/ 绍兴循曜磐拓生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Xunyao Biotechnology Co., Ltd. / Shaoxing Xunyao Pantuo Biomedical Technology Co., Ltd.",
+    "query_term": "Shanghai Xunyao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "星源德生物医药（上海）有限公司/ 星汉德（上海）生物医药有限公司": {
+    "sponsor_en": "Xingyuande Biopharmaceuticals (Shanghai) Co., Ltd. / Xinghan (Shanghai) Biopharmaceutical Co., Ltd.",
+    "query_term": "Xingyuande Biopharmaceuticals (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Eisai Co., Ltd./ 赛生医药（中国）有限公司/ Eisai Co., Ltd. Kawashima Plant": {
+    "sponsor_en": "Eisai Co., Ltd. / CSPC Pharmaceutical Group Limited (China) / Eisai Co., Ltd. Kawashima Plant",
+    "query_term": "Eisai .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "ImmunityBio, Inc./ 杭州泰格医药科技股份有限公司/ PCI San Diego, Inc": {
+    "sponsor_en": "ImmunityBio, Inc. / Hangzhou Tigermed Consulting Co., Ltd. / PCI San Diego, Inc",
+    "query_term": "ImmunityBio, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06710288",
+      "NCT03563170",
+      "NCT06022224",
+      "NCT03554109"
+    ]
+  },
+  "兆科（广州）眼科药物有限公司": {
+    "sponsor_en": "Zhaoke (Guangzhou) Ophthalmology Pharmaceutical Co., Ltd.",
+    "query_term": "Zhaoke (Guangzhou) Ophthalmology  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "慕宝盛科生物医药（广东横琴）有限公司": {
+    "sponsor_en": "MabPlex (Hengqin) Co., Ltd.",
+    "query_term": "MabPlex (Hengqin) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
