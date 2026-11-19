@@ -2962,5 +2962,81 @@
     "query_term": "AstraZeneca AB",
     "has_us_site": false,
     "us_trials": []
+  },
+  "深圳艾欣达伟医药科技有限公司": {
+    "sponsor_en": "Shenzhen Aixindawei Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shenzhen Aixindawei   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都艾迪医药技术有限公司/ 江苏艾迪药业股份有限公司/ 南京艾迪医药科技有限公司/ 山东药石药业有限公司": {
+    "sponsor_en": "Chengdu Aidi Pharmaceutical Technology Co., Ltd. / Jiangsu Aidi Pharmaceutical Co., Ltd. / Nanjing Aidi Pharmaceutical Technology Co., Ltd. / Shandong Luoxin Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Aidi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华深智药生物科技（苏州）有限公司": {
+    "sponsor_en": "Huashen Zhiyao Biotechnology (Suzhou) Co., Ltd.",
+    "query_term": "Huashen Zhiyao  (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州尚健生物技术股份有限公司": {
+    "sponsor_en": "Hangzhou Shangjian Biotechnology Co., Ltd.",
+    "query_term": "Hangzhou Shangjian  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京安健熹医药科技有限公司": {
+    "sponsor_en": "Beijing Anjianxi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Anjianxi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏中新医药有限公司": {
+    "sponsor_en": "Jiangsu Zhongxin Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Zhongxin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "石家庄以岭药业股份有限公司": {
+    "sponsor_en": "Shijiazhuang Yiling Pharmaceutical Co., Ltd.",
+    "query_term": "Shijiazhuang Yiling  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海翰森生物医药科技有限公司/ 江苏豪森药业集团有限公司": {
+    "sponsor_en": "Shanghai Hansoh Biopharmaceuticals Co., Ltd. / Jiangsu Hansoh Pharmaceutical Group Co Ltd Lianyungang Hongchuang Pharmaceutical Co Ltd of Jiangsu Hansoh Pharmaceutical Group Co Ltd",
+    "query_term": "Hansoh",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02981108",
+      "NCT06846710",
+      "NCT06892379"
+    ]
+  },
+  "绍兴缮维特生物技术有限公司": {
+    "sponsor_en": "Shaoxing Shanwei Biotechnology Co., Ltd.",
+    "query_term": "Shaoxing Shanwei  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "思道医药科技（苏州）有限公司": {
+    "sponsor_en": "Sidao Pharmaceutical Technology (Suzhou) Co., Ltd.",
+    "query_term": "Sidao   (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "复星万邦（江苏）医药集团有限公司/ 南京集萃剂鼎医药有限公司": {
+    "sponsor_en": "Fosun Wanbang (Jiangsu) Pharmaceutical Group Co., Ltd. / Nanjing Jicui Jiding Pharmaceutical Co., Ltd.",
+    "query_term": "Fosun Wanbang (Jiangsu)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "纽欧申医药（上海）有限公司": {
+    "sponsor_en": "NewOcean Pharmaceuticals (Shanghai) Co., Ltd.",
+    "query_term": "NewOcean  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
