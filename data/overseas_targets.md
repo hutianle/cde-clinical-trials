@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-19 | **Identified High-Priority Sponsors:** 59
+> - **Generated Date:** 2026-11-19 | **Identified High-Priority Sponsors:** 60
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -65,8 +65,9 @@
 | 55 | Zhejiang Hisun Pharmaceutical Co., Ltd. | 浙江海正药业股份有限公司 | US Trial Site | CTR20263371 | NCT03625401, NCT02087917 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 56 | Jiangsu Hengrui Medicine Co., Ltd. / Shanghai Fuhong Biopharmaceutical Co., Ltd. | 江苏恒瑞医药股份有限公司/ 上海甫弘生物医药有限公司 | US Trial Site | CTR20263313 | NCT02500199, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 57 | Fujian Shengdi Pharmaceutical Co., Ltd. / Beijing Tuojie Biomedical Technology Co., Ltd. / Jiangsu Hengrui Medicine Co., Ltd. | 福建盛迪医药有限公司/ 北京拓界生物医药科技有限公司/ 江苏恒瑞医药股份有限公司 | US Trial Site | CTR20263187 | NCT02500199, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 58 | Eli Lillly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Incog Biopharma Services, Inc. | Eli Lillly and Company/ 礼来苏州制药有限公司/ Incog Biopharma Services, Inc. | US Trial Site | CTR20263178 | NCT00083720, NCT03936959 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 59 | Janssen-Cilag International NV / Johnson & Johnson (China) Investment Co., Ltd. / Renaissance Lakewood LLC | Janssen-Cilag International NV/ 强生（中国）投资有限公司/ Renaissance Lakewood LLC | US Trial Site | CTR20263138 | NCT00111189 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 58 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Incog Biopharma Services,Inc. | Eli Lilly and Company/ 礼来苏州制药有限公司/ Incog Biopharma Services,Inc. | US Trial Site | CTR20263107 | NCT00083720, NCT03936959 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 59 | Eli Lillly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Incog Biopharma Services, Inc. | Eli Lillly and Company/ 礼来苏州制药有限公司/ Incog Biopharma Services, Inc. | US Trial Site | CTR20263178 | NCT00083720, NCT03936959 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 60 | Janssen-Cilag International NV / Johnson & Johnson (China) Investment Co., Ltd. / Renaissance Lakewood LLC | Janssen-Cilag International NV/ 强生（中国）投资有限公司/ Renaissance Lakewood LLC | US Trial Site | CTR20263138 | NCT00111189 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
