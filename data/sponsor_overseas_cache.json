@@ -2372,5 +2372,83 @@
     "query_term": "Johnson & Johnson (China) Investment .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "江苏贝联生物科技有限公司": {
+    "sponsor_en": "Jiangsu Beilian Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Beilian  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海恒瑞医药有限公司": {
+    "sponsor_en": "Shanghai Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02500199",
+      "NCT04446260",
+      "NCT03764293",
+      "NCT03398720",
+      "NCT05277168"
+    ]
+  },
+  "通瑞生物制药（成都）有限公司": {
+    "sponsor_en": "Tongrui Biopharmaceuticals (Chengdu) Co., Ltd.",
+    "query_term": "Tongrui Biopharmaceuticals (Chengdu) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海仁会生物制药股份有限公司": {
+    "sponsor_en": "Shanghai Renhui Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Renhui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Roche Pharma (Schweiz) AG/ 罗氏（中国）投资有限公司/ Shionogi Pharma Co.,Ltd.": {
+    "sponsor_en": "Roche Pharma (Schweiz) AG / Roche (China) Investment Co., Ltd. / Shionogi Pharma Co.,Ltd.",
+    "query_term": "Roche Pharma (Schweiz) AG",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州瑞普晨创科技有限公司": {
+    "sponsor_en": "Hangzhou Ruipuchenchuang Technology Co., Ltd.",
+    "query_term": "Hangzhou Ruipuchenchuang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞（北京）研究开发有限公司/ Catalent France Limoges SAS": {
+    "sponsor_en": "Pfizer Inc. / Pfizer (Beijing) Research and Development Co., Ltd. / Catalent France Limoges SAS",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞投资有限公司/ Pfizer Manufacturing Belgium NV": {
+    "sponsor_en": "Pfizer Inc. / Pfizer Inc. / Pfizer Manufacturing Belgium NV",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州华越肾科再生医学科技有限公司": {
+    "sponsor_en": "Guangzhou Huayue Nephrology Regenerative Medicine Technology Co., Ltd.",
+    "query_term": "Guangzhou Huayue Nephrology Regenerative Medicine  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海览屹医药科技有限公司": {
+    "sponsor_en": "Shanghai Lanyi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Lanyi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海上药信谊药厂有限公司": {
+    "sponsor_en": "Shanghai Pharmaceutical Xin Yi Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai  Xin Yi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "安徽安科生物工程（集团）股份有限公司": {
+    "sponsor_en": "Anhui Anke Biotechnology (Group) Co., Ltd.",
+    "query_term": "Anhui Anke  () .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
