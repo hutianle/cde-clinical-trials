@@ -3796,5 +3796,101 @@
     "query_term": "Anhui Pioneer  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "武汉人福创新药物研发中心有限公司": {
+    "sponsor_en": "Wuhan Humanwell Innovative Drug Research and Development Center Co., Ltd.",
+    "query_term": "Humanwell",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "赛灵药业科技集团股份有限公司": {
+    "sponsor_en": "Salubris Pharmaceuticals Ltd.",
+    "query_term": "Salubris  Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "英百瑞（杭州）生物医药有限公司": {
+    "sponsor_en": "Inobrain (Hangzhou) Biopharmaceuticals Co., Ltd.",
+    "query_term": "Inobrain (Hangzhou) Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海现代制药股份有限公司": {
+    "sponsor_en": "Shanghai Modern Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Modern  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "珠海泰诺麦博生物技术有限公司": {
+    "sponsor_en": "Zhuhai Tenon Bio-Pharmaceuticals Co., Ltd.",
+    "query_term": "Zhuhai Tenon Bio- .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海爱科百发生物医药技术股份有限公司": {
+    "sponsor_en": "Shanghai Epibio Therapeutics Co., Ltd.",
+    "query_term": "Shanghai Epibio Therapeutics .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ AbbVie Ireland NL B.V.": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / AbbVie Ireland NL B.V.",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01490749",
+      "NCT00685399",
+      "NCT07225504",
+      "NCT01594983",
+      "NCT00940602"
+    ]
+  },
+  "上海壹典医药科技开发有限公司": {
+    "sponsor_en": "Shanghai Yidian Pharmaceutical Technology Development Co., Ltd.",
+    "query_term": "Shanghai Yidian   Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "GlaxoSmithKline Research & Development Limited/ 葛兰素史克（中国）投资有限公司/ GlaxoSmithKline Manufacturing SpA": {
+    "sponsor_en": "GlaxoSmithKline Research & Development Limited / GlaxoSmithKline (China) Investment Co., Ltd. / GlaxoSmithKline Manufacturing SpA",
+    "query_term": "GlaxoSmithKline Research & Development",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "瑞石生物医药有限公司": {
+    "sponsor_en": "Ruishi Biopharmaceuticals Co., Ltd.",
+    "query_term": "Ruishi Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都蓉生药业有限责任公司": {
+    "sponsor_en": "Chengdu Rongsheng Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Rongsheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Boehringer Ingelheim Pharma GmbH & Co.KG": {
+    "sponsor_en": "Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Boehringer Ingelheim Pharma GmbH & Co.KG",
+    "query_term": "Boehringer Ingelheim",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02061748",
+      "NCT00122863",
+      "NCT01205373",
+      "NCT00002166",
+      "NCT07220083"
+    ]
+  },
+  "迈英诺医药科技（珠海）有限公司": {
+    "sponsor_en": "Meyinno Pharmaceutical Technology (Zhuhai) Co., Ltd.",
+    "query_term": "Meyinno   (Zhuhai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "益科思特（北京）医药科技发展有限公司": {
+    "sponsor_en": "Exothera (Beijing) Pharmaceutical Technology Development Co., Ltd.",
+    "query_term": "Exothera (Beijing)   Development .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
