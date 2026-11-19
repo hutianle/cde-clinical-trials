@@ -684,32 +684,33 @@ def clean_phase(raw_phase: str) -> str:
 
     # 2. Check compound and sub-phases in priority order (longest & most specific first)
     patterns = [
-        # Compound phase combinations
-        (r'\bI/IIa\b|I/IIa期', "Phase I/IIa"),
-        (r'\bI/IIb\b|I/IIb期', "Phase I/IIb"),
-        (r'\bIa/Ib\b|Ia/Ib期', "Phase Ia/Ib"),
-        (r'\bIb/IIa\b|Ib/IIa期', "Phase Ib/IIa"),
-        (r'\bIb/II\b|Ib/II期|Ib期/II期|Ib期/II', "Phase Ib/II"),
-        (r'\bI/II\b|I/II期|I期/II期|I期/II', "Phase I/II"),
-        (r'\bIIa/IIb\b|IIa/IIb期', "Phase IIa/IIb"),
-        (r'\bIIa/III\b|IIa/III期', "Phase IIa/III"),
-        (r'\bII/III\b|II/III期|II期/III期|II期/III', "Phase II/III"),
-        (r'\bIII/IV\b|III/IV期|III期/IV期|III期/IV', "Phase III/IV"),
+        # Compound phase combinations (checked first, longest and most specific first)
+        (r'(?<![I1])(?:I/IIa|1期/2a期)\b|(?<![I1])I/IIa期', "Phase I/IIa"),
+        (r'(?<![I1])I/IIb\b|(?<![I1])I/IIb期', "Phase I/IIb"),
+        (r'(?<![I1])Ia/Ib/II\b|(?<![I1])Ia/Ib/II期', "Phase I/II"),
+        (r'(?<![I1])Ia/Ib\b|(?<![I1])Ia/Ib期', "Phase Ia/Ib"),
+        (r'(?<![I1])Ib/IIa\b|(?<![I1])Ib/IIa期', "Phase Ib/IIa"),
+        (r'(?<![I1])I[Bb]/II\b|(?<![I1])I[Bb]/II期|Ib期/II期?|Ib期/II', "Phase Ib/II"),
+        (r'(?<![I1])III/IV\b|(?<![I1])III/IV期|III期/IV期?|III期/IV|IIIb/IV期?', "Phase III/IV"),
+        (r'(?<![I1])IIa/IIb\b|(?<![I1])IIa/IIb期', "Phase IIa/IIb"),
+        (r'(?<![I1])IIa/III\b|(?<![I1])IIa/III期', "Phase IIa/III"),
+        (r'(?<![I1])II/III\b|(?<![I1])II/III期|II期/III期?|II期/III', "Phase II/III"),
+        (r'(?<![I1])I/II\b|(?<![I1])I/II期|I期/II期?|I期/II|I期和II期|I期\+II期|I\+II期|I、II期', "Phase I/II"),
 
-        # Sub-phases
-        (r'\bIa\b|Ia期', "Phase Ia"),
-        (r'\bIb\b|Ib期', "Phase Ib"),
-        (r'\bIc\b|Ic期', "Phase Ic"),
-        (r'\bIIa\b|IIa期', "Phase IIa"),
-        (r'\bIIb\b|IIb期', "Phase IIb"),
-        (r'\bIIIa\b|IIIa期', "Phase IIIa"),
-        (r'\bIIIb\b|IIIb期', "Phase IIIb"),
+        # Sub-phases (must check III, II before I with lookbehind so Ib期 does not match inside IIIb期/IIb期)
+        (r'(?<![I1])(?:III|3)a\b|(?<![I1])(?:III|3)a期', "Phase IIIa"),
+        (r'(?<![I1])(?:III|3)b\b|(?<![I1])(?:III|3)b期', "Phase IIIb"),
+        (r'(?<![I1])(?:II|2)a\b|(?<![I1])(?:II|2)a期', "Phase IIa"),
+        (r'(?<![I1])(?:II|2)b\b|(?<![I1])(?:II|2)b期', "Phase IIb"),
+        (r'(?<![I1])(?:I|1)a\b|(?<![I1])(?:I|1)a期', "Phase Ia"),
+        (r'(?<![I1])(?:I|1)b\b|(?<![I1])(?:I|1)b期', "Phase Ib"),
+        (r'(?<![I1])(?:I|1)c\b|(?<![I1])(?:I|1)c期', "Phase Ic"),
 
         # Standard phases (must test IV, III, II before I)
-        (r'\bIV\b|IV期|4期|Phase\s*IV|Phase\s*4|四期', "Phase IV"),
-        (r'\bIII\b|III期|3期|Phase\s*III|Phase\s*3|三期', "Phase III"),
-        (r'\bII\b|II期|2期|Phase\s*II|Phase\s*2|二期', "Phase II"),
-        (r'\bI\b|I期|1期|Phase\s*I|Phase\s*1|一期', "Phase I"),
+        (r'(?<![I1])(?:IV|4)\b|(?<![I1])(?:IV|4)期|Phase\s*(?:IV|4)\b|四期', "Phase IV"),
+        (r'(?<![I1])(?:III|3)\b|(?<![I1])(?:III|3)期|Phase\s*(?:III|3)\b|三期', "Phase III"),
+        (r'(?<![I1])(?:II|2)\b|(?<![I1])(?:II|2)期|Phase\s*(?:II|2)\b|二期', "Phase II"),
+        (r'(?<![I1])(?:I|1)\b|(?<![I1])(?:I|1)期|Phase\s*(?:I|1)\b|一期', "Phase I"),
 
         # Exploratory / Early
         (r'0期|Phase\s*0|探索性|早期临床', "Phase 0 / Exploratory")

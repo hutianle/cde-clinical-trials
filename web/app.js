@@ -100,6 +100,76 @@ function initTabs() {
 }
 
 // -------------------------------------------------------------
+// STRICT PHASE MATCHING & BADGE HELPERS
+// -------------------------------------------------------------
+function matchTrialPhase(trial, targetPhase) {
+  const pEn = (trial.phase_en || "").trim();
+  const pCn = (trial.phase || "").trim();
+
+  if (targetPhase === "Phase I") {
+    // Matches Phase I, Ia, Ib, I/II, Ib/II, etc.
+    // Must NOT match pure Phase II, Phase III, Phase IV
+    const enMatch = /\bPhase\s*I(?![IV])|\bPhase\s*I[ab]?\/II|\/I\b/i.test(pEn);
+    const cnMatch = /(?<![I1ⅡⅢⅣ一二三四])(?:I|1|Ⅰ|一)期/i.test(pCn) ||
+                    /(?<![I1ⅡⅢⅣ])(?:I|1|Ⅰ)[ab]?[/、+和](?:II|2|Ⅱ)/i.test(pCn);
+    return enMatch || cnMatch;
+  }
+
+  if (targetPhase === "Phase II") {
+    // Matches Phase II, IIa, IIb, I/II, Ib/II, II/III
+    // Must NOT match pure Phase I, Phase III, Phase IV
+    const enMatch = /\bPhase\s*II(?![I])|\/II\b/i.test(pEn);
+    const cnMatch = /(?<![I1ⅡⅢⅣ一二三四])(?:II|2|Ⅱ|二)期/i.test(pCn) ||
+                    /[/、+和](?:II|2|Ⅱ)期?/i.test(pCn) ||
+                    /(?<![I1ⅡⅢⅣ])(?:II|2|Ⅱ)[ab]?[/、+和]/i.test(pCn);
+    return enMatch || cnMatch;
+  }
+
+  if (targetPhase === "Phase III") {
+    // Matches Phase III, IIIa, IIIb, II/III, III/IV
+    // Must NOT match pure Phase I, Phase II, Phase IV
+    const enMatch = /\bPhase\s*III(?![I])|\/III\b/i.test(pEn);
+    const cnMatch = /(?<![I1ⅡⅢⅣ一二三四])(?:III|3|Ⅲ|三)期/i.test(pCn) ||
+                    /[/、+和](?:III|3|Ⅲ)期?/i.test(pCn) ||
+                    /(?<![I1ⅡⅢⅣ])(?:III|3|Ⅲ)[ab]?[/、+和]/i.test(pCn);
+    return enMatch || cnMatch;
+  }
+
+  if (targetPhase === "Phase IV") {
+    // Matches Phase IV, III/IV
+    // Must NOT match pure Phase I, Phase II, Phase III
+    const enMatch = /\bPhase\s*IV|\/IV\b/i.test(pEn);
+    const cnMatch = /(?<![I1ⅡⅢⅣ一二三四])(?:IV|4|Ⅳ|四)期/i.test(pCn) ||
+                    /[/、+和](?:IV|4|Ⅳ)期?/i.test(pCn);
+    return enMatch || cnMatch;
+  }
+
+  return pEn.toLowerCase().includes(targetPhase.toLowerCase()) || pCn.includes(targetPhase);
+}
+
+function getPhaseBadgeColor(phaseEn, isCard = false) {
+  const p = (phaseEn || "").trim();
+  if (/\bPhase\s*IV|\/IV\b/i.test(p)) {
+    return isCard 
+      ? "bg-fuchsia-100 text-fuchsia-800 border-fuchsia-200" 
+      : "bg-fuchsia-50 text-fuchsia-800 border-fuchsia-200";
+  }
+  if (/\bPhase\s*III(?![I])|\/III\b/i.test(p)) {
+    return isCard 
+      ? "bg-purple-100 text-purple-800 border-purple-200" 
+      : "bg-purple-50 text-purple-800 border-purple-200";
+  }
+  if (/\bPhase\s*II(?![I])|\/II\b/i.test(p)) {
+    return isCard 
+      ? "bg-indigo-100 text-indigo-800 border-indigo-200" 
+      : "bg-indigo-50 text-indigo-800 border-indigo-200";
+  }
+  return isCard 
+    ? "bg-emerald-100 text-emerald-800 border-emerald-200" 
+    : "bg-emerald-50 text-emerald-800 border-emerald-200";
+}
+
+// -------------------------------------------------------------
 // TAB 1: TODAY'S EXECUTIVE BRIEFING (Multi-Choice Phase Support)
 // -------------------------------------------------------------
 function filterTodayPhase(phase) {
@@ -143,12 +213,7 @@ function renderTodayBriefing() {
 
   if (selectedTodayPhases.size > 0) {
     trials = trials.filter(t => {
-      return Array.from(selectedTodayPhases).some(p => {
-        if (p === 'Phase I') return t.phase_en.includes('Phase I') || t.phase.includes('I期');
-        if (p === 'Phase II') return t.phase_en.includes('Phase II') || t.phase.includes('II期');
-        if (p === 'Phase III') return t.phase_en.includes('Phase III') || t.phase_en.includes('Phase IV') || t.phase.includes('III期') || t.phase.includes('IV期');
-        return t.phase_en.includes(p) || t.phase.includes(p);
-      });
+      return Array.from(selectedTodayPhases).some(p => matchTrialPhase(t, p));
     });
   }
 
@@ -175,12 +240,7 @@ function formatMarkdownSummary(text) {
 }
 
 function createTrialCard(trial) {
-  let phaseBadgeColor = "bg-emerald-100 text-emerald-800 border-emerald-200";
-  if (trial.phase_en.includes("Phase III") || trial.phase_en.includes("Phase IV")) {
-    phaseBadgeColor = "bg-purple-100 text-purple-800 border-purple-200";
-  } else if (trial.phase_en.includes("Phase II")) {
-    phaseBadgeColor = "bg-indigo-100 text-indigo-800 border-indigo-200";
-  }
+  let phaseBadgeColor = getPhaseBadgeColor(trial.phase_en, true);
 
   const overseasBadge = trial.overseas_intent ? `
     <span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200 flex items-center space-x-1" title="Confirmed overseas clinical signal (US site on ClinicalTrials.gov or Dual filing)">
@@ -329,13 +389,7 @@ function applyFilters() {
 
     // Multi-choice Phase Filter
     if (selectedPhases.size > 0) {
-      const match = Array.from(selectedPhases).some(p => {
-        if (p === 'Phase I') return t.phase_en.includes('Phase I') || t.phase.includes('I期') || t.phase.includes('1期');
-        if (p === 'Phase II') return t.phase_en.includes('Phase II') || t.phase.includes('II期') || t.phase.includes('2期');
-        if (p === 'Phase III') return t.phase_en.includes('Phase III') || t.phase.includes('III期') || t.phase.includes('3期');
-        if (p === 'Phase IV') return t.phase_en.includes('Phase IV') || t.phase.includes('IV期') || t.phase.includes('4期');
-        return t.phase_en.includes(p) || t.phase.includes(p);
-      });
+      const match = Array.from(selectedPhases).some(p => matchTrialPhase(t, p));
       if (!match) return false;
     }
 
@@ -370,12 +424,7 @@ function renderDatabaseTable(trials) {
   emptyState.classList.add("hidden");
 
   tbody.innerHTML = trials.map(t => {
-    let phaseBadgeColor = "bg-emerald-50 text-emerald-800 border-emerald-200";
-    if (t.phase_en.includes("Phase III") || t.phase_en.includes("Phase IV")) {
-      phaseBadgeColor = "bg-purple-50 text-purple-800 border-purple-200";
-    } else if (t.phase_en.includes("Phase II")) {
-      phaseBadgeColor = "bg-indigo-50 text-indigo-800 border-indigo-200";
-    }
+    let phaseBadgeColor = getPhaseBadgeColor(t.phase_en, false);
 
     return `
       <tr class="hover:bg-slate-50 transition border-b border-slate-100">
