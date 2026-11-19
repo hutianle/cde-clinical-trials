@@ -2660,5 +2660,53 @@
     "query_term": "Guangzhou Cyprotex   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "杭州纽安津生物科技有限公司": {
+    "sponsor_en": "Hangzhou Newagen Biotech Co., Ltd.",
+    "query_term": "Hangzhou Newagen Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉康复得泌尿系结石研究院有限公司": {
+    "sponsor_en": "Wuhan Kangfude Urinary System Stone Research Institute Co., Ltd.",
+    "query_term": "Wuhan Kangfude Urinary System Stone Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杏林中医药科技（广州）有限公司": {
+    "sponsor_en": "Xinglin Traditional Chinese Medicine Technology (Guangzhou) Co., Ltd.",
+    "query_term": "Xinglin Traditional Chinese Medicine  (Guangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州宜联生物医药有限公司": {
+    "sponsor_en": "Suzhou Yilian Biopharmaceuticals Co., Ltd.",
+    "query_term": "Suzhou Yilian Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "海创药业股份有限公司": {
+    "sponsor_en": "Haichuang Pharmaceutical Co., Ltd.",
+    "query_term": "Haichuang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京民海生物科技有限公司": {
+    "sponsor_en": "Beijing Minhai Biotechnology Corporation",
+    "query_term": "Beijing Minhai  Corporation",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海瀚辰星泰医药科技有限公司": {
+    "sponsor_en": "Shanghai Hanchen Xingtai Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Hanchen Xingtai   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "泰州迈博太科药业有限公司": {
+    "sponsor_en": "Taizhou Maypro Pharmaceutical Co., Ltd.",
+    "query_term": "Taizhou Maypro  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
