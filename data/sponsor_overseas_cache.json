@@ -3136,5 +3136,85 @@
       "NCT00056446",
       "NCT02228096"
     ]
+  },
+  "AstraZeneca AB/ 阿斯利康投资（中国）有限公司/ AstraZeneca Nijmegen B.V.": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Investment (China) Co., Ltd. / AstraZeneca Nijmegen B.V.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Astellas Pharma Global Development, Inc./ 安斯泰来（北京）医药研发有限公司/ Astellas Pharma Inc.": {
+    "sponsor_en": "Astellas Pharma Global Development, Inc. / Astellas (Beijing) Pharmaceutical R&D Co., Ltd. / Astellas Pharma Inc.",
+    "query_term": "Astellas Pharma Global Development, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01446094",
+      "NCT03653507",
+      "NCT07140016",
+      "NCT06171178",
+      "NCT04003389"
+    ]
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ Patheon Pharmaceuticals, Inc.": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / Patheon Pharmaceuticals, Inc.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海亲合力生物医药科技股份有限公司": {
+    "sponsor_en": "Shanghai Affinity Biomedical Technology Co., Ltd.",
+    "query_term": "Shanghai Affinity   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州和正医药有限公司/ 中国科学院上海药物研究所": {
+    "sponsor_en": "Hangzhou Hezheng Pharmaceutical Co., Ltd. / Shanghai Institute of Materia Medica, Chinese Academy of Sciences",
+    "query_term": "Hangzhou Hezheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "珠海横琴爱姆斯坦生物科技有限公司": {
+    "sponsor_en": "Zhuhai Hengqin Einstein Biotechnology Co., Ltd.",
+    "query_term": "Zhuhai Hengqin Einstein  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "拜耳医药保健有限公司": {
+    "sponsor_en": "Bayer Healthcare, LLC",
+    "query_term": "Bayer Healthcare, LLC",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "晶核生物医药（上海）有限公司": {
+    "sponsor_en": "Jinghe Biomedicine (Shanghai) Co., Ltd.",
+    "query_term": "Jinghe Biomedicine (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "艾斯拓康医药科技（北京）有限公司": {
+    "sponsor_en": "Astellas Pharma Tech (Beijing) Co., Ltd.",
+    "query_term": "Astellas Pharma Tech (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "明济生物制药（北京）有限公司": {
+    "sponsor_en": "Mingji Biopharmaceuticals (Beijing) Co., Ltd.",
+    "query_term": "Mingji Biopharmaceuticals (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江昂利康制药股份有限公司": {
+    "sponsor_en": "Zhejiang Anglico Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Anglico  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "F. Hoffmann-La Roche Ltd/ 罗氏（中国）投资有限公司/ F. Hoffmann-La Roche AG；F. Hoffmann-La Roche AG/ F. Hoffmann-La Roche AG": {
+    "sponsor_en": "F. Hoffmann-La Roche Ltd / Roche (China) Investment Co., Ltd. / F. Hoffmann-La Roche AG; F. Hoffmann-La Roche AG / F. Hoffmann-La Roche AG",
+    "query_term": "F. Hoffmann-La Roche Ltd",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04895436"
+    ]
   }
 }
