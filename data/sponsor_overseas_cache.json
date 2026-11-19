@@ -3216,5 +3216,92 @@
     "us_trials": [
       "NCT04895436"
     ]
+  },
+  "广东凯仲生物科技有限公司": {
+    "sponsor_en": "Guangdong Kaizhong Biotechnology Co., Ltd.",
+    "query_term": "Guangdong Kaizhong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "UCB Biopharma SRL/ 优时比贸易（上海）有限公司/ Vetter Development Services USA Inc.": {
+    "sponsor_en": "UCB Biopharma SRL / U-TIMES Trading (Shanghai) Co., Ltd. / Vetter Development Services USA Inc.",
+    "query_term": "UCB",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04718896",
+      "NCT01087762"
+    ]
+  },
+  "中国人民解放军第二军医大学/ 深圳市高盈泰科技发展有限公司": {
+    "sponsor_en": "Second Military Medical University / Shenzhen Gaoyingtai Technology Development Co., Ltd.",
+    "query_term": "Second Military Medical University",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州博之锐生物制药有限公司/ 浙江博锐生物制药股份有限公司": {
+    "sponsor_en": "Hangzhou Bozhirui Biopharmaceuticals Co., Ltd. / Zhejiang Borui Biopharmaceuticals Co., Ltd.",
+    "query_term": "Hangzhou Bozhirui Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "赤峰福纳康生物技术有限公司/ 北京福纳康生物技术有限公司": {
+    "sponsor_en": "Chifeng Funakang Biotechnology Co., Ltd. / Beijing Funacon Biotechnology Co., Ltd.",
+    "query_term": "Chifeng Funakang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "沈阳兴齐眼药股份有限公司": {
+    "sponsor_en": "Shenyang Xingqi Ophthalmic Pharmaceutical Co., Ltd.",
+    "query_term": "Shenyang Xingqi Ophthalmic  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "百奥泰生物制药股份有限公司": {
+    "sponsor_en": "Bio-Thera Solutions, Ltd.",
+    "query_term": "Bio-Thera Solutions, Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州邦顺制药股份有限公司": {
+    "sponsor_en": "Hangzhou Bangshun Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Bangshun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "科辉智药（深圳）新药研究中心有限公司": {
+    "sponsor_en": "Kehui Zhiyao (Shenzhen) New Drug Research Center Co., Ltd.",
+    "query_term": "Kehui Zhiyao (Shenzhen) New Drug Research Center .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海安领科生物医药有限公司": {
+    "sponsor_en": "Shanghai Anlingke Biopharmaceuticals Co., Ltd.",
+    "query_term": "Shanghai Anlingke Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "海南合瑞制药股份有限公司": {
+    "sponsor_en": "Hainan Herui Pharmaceutical Co., Ltd.",
+    "query_term": "Hainan Herui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海翱路生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Aolu Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Aolu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州高光制药有限公司": {
+    "sponsor_en": "Hangzhou Gaoguang Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Gaoguang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市新樾生物科技有限公司/ 深圳市小分子新药创新中心有限公司": {
+    "sponsor_en": "Shenzhen Xinyue Biotechnology Co., Ltd. / Shenzhen Small Molecule New Drug Innovation Center Co., Ltd.",
+    "query_term": "Shenzhen Xinyue  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
