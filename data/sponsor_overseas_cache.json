@@ -2810,5 +2810,79 @@
     "query_term": "Beijing Qimai Yonghua  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "江苏普莱医药生物技术有限公司/ 南京蒂诺维医药科技有限公司": {
+    "sponsor_en": "Jiangsu Puli Pharmaceutical Biotechnology Co., Ltd. / Nanjing Tinovi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Jiangsu Puli   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "万邦德制药集团有限公司": {
+    "sponsor_en": "Wanbangde Pharmaceutical Group Co., Ltd.",
+    "query_term": "Wanbangde   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中美瑞康核酸技术（南通）研究院有限公司": {
+    "sponsor_en": "Sino-American Ruikang Nucleic Acid Technology (Nantong) Research Institute Co., Ltd.",
+    "query_term": "Sino-American Ruikang Nucleic Acid  (Nantong) Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京赛特明强医药科技有限公司": {
+    "sponsor_en": "Beijing Setmingqiang Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Setmingqiang   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州高光制药股份有限公司": {
+    "sponsor_en": "Hangzhou Gaoguang Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Gaoguang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东丹霞生物制药有限公司": {
+    "sponsor_en": "Guangdong Danxia Biopharmaceutical Co., Ltd.",
+    "query_term": "Guangdong Danxia  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东盛迪医药有限公司/ 上海拓界生物医药科技有限公司/ 北京盛迪医药有限公司": {
+    "sponsor_en": "Shandong Shengdi Pharmaceutical Co., Ltd. / Shanghai Tuojie Biomedical Technology Co., Ltd. / Beijing Shengdi Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Shengdi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen-Cilag International NV/ 强生（中国）投资有限公司/ Renaissance Lakewood LLC": {
+    "sponsor_en": "Janssen-Cilag International NV / Johnson & Johnson (China) Investment Co., Ltd. / Renaissance Lakewood LLC",
+    "query_term": "Janssen-Cilag International NV",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00111189"
+    ]
+  },
+  "贝达药业股份有限公司": {
+    "sponsor_en": "Betta Pharmaceuticals Co., Ltd.",
+    "query_term": "Betta  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福建海西新药创制股份有限公司": {
+    "sponsor_en": "Fujian Haixi New Drug Innovation Co., Ltd.",
+    "query_term": "Fujian Haixi New Drug Innovation .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州圣因生物医药有限公司": {
+    "sponsor_en": "Suzhou Shengyin Biopharmaceuticals Co., Ltd.",
+    "query_term": "Suzhou Shengyin Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "正大天晴药业集团南京顺欣制药有限公司": {
+    "sponsor_en": "Zhengda Tianqing Pharmaceutical Group Nanjing Shunxin Pharmaceutical Co., Ltd.",
+    "query_term": "Zhengda Tianqing   Nanjing Shunxin  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
