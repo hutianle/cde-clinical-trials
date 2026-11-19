@@ -3038,5 +3038,103 @@
     "query_term": "NewOcean  (Shanghai) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Eli Lilly and Company/ 礼来苏州制药有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG": {
+    "sponsor_en": "Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Vetter Pharma-Fertigung GmbH & Co. KG",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00083720",
+      "NCT03936959",
+      "NCT00414323",
+      "NCT03955042",
+      "NCT00661869"
+    ]
+  },
+  "绿十字/ 诺爱药业（上海）有限公司": {
+    "sponsor_en": "Green Cross / Nuovo Pharmaceutical (Shanghai) Co., Ltd.",
+    "query_term": "Green Cross",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京舜景生物医药技术有限公司": {
+    "sponsor_en": "Beijing ShunJing Bio-Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing ShunJing Bio-  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "GlaxoSmithKline Research & Development Limited/ 葛兰素史克（中国）投资有限公司/ Glaxo Operations UK Limited trading as Glaxo Wellcome Operations": {
+    "sponsor_en": "GlaxoSmithKline Research & Development Limited / GlaxoSmithKline (China) Investment Co., Ltd. / Glaxo Operations UK Limited trading as Glaxo Wellcome Operations",
+    "query_term": "GlaxoSmithKline Research & Development",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川普锐特药业有限公司": {
+    "sponsor_en": "Sichuan Pritech Pharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Pritech  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海华奥泰生物药业股份有限公司/ 华博生物医药技术(上海)有限公司": {
+    "sponsor_en": "Shanghai Huatide Biological Pharmaceuticals Co., Ltd. / Huabo Biomedical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Shanghai Huatide Biological  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞（北京）研究开发有限公司/ BSP Pharmaceuticals S.p.A.": {
+    "sponsor_en": "Pfizer Inc. / Pfizer (Beijing) Research and Development Co., Ltd. / BSP Pharmaceuticals S.p.A.",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "顺天医药生技股份有限公司/ 博谦生技股份有限公司/ 上海医药集团股份有限公司": {
+    "sponsor_en": "Shunten Pharmaceutical Biotechnology Co., Ltd. / Bio-Qian Biotechnology Co., Ltd. / Shanghai Pharmaceutical Group Co., Ltd.",
+    "query_term": "Shunten   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "乐普生物科技股份有限公司": {
+    "sponsor_en": "Lepu Biopharma Co., Ltd.",
+    "query_term": "Lepu Biopharma .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "F. Hoffmann-La Roche Ltd/ 罗氏（中国）投资有限公司/ Chugai Pharma Manufacturing Co., Ltd.": {
+    "sponsor_en": "F. Hoffmann-La Roche Ltd / Roche (China) Investment Co., Ltd. / Chugai Pharma Manufacturing Co., Ltd.",
+    "query_term": "F. Hoffmann-La Roche Ltd",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04895436"
+    ]
+  },
+  "苏州盛迪亚生物医药有限公司/ 上海恒瑞医药有限公司": {
+    "sponsor_en": "Suzhou Shengdiya Biopharmaceuticals Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02500199",
+      "NCT04446260",
+      "NCT03764293",
+      "NCT03398720",
+      "NCT05277168"
+    ]
+  },
+  "重庆希尔安药业有限公司": {
+    "sponsor_en": "Chongqing Xil'an Pharmaceutical Co., Ltd.",
+    "query_term": "Chongqing Xil'an  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Patheon Italia S.p.A./ Fisher Clinical Services GmbH": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Patheon Italia S.p.A. / Fisher Clinical Services GmbH",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06236724",
+      "NCT04925479",
+      "NCT03087942",
+      "NCT00056446",
+      "NCT02228096"
+    ]
   }
 }
