@@ -4086,5 +4086,88 @@
     "query_term": "Tasly   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海羽冠生物技术有限公司": {
+    "sponsor_en": "Shanghai Yuguan Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Yuguan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福建省闽东力捷迅药业股份有限公司": {
+    "sponsor_en": "Fujian Mindong Lijiexun Pharmaceutical Co., Ltd.",
+    "query_term": "Fujian Mindong Lijiexun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海银诺医药技术有限公司": {
+    "sponsor_en": "Shanghai Yinnuo Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Yinnuo   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Amphastar Pharmaceuticals, Inc./ 礼来苏州制药有限公司/ Catalent Pharma Solutions, LLC/ Eli Lilly and Company": {
+    "sponsor_en": "Amphastar Pharmaceuticals, Inc. / Lilly Suzhou Pharmaceutical Co.,Ltd / Catalent Pharma Solutions, LLC / Eli Lilly and Company",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07232732",
+      "NCT00122863",
+      "NCT01682187",
+      "NCT00420004",
+      "NCT06641037"
+    ]
+  },
+  "福建广生中霖生物科技有限公司/ 福建广生堂药业股份有限公司": {
+    "sponsor_en": "Fujian Guangsheng Zhonglin Biotechnology Co., Ltd. / Fujian Guangshengtang Pharmaceutical Co., Ltd.",
+    "query_term": "Fujian Guangsheng Zhonglin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Eli Lilly and Company/ 礼来（北京）医学技术创新有限公司/ Incog Biopharma Services, Inc.": {
+    "sponsor_en": "Eli Lilly and Company / Eli Lilly (Beijing) Medical Technology Innovation Co., Ltd. / Incog Biopharma Services, Inc.",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07232732",
+      "NCT00122863",
+      "NCT01682187",
+      "NCT00420004",
+      "NCT06641037"
+    ]
+  },
+  "西藏海思科制药有限公司": {
+    "sponsor_en": "Tibet Hisun Pharmaceutical Co., Ltd.",
+    "query_term": "Tibet Hisun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东康众宏医药科技开发有限公司": {
+    "sponsor_en": "Shandong Kangzhonghong Pharmaceutical Technology Development Co., Ltd.",
+    "query_term": "Shandong Kangzhonghong   Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "国药集团昆明血液制品有限公司": {
+    "sponsor_en": "Sinopharm Group Kunming Blood Products Co., Ltd.",
+    "query_term": "Sinopharm  Kunming Blood Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都四面体药物研究有限公司/ 四面体（乐山）药物研究有限公司": {
+    "sponsor_en": "Chengdu Tetrahedron Pharmaceutical Research Co., Ltd. / Tetrahedron (Leshan) Pharmaceutical Research Co., Ltd.",
+    "query_term": "Chengdu Tetrahedron  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "不适用/ 葛兰素史克（中国）投资有限公司": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "N"
+  },
+  "Synnovation Therapeutics, Inc./ 苏州科林利康医药科技股份有限公司/ Frontage Laboratories, Inc.": {
+    "sponsor_en": "Synnovation Therapeutics, Inc. / Suzhou Covance Pharmaceutical Technology Co., Ltd. / Frontage Laboratories, Inc.",
+    "query_term": "Synnovation Therapeutics, Inc.",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
