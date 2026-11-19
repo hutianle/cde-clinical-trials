@@ -3945,5 +3945,68 @@
     "query_term": "Innovent Biologics (Hangzhou) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "温州医科大学/ 华润紫竹药业有限公司": {
+    "sponsor_en": "Wenzhou Medical University / China Resources Zizhu Pharmaceutical Co., Ltd.",
+    "query_term": "Wenzhou Medical University",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Alexion Europe SAS/ 阿斯利康全球研发（中国）有限公司/ Alexion Pharma International Operations Limited, Alexion Athlone Manufacturing Facility (AAMF)": {
+    "sponsor_en": "Alexion Europe SAS / AstraZeneca Global R&D (China) Co., Ltd. / Alexion Pharma International Operations Limited, Alexion Athlone Manufacturing Facility (AAMF)",
+    "query_term": "Alexion Europe SAS",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海环码生物医药有限公司": {
+    "sponsor_en": "Shanghai Huanma Biopharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Huanma  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "石药集团中诺药业（石家庄）有限公司/ 石药集团中奇制药技术（石家庄）有限公司": {
+    "sponsor_en": "SIPC Zhongnuo Pharmaceutical (Shijiazhuang) Co., Ltd. / Shiyao Group Zhongqi Pharmaceutical Technology (Shijiazhuang) Co., Ltd.",
+    "query_term": "SIPC Zhongnuo  (Shijiazhuang) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "亿一生物医药开发（上海）有限公司/ 亿一生物制药（北京）有限公司": {
+    "sponsor_en": "Yiyi Biopharmaceutical Development (Shanghai) Co., Ltd. / Yiyi Biopharmaceuticals (Beijing) Co., Ltd.",
+    "query_term": "Yiyi  Development (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华辉安健（北京）生物科技有限公司": {
+    "sponsor_en": "Huahui Anjian (Beijing) Biotechnology Co., Ltd.",
+    "query_term": "Huahui Anjian (Beijing)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成大生物（本溪）有限公司/ 辽宁成大生物股份有限公司": {
+    "sponsor_en": "Chengda Biotechnology (Benxi) Co., Ltd. / Liaoning Chengda Biotechnology Co., Ltd.",
+    "query_term": "Chengda  (Benxi) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖南明瑞制药股份有限公司/ 北京华睿鼎信科技有限公司": {
+    "sponsor_en": "Hunan Mingrui Pharmaceutical Co., Ltd. / Beijing Huaruidin Information Technology Co., Ltd.",
+    "query_term": "Hunan Mingrui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "UCB Pharma S.A./ 优时比贸易（上海）有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG/ UCB Pharma SA": {
+    "sponsor_en": "UCB Pharma S.A. / U-TIMES Trading (Shanghai) Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co. KG / UCB Pharma SA",
+    "query_term": "UCB",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00474058",
+      "NCT00139880"
+    ]
+  },
+  "健达九州（北京）生物科技有限公司": {
+    "sponsor_en": "Jinda Kyushu (Beijing) Biotechnology Co., Ltd.",
+    "query_term": "Jinda Kyushu (Beijing)  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
