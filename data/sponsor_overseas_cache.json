@@ -3473,5 +3473,53 @@
     "query_term": "Beijing Baolai  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "广州新济药业科技有限公司/ 银谷制药有限责任公司": {
+    "sponsor_en": "Guangzhou Xinji Pharmaceutical Technology Co., Ltd. / Yingu Pharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Xinji   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Amgen Inc./ 百济神州（北京）生物科技有限公司": {
+    "sponsor_en": "Amgen Inc. / BeiGene (Beijing) Biotechnology Co., Ltd.",
+    "query_term": "BeiGene",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06540066",
+      "NCT04649385",
+      "NCT03432884",
+      "NCT03777657",
+      "NCT05640102"
+    ]
+  },
+  "Arcutis Biotherapeutics INC/ 杭州中美华东制药有限公司/ DPT Laboratories, Ltd.": {
+    "sponsor_en": "Arcutis Biotherapeutics INC / Hangzhou Sino-American Huadong Pharmaceutical Co., Ltd. / DPT Laboratories, Ltd.",
+    "query_term": "Arcutis Biotherapeutics INC",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州成邦医药科技有限公司": {
+    "sponsor_en": "Hangzhou Chengbang Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Hangzhou Chengbang   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "诺未生物技术（无锡）有限公司/ 诺未科技（北京）有限公司/ 诺未生物技术(天津)有限公司": {
+    "sponsor_en": "Nuowei Biotechnology (Wuxi) Co., Ltd. / Nuwei Technology (Beijing) Co., Ltd. / Nuowei Biotechnology (Tianjin) Co., Ltd.",
+    "query_term": "Nuowei  (Wuxi) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "厦门特宝生物工程股份有限公司": {
+    "sponsor_en": "Xiamen TTBio Technology Co., Ltd.",
+    "query_term": "Xiamen TTBio  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市大睿生物科技研究有限公司": {
+    "sponsor_en": "Shenzhen Darui Biotechnology Research Co., Ltd.",
+    "query_term": "Shenzhen Darui  Research .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
