@@ -4169,5 +4169,95 @@
     "query_term": "Synnovation Therapeutics, Inc.",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海阿尔法分子企业发展有限责任公司": {
+    "sponsor_en": "Shanghai Alpha Molecular Enterprise Development Co., Ltd.",
+    "query_term": "Shanghai Alpha Molecular Enterprise Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东凤凰制药股份有限公司": {
+    "sponsor_en": "Shandong Fenghuang Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Fenghuang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AbbVie Inc./ 艾伯维医药贸易（上海）有限公司/ Patheon Italia S.P.A/ AbbVie Deutschland GmbH & Co. KG；AbbVie Biotechnology Ltd./ Boehringer Ingelheim Pharma GmbH & Co KG/ Boehringer Ingelheim Pharma GmbH & Co KG; AbbVie Biotechnology LTD/ AbbVie Biotechnology, Ltd.": {
+    "sponsor_en": "AbbVie Inc. / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd. / Patheon Italia S.P.A / AbbVie Deutschland GmbH & Co. KG; AbbVie Biotechnology Ltd. / Boehringer Ingelheim Pharma GmbH & Co KG / Boehringer Ingelheim Pharma GmbH & Co KG; AbbVie Biotechnology LTD / AbbVie Biotechnology, Ltd.",
+    "query_term": "Boehringer Ingelheim",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02061748",
+      "NCT00122863",
+      "NCT01205373",
+      "NCT00002166",
+      "NCT07220083"
+    ]
+  },
+  "山东百诺医药股份有限公司/ 山东朗诺制药有限公司": {
+    "sponsor_en": "Shandong Baina Pharmaceutical Co., Ltd. / Shandong Longnuo Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Baina  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "应世生物（香港）有限公司/ 应世生物科技（南京）有限公司/ 台耀化学股份有限公司芦竹厂": {
+    "sponsor_en": "Yingshi Biotechnology (Hong Kong) Co., Ltd. / Yingshi Biotechnology (Nanjing) Co., Ltd. / Taiwan Union Technology Corporation, Luzhu Plant",
+    "query_term": "Yingshi  (Hong Kong) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州康恩贝制药有限公司": {
+    "sponsor_en": "Hangzhou Conba Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Conba  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都生物制品研究所有限责任公司/ 北京昭衍生物技术有限公司": {
+    "sponsor_en": "Chengdu Institute of Biological Products Co., Ltd. / Beijing Crown Bioscience Co., Ltd.",
+    "query_term": "Chengdu Institute of Biological Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天津昂赛细胞基因工程有限公司": {
+    "sponsor_en": "Tianjin O SAE Cell Gene Engineering Co., Ltd.",
+    "query_term": "Tianjin O SAE Cell Gene Engineering .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州壹瑞医药科技有限公司": {
+    "sponsor_en": "Hangzhou Yirui Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Hangzhou Yirui   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳新锐基因科技有限公司": {
+    "sponsor_en": "ShenZhenXinRuiJiYin Technology Co., Ltd.",
+    "query_term": "ShenZhenXinRuiJiYin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华博生物医药技术（上海）有限公司/ 上海华奥泰生物药业股份有限公司": {
+    "sponsor_en": "Huabo Biomedicine Technology (Shanghai) Co., Ltd. / Shanghai Huatide Biological Pharmaceuticals Co., Ltd.",
+    "query_term": "Huabo Biomedicine  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "远大蜀阳生命科学（成都）有限公司": {
+    "sponsor_en": "Vision Shuyang Life Sciences (Chengdu) Co., Ltd.",
+    "query_term": "Vision Shuyang Life Sciences (Chengdu) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "正序（上海）生物医药科技有限公司": {
+    "sponsor_en": "Zhengxu (Shanghai) Biomedical Technology Co., Ltd.",
+    "query_term": "Zhengxu (Shanghai)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "台睿生物科技股份有限公司/ 台睿医药研发（昆山）有限公司/ Bora Pharmaceutical Laboratories Inc.": {
+    "sponsor_en": "Tairui Biotechnology Co., Ltd. / Tairui Pharmaceutical R&D (Kunshan) Co., Ltd. / Bora Pharmaceutical Laboratories Inc.",
+    "query_term": "Tairui  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }

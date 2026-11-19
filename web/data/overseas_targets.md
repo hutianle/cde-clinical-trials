@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-19 | **Identified High-Priority Sponsors:** 82
+> - **Generated Date:** 2026-11-19 | **Identified High-Priority Sponsors:** 83
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -88,8 +88,9 @@
 | 78 | Shandong Shengdi Pharmaceutical Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. | 山东盛迪医药有限公司/ 上海恒瑞医药有限公司 | US Trial Site | CTR20262652 | NCT07286032, NCT03398720 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 79 | Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Boehringer Ingelheim Pharma GmbH & Co.KG | Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Boehringer Ingelheim Pharma GmbH & Co.KG | US Trial Site | CTR20262605 | NCT02061748, NCT00122863 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 80 | Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / AbbVie Ireland NL B.V. | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ AbbVie Ireland NL B.V. | US Trial Site | CTR20262617 | NCT01490749, NCT00685399 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 81 | Eli Lilly and Company / Eli Lilly (Beijing) Medical Technology Innovation Co., Ltd. / Incog Biopharma Services, Inc. | Eli Lilly and Company/ 礼来（北京）医学技术创新有限公司/ Incog Biopharma Services, Inc. | US Trial Site | CTR20262449 | NCT07232732, NCT00122863 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 82 | Amphastar Pharmaceuticals, Inc. / Lilly Suzhou Pharmaceutical Co.,Ltd / Catalent Pharma Solutions, LLC / Eli Lilly and Company | Amphastar Pharmaceuticals, Inc./ 礼来苏州制药有限公司/ Catalent Pharma Solutions, LLC/ Eli Lilly and Company | US Trial Site | CTR20262452 | NCT07232732, NCT00122863 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 81 | AbbVie Inc. / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd. / Patheon Italia S.P.A / AbbVie Deutschland GmbH & Co. KG; AbbVie Biotechnology Ltd. / Boehringer Ingelheim Pharma GmbH & Co KG / Boehringer Ingelheim Pharma GmbH & Co KG; AbbVie Biotechnology LTD / AbbVie Biotechnology, Ltd. | AbbVie Inc./ 艾伯维医药贸易（上海）有限公司/ Patheon Italia S.P.A/ AbbVie Deutschland GmbH & Co. KG；AbbVie Biotechnology Ltd./ Boehringer Ingelheim Pharma GmbH & Co KG/ Boehringer Ingelheim Pharma GmbH & Co KG; AbbVie Biotechnology LTD/ AbbVie Biotechnology, Ltd. | US Trial Site | CTR20262418 | NCT02061748, NCT00122863 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 82 | Eli Lilly and Company / Eli Lilly (Beijing) Medical Technology Innovation Co., Ltd. / Incog Biopharma Services, Inc. | Eli Lilly and Company/ 礼来（北京）医学技术创新有限公司/ Incog Biopharma Services, Inc. | US Trial Site | CTR20262449 | NCT07232732, NCT00122863 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 83 | Amphastar Pharmaceuticals, Inc. / Lilly Suzhou Pharmaceutical Co.,Ltd / Catalent Pharma Solutions, LLC / Eli Lilly and Company | Amphastar Pharmaceuticals, Inc./ 礼来苏州制药有限公司/ Catalent Pharma Solutions, LLC/ Eli Lilly and Company | US Trial Site | CTR20262452 | NCT07232732, NCT00122863 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
