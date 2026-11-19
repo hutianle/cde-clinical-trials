@@ -2708,5 +2708,107 @@
     "query_term": "Taizhou Maypro  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "深圳信立泰药业股份有限公司/ 深圳市格必加分子药物创新中心有限责任公司": {
+    "sponsor_en": "Shenzhen Xinlitai Pharmaceutical Co., Ltd. / Shenzhen G-Bika Molecular Medicine Innovation Center Co., Ltd.",
+    "query_term": "Shenzhen Xinlitai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州博锐创合医药有限公司/ 江苏华益科技有限公司": {
+    "sponsor_en": "Suzhou Borui Chuanghe Pharmaceutical Co., Ltd. / Jiangsu Huayi Technology Co., Ltd.",
+    "query_term": "Suzhou Borui Chuanghe  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖州惠中济世生物科技有限公司": {
+    "sponsor_en": "Huzhou Huizhongjishi Biotechnology Co., Ltd.",
+    "query_term": "Huzhou Huizhongjishi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京锦篮基因科技股份有限公司": {
+    "sponsor_en": "Beijing Jinlan Gene Technology Co., Ltd.",
+    "query_term": "Beijing Jinlan Gene  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏艾迪药业集团股份有限公司/ 泸州艾迪医药技术有限公司": {
+    "sponsor_en": "Jiangsu Aidi Pharmaceutical Group Co., Ltd. / Luzhou Aidi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Jiangsu Aidi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "云顶新耀医药科技有限公司": {
+    "sponsor_en": "Innovent Biologics, Inc.",
+    "query_term": "Innovent Biologics, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福建盛迪医药有限公司/ 北京拓界生物医药科技有限公司/ 江苏恒瑞医药股份有限公司": {
+    "sponsor_en": "Fujian Shengdi Pharmaceutical Co., Ltd. / Beijing Tuojie Biomedical Technology Co., Ltd. / Jiangsu Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02500199",
+      "NCT04446260",
+      "NCT03764293",
+      "NCT03398720",
+      "NCT05277168"
+    ]
+  },
+  "北京科兴生物制品有限公司/ 北京科兴中维生物技术有限公司": {
+    "sponsor_en": "Sinovac Biotech Co., Ltd. / Sinovac Biotech Co., Ltd.",
+    "query_term": "Sinovac Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都恩沐生物科技有限公司": {
+    "sponsor_en": "Chengdu Enmu Biotechnology Co., Ltd.",
+    "query_term": "Chengdu Enmu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天演药业（苏州）有限公司": {
+    "sponsor_en": "Tianyan Pharmaceutical (Suzhou) Co., Ltd.",
+    "query_term": "Tianyan  (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都米子生物医药科技有限公司": {
+    "sponsor_en": "Chengdu Mizi Biomedical Technology Co., Ltd.",
+    "query_term": "Chengdu Mizi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Eli Lillly and Company/ 礼来苏州制药有限公司/ Incog Biopharma Services, Inc.": {
+    "sponsor_en": "Eli Lillly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Incog Biopharma Services, Inc.",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00083720",
+      "NCT03936959",
+      "NCT00414323",
+      "NCT03955042",
+      "NCT00661869"
+    ]
+  },
+  "浙江萃泽医药科技有限公司": {
+    "sponsor_en": "Zhejiang Cuize Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Zhejiang Cuize   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "珃诺生物医药科技（杭州）有限公司": {
+    "sponsor_en": "Tanor Biopharma (Hangzhou) Co., Ltd.",
+    "query_term": "Tanor Biopharma (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京奇迈永华生物科技有限公司": {
+    "sponsor_en": "Beijing Qimai Yonghua Biotechnology Co., Ltd.",
+    "query_term": "Beijing Qimai Yonghua  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
