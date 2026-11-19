@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-19 | **Identified High-Priority Sponsors:** 69
+> - **Generated Date:** 2026-11-19 | **Identified High-Priority Sponsors:** 71
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -75,8 +75,10 @@
 | 65 | F. Hoffmann-La Roche Ltd / Roche (China) Investment Co., Ltd. / Chugai Pharma Manufacturing Co., Ltd. | F. Hoffmann-La Roche Ltd/ 罗氏（中国）投资有限公司/ Chugai Pharma Manufacturing Co., Ltd. | US Trial Site | CTR20263020 | NCT04895436 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 66 | Suzhou Shengdiya Biopharmaceuticals Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. | 苏州盛迪亚生物医药有限公司/ 上海恒瑞医药有限公司 | US Trial Site | CTR20263014 | NCT02500199, NCT04446260 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 67 | Astellas Pharma Global Development, Inc. / Astellas (Beijing) Pharmaceutical R&D Co., Ltd. / Astellas Pharma Inc. | Astellas Pharma Global Development, Inc./ 安斯泰来（北京）医药研发有限公司/ Astellas Pharma Inc. | US Trial Site | CTR20262991 | NCT01446094, NCT03653507 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 68 | UCB Biopharma SRL / U-TIMES Trading (Shanghai) Co., Ltd. / Vetter Development Services USA Inc. | UCB Biopharma SRL/ 优时比贸易（上海）有限公司/ Vetter Development Services USA Inc. | US Trial Site | CTR20262955 | NCT04718896, NCT01087762 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 69 | Blueprint Medicines / Cornerstone Pharmaceuticals (Suzhou) Co., Ltd. / Catalent CTS, LLC / AndersonBrecon Inc., PCI Pharma Services | Blueprint Medicines/ 基石药业（苏州）有限公司/ Catalent CTS, LLC/ AndersonBrecon Inc., PCI Pharma Services | US Trial Site | CTR20262904 | NCT04811365, NCT05153408 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 68 | F. Hoffmann-La Roche Ltd / Roche (China) Investment Co., Ltd. / 1) Genentech, Inc. ; 2) F. Hoffmann-La Roche AG | F. Hoffmann-La Roche Ltd/ 罗氏（中国）投资有限公司/ 1）Genentech, Inc. ；2）F. Hoffmann-La Roche AG | US Trial Site | CTR20262874 | NCT04895436 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 69 | UCB Biopharma SRL / U-TIMES Trading (Shanghai) Co., Ltd. / Vetter Development Services USA Inc. | UCB Biopharma SRL/ 优时比贸易（上海）有限公司/ Vetter Development Services USA Inc. | US Trial Site | CTR20262955 | NCT04718896, NCT01087762 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 70 | CSPC Pharmaceutical Group Limited / Zhongshan Kangfang Biomedical Co., Ltd. | 康方药业有限公司/ 中山康方生物医药有限公司 | US Trial Site | CTR20262851 | NCT05980416, NCT03657550 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 71 | Blueprint Medicines / Cornerstone Pharmaceuticals (Suzhou) Co., Ltd. / Catalent CTS, LLC / AndersonBrecon Inc., PCI Pharma Services | Blueprint Medicines/ 基石药业（苏州）有限公司/ Catalent CTS, LLC/ AndersonBrecon Inc., PCI Pharma Services | US Trial Site | CTR20262904 | NCT04811365, NCT05153408 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.

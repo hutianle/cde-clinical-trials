@@ -3372,5 +3372,106 @@
     "query_term": "Shenzhen Yinguan  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "广东赛尔生物科技有限公司": {
+    "sponsor_en": "Guangdong Sail Biotechnology Co., Ltd.",
+    "query_term": "Guangdong Sail  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "F. Hoffmann-La Roche Ltd/ 罗氏（中国）投资有限公司/ 1）Genentech, Inc. ；2）F. Hoffmann-La Roche AG": {
+    "sponsor_en": "F. Hoffmann-La Roche Ltd / Roche (China) Investment Co., Ltd. / 1) Genentech, Inc. ; 2) F. Hoffmann-La Roche AG",
+    "query_term": "F. Hoffmann-La Roche Ltd",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04895436"
+    ]
+  },
+  "苏州博奥明赛生物制药有限公司": {
+    "sponsor_en": "Suzhou BioGerm Biopharmaceutical Co., Ltd.",
+    "query_term": "Suzhou BioGerm  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Bristol-Myers Squibb Company/ 百时美施贵宝（中国）投资有限公司/ Catalent Pharma Solutions, LLC/ Fisher Clinical Services Inc.": {
+    "sponsor_en": "Bristol-Myers Squibb Company / Bristol Myers Squibb (China) Investment Co., Ltd. / Catalent Pharma Solutions, LLC / Fisher Clinical Services Inc.",
+    "query_term": "Bristol-Myers Squibb Company",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川百利药业有限责任公司/ 成都百利多特生物药业有限责任公司": {
+    "sponsor_en": "Sichuan Baili Pharmaceutical Co., Ltd. / Chengdu Bailidote Biopharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Baili  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东汉方制药股份有限公司": {
+    "sponsor_en": "Shandong Hanfang Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Hanfang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "烨辉医药科技（上海）有限公司": {
+    "sponsor_en": "Yieh Phui Medical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Yieh Phui Medical  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "不适用/ 安斯泰来（中国）投资有限公司": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "N"
+  },
+  "欧康维视生物医药（香港）有限公司/ 欧康维视生物医药（上海）有限公司/ Lyophilization Technology, Inc.": {
+    "sponsor_en": "Ocumension Therapeutics (Hong Kong) Co., Ltd. / Ocumension Therapeutics (Shanghai) Co., Ltd. / Lyophilization Technology, Inc.",
+    "query_term": "Ocumension Therapeutics (Hong Kong) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中美华世通生物医药科技（武汉）股份有限公司/ 湖北华世通生物医药科技有限公司": {
+    "sponsor_en": "Sino-American Huashitong Biomedical Technology (Wuhan) Co., Ltd. / Hubei Huashitong Biomedical Technology Co., Ltd.",
+    "query_term": "Sino-American Huashitong   (Wuhan) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "宁康晓维生物制药（浙江）有限公司": {
+    "sponsor_en": "Ningkang Xiaowei Biopharmaceuticals (Zhejiang) Co., Ltd.",
+    "query_term": "Ningkang Xiaowei Biopharmaceuticals (Zhejiang) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市塔吉瑞生物医药有限公司": {
+    "sponsor_en": "Shenzhen Tajiri Biopharmaceuticals Co., Ltd.",
+    "query_term": "Shenzhen Tajiri Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "简达生物医药（南京）有限公司": {
+    "sponsor_en": "Jinda Biopharmaceuticals (Nanjing) Co., Ltd.",
+    "query_term": "Jinda Biopharmaceuticals (Nanjing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "珠海烁星生物医药科技有限公司": {
+    "sponsor_en": "Zhuhai Shuoxing Biomedical Technology Co., Ltd.",
+    "query_term": "Zhuhai Shuoxing   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康方药业有限公司/ 中山康方生物医药有限公司": {
+    "sponsor_en": "CSPC Pharmaceutical Group Limited / Zhongshan Kangfang Biomedical Co., Ltd.",
+    "query_term": "CSPC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05980416",
+      "NCT03657550",
+      "NCT04931823"
+    ]
+  },
+  "北京葆来生物科技有限公司": {
+    "sponsor_en": "Beijing Baolai Biotechnology Co., Ltd.",
+    "query_term": "Beijing Baolai  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
