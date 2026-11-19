@@ -3658,5 +3658,83 @@
     "query_term": "MabPlex (Hengqin) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "正大天晴药业集团股份有限公司/ 正大天晴药业集团南京顺欣制药有限公司/ 北京赛林泰医药技术有限公司": {
+    "sponsor_en": "Zhengda Tianqing Pharmaceutical Group Co., Ltd. / Zhengda Tianqing Pharmaceutical Group Nanjing Shunxin Pharmaceutical Co., Ltd. / Beijing Sailin-Tide Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Zhengda Tianqing   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "葆元生物医药科技（杭州）有限公司": {
+    "sponsor_en": "BaoYuan Bio-Pharmaceutical Technology (Hangzhou) Co., Ltd.",
+    "query_term": "BaoYuan Bio-  (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "---/ 深圳赛诺菲巴斯德生物制品有限公司": {
+    "sponsor_en": "--- / Sanofi Pasteur Biologics (Shenzhen) Co., Ltd.",
+    "query_term": "---",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Eli Lilly and Company/ 礼来苏州制药有限公司/ Samsung Biologics Co.,Ltd.": {
+    "sponsor_en": "Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Samsung Biologics Co.,Ltd.",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07232732",
+      "NCT00122863",
+      "NCT01682187",
+      "NCT00420004",
+      "NCT06641037"
+    ]
+  },
+  "四川汇宇海玥医药科技有限公司": {
+    "sponsor_en": "Sichuan Huiyu Haiyue Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Sichuan Huiyu Haiyue   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海海雁医药科技有限公司": {
+    "sponsor_en": "Shanghai Haiyan Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Haiyan   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州麦联科生物医药有限公司": {
+    "sponsor_en": "Hangzhou Medlink Biological Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Medlink Biological  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京炎明生物科技有限公司": {
+    "sponsor_en": "Beijing Yanming Biotechnology Co., Ltd.",
+    "query_term": "Beijing Yanming  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏威凯尔医药科技股份有限公司": {
+    "sponsor_en": "Jiangsu Weiker Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Jiangsu Weiker   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "F. Hoffmann-La Roche Ltd/ 罗氏（中国）投资有限公司/ Genentech, Inc.": {
+    "sponsor_en": "F. Hoffmann-La Roche Ltd / Roche (China) Investment Co., Ltd. / Genentech, Inc.",
+    "query_term": "F. Hoffmann-La Roche Ltd",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "株洲千金药业股份有限公司": {
+    "sponsor_en": "Zhuzhou Qianjin Pharmaceutical Co., Ltd.",
+    "query_term": "Zhuzhou Qianjin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天境生物科技（杭州）有限公司": {
+    "sponsor_en": "Tianjing Biotechnology (Hangzhou) Co., Ltd.",
+    "query_term": "Tianjing  (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
