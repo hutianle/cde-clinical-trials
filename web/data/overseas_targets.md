@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-19 | **Identified High-Priority Sponsors:** 74
+> - **Generated Date:** 2026-11-19 | **Identified High-Priority Sponsors:** 75
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -82,6 +82,7 @@
 | 72 | Blueprint Medicines / Cornerstone Pharmaceuticals (Suzhou) Co., Ltd. / Catalent CTS, LLC / AndersonBrecon Inc., PCI Pharma Services | Blueprint Medicines/ 基石药业（苏州）有限公司/ Catalent CTS, LLC/ AndersonBrecon Inc., PCI Pharma Services | US Trial Site | CTR20262904 | NCT04811365, NCT05153408 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 73 | ImmunityBio, Inc. / Hangzhou Tigermed Consulting Co., Ltd. / PCI San Diego, Inc | ImmunityBio, Inc./ 杭州泰格医药科技股份有限公司/ PCI San Diego, Inc | US Trial Site | CTR20262723 | NCT06710288, NCT03563170 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 74 | Amgen Inc. / BeiGene (Beijing) Biotechnology Co., Ltd. | Amgen Inc./ 百济神州（北京）生物科技有限公司 | US Trial Site | CTR20262832 | NCT06540066, NCT04649385 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 75 | Shandong Shengdi Pharmaceutical Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. | 山东盛迪医药有限公司/ 上海恒瑞医药有限公司 | US Trial Site | CTR20262652 | NCT07286032, NCT03398720 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.

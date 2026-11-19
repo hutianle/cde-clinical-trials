@@ -3736,5 +3736,65 @@
     "query_term": "Tianjing  (Hangzhou) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "西安新通药物研究有限公司/ 广东奇方药业有限公司": {
+    "sponsor_en": "Xi'an Xintong Pharmaceutical Research Co., Ltd. / Guangdong Qifang Pharmaceutical Co., Ltd.",
+    "query_term": "Xi'an Xintong  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福建盛迪医药有限公司": {
+    "sponsor_en": "Fujian Shengdi Pharmaceutical Co., Ltd.",
+    "query_term": "Fujian Shengdi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州仟源保灵药业有限公司": {
+    "sponsor_en": "Hangzhou Qianyuan Baoling Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Qianyuan Baoling  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江西生物制品研究所股份有限公司": {
+    "sponsor_en": "Jiangxi Biological Products Research Institute Co., Ltd.",
+    "query_term": "Jiangxi Biological Products Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东盛迪医药有限公司/ 上海恒瑞医药有限公司": {
+    "sponsor_en": "Shandong Shengdi Pharmaceutical Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07286032",
+      "NCT03398720",
+      "NCT04663282",
+      "NCT07796763",
+      "NCT04691804"
+    ]
+  },
+  "迈威（上海）生物科技股份有限公司": {
+    "sponsor_en": "Mabwell (Shanghai) Biotechnology Co., Ltd.",
+    "query_term": "Mabwell (Shanghai)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "烟台蓝纳成生物技术股份有限公司": {
+    "sponsor_en": "Yantai Lannac Biological Technology Co., Ltd.",
+    "query_term": "Yantai Lannac Biological  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ AstraZeneca AB; Patheon France": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / AstraZeneca AB; Patheon France",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "安徽省先锋制药有限公司": {
+    "sponsor_en": "Anhui Pioneer Pharmaceutical Co., Ltd.",
+    "query_term": "Anhui Pioneer  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
