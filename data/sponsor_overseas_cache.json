@@ -5340,5 +5340,77 @@
     "query_term": "Guangdong Innovative Drug Translational Medicine Research Institute .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "北京华睿鼎信科技有限公司/ 湖南明瑞制药股份有限公司": {
+    "sponsor_en": "Beijing Huaruidin Information Technology Co., Ltd. / Hunan Mingrui Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Huaruidin Information  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海致根医药科技有限公司/ 湖南华纳大药厂股份有限公司/ 湖南华纳大药厂手性药物有限公司": {
+    "sponsor_en": "Shanghai Zhigen Pharmaceutical Technology Co., Ltd. / Hunan Warner Pharmaceutical Co., Ltd. / Hunan Warner Pharmaceutical Factory Chiral Pharmaceuticals Co., Ltd.",
+    "query_term": "Shanghai Zhigen   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "宜明凯尔生物医药技术（上海）有限公司": {
+    "sponsor_en": "Yimingkail Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Yimingkail  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "石药集团中诺药业（石家庄）有限公司": {
+    "sponsor_en": "SIPC Zhongnuo Pharmaceutical (Shijiazhuang) Co., Ltd.",
+    "query_term": "SIPC Zhongnuo  (Shijiazhuang) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "---/ 博莱科医药科技（上海）有限公司": {
+    "sponsor_en": "--- / Boraike Pharmaceutical Technology (Shanghai) Co., Ltd.",
+    "query_term": "---",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Hovione Farmaciencia S.A./ Almac Clinical Services, LLC；Almac Clinical Services, LLC；Boehringer Ingelheim Pharma GmbH & Co. KG": {
+    "sponsor_en": "Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Hovione Farmaciencia S.A. / Almac Clinical Services, LLC; Almac Clinical Services, LLC; Boehringer Ingelheim Pharma GmbH & Co. KG",
+    "query_term": "Boehringer Ingelheim",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01948141",
+      "NCT01525628",
+      "NCT00152971",
+      "NCT06558344",
+      "NCT07607678"
+    ]
+  },
+  "广州中医药大学第一附属医院": {
+    "sponsor_en": "The First Affiliated Hospital of Guangzhou University of Chinese Medicine",
+    "query_term": "The First Affiliated Hospital of Guangzhou University of Chinese Medicine",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江海擘生物科技有限公司": {
+    "sponsor_en": "Zhejiang Haibo Biotechnology Co., Ltd.",
+    "query_term": "Zhejiang Haibo  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏九旭药业有限公司/ 海南九旭医药科技有限公司": {
+    "sponsor_en": "Jiangsu Jiuxu Pharmaceutical Co., Ltd. / Hainan Jiuxu Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Jiangsu Jiuxu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "西藏海思科制药有限公司/ 四川海思科制药有限公司": {
+    "sponsor_en": "Tibet Hisun Pharmaceutical Co., Ltd. / Sichuan Hisun Pharmaceutical Co., Ltd.",
+    "query_term": "Tibet Hisun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福石生物科技（合肥）有限公司": {
+    "sponsor_en": "Fushi Biotechnology (Hefei) Co., Ltd.",
+    "query_term": "Fushi  (Hefei) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
