@@ -5713,5 +5713,71 @@
     "query_term": "Tianchen Biopharmaceuticals (Suzhou) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "北京中科先行医疗科技有限公司/ 中国科学院理化技术研究所": {
+    "sponsor_en": "Beijing Zhongke Xianxing Medical Technology Co., Ltd. / Technical Institute of Physics and Chemistry, CAS",
+    "query_term": "Beijing Zhongke Xianxing Medical  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Takeda Development Center Americas, Inc./ 武田（中国）国际贸易有限公司/ Hovione Farmaciência S.A./ Fisher Clinical Services Inc.": {
+    "sponsor_en": "Takeda Development Center Americas, Inc. / Takeda (China) International Trading Co., Ltd. / Hovione Farmaciência S.A. / Fisher Clinical Services Inc.",
+    "query_term": "Takeda Development Center Americas, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05137730",
+      "NCT05156983",
+      "NCT05382104",
+      "NCT04206605",
+      "NCT07011576"
+    ]
+  },
+  "Protara Therapeutics, Inc./ 赛纽仕医药信息咨询（北京）有限公司/ Novex Innovations, LLC": {
+    "sponsor_en": "Protara Therapeutics, Inc. / Syneos Health Information Consulting (Beijing) Co., Ltd. / Novex Innovations, LLC",
+    "query_term": "Protara Therapeutics, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "陕西合成药业股份有限公司": {
+    "sponsor_en": "Shaanxi Synthetic Pharmaceutical Co., Ltd.",
+    "query_term": "Shaanxi Synthetic  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "云南白药集团股份有限公司": {
+    "sponsor_en": "Yunnan Baiyao Group Co., Ltd.",
+    "query_term": "Yunnan Baiyao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "科兴生物制药股份有限公司": {
+    "sponsor_en": "Sinovac Biotech Co., Ltd.",
+    "query_term": "Sinovac Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "海湃泰克（北京）生物医药科技有限公司": {
+    "sponsor_en": "Hi-Tech (Beijing) Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Hi-Tech (Beijing)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海复宏汉霖生物技术股份有限公司/ 复星汉霖（成都）生物技术有限公司": {
+    "sponsor_en": "Shanghai Henlius Biotech, Inc. / Fosun Pharma-Cellgene (Chengdu) Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Henlius Biotech, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "启辰生生物科技（珠海）有限公司/ 北京启辰生生物科技有限公司": {
+    "sponsor_en": "Qicheng Sheng Biotechnology (Zhuhai) Co., Ltd. / Beijing Qichengsheng Biotechnology Co., Ltd.",
+    "query_term": "Qicheng Sheng  (Zhuhai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "士泽生物医药（苏州）有限公司": {
+    "sponsor_en": "ShiZe Biomedicine ( Suzhou ) Co., Ltd.",
+    "query_term": "ShiZe Biomedicine ( Suzhou ) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
