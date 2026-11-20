@@ -5477,5 +5477,71 @@
     "query_term": "Fuzhou Haoji   Development .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "南京恩泰医药科技有限公司/ 四川汇宇制药股份有限公司": {
+    "sponsor_en": "Nanjing Entai Pharmaceutical Technology Co., Ltd. / Sichuan Huiyu Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Entai   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州威溶特医药科技有限公司": {
+    "sponsor_en": "Guangzhou Weirongte Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Guangzhou Weirongte   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福建广生堂药业股份有限公司": {
+    "sponsor_en": "Fujian Guangshengtang Pharmaceutical Co., Ltd.",
+    "query_term": "Fujian Guangshengtang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州瑞领医药有限公司/ 上海瑞宏迪医药有限公司": {
+    "sponsor_en": "Guangzhou Ruiling Pharmaceutical Co., Ltd. / Shanghai Ruihongdi Pharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Ruiling  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "赛诺哈勃药业（成都）有限公司/ 成都倍特药业股份有限公司": {
+    "sponsor_en": "Sino-Huber Pharmaceutical (Chengdu) Co., Ltd. / Chengdu Brilliant Pharmaceutical Co., Ltd",
+    "query_term": "Sino-Huber  (Chengdu) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "国健清科生物医药科技（北京）有限责任公司": {
+    "sponsor_en": "Guojian Qingke Biomedical Technology (Beijing) Co., Ltd.",
+    "query_term": "Guojian Qingke   (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Boehringer Ingelheim International GmbH/ Boehringer Ingelheim Pharma GmbH & Co. KG/ 勃林格殷格翰（中国）投资有限公司": {
+    "sponsor_en": "Boehringer Ingelheim International GmbH / Boehringer Ingelheim Pharma GmbH & Co. KG / Boehringer Ingelheim (China) Investment Co., Ltd.",
+    "query_term": "Boehringer Ingelheim",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01948141",
+      "NCT01525628",
+      "NCT00152971",
+      "NCT06558344",
+      "NCT07607678"
+    ]
+  },
+  "Boehringer Ingelheim International GmbH/ 勃林格殷格翰（中国）投资有限公司/ Boehringer Ingelheim Pharma GmbH & Co. KG": {
+    "sponsor_en": "Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Boehringer Ingelheim Pharma GmbH & Co. KG",
+    "query_term": "Boehringer Ingelheim",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01948141",
+      "NCT01525628",
+      "NCT00152971",
+      "NCT06558344",
+      "NCT07607678"
+    ]
+  },
+  "杭州德睿智药科技有限公司": {
+    "sponsor_en": "Hangzhou Deruizhi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Hangzhou Deruizhi   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
