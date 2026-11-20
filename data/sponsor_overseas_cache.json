@@ -5163,5 +5163,53 @@
     "query_term": "Nanjing AIDC   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "知微生物医药（新乡）有限公司/ 河南师范大学": {
+    "sponsor_en": "Zhiwei Microbiological Pharmaceuticals (Xinxiang) Co., Ltd. / Henan Normal University",
+    "query_term": "Zhiwei Microbiological  (Xinxiang) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福建海西新药创制有限公司": {
+    "sponsor_en": "Fujian Haixi New Drug Development Co., Ltd.",
+    "query_term": "Fujian Haixi New Drug Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都硕德药业有限公司": {
+    "sponsor_en": "Chengdu Shuode Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Shuode  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "维泰瑞隆（北京）生物科技有限公司": {
+    "sponsor_en": "Vitrolife (Beijing) Biotechnology Co., Ltd.",
+    "query_term": "Vitrolife (Beijing)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杰库（上海）生物医药研究有限公司/ 杰科（天津）生物医药有限公司": {
+    "sponsor_en": "Jekoo (Shanghai) Biomedical Research Co., Ltd. / Jaco (Tianjin) Biopharmaceutical Co., Ltd.",
+    "query_term": "Jekoo (Shanghai)  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏正大清江制药有限公司": {
+    "sponsor_en": "Jiangsu Zhengda Qingjiang Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Zhengda Qingjiang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖南华纳大药厂股份有限公司": {
+    "sponsor_en": "Hunan Warner Pharmaceutical Co., Ltd.",
+    "query_term": "Hunan Warner  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江赛默制药有限公司": {
+    "sponsor_en": "Zhejiang Simo Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Simo  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
