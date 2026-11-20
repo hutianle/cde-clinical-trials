@@ -5857,5 +5857,34 @@
     "query_term": "Shandong Baina  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "中国人民解放军军事医学科学院毒物药物研究所/ 石药集团中奇制药技术（石家庄）有限公司": {
+    "sponsor_en": "Institute of Toxicology and Pharmacology, Academy of Military Medical Sciences, Chinese People's Liberation Army / Shiyao Group Zhongqi Pharmaceutical Technology (Shijiazhuang) Co., Ltd.",
+    "query_term": "Institute of Toxicology and Pharmacology, Academy of Military Medical Sciences, Chinese People's Liberation Army",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳碳云智肽药物科技有限公司": {
+    "sponsor_en": "Shenzhen CarbonCloud Intelligent Peptide Pharmaceuticals Co., Ltd.",
+    "query_term": "Shenzhen CarbonCloud Intelligent Peptide  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Merck Sharp & Dohme LLC/ 默沙东研发（中国）有限公司/ Lonza Bend Inc.": {
+    "sponsor_en": "Merck Sharp & Dohme LLC / Merck Research Laboratories (China) Co., Ltd. / Lonza Bend Inc.",
+    "query_term": "Merck Sharp & Dohme LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07194980",
+      "NCT02546531",
+      "NCT04980872",
+      "NCT04303156"
+    ]
+  },
+  "河北封章生物科技有限公司": {
+    "sponsor_en": "Hebei Fengzhang Biotechnology Co., Ltd.",
+    "query_term": "Hebei Fengzhang  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
