@@ -4872,5 +4872,83 @@
     "query_term": "ImmuQuad Biopharmaceuticals (Shanghai) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "轩竹（北京）医药科技有限公司": {
+    "sponsor_en": "Xuanzhu (Beijing) Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Xuanzhu (Beijing)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "睿诺医疗科技（上海）有限公司": {
+    "sponsor_en": "Reno Medical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Reno Medical  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康诺生物制药股份有限公司/ 华益药业科技（安徽）有限公司": {
+    "sponsor_en": "Conner Bio-Pharmaceutical Co., Ltd. / Huayi Pharmaceutical Technology (Anhui) Co., Ltd.",
+    "query_term": "Conner Bio- .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "不适用/ 勃林格殷格翰(中国)投资有限公司": {
+    "sponsor_en": "N/A / Boehringer Ingelheim (China) Investment Co., Ltd.",
+    "query_term": "Boehringer Ingelheim",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02061748",
+      "NCT00122863",
+      "NCT01205373",
+      "NCT00002166",
+      "NCT07220083"
+    ]
+  },
+  "盈科瑞（天津）创新医药研究有限公司": {
+    "sponsor_en": "InnoCare (Tianjin) Innovative Pharmaceutical Research Co., Ltd.",
+    "query_term": "InnoCare (Tianjin) Innovative  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "和其瑞医药（南京）有限公司": {
+    "sponsor_en": "Hecirui Pharmaceutical (Nanjing) Co., Ltd.",
+    "query_term": "Hecirui  (Nanjing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京普祺医药科技股份有限公司": {
+    "sponsor_en": "Beijing Puqi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Puqi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "安徽博诺美科生物医药有限公司": {
+    "sponsor_en": "Anhui Bonomeike Biopharmaceutical Co., Ltd.",
+    "query_term": "Anhui Bonomeike  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "纳美信（上海）生物科技有限公司": {
+    "sponsor_en": "Nammei Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Nammei  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Takeda Development Center Americas, Inc./ 武田亚太生物医药研发有限公司/ SPERA PHARMA Inc./ Almac Clinical Services LLC; SPERA PHARMA Inc.": {
+    "sponsor_en": "Takeda Development Center Americas, Inc. / Takeda Asia Pacific Biomedical R&D Co., Ltd. / SPERA PHARMA Inc. / Almac Clinical Services LLC; SPERA PHARMA Inc.",
+    "query_term": "Takeda Development Center Americas, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04445129",
+      "NCT04259138",
+      "NCT05714969",
+      "NCT06980480",
+      "NCT06076642"
+    ]
+  },
+  "健康元药业集团股份有限公司/ 珠海市丽珠单抗生物技术有限公司": {
+    "sponsor_en": "Jiangsu Kanion Pharmaceutical Co., Ltd. / Zhuhai Livzon Mabpharm Inc.",
+    "query_term": "Jiangsu Kanion  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
