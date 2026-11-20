@@ -5277,5 +5277,68 @@
     "query_term": "Hunan Warner  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "藤济（厦门）生物医药科技有限公司": {
+    "sponsor_en": "Tengji (Xiamen) Biomedical Technology Co., Ltd.",
+    "query_term": "Tengji (Xiamen)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海弼领生物技术有限公司": {
+    "sponsor_en": "Shanghai Biolink Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Biolink  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海天泽云泰生物医药有限公司/ 天泽云泰（深圳）生物医药有限公司": {
+    "sponsor_en": "Shanghai Tianze Yuntai Biopharmaceuticals Co., Ltd. / Tianzeyuntai (Shenzhen) Biopharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Tianze Yuntai Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川百利药业有限责任公司": {
+    "sponsor_en": "Sichuan Baili Pharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Baili  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ AstraZeneca Nijmegen B.V.; Samsung Biologics Co. Ltd.": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / AstraZeneca Nijmegen B.V.; Samsung Biologics Co. Ltd.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "思努赛生物科技（上海）有限责任公司": {
+    "sponsor_en": "SinoCell Biotech (Shanghai) Co., Ltd.",
+    "query_term": "SinoCell Biotech (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东威智知科药业有限公司": {
+    "sponsor_en": "Shandong Weizhi Zhike Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Weizhi Zhike  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江佰奥医药科技有限公司/ 浙江北生药业汉生制药有限公司": {
+    "sponsor_en": "Zhejiang Bio Pharmaceutical Technology Co., Ltd. / Zhejiang Beisheng Pharmaceutical Hansheng Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Bio   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Climb Bio, Inc./ 北京天广实生物技术股份有限公司/ University of Iowa Pharmaceuticals (UIP)": {
+    "sponsor_en": "Climb Bio, Inc. / Beijing Tianguangshi Biotechnology Co., Ltd. / University of Iowa Pharmaceuticals (UIP)",
+    "query_term": "Climb Bio, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07096843",
+      "NCT07011043"
+    ]
+  },
+  "广东省创新药转化医学研究院有限公司/ 佛山市原力生物科技有限公司": {
+    "sponsor_en": "Guangdong Innovative Drug Translational Medicine Research Institute Co., Ltd. / Foshan Yuanli Biotechnology Co., Ltd.",
+    "query_term": "Guangdong Innovative Drug Translational Medicine Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
