@@ -4295,5 +4295,71 @@
     "query_term": "Merck Healthcare KGaA",
     "has_us_site": false,
     "us_trials": []
+  },
+  "百欧恩泰（上海）医药有限公司/ 苏州宜联生物医药有限公司": {
+    "sponsor_en": "Biontech (Shanghai) Pharmaceutical Co., Ltd. / Suzhou Yilian Biopharmaceuticals Co., Ltd.",
+    "query_term": "Biontech (Shanghai)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Vor Biopharma Inc./ 荣昌生物制药（烟台）股份有限公司/ Patheon Italia S.p.A./ Fisher Clinical Services GmbH": {
+    "sponsor_en": "Vor Biopharma Inc. / Rongchang Biopharmaceutical (Yantai) Co., Ltd. / Patheon Italia S.p.A. / Fisher Clinical Services GmbH",
+    "query_term": "Vor Biopharma Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海宣泰医药科技股份有限公司/ 上海宣泰海门药业有限公司": {
+    "sponsor_en": "Shanghai Xuantai Pharmaceutical Technology Co., Ltd. / Shanghai Xuantai Haimen Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Xuantai   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "陕西麦科奥特科技有限公司": {
+    "sponsor_en": "Shaanxi Maikeaote Technology Co., Ltd.",
+    "query_term": "Shaanxi Maikeaote  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海勉亦生物科技有限公司": {
+    "sponsor_en": "Shanghai Mianyi Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Mianyi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海贺维斯特医药科技有限公司": {
+    "sponsor_en": "Shanghai Harvest Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Harvest   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Stoke Therapeutics, Inc./ 艾昆纬医药科技（上海）有限公司/ Sharp Sterile Manufacturing": {
+    "sponsor_en": "Stoke Therapeutics, Inc. / IQVIA Pharmaceutical Technology (Shanghai) Co., Ltd. / Sharp Sterile Manufacturing",
+    "query_term": "Stoke Therapeutics, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京加科思新药研发有限公司": {
+    "sponsor_en": "Beijing Jisheng New Drug Research and Development Co., Ltd.",
+    "query_term": "Beijing Jisheng New Drug Research and Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "博济医药科技股份有限公司": {
+    "sponsor_en": "Boji Medical Technology Co., Ltd.",
+    "query_term": "Boji Medical  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海先纬医药科技有限公司": {
+    "sponsor_en": "Shanghai Xianwei Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Xianwei   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海博赛美生物科技有限公司/ 上海利康瑞生物工程有限公司": {
+    "sponsor_en": "Shanghai Bosai Mei Biotechnology Co., Ltd. / Shanghai Likangrui Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Bosai Mei  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
