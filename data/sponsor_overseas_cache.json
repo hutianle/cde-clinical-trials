@@ -4688,5 +4688,99 @@
     "query_term": "Jiangsu Saiyi  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "凌科药业（浙江）股份有限公司": {
+    "sponsor_en": "Lingke Pharmaceutical (Zhejiang) Co., Ltd.",
+    "query_term": "Lingke  (Zhejiang) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "齐鲁安替制药有限公司": {
+    "sponsor_en": "Qilu Antai Pharmaceutical Co., Ltd.",
+    "query_term": "Qilu Pharmaceutical",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "89bio, Inc./ 罗氏（中国）投资有限公司/ INCOG BioPharma Services, Inc.": {
+    "sponsor_en": "89bio, Inc. / Roche (China) Investment Co., Ltd. / INCOG BioPharma Services, Inc.",
+    "query_term": "89bio, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05022693",
+      "NCT04929483",
+      "NCT04048135",
+      "NCT05852431"
+    ]
+  },
+  "亚宝药业集团股份有限公司/ 亚宝药业四川制药有限公司": {
+    "sponsor_en": "Apeloa Pharmaceutical Co., Ltd. / APIC Sichuan Pharmaceutical Co., Ltd.",
+    "query_term": "Apeloa  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "凌意（杭州）生物科技有限公司": {
+    "sponsor_en": "Lingyi (Hangzhou) Biotechnology Co., Ltd.",
+    "query_term": "Lingyi (Hangzhou)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江西守正药业有限公司": {
+    "sponsor_en": "Jiangxi Shouzheng Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangxi Shouzheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Cilag AG/ Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC; Almac Clinical Services; Almac Clinical Services": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Cilag AG / Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC; Almac Clinical Services; Almac Clinical Services",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03945903",
+      "NCT01804686",
+      "NCT05663866",
+      "NCT04077463"
+    ]
+  },
+  "STCube株式会社/ 北京维立方生物科技有限公司/ 三星生物制药有限公司": {
+    "sponsor_en": "STCube Co., Ltd. / Beijing Weifang Biotechnology Co., Ltd. / Samsung Biologics Co., Ltd.",
+    "query_term": "STCube .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康威（广州）生物科技有限公司": {
+    "sponsor_en": "Conway (Guangzhou) Biotechnology Co., Ltd.",
+    "query_term": "Conway (Guangzhou)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "纽伦捷生物医药科技（苏州）有限公司": {
+    "sponsor_en": "Nurenjie Biomedicine Technology (Suzhou) Co., Ltd.",
+    "query_term": "Nurenjie Biomedicine  (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "扬子江药业集团江苏制药股份有限公司/ 扬子江药业集团江苏龙凤堂中药有限公司": {
+    "sponsor_en": "Yangtze River Pharmaceutical Group Jiangsu Pharmaceutical Co., Ltd. / Yangtze River Pharmaceutical Group Jiangsu Longfengtang Traditional Chinese Medicine Co., Ltd.",
+    "query_term": "Yangtze River   Jiangsu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "先声再明医药股份有限公司": {
+    "sponsor_en": "Xianshengzaiming Pharmaceutical Co., Ltd.",
+    "query_term": "Simcere",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05569057",
+      "NCT05940883",
+      "NCT06375044",
+      "NCT05781360",
+      "NCT06792552"
+    ]
+  },
+  "本道生物科技（杭州）有限公司": {
+    "sponsor_en": "Benda Biotechnology (Hangzhou) Co., Ltd.",
+    "query_term": "Benda  (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
