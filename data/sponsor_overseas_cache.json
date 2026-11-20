@@ -4782,5 +4782,59 @@
     "query_term": "Benda  (Hangzhou) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "广州百济神州生物制药有限公司": {
+    "sponsor_en": "Guangzhou BeiGene Bio Pharmaceutical Co., Ltd.",
+    "query_term": "BeiGene",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06540066",
+      "NCT04649385",
+      "NCT03432884",
+      "NCT03777657",
+      "NCT05640102"
+    ]
+  },
+  "劲方医药科技（上海）有限公司": {
+    "sponsor_en": "JinFang Pharmaceutical Technology ( Shanghai ) Co., Ltd.",
+    "query_term": "JinFang   ( Shanghai ) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳海王医药科技研究院有限公司": {
+    "sponsor_en": "ShenZhenHaiWang Pharmaceutical Technology Research Institute Co., Ltd.",
+    "query_term": "ShenZhenHaiWang   Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "士泽生物医药（苏州）有限公司/ 士泽生物医药（上海）有限公司": {
+    "sponsor_en": "ShiZe Biomedicine ( Suzhou ) Co., Ltd. / ShiZe Biomedicine ( Shanghai ) Co., Ltd.",
+    "query_term": "ShiZe Biomedicine ( Suzhou ) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "核新生物医药（长春）有限公司": {
+    "sponsor_en": "HeXin Biomedicine (ChangChun) Co., Ltd.",
+    "query_term": "HeXin Biomedicine (ChangChun) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "乐普健糖药业（重庆）有限公司": {
+    "sponsor_en": "LePuJianTang Pharmaceutical ( Chongqing ) Co., Ltd.",
+    "query_term": "LePuJianTang  ( Chongqing ) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都盛迪医药有限公司": {
+    "sponsor_en": "Chengdu ShengDi Pharmaceuticals Co., Ltd.",
+    "query_term": "Chengdu ShengDi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州必贝特医药股份有限公司": {
+    "sponsor_en": "Guangzhou BiBeiTe Pharmaceuticals Co., Ltd.",
+    "query_term": "Guangzhou BiBeiTe  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
