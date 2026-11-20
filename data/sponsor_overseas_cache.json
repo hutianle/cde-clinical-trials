@@ -4622,5 +4622,71 @@
     "query_term": "Haikou  Factory .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "成都国为生物医药有限公司/ 成都天台山制药股份有限公司": {
+    "sponsor_en": "Chengdu Guowei Biopharmaceutical Co., Ltd. / Chengdu Tiantaishan Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Guowei  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海恒润达生生物科技股份有限公司": {
+    "sponsor_en": "Shanghai Hengrun Dasheng Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Hengrun Dasheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "绿叶嘉奥制药石家庄有限公司/ 山东绿叶制药有限公司": {
+    "sponsor_en": "Greenleaf Jiaao Pharmaceutical (Shijiazhuang) Co., Ltd. / Shandong Lu Ye Pharmaceutical Co., Ltd.",
+    "query_term": "Greenleaf Jiaao  (Shijiazhuang) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京丹擎医药科技有限公司": {
+    "sponsor_en": "Beijing Danqing Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Danqing   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海信谱生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Spectrum Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Spectrum  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "长风苏粤药业（广州）有限公司/ 长风药业股份有限公司": {
+    "sponsor_en": "Changfeng Suyue Pharmaceutical (Guangzhou) Co., Ltd. / Changfeng Pharmaceutical Co., Ltd.",
+    "query_term": "Changfeng Suyue  (Guangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "远大赛威信生命科学（南京）有限公司/ 远大赛威信生命科学（杭州）有限公司": {
+    "sponsor_en": "Yuan Da Saiwei Life Sciences (Nanjing) Co., Ltd. / Yuan Da Saiwei Life Sciences (Hangzhou) Co., Ltd.",
+    "query_term": "Yuan Da Saiwei Life Sciences (Nanjing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江越甲药业有限公司": {
+    "sponsor_en": "Zhejiang Yuejia Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Yuejia  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳科兴药业有限公司": {
+    "sponsor_en": "Sinovac Biotech Co., Ltd.",
+    "query_term": "Sinovac Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "合肥欣竹生物科技有限公司": {
+    "sponsor_en": "Hefei Xinzhu Biotechnology Co., Ltd.",
+    "query_term": "Hefei Xinzhu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏赛亿生物技术有限公司": {
+    "sponsor_en": "Jiangsu Saiyi Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Saiyi  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
