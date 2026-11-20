@@ -4259,5 +4259,41 @@
     "query_term": "Tairui  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "武汉科福新药有限责任公司/ 苏州合美嘉制药有限公司": {
+    "sponsor_en": "Wuhan Coface New Drug Co., Ltd. / Suzhou Hemeijia Pharmaceutical Co., Ltd.",
+    "query_term": "Wuhan Coface New Drug .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Merck Healthcare KGaA/ 默克雪兰诺（北京）医药研发有限公司/ Catalent Germany Schorndorf GmbH": {
+    "sponsor_en": "Merck Healthcare KGaA / Merck Serono (Beijing) Pharmaceutical R&D Co., Ltd. / Catalent Germany Schorndorf GmbH",
+    "query_term": "Merck Healthcare KGaA",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州英创医药科技有限公司/ 石药集团中奇制药技术（石家庄）有限公司": {
+    "sponsor_en": "Hangzhou Yingchuang Pharmaceutical Technology Co., Ltd. / Shiyao Group Zhongqi Pharmaceutical Technology (Shijiazhuang) Co., Ltd.",
+    "query_term": "Hangzhou Yingchuang   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "丽珠医药集团股份有限公司/ 丽珠集团丽珠制药厂": {
+    "sponsor_en": "Livzon Pharmaceutical Group Inc. / Lizhu Group Lizhu Pharmaceutical Factory",
+    "query_term": "Livzon   Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Développement/ 赛诺菲（中国）投资有限公司/ Sanofi-Aventis Recherche & Developpement": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement / Sanofi (China) Investment Co., Ltd. / Sanofi-Aventis Recherche & Developpement",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Merck Healthcare KGaA/ 默克雪兰诺（北京）医药研发有限公司/ BSP Pharmaceuticals S.p.A": {
+    "sponsor_en": "Merck Healthcare KGaA / Merck Serono (Beijing) Pharmaceutical R&D Co., Ltd. / BSP Pharmaceuticals S.p.A",
+    "query_term": "Merck Healthcare KGaA",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
