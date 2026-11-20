@@ -4836,5 +4836,41 @@
     "query_term": "Guangzhou BiBeiTe  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "南京诺源医疗器械有限公司": {
+    "sponsor_en": "Nanjing Nuoyuan Medical Device Co., Ltd.",
+    "query_term": "Nanjing Nuoyuan Medical Device .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "ViGeneron GmbH/ 上海康德弘翼医学临床研究有限公司/ WuXi Advanced Therapies Inc.": {
+    "sponsor_en": "ViGeneron GmbH / Shanghai Kangde Hongyi Medical Clinical Research Co., Ltd. / WuXi Advanced Therapies Inc.",
+    "query_term": "ViGeneron GmbH",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ ROVI Pharma Industrial Services, S.A.": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / ROVI Pharma Industrial Services, S.A.",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01490749",
+      "NCT00685399",
+      "NCT07225504",
+      "NCT01594983",
+      "NCT00940602"
+    ]
+  },
+  "山东泰邦生物制品有限公司": {
+    "sponsor_en": "Shandong Taibang Biological Products Co., Ltd.",
+    "query_term": "Shandong Taibang Biological Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "宜明昂科生物医药技术（上海）股份有限公司": {
+    "sponsor_en": "ImmuQuad Biopharmaceuticals (Shanghai) Co., Ltd.",
+    "query_term": "ImmuQuad Biopharmaceuticals (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
