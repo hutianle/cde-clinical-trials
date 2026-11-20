@@ -5412,5 +5412,70 @@
     "query_term": "Fushi  (Hefei) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Merck Sharp & Dohme LLC/ 默沙东研发（中国）有限公司/ Daiichi Sankyo Co., Ltd.": {
+    "sponsor_en": "Merck Sharp & Dohme LLC / Merck Research Laboratories (China) Co., Ltd. / Daiichi Sankyo Co., Ltd.",
+    "query_term": "Merck Sharp & Dohme LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07194980",
+      "NCT02546531",
+      "NCT04980872",
+      "NCT04303156"
+    ]
+  },
+  "山东省药学科学院/ 杭州源草药业有限公司": {
+    "sponsor_en": "Shandong Academy of Pharmaceutical Sciences / Hangzhou Yuancao Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Academy of  Sciences",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京佳诚生物医药科技开发有限公司": {
+    "sponsor_en": "Beijing Jiacheng Biomedical Technology Development Co., Ltd.",
+    "query_term": "Beijing Jiacheng   Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "潘普洛纳生物科技（深圳）有限公司": {
+    "sponsor_en": "Pamplona Biotech (Shenzhen) Co., Ltd.",
+    "query_term": "Pamplona Biotech (Shenzhen) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都赜灵生物医药科技有限公司": {
+    "sponsor_en": "Chengdu Zelink Biological Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Chengdu Zelink Biological   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏柯菲平医药股份有限公司": {
+    "sponsor_en": "Jiangsu Kefeiping Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Kefeiping  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康诺生物制药股份有限公司/ 开封康诺药业有限公司": {
+    "sponsor_en": "Conner Bio-Pharmaceutical Co., Ltd. / Kaifeng Connaught Pharmaceutical Co., Ltd.",
+    "query_term": "Conner Bio- .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "西安尚益康医药研究所/ 华创合成制药股份有限公司": {
+    "sponsor_en": "Xi'an Shangyikang Pharmaceutical Research Institute / Huachuang Synthetic Pharmaceutical Co., Ltd.",
+    "query_term": "Xi'an Shangyikang  Research Institute",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京阳光诺和药物研究股份有限公司/ 北京阿尔纳科技有限公司/ 北京安龙生物医药有限公司": {
+    "sponsor_en": "Beijing Sunward Pharmaceutical Research Co., Ltd. / Beijing Arna Technology Co., Ltd. / Beijing Anlong Biopharmaceutical Co., Ltd.",
+    "query_term": "Beijing Sunward  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福州好吉医药科技发展有限公司/ 广州华宸康捷医药有限公司": {
+    "sponsor_en": "Fuzhou Haoji Pharmaceutical Technology Development Co., Ltd. / Guangzhou Huachen Kangjie Pharmaceutical Co., Ltd.",
+    "query_term": "Fuzhou Haoji   Development .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
