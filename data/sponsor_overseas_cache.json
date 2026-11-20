@@ -5543,5 +5543,81 @@
     "query_term": "Hangzhou Deruizhi   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "成都心正合医药科技有限公司": {
+    "sponsor_en": "Chengdu Xinzhenghe Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Chengdu Xinzhenghe   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Bristol-Myers Squibb Company/ 百时美施贵宝（中国）投资有限公司/ Bristol Myers Squibb Co./ Almac Clinical Services, LLC；Fisher Clinical Services Inc.": {
+    "sponsor_en": "Bristol-Myers Squibb Company / Bristol Myers Squibb (China) Investment Co., Ltd. / Bristol Myers Squibb Co. / Almac Clinical Services, LLC; Fisher Clinical Services Inc.",
+    "query_term": "Bristol-Myers Squibb Company",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "以色列奥拉姆德有限公司/ 瑞士思维斯-凯普医药公司（未包衣软胶囊生产厂）/ 美国C.S.M.公司/ 合肥海脉通衡生物科技有限公司": {
+    "sponsor_en": "Olamed Israel Ltd. / Swisscaps AG (Uncoated Softgel Capsule Manufacturing Plant) / C.S.M. Company, USA / Hefei Haimeitongheng Biotechnology Co., Ltd.",
+    "query_term": "Olamed Israel Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "复星雅立峰（大连）生物制药有限公司": {
+    "sponsor_en": "Fosun Yalipeak (Dalian) Biopharmaceuticals Co., Ltd.",
+    "query_term": "Fosun Yalipeak (Dalian) Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都康诺行生物医药科技有限公司": {
+    "sponsor_en": "Chengdu Connaught Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Chengdu Connaught   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "前沿生物药业（南京）股份有限公司": {
+    "sponsor_en": "Frontier Biopharm (Nanjing) Co., Ltd.",
+    "query_term": "Frontier Biopharm (Nanjing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "常州恒邦药业有限公司/ 上海翰森生物医药科技有限公司/ 江苏豪森药业集团有限公司": {
+    "sponsor_en": "Changzhou Hengbang Pharmaceutical Co., Ltd. / Shanghai Hansoh Biopharmaceuticals Co., Ltd. / Jiangsu Hansoh Pharmaceutical Group Co Ltd Lianyungang Hongchuang Pharmaceutical Co Ltd of Jiangsu Hansoh Pharmaceutical Group Co Ltd",
+    "query_term": "Hansoh",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06846710",
+      "NCT06892379",
+      "NCT02981108"
+    ]
+  },
+  "倍思可（上海）生物科技有限公司": {
+    "sponsor_en": "BaseCare (Shanghai) Biotechnology Co., Ltd.",
+    "query_term": "BaseCare (Shanghai)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "星济生物医药（北京）有限公司": {
+    "sponsor_en": "Xingji Biopharmaceuticals (Beijing) Co., Ltd.",
+    "query_term": "Xingji Biopharmaceuticals (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Lonza AG": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Lonza AG",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01154335",
+      "NCT02138929",
+      "NCT07226986",
+      "NCT00129831",
+      "NCT05230537"
+    ]
+  },
+  "江苏威凯尔医药科技有限公司": {
+    "sponsor_en": "Jiangsu Weiker Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Jiangsu Weiker   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }

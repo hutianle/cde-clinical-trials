@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-20 | **Identified High-Priority Sponsors:** 103
+> - **Generated Date:** 2026-11-20 | **Identified High-Priority Sponsors:** 105
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -110,7 +110,9 @@
 | 100 | Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Boehringer Ingelheim Pharma GmbH & Co. KG | Boehringer Ingelheim International GmbH/ 勃林格殷格翰（中国）投资有限公司/ Boehringer Ingelheim Pharma GmbH & Co. KG | US Trial Site | CTR20261582 | NCT01948141, NCT01525628 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 101 | Climb Bio, Inc. / Beijing Tianguangshi Biotechnology Co., Ltd. / University of Iowa Pharmaceuticals (UIP) | Climb Bio, Inc./ 北京天广实生物技术股份有限公司/ University of Iowa Pharmaceuticals (UIP) | US Trial Site | CTR20261708 | NCT07096843, NCT07011043 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 102 | Merck Sharp & Dohme LLC / Merck Research Laboratories (China) Co., Ltd. / Daiichi Sankyo Co., Ltd. | Merck Sharp & Dohme LLC/ 默沙东研发（中国）有限公司/ Daiichi Sankyo Co., Ltd. | US Trial Site | CTR20261651 | NCT07194980, NCT02546531 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 103 | Boehringer Ingelheim International GmbH / Boehringer Ingelheim Pharma GmbH & Co. KG / Boehringer Ingelheim (China) Investment Co., Ltd. | Boehringer Ingelheim International GmbH/ Boehringer Ingelheim Pharma GmbH & Co. KG/ 勃林格殷格翰（中国）投资有限公司 | US Trial Site | CTR20261583 | NCT01948141, NCT01525628 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 103 | Changzhou Hengbang Pharmaceutical Co., Ltd. / Shanghai Hansoh Biopharmaceuticals Co., Ltd. / Jiangsu Hansoh Pharmaceutical Group Co Ltd Lianyungang Hongchuang Pharmaceutical Co Ltd of Jiangsu Hansoh Pharmaceutical Group Co Ltd | 常州恒邦药业有限公司/ 上海翰森生物医药科技有限公司/ 江苏豪森药业集团有限公司 | US Trial Site | CTR20261558 | NCT06846710, NCT06892379 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 104 | Boehringer Ingelheim International GmbH / Boehringer Ingelheim Pharma GmbH & Co. KG / Boehringer Ingelheim (China) Investment Co., Ltd. | Boehringer Ingelheim International GmbH/ Boehringer Ingelheim Pharma GmbH & Co. KG/ 勃林格殷格翰（中国）投资有限公司 | US Trial Site | CTR20261583 | NCT01948141, NCT01525628 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 105 | Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Lonza AG | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Lonza AG | US Trial Site | CTR20261549 | NCT01154335, NCT02138929 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
