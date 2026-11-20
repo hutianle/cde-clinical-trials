@@ -5097,5 +5097,71 @@
     "query_term": "Zhejiang Haichang  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "广州麓鹏制药有限公司": {
+    "sponsor_en": "Guangzhou Lupeng Pharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Lupeng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "再鼎医药（上海）有限公司": {
+    "sponsor_en": "Zai Lab (Shanghai) Co., Ltd.",
+    "query_term": "Zai Lab (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州圣域生物医药科技有限公司": {
+    "sponsor_en": "Hangzhou Shengyu Biomedical Technology Co., Ltd.",
+    "query_term": "Hangzhou Shengyu   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Athenex, Inc./ Patheon Pharmaceuticals Inc./ Athenex Pharma Solutions, LLC/ 重庆惠源医药有限公司": {
+    "sponsor_en": "Athenex, Inc. / Patheon Pharmaceuticals Inc. / Athenex Pharma Solutions, LLC / Chongqing Huiyuan Pharmaceutical Co., Ltd.",
+    "query_term": "Athenex, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03285477",
+      "NCT03575780",
+      "NCT00658970",
+      "NCT02250157",
+      "NCT02326441"
+    ]
+  },
+  "Athenex, Inc./ M W Encap Limited/ Athenex Pharma Solutions, LLC/ 重庆惠源医药有限公司": {
+    "sponsor_en": "Athenex, Inc. / M W Encap Limited / Athenex Pharma Solutions, LLC / Chongqing Huiyuan Pharmaceutical Co., Ltd.",
+    "query_term": "Athenex, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03285477",
+      "NCT03575780",
+      "NCT00658970",
+      "NCT02250157",
+      "NCT02326441"
+    ]
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ Baxter Oncology GmbH": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / Baxter Oncology GmbH",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "复星汉霖（成都）生物技术有限公司/ 上海复宏汉霖生物医药有限公司": {
+    "sponsor_en": "Fosun Pharma-Cellgene (Chengdu) Biotechnology Co., Ltd. / Shanghai Henlius Biotech, Inc.",
+    "query_term": "Fosun Pharma-Cellgene (Chengdu)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州和正医药有限公司": {
+    "sponsor_en": "Hangzhou Hezheng Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Hezheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京爱德程医药科技有限公司": {
+    "sponsor_en": "Nanjing AIDC Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Nanjing AIDC   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }

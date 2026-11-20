@@ -4,12 +4,12 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-20 | **Identified High-Priority Sponsors:** 95
+> - **Generated Date:** 2026-11-20 | **Identified High-Priority Sponsors:** 97
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Jiangsu Hansoh Pharmaceutical Group Co Ltd Lianyungang Hongchuang Pharmaceutical Co Ltd of Jiangsu Hansoh Pharmaceutical Group Co Ltd / Shanghai Hansoh Biopharmaceuticals Co., Ltd. | 江苏豪森药业集团有限公司/ 上海翰森生物医药科技有限公司 | US Trial Site | CTR20263920, CTR20263872, CTR20263898, CTR20263826, CTR20263544, CTR20263545, CTR20263016, CTR20263038, CTR20263056, CTR20262827, CTR20262774, CTR20262524, CTR20262609, CTR20262272, CTR20262173, CTR20261910 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
-| 2 | China Cell Engineering Co., Ltd. | 神州细胞工程有限公司 | US Trial Site | CTR20264236, CTR20264087, CTR20263775, CTR20263621, CTR20263618, CTR20262378, CTR20262379, CTR20262058, CTR20262021 | NCT04644185 | Pending BD Review | Pending BD Review | Tier 1 (High) |
+| 2 | China Cell Engineering Co., Ltd. | 神州细胞工程有限公司 | US Trial Site | CTR20264236, CTR20264087, CTR20263775, CTR20263621, CTR20263618, CTR20262378, CTR20262379, CTR20262058, CTR20262021, CTR20261828, CTR20261827 | NCT04644185 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 3 | Shanghai Hansen Biomedical Technology Co., Ltd./Changzhou Hengbang Pharmaceutical Co., Ltd. | 上海翰森生物医药科技有限公司/ 常州恒邦药业有限公司 | US Trial Site | CTR20264229, CTR20263999, CTR20263419, CTR20263174, CTR20263734, CTR20263186, CTR20262262 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 4 | Chengdu Kanghong Pharmaceutical Group Co., Ltd. | 成都康弘药业集团股份有限公司 | US Trial Site | CTR20264334, CTR20263973, CTR20262786, CTR20262787, CTR20262373, CTR20262374 | NCT03577899, NCT03630952 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 5 | Jiangsu Hengrui Pharmaceutical Co., Ltd. | 江苏恒瑞医药股份有限公司 | US Trial Site | CTR20264120, CTR20264209, CTR20263901, CTR20262994, CTR20262582, CTR20262003 | NCT03203811, NCT04446260 | Pending BD Review | Pending BD Review | Tier 1 (High) |
@@ -103,6 +103,8 @@
 | 93 | Xianshengzaiming Pharmaceutical Co., Ltd. | 先声再明医药股份有限公司 | US Trial Site | CTR20262087 | NCT05569057, NCT05940883 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 94 | Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Cilag AG / Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC; Almac Clinical Services; Almac Clinical Services | Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Cilag AG/ Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC; Almac Clinical Services; Almac Clinical Services | US Trial Site | CTR20262095 | NCT03945903, NCT01804686 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 95 | Pharvaris Netherlands B.V. / Novartis Pharmaceuticals (Shanghai) Co., Ltd. / Rottendorf Pharma GmbH | Pharvaris Netherlands B.V./ 诺为泰医药科技（上海）有限公司/ Rottendorf Pharma GmbH | US Trial Site | CTR20261900 | NCT01490749, NCT00685399 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 96 | Athenex, Inc. / M W Encap Limited / Athenex Pharma Solutions, LLC / Chongqing Huiyuan Pharmaceutical Co., Ltd. | Athenex, Inc./ M W Encap Limited/ Athenex Pharma Solutions, LLC/ 重庆惠源医药有限公司 | US Trial Site | CTR20261840 | NCT03285477, NCT03575780 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 97 | Athenex, Inc. / Patheon Pharmaceuticals Inc. / Athenex Pharma Solutions, LLC / Chongqing Huiyuan Pharmaceutical Co., Ltd. | Athenex, Inc./ Patheon Pharmaceuticals Inc./ Athenex Pharma Solutions, LLC/ 重庆惠源医药有限公司 | US Trial Site | CTR20261841 | NCT03285477, NCT03575780 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
