@@ -5779,5 +5779,83 @@
     "query_term": "ShiZe Biomedicine ( Suzhou ) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "深圳康泰生物制品股份有限公司/ 兰州百灵生物技术有限公司": {
+    "sponsor_en": "Shenzhen Kangtai Biological Products Co.,Ltd. / Lanzhou Bailin Biotechnology Co., Ltd.",
+    "query_term": "Shenzhen Kangtai Biological Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "兰州百灵生物技术有限公司/ 深圳康泰生物制品股份有限公司": {
+    "sponsor_en": "Lanzhou Bailin Biotechnology Co., Ltd. / Shenzhen Kangtai Biological Products Co.,Ltd.",
+    "query_term": "Lanzhou Bailin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京吉盛澳玛生物医药有限公司": {
+    "sponsor_en": "Nanjing Jishheng Aoma Biopharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Jishheng Aoma  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "SOL-GEL TECHNOLOGIES LTD/ 深圳市贝美药业有限公司/ DOUGLAS MANUFACTURING LTD.": {
+    "sponsor_en": "SOL-GEL TECHNOLOGIES LTD / Shenzhen Beimei Pharmaceutical Co., Ltd. / DOUGLAS MANUFACTURING LTD.",
+    "query_term": "SOL-GEL TECHNOLOGIES LTD",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海长森药业有限公司": {
+    "sponsor_en": "Shanghai Changsen Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Changsen  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海瑞宏迪医药有限公司/ 广州瑞领医药有限公司": {
+    "sponsor_en": "Shanghai Ruihongdi Pharmaceutical Co., Ltd. / Guangzhou Ruiling Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Ruihongdi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海惠永药物研究有限公司": {
+    "sponsor_en": "Shanghai Huiyong Pharmaceutical Research Co., Ltd.",
+    "query_term": "Shanghai Huiyong  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京MEDPACE医药科技有限公司/ 成都康诺行生物医药科技有限公司": {
+    "sponsor_en": "Beijing Medpace Pharmaceutical Technology Co., Ltd. / Chengdu Connaught Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Medpace   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康诺亚生物医药科技（成都）有限公司": {
+    "sponsor_en": "Conway Biopharm (Chengdu) Co., Ltd.",
+    "query_term": "Conway Biopharm (Chengdu) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京德立福瑞医药科技有限公司": {
+    "sponsor_en": "Beijing Delifu Rui Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Delifu Rui   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海赛尔欣生物医疗科技有限公司": {
+    "sponsor_en": "Shanghai Saierxin Biomedical Technology Co., Ltd.",
+    "query_term": "Shanghai Saierxin   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中国中医科学院西苑医院": {
+    "sponsor_en": "Xiyuan Hospital of China Academy of Chinese Medical Sciences",
+    "query_term": "Xiyuan Hospital of China Academy of Chinese Medical Sciences",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东百诺医药股份有限公司/ 扬州市三药制药有限公司": {
+    "sponsor_en": "Shandong Baina Pharmaceutical Co., Ltd. / Yangzhou Sanyao Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Baina  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
