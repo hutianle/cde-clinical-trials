@@ -5619,5 +5619,99 @@
     "query_term": "Jiangsu Weiker   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "海南康哲美丽科技有限公司": {
+    "sponsor_en": "Hainan Kangzhe Beautiful Technology Co., Ltd.",
+    "query_term": "Hainan Kangzhe Beautiful  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳善康医药科技股份有限公司": {
+    "sponsor_en": "Shenzhen Shankang Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shenzhen Shankang   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州百懿生物药业有限公司": {
+    "sponsor_en": "Hangzhou Baiyi Biopharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Baiyi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏豪森药业集团有限公司/ 上海翰森生物医药科技有限公司/ 常州恒邦药业有限公司": {
+    "sponsor_en": "Jiangsu Hansoh Pharmaceutical Group Co Ltd Lianyungang Hongchuang Pharmaceutical Co Ltd of Jiangsu Hansoh Pharmaceutical Group Co Ltd / Shanghai Hansoh Biopharmaceuticals Co., Ltd. / Changzhou Hengbang Pharmaceutical Co., Ltd.",
+    "query_term": "Hansoh",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06846710",
+      "NCT06892379",
+      "NCT02981108"
+    ]
+  },
+  "浙江永展医药科技有限公司": {
+    "sponsor_en": "Zhejiang Yongzhan Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Zhejiang Yongzhan   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海跃赛生物科技有限公司": {
+    "sponsor_en": "Shanghai Yuesai Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Yuesai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Développement/ 赛诺菲（中国）投资有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement / Sanofi (China) Investment Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co. KG",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏迈威康新药研发有限公司": {
+    "sponsor_en": "Jiangsu Mywacom New Drug Research and Development Co., Ltd.",
+    "query_term": "Jiangsu Mywacom New Drug Research and Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州亦立医药有限公司": {
+    "sponsor_en": "Hangzhou Yili Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Yili  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Novartis Pharma AG；Novartis Pharmaceutical Manufacturing LLC": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Novartis Pharma AG; Novartis Pharmaceutical Manufacturing LLC",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01154335",
+      "NCT02138929",
+      "NCT07226986",
+      "NCT00129831",
+      "NCT05230537"
+    ]
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Cilag AG/ Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services UK Limited; Fisher Clinical Services GmbH; Thermo Electron Limited; Catalent Germany Schorndorf GmbH; Catalent Pharma Solutions, LLC": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Cilag AG / Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services UK Limited; Fisher Clinical Services GmbH; Thermo Electron Limited; Catalent Germany Schorndorf GmbH; Catalent Pharma Solutions, LLC",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01569750",
+      "NCT04087681",
+      "NCT01823016",
+      "NCT05071664",
+      "NCT01362699"
+    ]
+  },
+  "兰州生物制品研究所有限责任公司": {
+    "sponsor_en": "Lanzhou Institute of Biological Products Co., Ltd.",
+    "query_term": "Lanzhou Institute of Biological Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天辰生物医药（苏州）有限公司": {
+    "sponsor_en": "Tianchen Biopharmaceuticals (Suzhou) Co., Ltd.",
+    "query_term": "Tianchen Biopharmaceuticals (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
