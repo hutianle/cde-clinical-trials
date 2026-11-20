@@ -4408,5 +4408,47 @@
     "query_term": "Shanghai Chaoyang  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "倍亮生技医药（上海）有限公司/ 上海合全医药有限公司": {
+    "sponsor_en": "Beiliang Biotechnology Pharmaceuticals (Shanghai) Co., Ltd. / Shanghai Hovione Pharmaceutical Co., Ltd.",
+    "query_term": "Beiliang   (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川厌氧生物科技有限责任公司": {
+    "sponsor_en": "Sichuan Anaerobic Biotechnology Co., Ltd.",
+    "query_term": "Sichuan Anaerobic  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东香雪精准医疗技术有限公司": {
+    "sponsor_en": "Guangdong Xiangxue Precision Medicine Technology Co., Ltd.",
+    "query_term": "Guangdong Xiangxue Precision Medicine  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "轶诺（浙江）药业有限公司/ 上海轶诺药业有限公司": {
+    "sponsor_en": "Yinuo (Zhejiang) Pharmaceutical Co., Ltd. / Shanghai Yinuo Pharmaceutical Co., Ltd.",
+    "query_term": "Yinuo (Zhejiang)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "普众发现医药科技（上海）股份有限公司": {
+    "sponsor_en": "Puzhong Discovery Pharmaceutical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Puzhong Discovery   (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Ipsen Innovation/ 益普生（上海）医药科技有限公司/ Ipsen Biopharm Limited": {
+    "sponsor_en": "Ipsen Innovation / Ipsen (Shanghai) Pharmaceutical Technology Co., Ltd. / Ipsen Biopharm Limited",
+    "query_term": "Ipsen Innovation",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "临港国家实验室": {
+    "sponsor_en": "Lingang National Laboratory",
+    "query_term": "Lingang National Laboratory",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
