@@ -4361,5 +4361,52 @@
     "query_term": "Shanghai Bosai Mei  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "天津合美医药科技有限公司": {
+    "sponsor_en": "Tianjin Hemei Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Tianjin Hemei   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "优领医药科技（上海）有限公司": {
+    "sponsor_en": "Youling Medical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Youling Medical  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "不适用/ 百时益医药研发（北京）有限公司": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "N"
+  },
+  "AbbVie Inc./ 艾伯维医药贸易（上海）有限公司/ AbbVie Deutschland GmbH & Co. KG,": {
+    "sponsor_en": "AbbVie Inc. / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd. / AbbVie Deutschland GmbH & Co. KG,",
+    "query_term": "AbbVie Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州若弋生物科技有限公司": {
+    "sponsor_en": "Suzhou Ruoyi Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Ruoyi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉摩尔生物科技有限公司": {
+    "sponsor_en": "Wuhan More Biotech Co., Ltd.",
+    "query_term": "Wuhan More Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京艾美斐生物医药科技有限公司": {
+    "sponsor_en": "Nanjing Aimeifei Biomedical Technology Co., Ltd.",
+    "query_term": "Nanjing Aimeifei   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海超阳药业有限公司": {
+    "sponsor_en": "Shanghai Chaoyang Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Chaoyang  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
