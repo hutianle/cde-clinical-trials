@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-20 | **Identified High-Priority Sponsors:** 94
+> - **Generated Date:** 2026-11-20 | **Identified High-Priority Sponsors:** 95
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -102,6 +102,7 @@
 | 92 | N/A / Boehringer Ingelheim (China) Investment Co., Ltd. | 不适用/ 勃林格殷格翰(中国)投资有限公司 | US Trial Site | CTR20261978 | NCT02061748, NCT00122863 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 93 | Xianshengzaiming Pharmaceutical Co., Ltd. | 先声再明医药股份有限公司 | US Trial Site | CTR20262087 | NCT05569057, NCT05940883 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 94 | Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Cilag AG / Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC; Almac Clinical Services; Almac Clinical Services | Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Cilag AG/ Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC; Almac Clinical Services; Almac Clinical Services | US Trial Site | CTR20262095 | NCT03945903, NCT01804686 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 95 | Pharvaris Netherlands B.V. / Novartis Pharmaceuticals (Shanghai) Co., Ltd. / Rottendorf Pharma GmbH | Pharvaris Netherlands B.V./ 诺为泰医药科技（上海）有限公司/ Rottendorf Pharma GmbH | US Trial Site | CTR20261900 | NCT01490749, NCT00685399 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.

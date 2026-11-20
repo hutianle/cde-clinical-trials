@@ -5013,5 +5013,89 @@
     "query_term": "Beijing Anlong Hopson  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Pharvaris Netherlands B.V./ 诺为泰医药科技（上海）有限公司/ Rottendorf Pharma GmbH": {
+    "sponsor_en": "Pharvaris Netherlands B.V. / Novartis Pharmaceuticals (Shanghai) Co., Ltd. / Rottendorf Pharma GmbH",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01490749",
+      "NCT00685399",
+      "NCT07225504",
+      "NCT01594983",
+      "NCT00940602"
+    ]
+  },
+  "江苏德源药业股份有限公司/ 深圳市健翔生物制药有限公司": {
+    "sponsor_en": "Jiangsu Deyuan Pharmaceutical Co., Ltd. / Shenzhen Jianxiang Biopharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Deyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏德源药业股份有限公司": {
+    "sponsor_en": "Jiangsu Deyuan Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Deyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "一品红生物医药有限公司/ 广州一品红制药有限公司/ 广州市联瑞制药有限公司": {
+    "sponsor_en": "Yipin Hong Biomedical Co., Ltd. / Guangzhou Yipin Hong Pharmaceutical Co., Ltd. / Guangzhou Lianrui Pharmaceutical Co., Ltd.",
+    "query_term": "Yipin Hong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "元本（珠海横琴）生物科技有限公司": {
+    "sponsor_en": "Yuanben (Zhuhai Hengqin) Biotechnology Co., Ltd.",
+    "query_term": "Yuanben (Zhuhai Hengqin)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东览屹医药科技有限公司/ 上海览屹医药科技有限公司": {
+    "sponsor_en": "Shandong Lanyi Pharmaceutical Technology Co., Ltd. / Shanghai Lanyi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shandong Lanyi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京鼎成肽源生物技术有限公司": {
+    "sponsor_en": "Beijing Dingcheng Taiyuan Biotechnology Co., Ltd.",
+    "query_term": "Beijing Dingcheng Taiyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "正大天晴药业集团股份有限公司/ 正大天晴药业集团南京顺欣制药有限公司": {
+    "sponsor_en": "Zhengda Tianqing Pharmaceutical Group Co., Ltd. / Zhengda Tianqing Pharmaceutical Group Nanjing Shunxin Pharmaceutical Co., Ltd.",
+    "query_term": "Zhengda Tianqing   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京艾尔普再生医学科技有限公司": {
+    "sponsor_en": "Nanjing Aipu Regenerative Medicine Technology Co., Ltd.",
+    "query_term": "Nanjing Aipu Regenerative Medicine  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海寻百会生物技术有限公司": {
+    "sponsor_en": "Shanghai Xunbaihui Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Xunbaihui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏瑞科生物技术股份有限公司/ 北京安百胜生物科技有限公司": {
+    "sponsor_en": "Jiangsu Recbio Technology Co., Ltd. / Beijing Abiosci Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Recbio  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "百时美施贵宝（中国）投资有限公司/ 百欧恩泰（上海）医药有限公司": {
+    "sponsor_en": "Bristol Myers Squibb (China) Investment Co., Ltd. / Biontech (Shanghai) Pharmaceutical Co., Ltd.",
+    "query_term": "Bristol Myers Squibb (China) Investment .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江海昶生物医药股份有限公司": {
+    "sponsor_en": "Zhejiang Haichang Biopharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Haichang  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
