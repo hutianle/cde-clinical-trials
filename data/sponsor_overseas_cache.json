@@ -4450,5 +4450,93 @@
     "query_term": "Lingang National Laboratory",
     "has_us_site": false,
     "us_trials": []
+  },
+  "江苏创源生命科技有限公司/ 中国药科大学": {
+    "sponsor_en": "Jiangsu Chuangyuan Life Science Technology Co., Ltd. / During the two days of visiting from May 27-28, 2021, the delegation of Vland Technical Committee visited two advanced educational institutions and a research institute in Nanjing, China. First stop: China Pharmaceutical University (CPU)",
+    "query_term": "Jiangsu Chuangyuan Life Science  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Boehringer Ingelheim Pharma GmbH & Co. KG/ Almac Pharma Services Limited": {
+    "sponsor_en": "Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Boehringer Ingelheim Pharma GmbH & Co. KG / Almac Pharma Services Limited",
+    "query_term": "Boehringer Ingelheim",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02061748",
+      "NCT00122863",
+      "NCT01205373",
+      "NCT00002166",
+      "NCT07220083"
+    ]
+  },
+  "苏州信诺维医药科技股份有限公司": {
+    "sponsor_en": "Suzhou Xinnuowei Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Suzhou Xinnuowei   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天地恒一制药股份有限公司": {
+    "sponsor_en": "Tian Di Hengyi Pharmaceutical Co., Ltd.",
+    "query_term": "Tian Di Hengyi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "海南济民博鳌国际医院有限公司/ 广州达博生物制品有限公司": {
+    "sponsor_en": "Hainan Jimin Boao International Hospital Co., Ltd. / Guangzhou Dabao Biological Products Co., Ltd.",
+    "query_term": "Hainan Jimin Boao International Hospital .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江仙琚制药股份有限公司": {
+    "sponsor_en": "Zhejiang Xianju Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Xianju  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "昌郁医药（上海）有限公司": {
+    "sponsor_en": "Changyu Pharmaceutical (Shanghai) Co., Ltd.",
+    "query_term": "Changyu  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "黑龙江珍宝岛药业股份有限公司/ 黑龙江羽迪药业有限责任公司": {
+    "sponsor_en": "Heilongjiang Zhenbao Island Pharmaceutical Co., Ltd. / Heilongjiang Yudi Pharmaceutical Co., Ltd.",
+    "query_term": "Heilongjiang Zhenbao Island  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "瀚晖制药有限公司/ 浙江海正药业股份有限公司": {
+    "sponsor_en": "Hanhui Pharmaceutical Co., Ltd. / Zhejiang Hisun Pharmaceutical Co., Ltd.",
+    "query_term": "Hisun",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03625401",
+      "NCT01733082",
+      "NCT02087917"
+    ]
+  },
+  "Novartis Pharma AG；/ 诺华（中国）生物医学研究有限公司/ Novartis Pharma AG；Novartis Pharmaceutical Manufacturing LLC": {
+    "sponsor_en": "Novartis Pharma AG; / Novartis (China) BioMedical Research Co., Ltd. / Novartis Pharma AG; Novartis Pharmaceutical Manufacturing LLC",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01490749",
+      "NCT00685399",
+      "NCT07225504",
+      "NCT01594983",
+      "NCT00940602"
+    ]
+  },
+  "浙江文达医药科技有限公司/ 湖南恒雅医药科技有限公司": {
+    "sponsor_en": "Zhejiang Wenda Pharmaceutical Technology Co., Ltd. / Hunan Hengya Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Zhejiang Wenda   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京科兴中维生物技术有限公司/ 兴盟生物医药（苏州）有限公司": {
+    "sponsor_en": "Sinovac Biotech Co., Ltd. / Xingmeng Biopharmaceuticals (Suzhou) Co., Ltd.",
+    "query_term": "Sinovac Biotech .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
