@@ -4538,5 +4538,89 @@
     "query_term": "Sinovac Biotech .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "江苏知原药业股份有限公司": {
+    "sponsor_en": "Jiangsu Zhiyuan Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Zhiyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "高维医药（杭州）有限公司": {
+    "sponsor_en": "Gaowei Pharmaceutical (Hangzhou) Co., Ltd.",
+    "query_term": "Gaowei  (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京免疫方舟医药科技有限公司": {
+    "sponsor_en": "Beijing Immunovaccine Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Immunovaccine   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "艾拓维医药（上海）有限公司": {
+    "sponsor_en": "Aptorum Group (Shanghai) Co., Ltd.",
+    "query_term": "Aptorum  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏恩华药业股份有限公司/ 上海枢境生物科技有限公司": {
+    "sponsor_en": "Jiangsu Enhua Pharmaceutical Co., Ltd. / Shanghai HubJing Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Enhua  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海岸迈生物科技有限公司/ 岸迈生物科技（苏州）有限公司": {
+    "sponsor_en": "Shanghai Anmai Biotechnology Co., Ltd. / AnMax Biotech (Suzhou) Co., Ltd.",
+    "query_term": "Shanghai Anmai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京诺思兰德生物技术股份有限公司": {
+    "sponsor_en": "Beijing Northland Biotechnology Co., Ltd.",
+    "query_term": "Beijing Northland  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "复星凯瑞（上海）生物科技有限公司": {
+    "sponsor_en": "Fosun Pharma (Shanghai) Biotechnology Co., Ltd.",
+    "query_term": "Fosun Pharma (Shanghai)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东全重生物医药科技有限公司": {
+    "sponsor_en": "Shandong QuanZhong Biomedical Technology Co., Ltd.",
+    "query_term": "Shandong QuanZhong   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "来凯制药（宁波）有限公司": {
+    "sponsor_en": "Laikang Pharmaceutical (Ningbo) Co., Ltd.",
+    "query_term": "Laikang  (Ningbo) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "赛诺哈勃药业（成都）有限公司": {
+    "sponsor_en": "Sino-Huber Pharmaceutical (Chengdu) Co., Ltd.",
+    "query_term": "Sino-Huber  (Chengdu) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "安徽雷允上药业有限公司": {
+    "sponsor_en": "Anhui Lei Yunshang Pharmaceutical Co., Ltd.",
+    "query_term": "Anhui Lei Yunshang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "联邦生物科技（珠海横琴）有限公司/ 珠海联邦生物医药有限公司": {
+    "sponsor_en": "Federal Biotechnology (Zhuhai Hengqin) Co., Ltd. / Zhuhai Lianbang Biomedicine Co., Ltd.",
+    "query_term": "Federal  (Zhuhai Hengqin) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "海口市制药厂有限公司/ 中南大学": {
+    "sponsor_en": "Haikou Pharmaceutical Factory Co., Ltd. / CENTRAL SOUTH UNIVERSITY",
+    "query_term": "Haikou  Factory .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
