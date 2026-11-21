@@ -6463,5 +6463,77 @@
     "query_term": "Beijing Zhitai   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "交晨生物医药技术（上海）有限公司": {
+    "sponsor_en": "Jiaochen Biomedical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Jiaochen   (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "陕西昆秦生物科技有限公司": {
+    "sponsor_en": "Shaanxi Kunqin Biotechnology Co., Ltd.",
+    "query_term": "Shaanxi Kunqin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Alcon Laboratories, Inc./ 苏州欧康维视生物科技有限公司/ Kaysersberg Pharmaceuticals SAS (Recipharm)": {
+    "sponsor_en": "Alcon Laboratories, Inc. / Suzhou পূর্ববাংলার Vision Biotechnology Co., Ltd. / Kaysersberg Pharmaceuticals SAS (Recipharm)",
+    "query_term": "Alcon Laboratories, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "西安新通药物研究股份有限公司/ 西安葛蓝新通制药有限公司": {
+    "sponsor_en": "Xi'an Xintong Pharmaceutical Research Co., Ltd. / Xi'an Gelan Xintong Pharmaceutical Co., Ltd.",
+    "query_term": "Xi'an Xintong  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "正大天晴药业集团股份有限公司/ 东南大学": {
+    "sponsor_en": "Zhengda Tianqing Pharmaceutical Group Co., Ltd. / Southeast University",
+    "query_term": "Zhengda Tianqing   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "玉溪泽润生物技术有限公司": {
+    "sponsor_en": "Yuxi Zerun Biotechnology Co., Ltd.",
+    "query_term": "Yuxi Zerun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "盛禾（中国）生物制药有限公司": {
+    "sponsor_en": "Shenghe (China) Biopharmaceuticals Co., Ltd.",
+    "query_term": "Shenghe (China) Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "F. Hoffmann-La Roche Ltd./ 罗氏（中国）投资有限公司/ Patheon Manufacturing Services LLC": {
+    "sponsor_en": "F. Hoffmann-La Roche Ltd. / Roche (China) Investment Co., Ltd. / Patheon Manufacturing Services LLC",
+    "query_term": "F. Hoffmann-La Roche Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "达石药业（广东）有限公司": {
+    "sponsor_en": "Dash Pharmaceutical (Guangdong) Co., Ltd.",
+    "query_term": "Dash  (Guangdong) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京远大赛威信生物医药有限公司": {
+    "sponsor_en": "Nanjing Yuanda Sawei Biotechnology Co., Ltd.",
+    "query_term": "Nanjing Yuanda Sawei  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江花园药业有限公司": {
+    "sponsor_en": "Zhejiang Huayuan Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Huayuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "重庆派金生物科技有限公司": {
+    "sponsor_en": "Chongqing Paijin Biotechnology Co., Ltd.",
+    "query_term": "Chongqing Paijin  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
