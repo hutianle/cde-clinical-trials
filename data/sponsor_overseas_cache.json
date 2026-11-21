@@ -6374,5 +6374,41 @@
       "NCT04206605",
       "NCT07011576"
     ]
+  },
+  "北京康蒂尼药业股份有限公司": {
+    "sponsor_en": "Beijing Continmed Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Continmed  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州蒽恺赛生物科技有限公司": {
+    "sponsor_en": "Guangzhou Enkaisei Biotechnology Co., Ltd.",
+    "query_term": "Guangzhou Enkaisei  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中山莱博瑞辰生物医药有限公司": {
+    "sponsor_en": "Zhongshan Laiboruichen Biomedical Co., Ltd.",
+    "query_term": "Zhongshan Laiboruichen  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东双林生物制药有限公司": {
+    "sponsor_en": "Guangdong Shuanglin Biopharmaceutical Co., Ltd.",
+    "query_term": "Guangdong Shuanglin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州康宁杰瑞生物科技有限公司": {
+    "sponsor_en": "Suzhou KingMed Genomics Co., Ltd.",
+    "query_term": "Suzhou KingMed Genomics .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "迪哲（江苏）医药股份有限公司/ 格物生物技术（江苏）有限公司": {
+    "sponsor_en": "Dizhi (Jiangsu) Pharmaceutical Co., Ltd. / Gevity Biotechnology (Jiangsu) Co., Ltd.",
+    "query_term": "Dizhi (Jiangsu)  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
