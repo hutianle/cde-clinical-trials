@@ -5886,5 +5886,47 @@
     "query_term": "Hebei Fengzhang  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "广州艾奇西新药研究有限公司/ 中国医学科学院医药生物技术研究所/ 湖南赛隆药业（长沙）有限公司": {
+    "sponsor_en": "Guangzhou IQS New Drug Research Co., Ltd. / Institute of Medicinal Biotechnology, Chinese Academy of Medical Sciences / Hunan Sailun Pharmaceutical (Changsha) Co., Ltd.",
+    "query_term": "Guangzhou IQS New Drug Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "甫康（上海）健康科技有限责任公司/ 浙江甫康制药有限公司": {
+    "sponsor_en": "Fukang (Shanghai) Health Technology Co., Ltd. / Zhejiang Fukang Pharmaceutical Co., Ltd.",
+    "query_term": "Fukang (Shanghai) Health  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州仕韫生物技术有限公司": {
+    "sponsor_en": "Guangzhou Shiyun Biotechnology Co., Ltd.",
+    "query_term": "Guangzhou Shiyun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都微芯药业有限公司": {
+    "sponsor_en": "Chengdu Microcore Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Microcore  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海朝晖药业有限公司": {
+    "sponsor_en": "Shanghai Chaohui Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Chaohui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Genentech, Inc./ 罗氏（中国）投资有限公司/ Genentech Inc.": {
+    "sponsor_en": "Genentech, Inc. / Roche (China) Investment Co., Ltd. / Genentech Inc.",
+    "query_term": "Genentech, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04691817",
+      "NCT00251524",
+      "NCT00529503",
+      "NCT00474695",
+      "NCT00000761"
+    ]
   }
 }
