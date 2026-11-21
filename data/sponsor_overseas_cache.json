@@ -6170,5 +6170,53 @@
     "query_term": "Suzhou Medtronic Medical  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海泽德曼医药科技有限公司": {
+    "sponsor_en": "Shanghai Zedeman Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Zedeman   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京盈科瑞创新药物研究有限公司": {
+    "sponsor_en": "Beijing Yingke Rui Innovation Drug Research Co., Ltd.",
+    "query_term": "Beijing Yingke Rui Innovation Drug Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "河南中医药大学": {
+    "sponsor_en": "Henan University of Traditional Chinese Medicine",
+    "query_term": "Henan University of Traditional Chinese Medicine",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海华汇拓医药科技有限公司": {
+    "sponsor_en": "Shanghai Huahuai Tuo Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Huahuai Tuo   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Développement/ 赛诺菲（中国）投资有限公司/ SANOFI-AVENTIS RECHERCHE & DEVELOPPEMENT; Patheon France/ SANOFI-AVENTIS RECHERCHE & DEVELOPPEMENT; Fisher Clinical Services Inc.": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement / Sanofi (China) Investment Co., Ltd. / SANOFI-AVENTIS RECHERCHE & DEVELOPPEMENT; Patheon France / SANOFI-AVENTIS RECHERCHE & DEVELOPPEMENT; Fisher Clinical Services Inc.",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州必贝特医药技术有限公司": {
+    "sponsor_en": "Guangzhou Bibet Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Guangzhou Bibet   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华硼中子科技（杭州）有限公司": {
+    "sponsor_en": "Huabeng Neutron Technology (Hangzhou) Co., Ltd.",
+    "query_term": "Huabeng Neutron  (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京茵诺医药科技有限公司": {
+    "sponsor_en": "Beijing InnoMed Technology Co., Ltd.",
+    "query_term": "Beijing InnoMed  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
