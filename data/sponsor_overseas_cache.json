@@ -6047,5 +6047,65 @@
     "query_term": "Tianjin Institute of  Research (TIPR)",
     "has_us_site": false,
     "us_trials": []
+  },
+  "应世生物科技（南京）有限公司": {
+    "sponsor_en": "Yingshi Biotechnology (Nanjing) Co., Ltd.",
+    "query_term": "Yingshi  (Nanjing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江春禾医药科技有限公司": {
+    "sponsor_en": "Zhejiang Chunhe Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Zhejiang Chunhe   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海舶望制药有限公司": {
+    "sponsor_en": "Shanghai Bowang Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Bowang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏荃信生物医药股份有限公司": {
+    "sponsor_en": "Jiangsu Quanxin Biopharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Quanxin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏济烨生物制药有限公司": {
+    "sponsor_en": "Jiangsu Jiyue Biopharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Jiyue  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏睿源生物技术有限公司": {
+    "sponsor_en": "Jiangsu Ruiyuan Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Ruiyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "科望（苏州）生物医药科技有限公司": {
+    "sponsor_en": "Clover Biopharmaceuticals (Suzhou) Co., Ltd.",
+    "query_term": "Clover Biopharmaceuticals (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Seagen Inc., a wholly owned subsidiary of Pfizer/ 辉瑞（北京）研究开发有限公司/ BSP Pharmaceuticals S.p.A": {
+    "sponsor_en": "Seagen Inc., a wholly owned subsidiary of Pfizer / Pfizer (Beijing) Research and Development Co., Ltd. / BSP Pharmaceuticals S.p.A",
+    "query_term": "Seagen Inc., a wholly owned subsidiary of Pfizer",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "黑龙江葵花药业股份有限公司": {
+    "sponsor_en": "Heilongjiang Sunflower Pharmaceutical Co., Ltd.",
+    "query_term": "Heilongjiang Sunflower  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都麻沸散医药科技有限公司": {
+    "sponsor_en": "Chengdu Mafusan Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Chengdu Mafusan   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
