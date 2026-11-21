@@ -6005,5 +6005,47 @@
     "query_term": "Shanghai Rongrui   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海本导基因技术有限公司": {
+    "sponsor_en": "Shanghai Bendao Gene Technology Co., Ltd.",
+    "query_term": "Shanghai Bendao Gene  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "复星实业（香港）有限公司/ 上海复星医药产业发展有限公司/ Teva Branded Pharmaceutical Products R&D, LLC": {
+    "sponsor_en": "Fosun Industrial (Hong Kong) Co., Ltd. / Shanghai Fosun Pharmaceutical Industrial Development Co., Ltd. / Teva Branded Pharmaceutical Products R&D, LLC",
+    "query_term": "Fosun Industrial (Hong Kong) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州医药研究总院有限公司": {
+    "sponsor_en": "Guangzhou Pharmaceutical Research Institute Co., Ltd.",
+    "query_term": "Guangzhou  Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏华益科技有限公司": {
+    "sponsor_en": "Jiangsu Huayi Technology Co., Ltd.",
+    "query_term": "Jiangsu Huayi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉光谷中源药业有限公司": {
+    "sponsor_en": "Wuhan Optics Valley Zhongyuan Pharmaceutical Co., Ltd.",
+    "query_term": "Wuhan Optics Valley Zhongyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Eisai Co., Ltd./ 卫材（中国）药业有限公司/ Kawashima Pilot Plant, Eisai Co., Ltd.": {
+    "sponsor_en": "Eisai Co., Ltd. / Eisai (China) Pharmaceutical Co., Ltd. / Kawashima Pilot Plant, Eisai Co., Ltd.",
+    "query_term": "Eisai .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天津药物研究院/ 河北爱尔海泰科技有限公司": {
+    "sponsor_en": "Tianjin Institute of Pharmaceutical Research (TIPR) / Hebei Aierhaitai Technology Co., Ltd.",
+    "query_term": "Tianjin Institute of  Research (TIPR)",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
