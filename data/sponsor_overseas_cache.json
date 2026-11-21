@@ -6619,5 +6619,70 @@
     "query_term": "Beijing Jinlan Gene  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "浙江京新药业股份有限公司": {
+    "sponsor_en": "(Zhejiang Jingxin Pharmaceutical Co., Ltd.)",
+    "query_term": "(Zhejiang Jingxin  .)",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳阿尔法分子科技有限责任公司": {
+    "sponsor_en": "Shenzhen Alpha Molecular Technology Co., Ltd.",
+    "query_term": "Shenzhen Alpha Molecular  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京昂科免疫科技有限公司": {
+    "sponsor_en": "Beijing OncoImmunin Technology Co., Ltd.",
+    "query_term": "Beijing OncoImmunin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "NIA/ 元羿生物科技（上海）有限公司/ N/A": {
+    "sponsor_en": "NIA / Yuan Yi Biotechnology (Shanghai) Co., Ltd. / N / A",
+    "query_term": "NIA",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03883724",
+      "NCT01402453",
+      "NCT03545113",
+      "NCT07945041"
+    ]
+  },
+  "珠海普米斯生物科技有限公司/ 百欧恩泰（上海）医药有限公司": {
+    "sponsor_en": "Zhuhai Promis Biotechnology Co., Ltd. / Biontech (Shanghai) Pharmaceutical Co., Ltd.",
+    "query_term": "Zhuhai Promis  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "安成生物科技股份有限公司/ 杭州泰格医药科技股份有限公司/ 益邦制药股份有限公司；中国生化科技股份有限公司": {
+    "sponsor_en": "Anchen Biotech Co., Ltd. / Hangzhou Tigermed Consulting Co., Ltd. / Yibang Pharmaceutical Co., Ltd.; China Biochemical Technology Co., Ltd.",
+    "query_term": "Anchen Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "悦康药业集团股份有限公司/ 安徽悦博生物制药有限公司": {
+    "sponsor_en": "Yuekang Pharmaceutical Group Co., Ltd. / Anhui Yuebo Biopharmaceutical Co., Ltd.",
+    "query_term": "Yuekang   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海硕迪生物技术有限公司": {
+    "sponsor_en": "Shanghai Suodi Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Suodi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江和泽医药科技股份有限公司": {
+    "sponsor_en": "Zhejiang Heze Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Zhejiang Heze   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉朗来科技发展有限公司": {
+    "sponsor_en": "Wuhan Longlai Technology Development Co., Ltd.",
+    "query_term": "Wuhan Longlai  Development .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
