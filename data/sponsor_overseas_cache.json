@@ -6107,5 +6107,68 @@
     "query_term": "Chengdu Mafusan   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "南京寰柏生物科技有限公司": {
+    "sponsor_en": "Nanjing Huanbai Biotechnology Co., Ltd.",
+    "query_term": "Nanjing Huanbai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞（中国）研究开发有限公司/ Wyeth BioPharma Division of Wyeth Pharmaceuticals LLC": {
+    "sponsor_en": "Pfizer Inc. / Pfizer (China) Research and Development Co., Ltd. / Wyeth BioPharma Division of Wyeth Pharmaceuticals LLC",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "石药集团明复乐药业（广州）有限公司": {
+    "sponsor_en": "Shiyao Group Mingfule Pharmaceutical (Guangzhou) Co., Ltd.",
+    "query_term": "Shiyao  Mingfule  (Guangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳奥礼生物科技有限公司": {
+    "sponsor_en": "Shenzhen Aoli Biotechnology Co., Ltd.",
+    "query_term": "Shenzhen Aoli  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都康弘生物科技有限公司": {
+    "sponsor_en": "Chengdu Kanghong biotechnology co. , ltd.",
+    "query_term": "Kanghong",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03630952",
+      "NCT03577899"
+    ]
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ BSP Pharmaceuticals S.p.A.": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / BSP Pharmaceuticals S.p.A.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海研诺医药科技有限公司": {
+    "sponsor_en": "Shanghai Yanno Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Yanno   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州旺山旺水生物医药有限公司/ 中国科学院上海药物研究所/ 中国科学院武汉病毒研究所": {
+    "sponsor_en": "Suzhou Wangshan Wangshui Biomedicine Co., Ltd. / Shanghai Institute of Materia Medica, Chinese Academy of Sciences / Wuhan Institute of Virology, Chinese Academy of Sciences",
+    "query_term": "Suzhou Wangshan Wangshui Biomedicine .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "牡丹江友搏药业有限责任公司": {
+    "sponsor_en": "Mudanjiang Youbo Pharmaceutical Co., Ltd.",
+    "query_term": "Mudanjiang Youbo  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州迈德通医药科技有限公司": {
+    "sponsor_en": "Suzhou Medtronic Medical Technology Co., Ltd.",
+    "query_term": "Suzhou Medtronic Medical  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
