@@ -6410,5 +6410,58 @@
     "query_term": "Dizhi (Jiangsu)  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "杭州瑞奥生物医药有限公司": {
+    "sponsor_en": "Hangzhou Reo Biopharmaceuticals Co., Ltd.",
+    "query_term": "Hangzhou Reo Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "宁波新湾科技发展有限公司": {
+    "sponsor_en": "Ningbo Xinwan Technology Development Co., Ltd.",
+    "query_term": "Ningbo Xinwan  Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "辽宁海思科制药有限公司": {
+    "sponsor_en": "Liaoning Hisun Pharmaceutical Co., Ltd.",
+    "query_term": "Liaoning Hisun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山西嘉源生物医药有限公司": {
+    "sponsor_en": "Shanxi Jiayuan Biopharmaceutical Co., Ltd.",
+    "query_term": "Shanxi Jiayuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "NA/ 百时益医药研发（北京）有限公司": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "NA"
+  },
+  "上海复旦张江生物医药股份有限公司": {
+    "sponsor_en": "Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Fudan-Zhangjiang Bio- .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉华纪元生物技术开发有限公司": {
+    "sponsor_en": "Wuhan Huajiyuan Biotechnology Development Co., Ltd.",
+    "query_term": "Wuhan Huajiyuan  Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东利泰制药股份有限公司": {
+    "sponsor_en": "Guangdong Litai Pharmaceutical Co., Ltd.",
+    "query_term": "Guangdong Litai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京质肽生物医药科技有限公司": {
+    "sponsor_en": "Beijing Zhitai Biomedical Technology Co., Ltd.",
+    "query_term": "Beijing Zhitai   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
