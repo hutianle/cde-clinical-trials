@@ -6218,5 +6218,65 @@
     "query_term": "Beijing InnoMed  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "中山万汉制药有限公司/ 广东星昊药业有限公司": {
+    "sponsor_en": "Zhongshan Wanhan Pharmaceutical Co., Ltd. / Guangdong Xinghao Pharmaceutical Co., Ltd.",
+    "query_term": "Zhongshan Wanhan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "安润医药科技（苏州）有限公司": {
+    "sponsor_en": "Anrun Pharmaceutical Technology (Suzhou) Co., Ltd.",
+    "query_term": "Anrun   (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海济煜医药科技股份有限公司": {
+    "sponsor_en": "Shanghai Jiyu Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Jiyu   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖南麦济生物技术股份有限公司": {
+    "sponsor_en": "Hunan Maiji Biotechnology Co., Ltd.",
+    "query_term": "Hunan Maiji  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "辉诺生物医药科技（杭州）有限公司/ 南京明德新药研发有限公司": {
+    "sponsor_en": "Huinuo Biopharmaceutical Technology (Hangzhou) Co., Ltd. / Nanjing Mingde New Drug Research and Development Co., Ltd.",
+    "query_term": "Huinuo   (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京瑞初医药有限公司": {
+    "sponsor_en": "Nanjing Ruichu Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Ruichu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州多域生物技术有限公司": {
+    "sponsor_en": "Hangzhou Duoyu Biotechnology Co., Ltd.",
+    "query_term": "Hangzhou Duoyu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Développement/ 赛诺菲（中国）投资有限公司/ Sanofi-Aventis Deutschland GmbH": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement / Sanofi (China) Investment Co., Ltd. / Sanofi-Aventis Deutschland GmbH",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳惠善生物科技有限公司": {
+    "sponsor_en": "Shenzhen Huishan Biotechnology Co., Ltd.",
+    "query_term": "Shenzhen Huishan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "映恩生物制药（苏州）有限公司": {
+    "sponsor_en": "Ying'en Biopharmaceuticals (Suzhou) Co., Ltd.",
+    "query_term": "Ying'en Biopharmaceuticals (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
