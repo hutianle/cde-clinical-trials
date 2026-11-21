@@ -6796,5 +6796,88 @@
     "query_term": "Hunan Huize   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Gedeon Richter Plc./ 吉瑞医药（中国）有限公司/ LTS Lohmann Therapie-Systeme AG": {
+    "sponsor_en": "Gedeon Richter Plc. / Gilead Sciences (China) Co., Ltd. / LTS Lohmann Therapie-Systeme AG",
+    "query_term": "Gedeon Richter Plc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05738850",
+      "NCT07931703",
+      "NCT03817502",
+      "NCT05322096",
+      "NCT05087030"
+    ]
+  },
+  "江苏金伯奇同位素科技有限公司/ 中山万汉制药有限公司": {
+    "sponsor_en": "Jiangsu Jinboqi Isotope Technology Co., Ltd. / Zhongshan Wanhan Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Jinboqi Isotope  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "常州恒邦药业有限公司": {
+    "sponsor_en": "Changzhou Hengbang Pharmaceutical Co., Ltd.",
+    "query_term": "Changzhou Hengbang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州新济药业科技有限公司": {
+    "sponsor_en": "Guangzhou Xinji Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Guangzhou Xinji   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海昂昇生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Angsheng Biomedical Technology Co., Ltd.",
+    "query_term": "Shanghai Angsheng   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康爱瑞浩生物医药（浙江）股份有限公司": {
+    "sponsor_en": "CSPC Pharmaceutical Group Limited (Zhejiang)",
+    "query_term": "CSPC    (Zhejiang)",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州瑞安博医药科技有限公司/ 广州一品红制药有限公司": {
+    "sponsor_en": "Guangzhou Ruianbo Pharmaceutical Technology Co., Ltd. / Guangzhou Yipin Hong Pharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Ruianbo   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "N/A/ 元羿生物科技（上海）有限公司": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "N"
+  },
+  "北京再极医药科技有限公司": {
+    "sponsor_en": "Beijing Zaiji Medical Technology Co., Ltd.",
+    "query_term": "Beijing Zaiji Medical  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广西中医药大学第一附属医院（广西中医医院）": {
+    "sponsor_en": "The First Affiliated Hospital of Guangxi University of Chinese Medicine (Guangxi Hospital of Traditional Chinese Medicine)",
+    "query_term": "The First Affiliated Hospital of Guangxi University of Chinese Medicine (Guangxi Hospital of Traditional Chinese Medicine)",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中国医学科学院药物研究所/ 北京协和药厂有限公司": {
+    "sponsor_en": "Institute of Materia Medica, Chinese Academy of Medical Sciences / Beijing Union Pharmaceutical Factory Co., Ltd.",
+    "query_term": "Institute of Materia Medica, Chinese Academy of Medical Sciences",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Takeda Development Center Americas, Inc./ 武田（中国）国际贸易有限公司/ Hovione Farmaciência S.A./ Almac Clinical Services Ltd": {
+    "sponsor_en": "Takeda Development Center Americas, Inc. / Takeda (China) International Trading Co., Ltd. / Hovione Farmaciência S.A. / Almac Clinical Services Ltd",
+    "query_term": "Takeda Development Center Americas, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05137730",
+      "NCT05156983",
+      "NCT05382104",
+      "NCT04206605",
+      "NCT07011576"
+    ]
   }
 }
