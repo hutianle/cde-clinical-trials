@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-21 | **Identified High-Priority Sponsors:** 126
+> - **Generated Date:** 2026-11-21 | **Identified High-Priority Sponsors:** 128
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -134,6 +134,8 @@
 | 124 | Gedeon Richter Plc. / Gilead Sciences (China) Co., Ltd. / LTS Lohmann Therapie-Systeme AG | Gedeon Richter Plc./ 吉瑞医药（中国）有限公司/ LTS Lohmann Therapie-Systeme AG | US Trial Site | CTR20260732 | NCT05738850, NCT07931703 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 125 | Takeda Development Center Americas, Inc. / Takeda (China) International Trading Co., Ltd. / Hovione Farmaciência S.A. / Almac Clinical Services Ltd | Takeda Development Center Americas, Inc./ 武田（中国）国际贸易有限公司/ Hovione Farmaciência S.A./ Almac Clinical Services Ltd | US Trial Site | CTR20260706 | NCT05137730, NCT05156983 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 126 | H. Lundbeck A / S / Lingbei (Beijing) Pharmaceutical Information Consulting Co., Ltd. / Catalent Nottingham Limited | H. Lundbeck A/S/ 灵北（北京）医药信息咨询有限公司/ Catalent Nottingham Limited | US Trial Site | CTR20260578 | NCT03115827, NCT03259555 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 127 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Patheon Inc. | Eli Lilly and Company/ 礼来苏州制药有限公司/ Patheon Inc. | US Trial Site | CTR20260470 | NCT00251524, NCT00547508 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 128 | Jiangsu Hengrui Medicine Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. / Suzhou Shengdiya Biopharmaceuticals Co., Ltd. | 江苏恒瑞医药股份有限公司/ 上海恒瑞医药有限公司/ 苏州盛迪亚生物医药有限公司 | US Trial Site | CTR20260457 | NCT03463187, NCT04447118 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.

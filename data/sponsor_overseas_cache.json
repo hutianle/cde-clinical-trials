@@ -7117,5 +7117,76 @@
     "query_term": "Jiangxi Huiren  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Sun Pharmaceutical Industries Limited/ 浙江万晟药业有限公司/ Cosmo SpA": {
+    "sponsor_en": "Sun Pharmaceutical Industries Limited / Zhejiang Vansheng Pharmaceutical Co., Ltd. / Cosmo SpA",
+    "query_term": "Sun  Industries",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "合肥力成药业有限公司": {
+    "sponsor_en": "Hefei Lichang Pharmaceutical Co., Ltd.",
+    "query_term": "Hefei Lichang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Eli Lilly and Company/ 礼来苏州制药有限公司/ Patheon Inc.": {
+    "sponsor_en": "Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Patheon Inc.",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00251524",
+      "NCT00547508",
+      "NCT06696456",
+      "NCT05734495"
+    ]
+  },
+  "百灵毓秀（珠海）医药有限公司/ 贵州百灵企业集团制药股份有限公司": {
+    "sponsor_en": "Bailingyuxiu (Zhuhai) Pharmaceutical Co., Ltd. / Guizhou Bailin Enterprise Group Pharmaceutical Co., Ltd.",
+    "query_term": "Bailingyuxiu (Zhuhai)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都国为生物医药有限公司/ 四川国为制药有限公司": {
+    "sponsor_en": "Chengdu Guowei Biopharmaceutical Co., Ltd. / Sichuan Guowei Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Guowei  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi Pasteur Inc./ 深圳赛诺菲巴斯德生物制品有限公司/ SK bioscience Co., Ltd.": {
+    "sponsor_en": "Sanofi Pasteur Inc. / Sanofi Pasteur Biologics (Shenzhen) Co., Ltd. / SK bioscience Co., Ltd.",
+    "query_term": "Sanofi Pasteur Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东金赛生物科技有限公司": {
+    "sponsor_en": "Shandong Jinsai Biotechnology Co., Ltd.",
+    "query_term": "Shandong Jinsai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏恒瑞医药股份有限公司/ 上海恒瑞医药有限公司/ 苏州盛迪亚生物医药有限公司": {
+    "sponsor_en": "Jiangsu Hengrui Medicine Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. / Suzhou Shengdiya Biopharmaceuticals Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03463187",
+      "NCT04447118",
+      "NCT02500199",
+      "NCT03764293",
+      "NCT07286032"
+    ]
+  },
+  "北京盛迪医药有限公司": {
+    "sponsor_en": "Beijing Shengdi Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Shengdi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京炫景瑞医药科技有限公司/ 苏州炫景生物科技有限公司": {
+    "sponsor_en": "Beijing Xuanjingrui Pharmaceutical Technology Co., Ltd. / Suzhou Xuanjing Biotechnology Co., Ltd.",
+    "query_term": "Beijing Xuanjingrui   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
