@@ -6535,5 +6535,89 @@
     "query_term": "Chongqing Paijin  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "石家庄四药有限公司/ 北京市金药源药物研究院/ 大连中信药业股份有限公司/ 长沙市华美医药科技有限公司": {
+    "sponsor_en": "Shijiazhuang No. 4 Pharmaceutical Co., Ltd. / Beijing Jinyaoyuan Pharmaceutical Research Institute / Dalian CITIC Pharmaceutical Co., Ltd. / Changsha Huamei Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shijiazhuang No. 4  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川科伦博泰生物医药股份有限公司/ 和铂医药（上海）有限责任公司": {
+    "sponsor_en": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd. / Hepa Therapeutics (Shanghai) Co., Ltd.",
+    "query_term": "Sichuan Kelun-Biotech  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州新元素药业股份有限公司": {
+    "sponsor_en": "Hangzhou New Element Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou New Element  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康芝药业股份有限公司": {
+    "sponsor_en": "Kangzhi Pharmaceutical Co., Ltd.",
+    "query_term": "Kangzhi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都闻泰医药科技有限公司": {
+    "sponsor_en": "Chengdu Wingtech Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Chengdu Wingtech   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京智飞绿竹生物制药有限公司": {
+    "sponsor_en": "Beijing Zhifei Lvzhu Biopharmaceutical Co., Ltd.",
+    "query_term": "Beijing Zhifei Lvzhu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市康哲生物科技有限公司": {
+    "sponsor_en": "Shenzhen Kangzhe Biotechnology Co., Ltd.",
+    "query_term": "Shenzhen Kangzhe  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海先纬医药科技有限公司/ 先声药业有限公司": {
+    "sponsor_en": "Shanghai Xianwei Pharmaceutical Technology Co., Ltd. / Perrigo Pharmaceutical Co., Ltd.",
+    "query_term": "Simcere",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06792552",
+      "NCT05781360",
+      "NCT05569057",
+      "NCT05940883",
+      "NCT06375044"
+    ]
+  },
+  "鲁南贝特制药有限公司": {
+    "sponsor_en": "Lunan Better Pharmaceutical Co., Ltd.",
+    "query_term": "Lunan Better  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "百诚医药（珠海横琴）有限公司/ 浙江赛默制药有限公司": {
+    "sponsor_en": "Baicheng Pharmaceutical (Zhuhai Hengqin) Co., Ltd. / Zhejiang Simo Pharmaceutical Co., Ltd.",
+    "query_term": "Baicheng  (Zhuhai Hengqin) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京五和博澳药业股份有限公司/ 中国医学科学院药物研究所": {
+    "sponsor_en": "Beijing Wuhe Boao Pharmaceutical Co., Ltd. / Institute of Materia Medica, Chinese Academy of Medical Sciences",
+    "query_term": "Beijing Wuhe Boao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "珠海丹序生物制药有限公司": {
+    "sponsor_en": "Zhuhai Danxu Biopharmaceutical Co., Ltd.",
+    "query_term": "Zhuhai Danxu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京锦篮基因科技有限公司": {
+    "sponsor_en": "Beijing Jinlan Gene Technology Co., Ltd.",
+    "query_term": "Beijing Jinlan Gene  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
