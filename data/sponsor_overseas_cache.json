@@ -6879,5 +6879,63 @@
       "NCT04206605",
       "NCT07011576"
     ]
+  },
+  "信达生物医药科技（杭州）有限公司": {
+    "sponsor_en": "Innovent Biologics (Hangzhou) Co., Ltd.",
+    "query_term": "Innovent Biologics (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "MEDA Pharma GmbH & Co. KG/ Cipla Limited/ 美信美达医药信息咨询（北京）有限责任公司": {
+    "sponsor_en": "MEDA Pharma GmbH & Co. KG / Cipla Limited / MMS Pharmaceutical Information Consulting (Beijing) Co., Ltd.",
+    "query_term": "MEDA Pharma GmbH & Co. KG",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00977483",
+      "NCT00120523",
+      "NCT01256086"
+    ]
+  },
+  "辉瑞公司/ 辉瑞（北京）研究开发有限公司/ Pfizer Manufacturing Deutschland GmbH": {
+    "sponsor_en": "Pfizer Corporation / Pfizer (Beijing) Research and Development Co., Ltd. / Pfizer Manufacturing Deutschland GmbH",
+    "query_term": "Pfizer Corporation",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Développement/ 赛诺菲（中国）投资有限公司/ Genzyme Ireland Limited": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement / Sanofi (China) Investment Co., Ltd. / Genzyme Ireland Limited",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川至善唯新生物科技有限公司": {
+    "sponsor_en": "Sichuan Zhishan Weixin Biotechnology Co., Ltd.",
+    "query_term": "Sichuan Zhishan Weixin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "无锡贝塔医药科技有限公司": {
+    "sponsor_en": "Wuxi Beta Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Wuxi Beta   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州安元生物医药科技有限公司": {
+    "sponsor_en": "Hangzhou Anyuan Biomedical Technology Co., Ltd.",
+    "query_term": "Hangzhou Anyuan   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "泰励生物医药（苏州）有限公司": {
+    "sponsor_en": "Tali Biopharmaceuticals (Suzhou) Co., Ltd.",
+    "query_term": "Tali Biopharmaceuticals (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "青龙高科技股份有限公司/ 上海光声制药股份有限公司": {
+    "sponsor_en": "Qinglong High-Tech Co., Ltd. / Shanghai GuangSheng Pharmaceutical Co., Ltd.",
+    "query_term": "Qinglong High-Tech .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
