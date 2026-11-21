@@ -6979,5 +6979,53 @@
     "query_term": "Xinglian  (Suzhou) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Cytokinetics, Incorporated/ 百时益医药研发（北京）有限公司/ Patheon, Inc./ Cytokinetics，Incorporated": {
+    "sponsor_en": "Cytokinetics, Incorporated / BPSI Pharmaceutical R&D (Beijing) Co., Ltd. / Patheon, Inc. / Cytokinetics, Incorporated",
+    "query_term": "Cytokinetics, Incorporated",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州智核生物医药科技有限公司": {
+    "sponsor_en": "Suzhou Zhhe Biomedical Technology Co., Ltd.",
+    "query_term": "Suzhou Zhhe   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州民生药业有限公司": {
+    "sponsor_en": "Hangzhou Minsheng Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Minsheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "H. Lundbeck A/S/ 灵北（北京）医药信息咨询有限公司/ Catalent Nottingham Limited": {
+    "sponsor_en": "H. Lundbeck A / S / Lingbei (Beijing) Pharmaceutical Information Consulting Co., Ltd. / Catalent Nottingham Limited",
+    "query_term": "H. Lundbeck A",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03115827",
+      "NCT03259555",
+      "NCT00730691",
+      "NCT02006641",
+      "NCT02333487"
+    ]
+  },
+  "广州博济新药临床研究中心有限公司": {
+    "sponsor_en": "Guangzhou Boji New Drug Clinical Research Center Co., Ltd.",
+    "query_term": "Guangzhou Boji New Drug Clinical Research Center .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海津曼特生物科技有限公司/ 江苏康宁杰瑞生物制药有限公司": {
+    "sponsor_en": "Shanghai Jinmante Biotechnology Co., Ltd. / Jiangsu Hengrui Medicine Co., Ltd.",
+    "query_term": "Shanghai Jinmante  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "泰比棣医药科技（石家庄）有限公司": {
+    "sponsor_en": "Tebidi Pharmaceutical Technology (Shijiazhuang) Co., Ltd.",
+    "query_term": "Tebidi   (Shijiazhuang) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
