@@ -6684,5 +6684,81 @@
     "query_term": "Wuhan Longlai  Development .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "正大天晴药业集团股份有限公司/ 正大天晴药业集团南京顺欣制药有限公司/ 上海医药工业研究院": {
+    "sponsor_en": "Zhengda Tianqing Pharmaceutical Group Co., Ltd. / Zhengda Tianqing Pharmaceutical Group Nanjing Shunxin Pharmaceutical Co., Ltd. / Shanghai Institute of Pharmaceutical Industry",
+    "query_term": "Zhengda Tianqing   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海复宏汉霖生物技术股份有限公司/ 上海复宏汉霖生物医药有限公司": {
+    "sponsor_en": "Shanghai Henlius Biotech, Inc. / Shanghai Henlius Biotech, Inc.",
+    "query_term": "Shanghai Henlius Biotech, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Bayer Yakuhin, Ltd./ 简柏特（佛山）信息技术服务有限公司/ Bayer Oy": {
+    "sponsor_en": "Bayer Yakuhin, Ltd. / JBT (Foshan) Information Technology Services Co., Ltd. / Bayer Oy",
+    "query_term": "Bayer Yakuhin, Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "重庆誉颜制药有限公司": {
+    "sponsor_en": "Chongqing Yuyan Pharmaceutical Co., Ltd.",
+    "query_term": "Chongqing Yuyan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江鑫康合生物医药科技有限公司/ 北京鑫康合生物医药科技有限公司": {
+    "sponsor_en": "Zhejiang Xinkanghe Biomedical Technology Co., Ltd. / Beijing Xinkanghe Biomedical Technology Co., Ltd.",
+    "query_term": "Zhejiang Xinkanghe   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江新码生物医药有限公司": {
+    "sponsor_en": "Zhejiang Xinma Biopharmaceuticals Co., Ltd.",
+    "query_term": "Zhejiang Xinma Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "陕西盘龙药业集团股份有限公司": {
+    "sponsor_en": "Shaanxi Panlong Pharmaceutical Group Co., Ltd.",
+    "query_term": "Shaanxi Panlong   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "瑞博泰克（山东）生物医药科技有限公司": {
+    "sponsor_en": "Re-BioTech (Shandong) Biomedical Technology Co., Ltd.",
+    "query_term": "Ribo",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康方药业有限公司": {
+    "sponsor_en": "CSPC Pharmaceutical Group Limited",
+    "query_term": "CSPC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02856685",
+      "NCT07768189",
+      "NCT04931823"
+    ]
+  },
+  "北京启慧生物医药有限公司": {
+    "sponsor_en": "Beijing Qihui Biopharmaceutical Co., Ltd.",
+    "query_term": "Beijing Qihui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京志健金瑞生物医药科技有限公司": {
+    "sponsor_en": "Beijing Zhijian Jinrui Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Zhijian Jinrui   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海佑音医药生物科技有限公司": {
+    "sponsor_en": "Shanghai Youyin Pharmaceutical Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Youyin   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
