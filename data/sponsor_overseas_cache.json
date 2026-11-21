@@ -7027,5 +7027,35 @@
     "query_term": "Tebidi   (Shijiazhuang) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海科州药物股份有限公司": {
+    "sponsor_en": "Shanghai Kezhou Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Kezhou  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州艾赛吉生物医药科技有限公司": {
+    "sponsor_en": "Guangzhou Aizhijie Biomedical Technology Co., Ltd.",
+    "query_term": "Guangzhou Aizhijie   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "鲁南厚普制药有限公司": {
+    "sponsor_en": "Lunan Houpu Pharmaceutical Co., Ltd.",
+    "query_term": "Lunan Houpu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东康众宏医药科技开发有限公司/ 济川药业集团有限公司": {
+    "sponsor_en": "Shandong Kangzhonghong Pharmaceutical Technology Development Co., Ltd. / Jichuan Pharmaceutical Group Co., Ltd.",
+    "query_term": "Shandong Kangzhonghong   Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "ReproNovo SA/ 康龙化成（成都）临床研究服务有限公司/ Cordon Pharma GmbH": {
+    "sponsor_en": "ReproNovo SA / Pharmaron (Chengdu) Clinical Research Services Co., Ltd. / Cordon Pharma GmbH",
+    "query_term": "ReproNovo SA",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
