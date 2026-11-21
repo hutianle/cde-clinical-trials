@@ -7057,5 +7057,65 @@
     "query_term": "ReproNovo SA",
     "has_us_site": false,
     "us_trials": []
+  },
+  "寻济生物科技（北京）有限公司": {
+    "sponsor_en": "Xunjie Biotechnology (Beijing) Co., Ltd.",
+    "query_term": "Xunjie  (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京金城泰尔制药有限公司": {
+    "sponsor_en": "Beijing Jincheng Tail Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Jincheng Tail  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "仁合益康集团有限公司": {
+    "sponsor_en": "Renhe Yikang Group Co., Ltd.",
+    "query_term": "Renhe Yikang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京德默高科医药技术有限公司/ 北京亚宝生物药业有限公司": {
+    "sponsor_en": "Beijing Dermagene Pharmaceutical Technology Co., Ltd. / Beijing Yabao Biopharmaceutical Co., Ltd.",
+    "query_term": "Beijing Dermagene   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏景行医药科技有限公司/ 江苏赛孚士生物技术有限公司": {
+    "sponsor_en": "Jiangsu Jingxing Pharmaceutical Technology Co., Ltd. / Jiangsu SafeSt Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Jingxing   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏天士力帝益药业有限公司": {
+    "sponsor_en": "Jiangsu Tasly Deyi Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Tasly Deyi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海汉都医药科技有限公司": {
+    "sponsor_en": "Shanghai Handu Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Handu   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京承颐医药科技有限公司": {
+    "sponsor_en": "Beijing Chengyi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Chengyi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市北科生物科技有限公司": {
+    "sponsor_en": "Shenzhen Beike Biotechnology Co., Ltd.",
+    "query_term": "Shenzhen Beike  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江西汇仁药业股份有限公司": {
+    "sponsor_en": "Jiangxi Huiren Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangxi Huiren  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
