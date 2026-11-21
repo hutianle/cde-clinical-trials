@@ -6760,5 +6760,41 @@
     "query_term": "Shanghai Youyin   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "广州达博生物制品有限公司": {
+    "sponsor_en": "Guangzhou Dabao Biological Products Co., Ltd.",
+    "query_term": "Guangzhou Dabao Biological Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海坦蒂生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Tandi Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Tandi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "CSL Behring LLC/ 富启睿医药研发（北京）有限公司/ Patheon Manufacturing Services LLC": {
+    "sponsor_en": "CSL Behring LLC / Fukirui Pharmaceutical R&D (Beijing) Co., Ltd. / Patheon Manufacturing Services LLC",
+    "query_term": "CSL Behring LLC",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市中核海得威生物科技有限公司/ 凯莱英生命科学技术（天津）有限公司": {
+    "sponsor_en": "SHENZHEN ZHONGHE HEADWAY BIO SCI&TECH CO., LTD / Asymchem Life Science Technology (Tianjin) Co., Ltd.",
+    "query_term": "SHENZHEN ZHONGHE HEADWAY BIO SCI&TECH",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "安徽柏拉阿图医药科技有限公司": {
+    "sponsor_en": "Anhui PLAATO Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Anhui PLAATO   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖南慧泽生物医药科技有限公司": {
+    "sponsor_en": "Hunan Huize Biomedical Technology Co., Ltd.",
+    "query_term": "Hunan Huize   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
