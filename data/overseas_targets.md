@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-21 | **Identified High-Priority Sponsors:** 121
+> - **Generated Date:** 2026-11-21 | **Identified High-Priority Sponsors:** 122
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -129,6 +129,7 @@
 | 119 | Takeda Development Center Americas, Inc. / Takeda (China) International Trading Co., Ltd. / Takeda Manufacturing Austria AG / Clinigen Clinical Supplies Management GmbH;Clinigen Clinical Supplies Management Inc. | Takeda Development Center Americas, Inc./ 武田（中国）国际贸易有限公司/ Takeda Manufacturing Austria AG/ Clinigen Clinical Supplies Management GmbH;Clinigen Clinical Supplies Management Inc. | US Trial Site | CTR20261054 | NCT05137730, NCT05156983 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 120 | Shanghai Xianwei Pharmaceutical Technology Co., Ltd. / Perrigo Pharmaceutical Co., Ltd. | 上海先纬医药科技有限公司/ 先声药业有限公司 | US Trial Site | CTR20260901 | NCT06792552, NCT05781360 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 121 | NIA / Yuan Yi Biotechnology (Shanghai) Co., Ltd. / N / A | NIA/ 元羿生物科技（上海）有限公司/ N/A | US Trial Site | CTR20260854 | NCT03883724, NCT01402453 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 122 | CSPC Pharmaceutical Group Limited | 康方药业有限公司 | US Trial Site | CTR20260795 | NCT02856685, NCT07768189 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
