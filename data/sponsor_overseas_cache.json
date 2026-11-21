@@ -6937,5 +6937,47 @@
     "query_term": "Qinglong High-Tech .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "核欣（苏州）医药科技有限公司": {
+    "sponsor_en": "Hexin (Suzhou) Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Hexin (Suzhou)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "盈科瑞（天津）创新医药研究有限公司/ 海南斯达制药有限公司": {
+    "sponsor_en": "InnoCare (Tianjin) Innovative Pharmaceutical Research Co., Ltd. / Hainan Star Pharmaceutical Co., Ltd.",
+    "query_term": "InnoCare (Tianjin) Innovative  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天境生物科技（上海）有限公司": {
+    "sponsor_en": "Tianjing Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Tianjing  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京海融医药科技股份有限公司/ 南京海融制药有限公司": {
+    "sponsor_en": "Nanjing Hairong Pharmaceutical Technology Co., Ltd. / Nanjing Hairong Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Hairong   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京双鹤润创科技有限公司": {
+    "sponsor_en": "Beijing Shuanghe Runchuang Technology Co., Ltd.",
+    "query_term": "Beijing Shuanghe Runchuang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海柯君医药科技有限公司/ 上海柯津咨询管理有限公司": {
+    "sponsor_en": "Shanghai Kejun Pharmaceutical Technology Co., Ltd. / Shanghai Kejin Consulting Management Co., Ltd.",
+    "query_term": "Shanghai Kejun   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杏联药业（苏州）有限公司": {
+    "sponsor_en": "Xinglian Pharmaceutical (Suzhou) Co., Ltd.",
+    "query_term": "Xinglian  (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
