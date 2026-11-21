@@ -7257,5 +7257,59 @@
     "query_term": "Suzhou Yash Sheng  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海爱科百发生物医药技术有限公司": {
+    "sponsor_en": "Shanghai AkeBio Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai AkeBio   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma Schweiz AG/ 北京诺华制药有限公司/ Novartis Pharma Stein AG; Novartis Pharmaceutical Manufacturing GmbH": {
+    "sponsor_en": "Novartis Pharma Schweiz AG / Novartis Pharmaceuticals (Beijing) Co., Ltd. / Novartis Pharma Stein AG; Novartis Pharmaceutical Manufacturing GmbH",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01154335",
+      "NCT02138929",
+      "NCT07226986",
+      "NCT00129831",
+      "NCT05230537"
+    ]
+  },
+  "凯思凯迪（上海）医药科技有限公司": {
+    "sponsor_en": "Kaikadi (Shanghai) Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Kaikadi (Shanghai)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "映恩生物科技（上海）有限公司": {
+    "sponsor_en": "Yineng Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Yineng  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "// 兆科（广州）眼科药物有限公司/ The Ritedose Corporation": {
+    "sponsor_en": "Zhaoke (Guangzhou) Ophthalmology Pharmaceutical Co., Ltd. / The Ritedose Corporation",
+    "query_term": "Zhaoke (Guangzhou) Ophthalmology  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "嘉兴安帝康生物科技有限公司": {
+    "sponsor_en": "Jiaxing Andikang Biotechnology Co., Ltd.",
+    "query_term": "Jiaxing Andikang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "F. Hoffmann-La Roche Ltd./ 罗氏研发(中国)有限公司/ F. Hoffmann-La Roche AG": {
+    "sponsor_en": "F. Hoffmann-La Roche Ltd. / Roche Research and Development (China) Co., Ltd. / F. Hoffmann-La Roche AG",
+    "query_term": "F. Hoffmann-La Roche Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华兰生物工程重庆有限公司": {
+    "sponsor_en": "Hualan Biological Engineering (Chongqing) Co., Ltd.",
+    "query_term": "Hualan",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
