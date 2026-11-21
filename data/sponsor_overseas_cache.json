@@ -7188,5 +7188,74 @@
     "query_term": "Beijing Xuanjingrui   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "无锡智康弘义生物科技有限公司": {
+    "sponsor_en": "Wuxi Zhikang Hongyi Biotechnology Co., Ltd.",
+    "query_term": "Kanghong",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03630952",
+      "NCT03577899"
+    ]
+  },
+  "正大天晴药业集团股份有限公司/ 首药控股(北京)股份有限公司": {
+    "sponsor_en": "Zhengda Tianqing Pharmaceutical Group Co., Ltd. / Shouyao Holdings (Beijing) Co., Ltd.",
+    "query_term": "Zhengda Tianqing   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "黑龙江亿达鸿药业有限公司": {
+    "sponsor_en": "Heilongjiang Yida Hong Pharmaceutical Co., Ltd.",
+    "query_term": "Heilongjiang Yida Hong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华普生物技术（河北）股份有限公司/ 华普石家庄医药有限公司": {
+    "sponsor_en": "Huapu Biotechnology (Hebei) Co., Ltd. / Huapu Shijiazhuang Pharmaceutical Co., Ltd.",
+    "query_term": "Huapu  (Hebei) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "领泰生物医药（绍兴）有限公司": {
+    "sponsor_en": "Ligent Biopharm (Shaoxing) Co., Ltd.",
+    "query_term": "Ligent Biopharm (Shaoxing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "万春宏基（大连）医药有限公司/ 武汉人福利康药业有限公司": {
+    "sponsor_en": "Wanchun Hongji (Dalian) Pharmaceutical Co., Ltd. / Wuhan Renfulikang Pharmaceutical Co., Ltd.",
+    "query_term": "Humanwell",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京第一生物科技开发有限公司": {
+    "sponsor_en": "Beijing First Biotechnology Development Co., Ltd.",
+    "query_term": "Beijing First  Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novo Nordisk A/S/ 爱恩康临床医学研究（北京）有限公司/ Patheon Italia S.p.A.": {
+    "sponsor_en": "Novo Nordisk A / S / ICON Clinical Research (Beijing) Co., Ltd. / Patheon Italia S.p.A.",
+    "query_term": "Novo Nordisk A",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06323161",
+      "NCT01570751",
+      "NCT04992065",
+      "NCT00822471",
+      "NCT00124293"
+    ]
+  },
+  "百欧恩泰（上海）医药有限公司": {
+    "sponsor_en": "Biontech (Shanghai) Pharmaceutical Co., Ltd.",
+    "query_term": "Biontech (Shanghai)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州亚盛药业有限公司": {
+    "sponsor_en": "Suzhou Yash Sheng Pharmaceutical Co., Ltd.",
+    "query_term": "Suzhou Yash Sheng  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
