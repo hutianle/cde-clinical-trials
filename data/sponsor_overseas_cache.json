@@ -6278,5 +6278,101 @@
     "query_term": "Ying'en Biopharmaceuticals (Suzhou) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "中硼（厦门）生物医药有限公司": {
+    "sponsor_en": "ZhongPeng (XiaMen) Biomedicine Co., Ltd.",
+    "query_term": "ZhongPeng (XiaMen) Biomedicine .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海湃隆生物科技有限公司": {
+    "sponsor_en": "Shanghai PaiLong Biotechnology Co., Ltd.",
+    "query_term": "Shanghai PaiLong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海恒瑞医药有限公司/ 江苏恒瑞医药股份有限公司/ 苏州盛迪亚生物医药有限公司": {
+    "sponsor_en": "Shanghai Hengrui Medicine Co., Ltd. / Jiangsu Hengrui Medicine Co., Ltd. / Suzhou Shengdiya Biopharmaceuticals Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03463187",
+      "NCT04447118",
+      "NCT02500199",
+      "NCT03764293",
+      "NCT07286032"
+    ]
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Lonza AG Site Sterile Production": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Lonza AG Site Sterile Production",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01154335",
+      "NCT02138929",
+      "NCT07226986",
+      "NCT00129831",
+      "NCT05230537"
+    ]
+  },
+  "Takeda Development Center Americas, Inc./ 武田（中国）国际贸易有限公司/ Serán BioScience, LLC/ Almac Clinical Services LLC": {
+    "sponsor_en": "Takeda Development Center Americas, Inc. / Takeda (China) International Trading Co., Ltd. / Serán BioScience, LLC / Almac Clinical Services LLC",
+    "query_term": "Takeda Development Center Americas, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05137730",
+      "NCT05156983",
+      "NCT05382104",
+      "NCT04206605",
+      "NCT07011576"
+    ]
+  },
+  "北京极客基因科技有限公司": {
+    "sponsor_en": "Beijing JiKeJiYin Technology Co., Ltd.",
+    "query_term": "Beijing JiKeJiYin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中国医学科学院药物研究所/ 中山安士生物制药有限公司": {
+    "sponsor_en": "Institute of Materia Medica, Chinese Academy of Medical Sciences / ZhongShanAnShi Bio Pharmaceutical Co., Ltd.",
+    "query_term": "Institute of Materia Medica, Chinese Academy of Medical Sciences",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉海特生物制药股份有限公司": {
+    "sponsor_en": "Wuhan HaiTe Biopharmaceutical Co., Ltd.",
+    "query_term": "Wuhan HaiTe  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Vetter Pharma-Fertigung GmbH & Co.KG/ Janssen Pharmaceutica NV, Division of Janssen Research and Development; Fisher Clinical Services Inc.; Fisher Clinical Services UK Limited; Fisher Clinical Services AG; Catalent Pharma Solutions, LLC; Catalent Germany Schorndorf GmbH": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co.KG / Janssen Pharmaceutica NV, Division of Janssen Research and Development; Fisher Clinical Services Inc.; Fisher Clinical Services UK Limited; Fisher Clinical Services AG; Catalent Pharma Solutions, LLC; Catalent Germany Schorndorf GmbH",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01569750",
+      "NCT04087681",
+      "NCT01823016",
+      "NCT05071664",
+      "NCT01362699"
+    ]
+  },
+  "上藥博康生物醫藥（香港）有限公司/ 上药帛康生物医药（上海）有限公司/ Joint-Stock Company BIOCAD": {
+    "sponsor_en": "ShangYaoBoKang Bio YiYao ( Hong Kong ) Co., Ltd. / ShangYaoBoKang Biomedicine ( Shanghai ) Co., Ltd. / Joint-Stock Company BIOCAD",
+    "query_term": "ShangYaoBoKang Bio YiYao ( Hong Kong ) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Takeda Development Center Americas, Inc./ 武田（中国）国际贸易有限公司/ Takeda Manufacturing Austria AG/ Clinigen Clinical Supplies Management GmbH;Clinigen Clinical Supplies Management Inc.": {
+    "sponsor_en": "Takeda Development Center Americas, Inc. / Takeda (China) International Trading Co., Ltd. / Takeda Manufacturing Austria AG / Clinigen Clinical Supplies Management GmbH;Clinigen Clinical Supplies Management Inc.",
+    "query_term": "Takeda Development Center Americas, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05137730",
+      "NCT05156983",
+      "NCT05382104",
+      "NCT04206605",
+      "NCT07011576"
+    ]
   }
 }
