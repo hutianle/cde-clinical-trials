@@ -8410,5 +8410,41 @@
     "query_term": "Suzhou Xueji  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "正大青春宝药业有限公司": {
+    "sponsor_en": "Zhengda Qingchunbao Pharmaceutical Co., Ltd.",
+    "query_term": "Zhengda Qingchunbao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "未名生物医药有限公司": {
+    "sponsor_en": "Weiming Biopharmaceutical Co., Ltd.",
+    "query_term": "Weiming  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京毓浠医药技术有限公司": {
+    "sponsor_en": "Nanjing Yuxi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Nanjing Yuxi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "漳州片仔癀药业股份有限公司": {
+    "sponsor_en": "Zhangzhou Pien Tze Huang Pharmaceutical Co., Ltd.",
+    "query_term": "Zhangzhou Pien Tze Huang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东东阳光药业股份有限公司": {
+    "sponsor_en": "Guangdong Dongyangguang Pharmaceutical Co., Ltd.",
+    "query_term": "Guangdong Dongyangguang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉瑞佶生物科技有限公司/ 深圳瑞吉生物科技有限公司": {
+    "sponsor_en": "Wuhan Ruiji Biotechnology Co., Ltd. / Shenzhen Ruiji Biotechnology Co., Ltd.",
+    "query_term": "Wuhan Ruiji  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
