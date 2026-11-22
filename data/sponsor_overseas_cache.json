@@ -7512,5 +7512,41 @@
     "query_term": "Wuhan Institute of Biological Products .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海生诺医药科技有限公司/ 上海合全医药有限公司": {
+    "sponsor_en": "Shanghai Shenuo Pharmaceutical Technology Co., Ltd. / Shanghai Hovione Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Shenuo   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "礼新医药（浙江）有限公司": {
+    "sponsor_en": "Lixin Pharmaceutical (Zhejiang) Co., Ltd.",
+    "query_term": "Lixin  (Zhejiang) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Otsuka Pharmaceutical Co., Ltd./ 大冢制药研发（北京）有限公司/ Otsuka Pharmaceutical Co., Ltd. Second Tokushima Factory - OPC-XII/ KANAE CO., LTD.; Almac Clinical Services Limited": {
+    "sponsor_en": "Otsuka Pharmaceutical Co., Ltd. / Otsuka Pharmaceutical R&D (Beijing) Co., Ltd. / Otsuka Pharmaceutical Co., Ltd. Second Tokushima Factory - OPC-XII / KANAE CO., LTD.; Almac Clinical Services Limited",
+    "query_term": "Otsuka  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Johnson & Johnson Enterprise Innovation, Inc./ 强生（中国）投资有限公司/ Valdepharm/ Janssen Pharmaceutica NV, Division Janssen Research and Development; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH; Almac Clinical Services; Almac Clinical Services Limited; Fisher Clinical Services": {
+    "sponsor_en": "Johnson & Johnson Enterprise Innovation, Inc. / Johnson & Johnson (China) Investment Co., Ltd. / Valdepharm / Janssen Pharmaceutica NV, Division Janssen Research and Development; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH; Almac Clinical Services; Almac Clinical Services Limited; Fisher Clinical Services",
+    "query_term": "Johnson & Johnson Enterprise Innovation, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京银谷医药科技有限公司": {
+    "sponsor_en": "Beijing Yingu Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Yingu   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州智瓴生物医药有限公司": {
+    "sponsor_en": "Guangzhou Zhiling Biopharmaceuticals Co., Ltd.",
+    "query_term": "Guangzhou Zhiling Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
