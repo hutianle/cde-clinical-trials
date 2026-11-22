@@ -8446,5 +8446,29 @@
     "query_term": "Wuhan Ruiji  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "安锐生物医药科技（广州）有限公司": {
+    "sponsor_en": "Anrui Biopharmaceutical Technology (Guangzhou) Co., Ltd.",
+    "query_term": "Anrui   (Guangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京臻知医学科技有限责任公司": {
+    "sponsor_en": "Beijing Zhenzhi Medical Technology Co., Ltd.",
+    "query_term": "Beijing Zhenzhi Medical  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京同仁堂科技发展股份有限公司制药厂": {
+    "sponsor_en": "Beijing Tongrentang Science and Technology Development Co., Ltd. Pharmaceutical Plant",
+    "query_term": "Beijing Tongrentang Science and  Development .  Plant",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东横琴新创益生物医药有限公司/ 湘北威尔曼制药股份有限公司/ 广州新创意生物医药有限公司": {
+    "sponsor_en": "Guangdong Hengqin Xinchuangyi Biopharmaceutical Co., Ltd. / Xiangbei Wellman Pharmaceutical Co., Ltd. / Guangzhou New Creative Biopharmaceuticals Co., Ltd.",
+    "query_term": "Guangdong Hengqin Xinchuangyi  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
