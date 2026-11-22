@@ -7595,5 +7595,47 @@
     "query_term": "Fifth Medical Center of the General Hospital of the People's Liberation Army",
     "has_us_site": false,
     "us_trials": []
+  },
+  "苏州玉森新药开发有限公司": {
+    "sponsor_en": "Suzhou Yusen New Drug Development Co., Ltd.",
+    "query_term": "Suzhou Yusen New Drug Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "纳维诺医药科技（上海）有限公司": {
+    "sponsor_en": "Navino Pharmaceutical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Navino   (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海迈晋生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Maijin Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Maijin   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州新旭医药有限公司": {
+    "sponsor_en": "Suzhou Xinxu Pharmaceutical Co., Ltd.",
+    "query_term": "Suzhou Xinxu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海中药创新研究中心": {
+    "sponsor_en": "Shanghai Center for Traditional Chinese Medicine Innovation Research",
+    "query_term": "Shanghai Center for Traditional Chinese Medicine Innovation Research",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海利康瑞生物工程有限公司/ 上海昊海生物科技股份有限公司": {
+    "sponsor_en": "Shanghai Likangrui Biotechnology Co., Ltd. / Shanghai Haohai Biological Technology Co., Ltd.",
+    "query_term": "Shanghai Likangrui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州智鹤丹谷生物医药有限公司": {
+    "sponsor_en": "Hangzhou Zhihe Dangu Biomedical Co., Ltd.",
+    "query_term": "Hangzhou Zhihe Dangu  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
