@@ -7869,5 +7869,64 @@
     "query_term": "NextWave  Inc,a subsidiary of Tris Pharma Inc",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Sanofi Winthrop Industrie/ 赛诺菲（中国）投资有限公司": {
+    "sponsor_en": "Sanofi Winthrop Industrie / Sanofi (China) Investment Co., Ltd.",
+    "query_term": "Sanofi Winthrop Industrie",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Eli Lilly and Company/ 礼来苏州制药有限公司/ Vetter Development Services Austria GmbH": {
+    "sponsor_en": "Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Vetter Development Services Austria GmbH",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00251524",
+      "NCT00547508",
+      "NCT06696456",
+      "NCT05734495"
+    ]
+  },
+  "康哲（湖南）制药有限公司": {
+    "sponsor_en": "Kangzhe (Hunan) Pharmaceutical Co., Ltd.",
+    "query_term": "Kangzhe (Hunan)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华北制药金坦生物技术股份有限公司": {
+    "sponsor_en": "North China Pharmaceutical Jintan Biotechnology Co., Ltd.",
+    "query_term": "North China  Jintan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ AstraZeneca Nijmegen B.V. ；Samsung Biologics Co. Ltd.": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / AstraZeneca Nijmegen B.V. ; Samsung Biologics Co. Ltd.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都欣科医药有限公司": {
+    "sponsor_en": "Chengdu Xinke Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Xinke  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京拓华伟业生物科技有限公司": {
+    "sponsor_en": "Beijing Tuohuawaye Biotechnology Co., Ltd.",
+    "query_term": "Beijing Tuohuawaye  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "翰思艾泰生物医药科技（武汉）股份有限公司": {
+    "sponsor_en": "Hansaitek Biological Pharmaceutical Technology (Wuhan) Co., Ltd.",
+    "query_term": "Hansaitek Biological   (Wuhan) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "百时美施贵宝（中国）投资有限公司/ 成都百利多特生物药业有限责任公司": {
+    "sponsor_en": "Bristol Myers Squibb (China) Investment Co., Ltd. / Chengdu Bailidote Biopharmaceutical Co., Ltd.",
+    "query_term": "Bristol Myers Squibb (China) Investment .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
