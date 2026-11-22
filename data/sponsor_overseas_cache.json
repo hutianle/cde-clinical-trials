@@ -8232,5 +8232,47 @@
     "query_term": "Shanghai Sparo   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "怡道生物科技（苏州）有限公司": {
+    "sponsor_en": "Yidao Biotechnology (Suzhou) Co., Ltd.",
+    "query_term": "Yidao  (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "诺桥制药（成都）有限责任公司": {
+    "sponsor_en": "NuBridge Pharmaceuticals (Chengdu) Co., Ltd.",
+    "query_term": "NuBridge  (Chengdu) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州思安信生物技术有限公司": {
+    "sponsor_en": "Guangzhou Sinocare Biotechnology Co., Ltd.",
+    "query_term": "Guangzhou Sinocare  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "睿健毅联医药科技（成都）有限公司/ 睿健医药科技（武汉）有限公司": {
+    "sponsor_en": "Ruijian Yilian Pharmaceutical Technology (Chengdu) Co., Ltd. / Ruijian Pharmaceutical Technology (Wuhan) Co., Ltd.",
+    "query_term": "Ruijian Yilian   (Chengdu) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州民生药业股份有限公司/ 中国科学院上海药物研究所": {
+    "sponsor_en": "Hangzhou Minsheng Pharmaceutical Co., Ltd. / Shanghai Institute of Materia Medica, Chinese Academy of Sciences",
+    "query_term": "Hangzhou Minsheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海医药工业研究院有限公司": {
+    "sponsor_en": "Shanghai Pharmaceutical Industry Research Institute Co., Ltd.",
+    "query_term": "Shanghai  Industry Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏中药业集团股份有限公司/ 江苏苏中药业研究院有限公司": {
+    "sponsor_en": "Suzhou Pharmaceutical Group Co., Ltd. / Jiangsu Suzhong Pharmaceutical Research Institute Co., Ltd.",
+    "query_term": "Suzhou   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
