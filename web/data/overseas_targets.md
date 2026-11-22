@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-22 | **Identified High-Priority Sponsors:** 138
+> - **Generated Date:** 2026-11-22 | **Identified High-Priority Sponsors:** 139
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -144,8 +144,9 @@
 | 134 | Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Shanghai Hovione Pharmaceutical Co., Ltd. / Janssen Pharmaceutica NV | Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ 上海合全医药有限公司/ Janssen Pharmaceutica NV | US Trial Site | CTR20260284 | NCT01569750, NCT04087681 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 135 | Heidelberg Pharma AG / Hangzhou Sino-American Huadong Pharmaceutical Co., Ltd. / Carbogen Amcis SAS / XERIMIS INC. | Heidelberg Pharma AG/ 杭州中美华东制药有限公司/ Carbogen Amcis SAS/ XERIMIS INC. | US Trial Site | CTR20260193 | NCT00083525, NCT04879043 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 136 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Catalent Indiana, LLC | Eli Lilly and Company/ 礼来苏州制药有限公司/ Catalent Indiana, LLC | US Trial Site | CTR20260129 | NCT00251524, NCT00547508 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 137 | Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Almac Pharma Services Limited | Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Almac Pharma Services Limited | US Trial Site | CTR20260050 | NCT01948141, NCT01525628 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 138 | Merck Sharp & Dohme LLC / Merck Research Laboratories (China) Co., Ltd. / Vetter Development Services USA, Inc. | Merck Sharp & Dohme LLC/ 默沙东研发（中国）有限公司/ Vetter Development Services USA, Inc. | US Trial Site | CTR20255221 | NCT07194980, NCT02546531 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 137 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Serán BioScience, Inc. | Eli Lilly and Company/ 礼来苏州制药有限公司/ Serán BioScience, Inc. | US Trial Site | CTR20255191 | NCT00251524, NCT00547508 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 138 | Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Almac Pharma Services Limited | Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Almac Pharma Services Limited | US Trial Site | CTR20260050 | NCT01948141, NCT01525628 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 139 | Merck Sharp & Dohme LLC / Merck Research Laboratories (China) Co., Ltd. / Vetter Development Services USA, Inc. | Merck Sharp & Dohme LLC/ 默沙东研发（中国）有限公司/ Vetter Development Services USA, Inc. | US Trial Site | CTR20255221 | NCT07194980, NCT02546531 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.

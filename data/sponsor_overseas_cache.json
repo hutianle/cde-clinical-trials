@@ -7780,5 +7780,94 @@
     "query_term": "Hebei Meiousaiojin  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "江苏中慧元通生物科技有限公司/ 上海怡道生物科技有限公司": {
+    "sponsor_en": "Jiangsu Zhonghui Yuantong Biotechnology Co., Ltd. / Shanghai Yidao Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Zhonghui Yuantong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Albireo AB/ 益普生（天津）医药商贸有限公司/ Patheon France/ Almac Pharma Services Limited/ Ipsen Pharma": {
+    "sponsor_en": "Albireo AB / Ipsen (Tianjin) Pharmaceutical Trading Co., Ltd. / Patheon France / Almac Pharma Services Limited / Ipsen Pharma",
+    "query_term": "Albireo AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京药捷安康生物科技有限公司": {
+    "sponsor_en": "Nanjing Yaojie Ankang Biotechnology Co., Ltd.",
+    "query_term": "Nanjing Yaojie Ankang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "瑞阳（苏州）生物科技有限公司": {
+    "sponsor_en": "Ruiyang (Suzhou) Biotechnology Co., Ltd.",
+    "query_term": "Ruiyang (Suzhou)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市泰力生物医药有限公司/ 深圳市新阳唯康科技有限公司": {
+    "sponsor_en": "Shenzhen Taili Biopharmaceutical Co., Ltd. / Shenzhen Xinyang Weikang Technology Co., Ltd.",
+    "query_term": "Shenzhen Taili  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏亚虹医药科技股份有限公司": {
+    "sponsor_en": "Jiangsu Yahong Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Jiangsu Yahong   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京华芢生物技术有限公司": {
+    "sponsor_en": "Beijing Huaren Biotechnology Co., Ltd.",
+    "query_term": "Beijing Huaren  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "重庆宸安生物制药有限公司": {
+    "sponsor_en": "Chongqing Chen'an Biopharmaceutical Co., Ltd.",
+    "query_term": "Chongqing Chen'an  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Eli Lilly and Company/ 礼来苏州制药有限公司/ Serán BioScience, Inc.": {
+    "sponsor_en": "Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Serán BioScience, Inc.",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00251524",
+      "NCT00547508",
+      "NCT06696456",
+      "NCT05734495"
+    ]
+  },
+  "信华生物药业（广州）有限公司": {
+    "sponsor_en": "Xinhwa Biopharmaceutical (Guangzhou) Co., Ltd.",
+    "query_term": "Xinhwa  (Guangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州聚微生物科技有限公司": {
+    "sponsor_en": "Suzhou Juyi Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Juyi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京阳光诺和药物研究股份有限公司/ 北京百奥药业有限责任公司": {
+    "sponsor_en": "Beijing Sunward Pharmaceutical Research Co., Ltd. / Beijing Bio-Health Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Sunward  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中国医学科学院病原生物学研究所/ 山西康宝生物制品股份有限公司": {
+    "sponsor_en": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences / Shanxi Kangbao Biological Products Co., Ltd.",
+    "query_term": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "NextWave Pharmaceuticals Inc,a subsidiary of Tris Pharma Inc/ 祐儿医药科技（上海）有限公司/ Tris Pharma, Inc.": {
+    "sponsor_en": "NextWave Pharmaceuticals Inc,a subsidiary of Tris Pharma Inc / Youer Pharmaceutical Technology (Shanghai) Co., Ltd. / Tris Pharma, Inc.",
+    "query_term": "NextWave  Inc,a subsidiary of Tris Pharma Inc",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
