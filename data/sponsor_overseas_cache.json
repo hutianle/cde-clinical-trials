@@ -8048,5 +8048,75 @@
     "query_term": "Chengdu Yuandong  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Eli Lilly and Company/ 礼来苏州制药有限公司/ Almac Pharma Services": {
+    "sponsor_en": "Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Almac Pharma Services",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00251524",
+      "NCT00547508",
+      "NCT06696456",
+      "NCT05734495"
+    ]
+  },
+  "北京厚成医药科技有限公司": {
+    "sponsor_en": "Beijing Houcheng Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Houcheng   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都银河生物医药有限公司/ 北京马力喏生物科技有限公司/ 四川大学": {
+    "sponsor_en": "Chengdu Galaxy Biopharmaceuticals Co., Ltd. / Beijing Marinor Biotechnology Co., Ltd. / Sichuan University",
+    "query_term": "Chengdu Galaxy Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海吉锐医学科技有限公司": {
+    "sponsor_en": "Shanghai Jiree Medical Technology Co., Ltd.",
+    "query_term": "Shanghai Jiree Medical  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江天一堂药业有限公司": {
+    "sponsor_en": "Zhejiang Tianyitang Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Tianyitang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "不适用/ 默沙东研发（中国）有限公司": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "N"
+  },
+  "Otsuka Pharmaceutical Co.,Ltd./ 大冢制药研发（北京）有限公司/ Catalent Pharma Solutions, LLC/ Kobe Plant, KANAE CO., LTD./ Kobe Plant,KANAE CO.,LTD.": {
+    "sponsor_en": "Otsuka Pharmaceutical Co.,Ltd. / Otsuka Pharmaceutical R&D (Beijing) Co., Ltd. / Catalent Pharma Solutions, LLC / Kobe Plant, KANAE CO., LTD. / Kobe Plant,KANAE CO.,LTD.",
+    "query_term": "Otsuka  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Otsuka Pharmaceutical Co.,Ltd./ 大冢制药研发（北京）有限公司/ Catalent Pharma Solutions, LLC/ Kobe Plant,KANAE CO.,LTD./ Kobe Plant, KANAE CO., LTD.": {
+    "sponsor_en": "Otsuka Pharmaceutical Co.,Ltd. / Otsuka Pharmaceutical R&D (Beijing) Co., Ltd. / Catalent Pharma Solutions, LLC / Kobe Plant,KANAE CO.,LTD. / Kobe Plant, KANAE CO., LTD.",
+    "query_term": "Otsuka  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏奥赛康药业有限公司/ 中国医学科学院医药生物技术研究所": {
+    "sponsor_en": "Jiangsu Ausonpharm Pharmaceutical Co., Ltd. / Institute of Medicinal Biotechnology, Chinese Academy of Medical Sciences",
+    "query_term": "Jiangsu Ausonpharm  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "勤浩医药（苏州）有限公司": {
+    "sponsor_en": "Qinhao Pharmaceutical (Suzhou) Co., Ltd.",
+    "query_term": "Qinhao  (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东兴瑞生物科技有限公司": {
+    "sponsor_en": "Shandong Xingrui Biotechnology Co., Ltd.",
+    "query_term": "Shandong Xingrui  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
