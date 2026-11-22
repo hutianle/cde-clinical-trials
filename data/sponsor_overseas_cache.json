@@ -7460,5 +7460,57 @@
     "query_term": "AstraZeneca AB",
     "has_us_site": false,
     "us_trials": []
+  },
+  "珠海贝海生物技术有限公司": {
+    "sponsor_en": "Zhuhai Beihai Biotechnology Co., Ltd.",
+    "query_term": "Beihai",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏荃信生物医药有限公司": {
+    "sponsor_en": "Jiangsu Quanxin Biopharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Quanxin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京托毕西药业有限公司": {
+    "sponsor_en": "Beijing Top Biotech Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Top Biotech  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海复宏汉霖生物技术股份有限公司": {
+    "sponsor_en": "Shanghai Henlius Biotech, Inc.",
+    "query_term": "Shanghai Henlius Biotech, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞（中国）研究开发有限公司/ Pfizer Inc.；Patheon Inc., part of Pharma Services Thermo Fisher Scientific": {
+    "sponsor_en": "Pfizer Inc. / Pfizer (China) Research and Development Co., Ltd. / Pfizer Inc.; Patheon Inc., part of Pharma Services Thermo Fisher Scientific",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Alexion Pharmaceuticals, Inc./ 阿斯利康全球研发（中国）有限公司/ Alexion Pharma International Operations Limited (APIOL) Alexion Athlone Manufacturing Facility (AAMF)": {
+    "sponsor_en": "Alexion Pharmaceuticals, Inc. / AstraZeneca Global R&D (China) Co., Ltd. / Alexion Pharma International Operations Limited (APIOL) Alexion Athlone Manufacturing Facility (AAMF)",
+    "query_term": "Alexion , Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Heidelberg Pharma AG/ 杭州中美华东制药有限公司/ Carbogen Amcis SAS/ XERIMIS INC.": {
+    "sponsor_en": "Heidelberg Pharma AG / Hangzhou Sino-American Huadong Pharmaceutical Co., Ltd. / Carbogen Amcis SAS / XERIMIS INC.",
+    "query_term": "Heidelberg Pharma AG",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00083525",
+      "NCT04879043",
+      "NCT00606632"
+    ]
+  },
+  "武汉生物制品研究所有限责任公司": {
+    "sponsor_en": "Wuhan Institute of Biological Products Co., Ltd.",
+    "query_term": "Wuhan Institute of Biological Products .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
