@@ -7691,5 +7691,47 @@
     "query_term": "Inker (Hengqin)  Research Institute .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海信诺维生物医药有限公司": {
+    "sponsor_en": "Shanghai CINOVA Biopharmaceutics Co., Ltd.",
+    "query_term": "Shanghai CINOVA Biopharmaceutics .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "轩竹（北京）医药科技有限公司/ 北京京丰制药集团有限公司": {
+    "sponsor_en": "Xuanzhu (Beijing) Pharmaceutical Technology Co., Ltd. / Beijing Jingfeng Pharmaceutical Group Co., Ltd.",
+    "query_term": "Xuanzhu (Beijing)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "东宝紫星（杭州）生物医药有限公司": {
+    "sponsor_en": "Toho Purple Star (Hangzhou) Biopharmaceutical Co., Ltd.",
+    "query_term": "Toho Purple Star (Hangzhou)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州三因泰医药科技有限公司/ 杭州澳津生物医药技术有限公司": {
+    "sponsor_en": "Hangzhou SanYinTai Pharmaceutical Technology Co., Ltd. / Hangzhou Aojin Biomedical Technology Co., Ltd.",
+    "query_term": "Hangzhou SanYinTai   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖南慧泽生物医药科技有限公司/ 江苏万高药业股份有限公司": {
+    "sponsor_en": "Hunan Huize Biomedical Technology Co., Ltd. / Jiangsu Wango Pharmaceutical Co., Ltd.",
+    "query_term": "Hunan Huize   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Ensem Therapeutics, Inc./ 上海昂胜医疗科技有限公司": {
+    "sponsor_en": "Ensem Therapeutics, Inc. / Shanghai Angsheng Medical Technology Co., Ltd.",
+    "query_term": "Ensem Therapeutics, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京景达生物科技有限公司/ 广州希灵生物科技有限公司": {
+    "sponsor_en": "Beijing Jingda Biotechnology Co., Ltd. / Guangzhou Xiling Biotechnology Co., Ltd.",
+    "query_term": "Beijing Jingda  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
