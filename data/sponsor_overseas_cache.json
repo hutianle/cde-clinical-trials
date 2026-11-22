@@ -7370,5 +7370,53 @@
     "query_term": "Guangzhou Respiratory Drug Engineering  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "新斗生物科技（苏州）有限公司": {
+    "sponsor_en": "XinDou Biotech ( Suzhou ) Co., Ltd.",
+    "query_term": "XinDou Biotech ( Suzhou ) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "河北奥星集团药业有限公司": {
+    "sponsor_en": "HeBeiAoXingJiTuan Pharmaceutical Co., Ltd.",
+    "query_term": "HeBeiAoXingJiTuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州景曜生物科技有限责任公司": {
+    "sponsor_en": "Hangzhou JingYao Biotech Co., Ltd.",
+    "query_term": "Hangzhou JingYao Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "英矽智能科技（上海）有限公司": {
+    "sponsor_en": "YingXiZhiNeng Technology ( Shanghai ) Co., Ltd.",
+    "query_term": "YingXiZhiNeng  ( Shanghai ) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞（北京）研究开发有限公司": {
+    "sponsor_en": "Pfizer Inc. / Pfizer (Beijing) Research and Development Co., Ltd.",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Bristol-Myers Squibb Company/ 百时美施贵宝（中国）投资有限公司/ PATHEON INC. ; Bristol-Myers Squibb Co.": {
+    "sponsor_en": "Bristol-Myers Squibb Company / Bristol Myers Squibb (China) Investment Co., Ltd. / PATHEON INC. ; Bristol-Myers Squibb Co.",
+    "query_term": "Bristol-Myers Squibb Company",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ 上海合全医药有限公司/ Janssen Pharmaceutica NV": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Shanghai Hovione Pharmaceutical Co., Ltd. / Janssen Pharmaceutica NV",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01569750",
+      "NCT04087681",
+      "NCT01823016",
+      "NCT05071664",
+      "NCT01362699"
+    ]
   }
 }
