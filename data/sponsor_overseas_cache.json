@@ -7548,5 +7548,52 @@
     "query_term": "Guangzhou Zhiling Biopharmaceuticals .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "安炎达医药技术（广州）有限公司": {
+    "sponsor_en": "AnYanda Pharmaceutical Technology (Guangzhou) Co., Ltd.",
+    "query_term": "AnYanda   (Guangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Développement/ 赛诺菲（中国）投资有限公司/ Sanofi Clinical Injectables Manufacturing (CIM), Framingham, USA": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement / Sanofi (China) Investment Co., Ltd. / Sanofi Clinical Injectables Manufacturing (CIM), Framingham, USA",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Eli Lilly and Company/ 礼来苏州制药有限公司/ Catalent Indiana, LLC": {
+    "sponsor_en": "Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Catalent Indiana, LLC",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00251524",
+      "NCT00547508",
+      "NCT06696456",
+      "NCT05734495"
+    ]
+  },
+  "山东新时代药业有限公司/ 上海医药集团（本溪）北方药业有限公司": {
+    "sponsor_en": "Shandong New Era Pharmaceutical Co., Ltd. / Shanghai Pharmaceutical Group (Benxi) Northern Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong New Era  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州尚健生物技术有限公司": {
+    "sponsor_en": "Hangzhou Shangjian Biotechnology Co., Ltd.",
+    "query_term": "Hangzhou Shangjian  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "领诺（上海）医药科技有限公司": {
+    "sponsor_en": "Lingnuo (Shanghai) Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Lingnuo (Shanghai)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中国人民解放军总医院第五医学中心": {
+    "sponsor_en": "Fifth Medical Center of the General Hospital of the People's Liberation Army",
+    "query_term": "Fifth Medical Center of the General Hospital of the People's Liberation Army",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
