@@ -8024,5 +8024,29 @@
     "query_term": "Shanghai Huiyu   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "天津恒瑞医药有限公司": {
+    "sponsor_en": "Tianjin Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03463187",
+      "NCT04447118",
+      "NCT02500199",
+      "NCT03764293",
+      "NCT07286032"
+    ]
+  },
+  "扬子江药业集团江苏龙凤堂中药有限公司/ 南京海陵中药制药工艺技术研究有限公司/ 扬子江药业集团江苏制药股份有限公司": {
+    "sponsor_en": "Yangtze River Pharmaceutical Group Jiangsu Longfengtang Traditional Chinese Medicine Co., Ltd. / Nanjing Hailin Chinese Medicine Pharmaceutical Technology Research Co., Ltd. / Yangtze River Pharmaceutical Group Jiangsu Pharmaceutical Co., Ltd.",
+    "query_term": "Yangtze River   Jiangsu Longfengtang Traditional Chinese Medicine .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都苑东生物制药股份有限公司": {
+    "sponsor_en": "Chengdu Yuandong Biopharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Yuandong  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
