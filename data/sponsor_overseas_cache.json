@@ -7637,5 +7637,59 @@
     "query_term": "Hangzhou Zhihe Dangu  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Alexion Pharmaceuticals, Inc./ 阿斯利康全球研发（中国）有限公司/ Catalent France Limoges S.A.S.": {
+    "sponsor_en": "Alexion Pharmaceuticals, Inc. / AstraZeneca Global R&D (China) Co., Ltd. / Catalent France Limoges S.A.S.",
+    "query_term": "Alexion , Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "佛山安普泽生物医药股份有限公司": {
+    "sponsor_en": "Foshan Anpuze Biopharmaceutical Co., Ltd.",
+    "query_term": "Foshan Anpuze  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Almac Pharma Services Limited": {
+    "sponsor_en": "Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Almac Pharma Services Limited",
+    "query_term": "Boehringer Ingelheim",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01948141",
+      "NCT01525628",
+      "NCT00152971",
+      "NCT06558344",
+      "NCT07607678"
+    ]
+  },
+  "Takeda Pharmaceuticals International AG Ireland Branch/ 武田（中国）国际贸易有限公司/ Patheon Italia S.p.A./ Almac Pharma Services Limited": {
+    "sponsor_en": "Takeda Pharmaceuticals International AG Ireland Branch / Takeda (China) International Trading Co., Ltd. / Patheon Italia S.p.A. / Almac Pharma Services Limited",
+    "query_term": "Takeda  International AG Ireland Branch",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏长泰药业有限公司": {
+    "sponsor_en": "Jiangsu Changtai Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Changtai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州永心生物科技有限公司": {
+    "sponsor_en": "Suzhou Yongxin Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Yongxin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京融捷康生物科技有限公司": {
+    "sponsor_en": "Nanjing Rongjie Kang Biological Technology Co., Ltd.",
+    "query_term": "Nanjing Rongjie Kang Biological  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "盈科瑞（横琴）药物研究院有限公司": {
+    "sponsor_en": "Inker (Hengqin) Pharmaceutical Research Institute Co., Ltd.",
+    "query_term": "Inker (Hengqin)  Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
