@@ -7418,5 +7418,47 @@
       "NCT05071664",
       "NCT01362699"
     ]
+  },
+  "北京天广实生物技术股份有限公司": {
+    "sponsor_en": "Beijing Tianguangshi Biotechnology Co., Ltd.",
+    "query_term": "Beijing Tianguangshi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川健林药业有限责任公司": {
+    "sponsor_en": "Sichuan Jianlin Pharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Jianlin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Karuna Therapeutics, Inc./ 百时益医药研发（北京）有限公司/ Catalent Pharma Solutions, LLC/ AndersonBrecon Inc. dba Packaging Coordinators Inc.": {
+    "sponsor_en": "Karuna Therapeutics, Inc. / BPSI Pharmaceutical R&D (Beijing) Co., Ltd. / Catalent Pharma Solutions, LLC / AndersonBrecon Inc. dba Packaging Coordinators Inc.",
+    "query_term": "Karuna Therapeutics, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06605950",
+      "NCT05511363",
+      "NCT03697252",
+      "NCT04738123",
+      "NCT05145413"
+    ]
+  },
+  "勤浩医药（苏州）股份有限公司": {
+    "sponsor_en": "Qinhao Pharmaceutical (Suzhou) Co., Ltd.",
+    "query_term": "Qinhao  (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都青山利康药业有限公司": {
+    "sponsor_en": "Chengdu Qingshan Likang Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Qingshan Likang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ NukeMed, Inc. DBA SpectronRX": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / NukeMed, Inc. DBA SpectronRX",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
   }
 }

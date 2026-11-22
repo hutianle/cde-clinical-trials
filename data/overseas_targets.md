@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-22 | **Identified High-Priority Sponsors:** 133
+> - **Generated Date:** 2026-11-22 | **Identified High-Priority Sponsors:** 134
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -139,8 +139,9 @@
 | 129 | Jiangsu Hengrui Medicine Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. / Suzhou Shengdiya Biopharmaceuticals Co., Ltd. | 江苏恒瑞医药股份有限公司/ 上海恒瑞医药有限公司/ 苏州盛迪亚生物医药有限公司 | US Trial Site | CTR20260457 | NCT03463187, NCT04447118 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 130 | Wuxi Zhikang Hongyi Biotechnology Co., Ltd. | 无锡智康弘义生物科技有限公司 | US Trial Site | CTR20260447 | NCT03630952, NCT03577899 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 131 | Novo Nordisk A / S / ICON Clinical Research (Beijing) Co., Ltd. / Patheon Italia S.p.A. | Novo Nordisk A/S/ 爱恩康临床医学研究（北京）有限公司/ Patheon Italia S.p.A. | US Trial Site | CTR20260419 | NCT06323161, NCT01570751 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 132 | Novartis Pharma Schweiz AG / Novartis Pharmaceuticals (Beijing) Co., Ltd. / Novartis Pharma Stein AG; Novartis Pharmaceutical Manufacturing GmbH | Novartis Pharma Schweiz AG/ 北京诺华制药有限公司/ Novartis Pharma Stein AG; Novartis Pharmaceutical Manufacturing GmbH | US Trial Site | CTR20260397 | NCT01154335, NCT02138929 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
-| 133 | Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Shanghai Hovione Pharmaceutical Co., Ltd. / Janssen Pharmaceutica NV | Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ 上海合全医药有限公司/ Janssen Pharmaceutica NV | US Trial Site | CTR20260284 | NCT01569750, NCT04087681 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 132 | Karuna Therapeutics, Inc. / BPSI Pharmaceutical R&D (Beijing) Co., Ltd. / Catalent Pharma Solutions, LLC / AndersonBrecon Inc. dba Packaging Coordinators Inc. | Karuna Therapeutics, Inc./ 百时益医药研发（北京）有限公司/ Catalent Pharma Solutions, LLC/ AndersonBrecon Inc. dba Packaging Coordinators Inc. | US Trial Site | CTR20260255 | NCT06605950, NCT05511363 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 133 | Novartis Pharma Schweiz AG / Novartis Pharmaceuticals (Beijing) Co., Ltd. / Novartis Pharma Stein AG; Novartis Pharmaceutical Manufacturing GmbH | Novartis Pharma Schweiz AG/ 北京诺华制药有限公司/ Novartis Pharma Stein AG; Novartis Pharmaceutical Manufacturing GmbH | US Trial Site | CTR20260397 | NCT01154335, NCT02138929 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 134 | Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Shanghai Hovione Pharmaceutical Co., Ltd. / Janssen Pharmaceutica NV | Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ 上海合全医药有限公司/ Janssen Pharmaceutica NV | US Trial Site | CTR20260284 | NCT01569750, NCT04087681 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
