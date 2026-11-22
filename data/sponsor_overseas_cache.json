@@ -7928,5 +7928,53 @@
     "query_term": "Bristol Myers Squibb (China) Investment .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "新奇康药业股份有限公司": {
+    "sponsor_en": "Xinkang Pharmaceutical Co., Ltd.",
+    "query_term": "Xinkang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中盛溯源（广州）生物科技有限公司/ 安徽中盛溯源生物科技有限公司": {
+    "sponsor_en": "ZhongSheng SuYuan (Guangzhou) Biotechnology Co., Ltd. / Anhui Zhongsheng Suyuan Biotechnology Co., Ltd.",
+    "query_term": "ZhongSheng SuYuan (Guangzhou)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州艾博生物科技有限公司/ 艾博生物科技（上海）有限公司": {
+    "sponsor_en": "Suzhou Abogen Biosciences Co., Ltd. / Abbisko Therapeutics (Shanghai) Co., Ltd.",
+    "query_term": "Suzhou Abogen Biosciences .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳开悦生命科技有限公司": {
+    "sponsor_en": "Shenzhen Kaiyue Life Technology Co., Ltd.",
+    "query_term": "Shenzhen Kaiyue Life  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东盛迪医药有限公司/ 上海拓界生物医药科技有限公司": {
+    "sponsor_en": "Shandong Shengdi Pharmaceutical Co., Ltd. / Shanghai Tuojie Biomedical Technology Co., Ltd.",
+    "query_term": "Shandong Shengdi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉科福新药有限责任公司": {
+    "sponsor_en": "Wuhan Coface New Drug Co., Ltd.",
+    "query_term": "Wuhan Coface New Drug .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州复融生物技术有限公司": {
+    "sponsor_en": "Suzhou Fufeng Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Fufeng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市亦诺微医药科技有限公司": {
+    "sponsor_en": "Shenzhen Yinuo Micro-Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shenzhen Yinuo Micro-  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
