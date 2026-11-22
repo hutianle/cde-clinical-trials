@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-22 | **Identified High-Priority Sponsors:** 144
+> - **Generated Date:** 2026-11-22 | **Identified High-Priority Sponsors:** 146
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -152,6 +152,8 @@
 | 142 | Tianjin Hengrui Medicine Co., Ltd. | 天津恒瑞医药有限公司 | US Trial Site | CTR20255041 | NCT03463187, NCT04447118 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 143 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Almac Pharma Services | Eli Lilly and Company/ 礼来苏州制药有限公司/ Almac Pharma Services | US Trial Site | CTR20254998 | NCT00251524, NCT00547508 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 144 | MedImmune LLC / AstraZeneca Investment (China) Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co. KG | MedImmune LLC/ 阿斯利康投资（中国）有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG | US Trial Site | CTR20254914 | NCT00299819, NCT01562938 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 145 | Jiangsu Simcere Pharmaceutical Co., Ltd. | 江苏先声生物制药有限公司 | US Trial Site | CTR20254831 | NCT06792552, NCT05781360 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 146 | CSPC Pharmaceutical Group Limited | 康方赛诺医药有限公司 | US Trial Site | CTR20254819 | NCT02856685, NCT07768189 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.

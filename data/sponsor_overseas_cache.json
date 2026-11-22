@@ -8274,5 +8274,57 @@
     "query_term": "Suzhou   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "成都新睿泰康科技有限公司/ 四川科伦药业股份有限公司": {
+    "sponsor_en": "Chengdu Xinruitai Kang Technology Co., Ltd. / Sichuan Kelun Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Xinruitai Kang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏先声生物制药有限公司": {
+    "sponsor_en": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
+    "query_term": "Simcere",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06792552",
+      "NCT05781360",
+      "NCT05569057",
+      "NCT05940883",
+      "NCT06375044"
+    ]
+  },
+  "北京威斯克生物医药科技有限公司/ 成都威斯克生物医药有限公司/ 威斯克生物医药（广州）有限公司": {
+    "sponsor_en": "Beijing Wisecare Biopharmaceutical Technology Co., Ltd. / WestVac Biopharma / Wisecare Biopharmaceuticals (Guangzhou) Co., Ltd.",
+    "query_term": "Beijing Wisecare   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康方赛诺医药有限公司": {
+    "sponsor_en": "CSPC Pharmaceutical Group Limited",
+    "query_term": "CSPC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02856685",
+      "NCT07768189",
+      "NCT04931823"
+    ]
+  },
+  "安徽安科生物工程（集团）股份有限公司/ 合肥瀚科迈博生物技术有限公司": {
+    "sponsor_en": "Anhui Anke Biotechnology (Group) Co., Ltd. / Hefei Hancomab Biopharmaceuticals Co., Ltd.",
+    "query_term": "Anhui Anke  () .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京智源鸿晟生物医药有限公司": {
+    "sponsor_en": "Beijing Zhiyuan Hongsheng Biopharmaceutical Co., Ltd.",
+    "query_term": "Beijing Zhiyuan Hongsheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Bristol-Myers Squibb Company/ 百时美施贵宝（中国）投资有限公司/ Piramal Pharma Limited/ PATHEON INC. ; Bristol-Myers Squibb Company": {
+    "sponsor_en": "Bristol-Myers Squibb Company / Bristol Myers Squibb (China) Investment Co., Ltd. / Piramal Pharma Limited / PATHEON INC. ; Bristol-Myers Squibb Company",
+    "query_term": "Bristol-Myers Squibb Company",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
