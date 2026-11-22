@@ -7976,5 +7976,53 @@
     "query_term": "Shenzhen Yinuo Micro-  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "成都地奥九泓制药厂": {
+    "sponsor_en": "Chengdu Di'Ao Jiuhong Pharmaceutical Factory",
+    "query_term": "Diao",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康投资（中国）有限公司": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Investment (China) Co., Ltd.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "演生潮（北京）生物科技有限公司": {
+    "sponsor_en": "Yanshengchao (Beijing) Biotechnology Co., Ltd.",
+    "query_term": "Yanshengchao (Beijing)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广西中医药大学附属瑞康医院/ 广西中医药大学": {
+    "sponsor_en": "<g x=1 id=\"3\"/>Ruikang Hospital Affiliated to Guangxi University of Chinese Medicine / Guangxi University of Chinese Medicine",
+    "query_term": "<g x=1 id=\"3\"",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-aventis recherche & développement/ 赛诺菲（中国）投资有限公司/ Sanofi-Aventis recherche & développement; Eurofins Amatsigroup SAS": {
+    "sponsor_en": "Sanofi-aventis recherche & développement / Sanofi (China) Investment Co., Ltd. / Sanofi-Aventis recherche & développement; Eurofins Amatsigroup SAS",
+    "query_term": "Sanofi-aventis recherche & développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Alexion Pharmaceuticals, Inc./ 阿斯利康全球研发（中国）有限公司/ Alexion Pharma International Operations Limited, Alexion Athlone Manufacturing Facility (AAMF)": {
+    "sponsor_en": "Alexion Pharmaceuticals, Inc. / AstraZeneca Global R&D (China) Co., Ltd. / Alexion Pharma International Operations Limited, Alexion Athlone Manufacturing Facility (AAMF)",
+    "query_term": "Alexion , Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏天士力帝益药业有限公司/ 中国药科大学": {
+    "sponsor_en": "Jiangsu Tasly Deyi Pharmaceutical Co., Ltd. / During the two days of visiting from May 27-28, 2021, the delegation of Vland Technical Committee visited two advanced educational institutions and a research institute in Nanjing, China. First stop: China Pharmaceutical University (CPU)",
+    "query_term": "Jiangsu Tasly Deyi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海辉昱生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Huiyu Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Huiyu   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
