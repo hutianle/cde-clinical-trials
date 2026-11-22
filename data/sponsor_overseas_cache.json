@@ -8118,5 +8118,29 @@
     "query_term": "Shandong Xingrui  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "浙江和泽医药科技股份有限公司/ 江苏和晨药业有限公司": {
+    "sponsor_en": "Zhejiang Heze Pharmaceutical Technology Co., Ltd. / Jiangsu Hecheng Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Heze   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏晨泰医药科技有限公司": {
+    "sponsor_en": "Jiangsu Chentai Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Jiangsu Chentai   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Daiichi Sankyo, Inc./ 第一三共（中国）投资有限公司/ Baxter Oncology GmbH": {
+    "sponsor_en": "Daiichi Sankyo, Inc. / Daiichi Sankyo (China) Investment Co., Ltd. / Baxter Oncology GmbH",
+    "query_term": "Daiichi Sankyo, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏众红生物工程创药研究院有限公司/ 常州千红生化制药股份有限公司": {
+    "sponsor_en": "Jiangsu Zhonghong Bioengineering Drug Innovation Research Institute Co., Ltd. / Changzhou Qianhong Biochemical Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Zhonghong Bioengineering Drug Innovation Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
