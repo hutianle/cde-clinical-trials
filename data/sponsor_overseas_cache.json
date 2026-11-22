@@ -8142,5 +8142,95 @@
     "query_term": "Jiangsu Zhonghong Bioengineering Drug Innovation Research Institute .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "MedImmune LLC/ 阿斯利康投资（中国）有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG": {
+    "sponsor_en": "MedImmune LLC / AstraZeneca Investment (China) Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co. KG",
+    "query_term": "MedImmune LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00299819",
+      "NCT01562938",
+      "NCT02583165",
+      "NCT01283139",
+      "NCT02291055"
+    ]
+  },
+  "杭州鼎乐新为生物科技有限公司": {
+    "sponsor_en": "Hangzhou Dinglexinwei Biotechnology Co., Ltd.",
+    "query_term": "Hangzhou Dinglexinwei  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ Patheon Italia S.p.A.": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / Patheon Italia S.p.A.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州启函生物科技有限公司": {
+    "sponsor_en": "Hangzhou Qihan Biotechnology Co., Ltd.",
+    "query_term": "Hangzhou Qihan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Catalent Greenville Inc.": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Catalent Greenville Inc.",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01154335",
+      "NCT02138929",
+      "NCT07226986",
+      "NCT00129831",
+      "NCT05230537"
+    ]
+  },
+  "Santen Pharmaceutical Co., Ltd./ 参天制药（中国）有限公司/ Nipro Pharma Corporation Hanyu Plant": {
+    "sponsor_en": "Santen Pharmaceutical Co., Ltd. / Santen Pharmaceuticals (China) Co., Ltd. / Nipro Pharma Corporation Hanyu Plant",
+    "query_term": "Santen  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京鞍石生物科技有限责任公司": {
+    "sponsor_en": "Beijing Anshi Biotechnology Co., Ltd.",
+    "query_term": "Beijing Anshi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "诺未科技（台州）有限公司/ 诺未科技（北京）有限公司": {
+    "sponsor_en": "Nuwei Technology (Taizhou) Co., Ltd. / Nuwei Technology (Beijing) Co., Ltd.",
+    "query_term": "Nuwei  (Taizhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "阿斯利康全球研发（中国）有限公司": {
+    "sponsor_en": "AstraZeneca Global R&D (China) Co., Ltd.",
+    "query_term": "AstraZeneca Global R&D (China) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东省创新药转化医学研究院有限公司/ 深圳市原力生命科学有限公司/ 佛山市原力生物科技有限公司": {
+    "sponsor_en": "Guangdong Innovative Drug Translational Medicine Research Institute Co., Ltd. / Shenzhen Yuanli Life Sciences Co., Ltd. / Foshan Yuanli Biotechnology Co., Ltd.",
+    "query_term": "Guangdong Innovative Drug Translational Medicine Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福建医科大学": {
+    "sponsor_en": "Fujian Medical University",
+    "query_term": "Fujian Medical University",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "河北凯威恒诚制药有限公司/ 河北凯威康领制药有限公司": {
+    "sponsor_en": "Hebei Kaiwei Hengcheng Pharmaceutical Co., Ltd. / Hebei Kaiweikang Pharmaceutical Co., Ltd.",
+    "query_term": "Hebei Kaiwei Hengcheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海思璞锐医药科技有限公司": {
+    "sponsor_en": "Shanghai Sparo Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Sparo   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
