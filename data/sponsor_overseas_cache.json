@@ -9064,5 +9064,45 @@
     "query_term": "Henan Zhenshi  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "烟台蓝纳成生物技术有限公司": {
+    "sponsor_en": "Yantai Lannacheng Biotechnology Co., Ltd.",
+    "query_term": "Yantai Lannacheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "辽宁省中医药研究院（辽宁中医药大学附属第二医院）": {
+    "sponsor_en": "Liaoning Institute of Traditional Chinese Medicine (The Second Affiliated Hospital of Liaoning University of Traditional Chinese Medicine)",
+    "query_term": "Liaoning Institute of Traditional Chinese Medicine (The Second Affiliated Hospital of Liaoning University of Traditional Chinese Medicine)",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "UCB, Inc./ 优时比贸易（上海）有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG/ UCB Pharma SA": {
+    "sponsor_en": "UCB, Inc. / U-TIMES Trading (Shanghai) Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co. KG / UCB Pharma SA",
+    "query_term": "UCB",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00203216",
+      "NCT00899678",
+      "NCT00139789"
+    ]
+  },
+  "BioVersys AG/ 广州瑞百维医药有限公司/ ISTITUTO BIOCHIMICO ITALIANO G. LORENZINI S.p.A.": {
+    "sponsor_en": "BioVersys AG / Guangzhou Ruibaiwei Pharmaceutical Co., Ltd. / ISTITUTO BIOCHIMICO ITALIANO G. LORENZINI S.p.A.",
+    "query_term": "BioVersys AG",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "尧唐（南京）生物科技有限公司/ 深圳信立泰药业股份有限公司": {
+    "sponsor_en": "Yaotang (Nanjing) Biotechnology Co., Ltd. / Shenzhen Xinlitai Pharmaceutical Co., Ltd.",
+    "query_term": "Yaotang (Nanjing)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川远大蜀阳药业有限责任公司": {
+    "sponsor_en": "Sichuan Yuanda Shuyang Pharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Yuanda Shuyang  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
