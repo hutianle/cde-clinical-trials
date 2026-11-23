@@ -9546,5 +9546,47 @@
     "query_term": "Zhejiang Sapu Aisi  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "圆因（北京）生物科技有限公司": {
+    "sponsor_en": "Yuanyin (Beijing) Biotechnology Co., Ltd.",
+    "query_term": "Yuanyin (Beijing)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "云南方盛融和药业有限公司/ 云南中医药大学/ 湖南方盛制药股份有限公司": {
+    "sponsor_en": "Yunnan FangSheng RongHe Pharmaceutical Co., Ltd. / Yunnan University of Traditional Chinese Medicine / Hunan Fangsheng Pharmaceutical Co., Ltd.",
+    "query_term": "Yunnan FangSheng RongHe  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "正大天晴（广州）医药有限公司": {
+    "sponsor_en": "Zhengda Tianqing (Guangzhou) Pharmaceutical Co., Ltd.",
+    "query_term": "Zhengda Tianqing (Guangzhou)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "GlaxoSmithKline (Ireland) Limited/ 葛兰素史克（中国）投资有限公司/ Glaxo Operations UK Ltd. (trading as Glaxo Wellcome Operations)": {
+    "sponsor_en": "GlaxoSmithKline (Ireland) Limited / GlaxoSmithKline (China) Investment Co., Ltd. / Glaxo Operations UK Ltd. (trading as Glaxo Wellcome Operations)",
+    "query_term": "GlaxoSmithKline (Ireland)",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东合源生物医药有限公司/ 合源生物科技（天津）有限公司": {
+    "sponsor_en": "Guangdong Heyuan Biopharmaceutical Co., Ltd. / Heyuan Biotechnology (Tianjin) Co., Ltd.",
+    "query_term": "Guangdong Heyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福建基诺厚普生物科技有限公司": {
+    "sponsor_en": "Fujian Jinuo Hopu Biotechnology Co., Ltd.",
+    "query_term": "Fujian Jinuo Hopu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海颀航医药科技发展有限公司": {
+    "sponsor_en": "Shanghai Qihang Pharmaceutical Technology Development Co., Ltd.",
+    "query_term": "Shanghai Qihang   Development .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
