@@ -8820,5 +8820,65 @@
     "query_term": "Merck Sharp & Dahme LLC",
     "has_us_site": false,
     "us_trials": []
+  },
+  "浙江欣力菲生物技术有限公司": {
+    "sponsor_en": "Zhejiang Xinlifu Biotechnology Co., Ltd.",
+    "query_term": "Zhejiang Xinlifu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Bayer AG/ 拜耳医药保健有限公司": {
+    "sponsor_en": "Bayer AG / Bayer Healthcare, LLC",
+    "query_term": "Bayer AG",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海恒瑞医药有限公司/ 北京盛迪医药有限公司": {
+    "sponsor_en": "Shanghai Hengrui Medicine Co., Ltd. / Beijing Shengdi Pharmaceutical Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03463187",
+      "NCT04447118",
+      "NCT02500199",
+      "NCT03764293",
+      "NCT07286032"
+    ]
+  },
+  "国药集团工业有限公司廊坊分公司": {
+    "sponsor_en": "Sinopharm Group Industrial Co., Ltd. Langfang Branch",
+    "query_term": "Sinopharm  Industrial . Langfang Branch",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "昆药集团股份有限公司": {
+    "sponsor_en": "Yunnan Pharmaceutical Group Co., Ltd.",
+    "query_term": "Yunnan   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海盛迪医药有限公司": {
+    "sponsor_en": "Shanghai Shengdi Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Shengdi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山西省中医药研究院（山西省中医院）": {
+    "sponsor_en": "Shanxi Institute of Traditional Chinese Medicine (Shanxi Provincial Hospital of Traditional Chinese Medicine)",
+    "query_term": "Shanxi Institute of Traditional Chinese Medicine (Shanxi Provincial Hospital of Traditional Chinese Medicine)",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "西安新通药物研究有限公司": {
+    "sponsor_en": "Xi'an Xintong Pharmaceutical Research Co., Ltd.",
+    "query_term": "Xi'an Xintong  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "重庆医药（集团）股份有限公司/ 重庆科瑞制药（集团）有限公司": {
+    "sponsor_en": "Chongqing Pharmaceutical (Group) Co., Ltd. / Chongqing Kerui Pharmaceutical (Group) Co., Ltd.",
+    "query_term": "Chongqing  () .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
