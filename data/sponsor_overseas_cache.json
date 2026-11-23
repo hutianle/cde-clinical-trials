@@ -8470,5 +8470,47 @@
     "query_term": "Guangdong Hengqin Xinchuangyi  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "北京希而欧生物医药开发有限公司": {
+    "sponsor_en": "Beijing Xierou Biopharmaceutical Development Co., Ltd.",
+    "query_term": "Beijing Xierou  Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东丹红制药有限公司": {
+    "sponsor_en": "Shandong Danhong Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Danhong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "神威药业集团有限公司": {
+    "sponsor_en": "Shenwei Pharmaceutical Group Co., Ltd.",
+    "query_term": "Shenwei   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海德建聪和生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Dejian Conghe Biomedical Technology Co., Ltd.",
+    "query_term": "Shanghai Dejian Conghe   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "艾缇亚（上海）制药有限公司": {
+    "sponsor_en": "Aitia (Shanghai) Pharmaceutical Co., Ltd.",
+    "query_term": "Aitia (Shanghai)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中奥生物医药技术（广东）有限公司": {
+    "sponsor_en": "Zhongao Biomedical Technology (Guangdong) Co., Ltd.",
+    "query_term": "Zhongao   (Guangdong) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州瑞核医药科技有限公司": {
+    "sponsor_en": "Suzhou Ruihe Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Suzhou Ruihe   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
