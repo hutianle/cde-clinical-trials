@@ -8982,5 +8982,51 @@
     "query_term": "Shanxi Zhendong Anxin  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "ASTRAZENECA AB/ 阿斯利康投资（中国）有限公司/ Baxter Oncology GmbH": {
+    "sponsor_en": "ASTRAZENECA AB / AstraZeneca Investment (China) Co., Ltd. / Baxter Oncology GmbH",
+    "query_term": "ASTRAZENECA AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江博锐生物制药有限公司/ 海正生物制药有限公司": {
+    "sponsor_en": "Zhejiang Borui Biopharmaceuticals Co., Ltd. / Hisun Biopharmaceutical Co., Ltd.",
+    "query_term": "Hisun",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01733082",
+      "NCT03625401",
+      "NCT02087917"
+    ]
+  },
+  "广州王老吉药业股份有限公司": {
+    "sponsor_en": "Guangzhou Wanglaoji Pharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Wanglaoji  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州来恩生物医药有限公司": {
+    "sponsor_en": "Guangzhou Lain Biotechnology Co., Ltd.",
+    "query_term": "Guangzhou Lain  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "亲合力（成都）药业有限公司": {
+    "sponsor_en": "Qinherli (Chengdu) Pharmaceutical Co., Ltd.",
+    "query_term": "Qinherli (Chengdu)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "河南省中医药研究院/ 金陵药业股份有限公司技术中心": {
+    "sponsor_en": "Henan Institute of Traditional Chinese Medicine / Technology Center of Jinling Pharmaceutical Co., Ltd.",
+    "query_term": "Henan Institute of Traditional Chinese Medicine",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "海南中和药业股份有限公司": {
+    "sponsor_en": "Hainan Zhonghe Pharmaceutical Co., Ltd.",
+    "query_term": "Hainan Zhonghe  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
