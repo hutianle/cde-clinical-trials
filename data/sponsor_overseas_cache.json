@@ -9403,5 +9403,35 @@
     "query_term": "Nanjing Dichang   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "成都凡诺西生物医药科技有限公司": {
+    "sponsor_en": "Chengdu Fanuoxi Biomedical Technology Co., Ltd.",
+    "query_term": "Chengdu Fanuoxi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Bristol-Myers Squibb Company/ 百时美施贵宝（中国）投资有限公司/ PATHEON INC./ Piramal Pharma Limited": {
+    "sponsor_en": "Bristol-Myers Squibb Company / Bristol Myers Squibb (China) Investment Co., Ltd. / PATHEON INC. / Piramal Pharma Limited",
+    "query_term": "Bristol-Myers Squibb Company",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京百邑无忧科技发展有限公司": {
+    "sponsor_en": "Beijing Baiyi Wuyou Technology Development Co., Ltd.",
+    "query_term": "Beijing Baiyi Wuyou  Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天津谷堆生物医药科技有限公司/ 江苏康禾生物制药有限公司": {
+    "sponsor_en": "Tianjin Gudu Biomedical Technology Co., Ltd. / Jiangsu Kanghe Biopharmaceutical Co., Ltd.",
+    "query_term": "Tianjin Gudu   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东星昊药业有限公司/ 北京佳诚医药有限公司": {
+    "sponsor_en": "Guangdong Xinghao Pharmaceutical Co., Ltd. / Beijing Jiacheng Pharmaceutical Co., Ltd.",
+    "query_term": "Guangdong Xinghao  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
