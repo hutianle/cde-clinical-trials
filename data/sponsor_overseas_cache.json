@@ -9158,5 +9158,59 @@
     "query_term": "Hejing   (Shanghai) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "山西振东制药股份有限公司": {
+    "sponsor_en": "Shanxi Zhendong Pharmaceutical Co., Ltd.",
+    "query_term": "Shanxi Zhendong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "君实润佳（上海）医药科技有限公司": {
+    "sponsor_en": "TopAlliance Biosciences (Shanghai) Co., Ltd.",
+    "query_term": "TopAlliance Biosciences (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "重庆科润生物医药研发有限公司": {
+    "sponsor_en": "Chongqing Kerun Biopharmaceutical R&D Co., Ltd.",
+    "query_term": "Chongqing Kerun  R&D .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "海南回元堂药业有限公司": {
+    "sponsor_en": "Hainan Huiyuantang Pharmaceutical Co., Ltd.",
+    "query_term": "Hainan Huiyuantang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州湃芮生物科技有限公司": {
+    "sponsor_en": "Suzhou Pure Biotech Co., Ltd.",
+    "query_term": "Suzhou Pure Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉厚先生物医药有限公司": {
+    "sponsor_en": "Wuhan Housheng Biopharmaceuticals Co., Ltd.",
+    "query_term": "Wuhan Housheng Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Merck Sharp & Dohme LLC/ 默沙东研发（中国）有限公司/ Catalent Indiana, LLC": {
+    "sponsor_en": "Merck Sharp & Dohme LLC / Merck Research Laboratories (China) Co., Ltd. / Catalent Indiana, LLC",
+    "query_term": "Merck Sharp & Dohme LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07209111",
+      "NCT01133509",
+      "NCT06780098",
+      "NCT00645333",
+      "NCT02641093"
+    ]
+  },
+  "北京华诺泰生物医药科技有限公司/ 华诺泰生物医药科技（成都）有限公司": {
+    "sponsor_en": "Beijing Huonuo Biotechnology Co., Ltd. / Huanuote Biotechnology Co., Ltd. (Chengdu)",
+    "query_term": "Beijing Huonuo  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
