@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-23 | **Identified High-Priority Sponsors:** 162
+> - **Generated Date:** 2026-11-23 | **Identified High-Priority Sponsors:** 164
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -170,6 +170,8 @@
 | 160 | Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Almac Pharma Services Limited / Almac Clinical Services Limited;Boehringer Ingelheim Pharma GmbH & Co. KG | Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Almac Pharma Services Limited/ Almac Clinical Services Limited;Boehringer Ingelheim Pharma GmbH & Co. KG | US Trial Site | CTR20254165 | NCT01948141, NCT01525628 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 161 | UCB, Inc. / U-TIMES Trading (Shanghai) Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co. KG / UCB Pharma SA | UCB, Inc./ 优时比贸易（上海）有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG/ UCB Pharma SA | US Trial Site | CTR20254130 | NCT00203216, NCT00899678 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 162 | Merck Sharp & Dohme LLC / Merck Research Laboratories (China) Co., Ltd. / Catalent Indiana, LLC | Merck Sharp & Dohme LLC/ 默沙东研发（中国）有限公司/ Catalent Indiana, LLC | US Trial Site | CTR20254031 | NCT07209111, NCT01133509 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 163 | Takeda Development Center Americas, Inc. / Takeda (China) International Trading Co., Ltd. / SPERA PHARMA Inc. / Almac Clinical Services LLC | Takeda Development Center Americas, Inc./ 武田（中国）国际贸易有限公司/ SPERA PHARMA Inc./ Almac Clinical Services LLC | US Trial Site | CTR20253714 | NCT04259138, NCT03943446 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 164 | Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Boehringer Ingelheim Pharma GmbH & Co. KG / Almac Clinical Services Limited; Boehringer Ingelheim Pharma GmbH & Co. KG | Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Boehringer Ingelheim Pharma GmbH & Co. KG/ Almac Clinical Services Limited；Boehringer Ingelheim Pharma GmbH & Co. KG | US Trial Site | CTR20253732 | NCT03449381, NCT00431067 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
