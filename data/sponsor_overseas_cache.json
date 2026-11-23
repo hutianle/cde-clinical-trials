@@ -9588,5 +9588,53 @@
     "query_term": "Shanghai Qihang   Development .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "信中医药科技（北京）有限公司/ 上海信致医药科技有限公司/ 上海勉亦生物科技有限公司": {
+    "sponsor_en": "Xinyu Pharmaceutical Technology (Beijing) Co., Ltd. / Shanghai Xinzhi Pharmaceutical Technology Co., Ltd. / Shanghai Mianyi Biotechnology Co., Ltd.",
+    "query_term": "Xinyu   (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "乐普创一生物科技（上海）有限公司": {
+    "sponsor_en": "Lepu Chuangyi Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Lepu Chuangyi  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京康爱瑞浩生物科技股份有限公司": {
+    "sponsor_en": "Beijing Kangairuihao Biotechnology Co., Ltd.",
+    "query_term": "Beijing Kangairuihao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "舒泰神（北京）生物制药股份有限公司；北京德丰瑞生物技术有限公司/ 舒泰神（北京）生物制药股份有限公司": {
+    "sponsor_en": "Shutaishan (Beijing) Biopharmaceutical Co., Ltd.; Beijing Defengrui Biotechnology Co., Ltd. / Shutaishan (Beijing) Biopharmaceutical Co., Ltd.",
+    "query_term": "Shutaishan (Beijing)  .; Beijing Defengrui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京博特维克生物技术有限公司": {
+    "sponsor_en": "Beijing Botweik Biotechnology Co., Ltd.",
+    "query_term": "Beijing Botweik  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江金华康恩贝生物制药有限公司": {
+    "sponsor_en": "Zhejiang Jinhua Conba Biopharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Jinhua Conba  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏先声药业有限公司": {
+    "sponsor_en": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
+    "query_term": "Simcere",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05569057",
+      "NCT05781360",
+      "NCT06375044",
+      "NCT06792552",
+      "NCT05940883"
+    ]
   }
 }
