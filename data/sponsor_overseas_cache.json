@@ -9277,5 +9277,65 @@
     "query_term": "Pfizer Inc.",
     "has_us_site": false,
     "us_trials": []
+  },
+  "轩竹生物科技股份有限公司/ 山东轩竹医药科技有限公司": {
+    "sponsor_en": "Xuanzhu Biotechnology Co., Ltd. / Shandong Xuanzhu Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Xuanzhu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "宿州亿帆药业有限公司": {
+    "sponsor_en": "Suzhou Yifan Pharmaceutical Co., Ltd.",
+    "query_term": "Suzhou Yifan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Alexion Pharmaceuticals, Inc./ 阿斯利康全球研发（中国）有限公司/ Vetter Development Services USA, Inc.": {
+    "sponsor_en": "Alexion Pharmaceuticals, Inc. / AstraZeneca Global R&D (China) Co., Ltd. / Vetter Development Services USA, Inc.",
+    "query_term": "Alexion , Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "健能隆医药技术（上海）有限公司": {
+    "sponsor_en": "Jiannenglong Pharmaceutical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Jiannenglong   (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市迈加瑞生物技术有限公司": {
+    "sponsor_en": "Shenzhen Meijiarui Biotechnology Co., Ltd.",
+    "query_term": "Shenzhen Meijiarui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "信立泰（苏州）药业有限公司/ 信立泰（成都）生物技术有限公司/ 深圳信立泰药业股份有限公司": {
+    "sponsor_en": "Sinli Tai (Suzhou) Pharmaceutical Co., Ltd. / Xinfutai (Chengdu) Biotechnology Co., Ltd. / Shenzhen Xinlitai Pharmaceutical Co., Ltd.",
+    "query_term": "Sinli Tai (Suzhou)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江益汉制药有限公司/ 浙江赛默制药有限公司": {
+    "sponsor_en": "Zhejiang Yihan Pharmaceutical Co., Ltd. / Zhejiang Simo Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Yihan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州雷恩康亚生物医药科技有限公司": {
+    "sponsor_en": "Guangzhou Reinkangya Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Guangzhou Reinkangya   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京盛迪医药有限公司/ 苏州盛迪亚生物医药有限公司": {
+    "sponsor_en": "Beijing Shengdi Pharmaceutical Co., Ltd. / Suzhou Shengdiya Biopharmaceuticals Co., Ltd.",
+    "query_term": "Beijing Shengdi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福州宁丹榕康生物医药科技有限公司": {
+    "sponsor_en": "Fuzhou Ningdan Rongkang Biomedical Technology Co., Ltd.",
+    "query_term": "Fuzhou Ningdan Rongkang   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
