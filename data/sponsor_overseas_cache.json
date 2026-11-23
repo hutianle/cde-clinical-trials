@@ -9236,5 +9236,46 @@
     "query_term": "Pufang Biopharmaceuticals (Suzhou) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "苏州昂拓生物医药有限公司": {
+    "sponsor_en": "Suzhou Angtuo Biopharmaceuticals Co., Ltd.",
+    "query_term": "Suzhou Angtuo Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "河北森朗生物科技有限公司": {
+    "sponsor_en": "Hebei Senlang Biotechnology Co., Ltd.",
+    "query_term": "Hebei Senlang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都华任康生物科技有限公司/ 上海迈科康生物科技有限公司": {
+    "sponsor_en": "Chengdu Huarenkang Biotechnology Co., Ltd. / Shanghai Maikekang Biotechnology Co., Ltd.",
+    "query_term": "Chengdu Huarenkang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "盛世泰科生物医药技术（苏州）有限公司": {
+    "sponsor_en": "Shengshi Taike Biopharmaceutical Technology (Suzhou) Co., Ltd.",
+    "query_term": "Shengshi Taike   (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "——/ 再鼎医药（上海）有限公司": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "——"
+  },
+  "Otsuka Pharmaceutical Development & Commercialization, Inc./ 大冢制药研发（北京）有限公司/ Vetter Development Services U.S.A Inc./ Almac Clinical Services": {
+    "sponsor_en": "Otsuka Pharmaceutical Development & Commercialization, Inc. / Otsuka Pharmaceutical R&D (Beijing) Co., Ltd. / Vetter Development Services U.S.A Inc. / Almac Clinical Services",
+    "query_term": "Otsuka  Development & Commercialization, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞（中国）研究开发有限公司/ Pharmacia and Upjohn Company LLC": {
+    "sponsor_en": "Pfizer Inc. / Pfizer (China) Research and Development Co., Ltd. / Pharmacia and Upjohn Company LLC",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
