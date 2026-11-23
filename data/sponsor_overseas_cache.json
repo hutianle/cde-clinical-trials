@@ -8640,5 +8640,65 @@
     "query_term": "Hunan साइनस  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "苏州瑞徕生物科技有限公司": {
+    "sponsor_en": "Suzhou Rila Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Rila  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东恒瑞医药有限公司/ 上海恒瑞医药有限公司": {
+    "sponsor_en": "Guangdong Hengrui Medicine Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03463187",
+      "NCT04447118",
+      "NCT02500199",
+      "NCT03764293",
+      "NCT07286032"
+    ]
+  },
+  "越洋医药开发（广州）有限公司": {
+    "sponsor_en": "Yueyang Pharmaceutical Development (Guangzhou) Co., Ltd.",
+    "query_term": "Yueyang  Development (Guangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海岸迈生物科技有限公司": {
+    "sponsor_en": "Shanghai Anmai Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Anmai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Novartis Pharma Produktions GmbH": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Novartis Pharma Produktions GmbH",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01154335",
+      "NCT02138929",
+      "NCT07226986",
+      "NCT00129831",
+      "NCT05230537"
+    ]
+  },
+  "成都世联康健生物科技有限公司": {
+    "sponsor_en": "Chengdu Shilian Kangjian Biotechnology Co., Ltd.",
+    "query_term": "Chengdu Shilian Kangjian  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海和黄药业有限公司": {
+    "sponsor_en": "Shanghai Hutchison Pharmaceuticals Co., Ltd.",
+    "query_term": "Shanghai Hutchison  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "恒敬合创生物医药（浙江）有限公司": {
+    "sponsor_en": "Hengjing Hechuang Biopharmaceuticals (Zhejiang) Co., Ltd.",
+    "query_term": "Hengjing Hechuang Biopharmaceuticals (Zhejiang) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
