@@ -9337,5 +9337,71 @@
     "query_term": "Fuzhou Ningdan Rongkang   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "浙江高跖医药科技股份有限公司/ 浙江赛默制药有限公司": {
+    "sponsor_en": "Zhejiang Gaoji Pharmaceutical Technology Co., Ltd. / Zhejiang Simo Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Gaoji   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "重庆智翔金泰生物制药股份有限公司": {
+    "sponsor_en": "Chongqing Zhixiang Jintai Biopharmaceutical Co., Ltd.",
+    "query_term": "Zhixiang",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "嘉兴和剂药业有限公司": {
+    "sponsor_en": "Jiaxing Heji Pharmaceutical Co., Ltd.",
+    "query_term": "Jiaxing Heji  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "哈尔滨红豆杉生物制药有限公司/ 上海开润生物医药有限公司/ 黑龙江红豆杉药业有限责任公司": {
+    "sponsor_en": "Harbin Yew Biopharmaceutical Co., Ltd. / Shanghai Kairun Biopharmaceuticals Co., Ltd. / Heilongjiang Hongshusong Pharmaceutical Co., Ltd.",
+    "query_term": "Harbin Yew  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞投资有限公司/ BSP Pharmaceuticals S.p.A": {
+    "sponsor_en": "Pfizer Inc. / Pfizer Inc. / BSP Pharmaceuticals S.p.A",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Développement/ 赛诺菲（中国）投资有限公司/ Ajinomoto Althea, Inc.": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement / Sanofi (China) Investment Co., Ltd. / Ajinomoto Althea, Inc.",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "博生吉安科细胞技术有限公司": {
+    "sponsor_en": "Persongen & Ankebio Cell Technology co., ltd.",
+    "query_term": "Persongen & Ankebio Cell  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州普济远成生物医药科技有限公司": {
+    "sponsor_en": "Hangzhou Puji Yuancheng Biomedical Technology Co., Ltd.",
+    "query_term": "Hangzhou Puji Yuancheng   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "伊春五加参药业有限责任公司": {
+    "sponsor_en": "Yichun Wujia Ginseng Pharmaceutical Co., Ltd.",
+    "query_term": "Yichun Wujia Ginseng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州白云山光华制药股份有限公司": {
+    "sponsor_en": "Guangzhou Baiyunshan Guanghua Pharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Baiyunshan Guanghua  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京帝昌医药科技有限公司/ 优尼特尔南京制药有限公司": {
+    "sponsor_en": "Nanjing Dichang Pharmaceutical Technology Co., Ltd. / Unitel Nanjing Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Dichang   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
