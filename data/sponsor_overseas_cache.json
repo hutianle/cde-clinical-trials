@@ -8796,5 +8796,29 @@
     "query_term": "Beijing Dr. Li   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "九华华源药业股份有限公司": {
+    "sponsor_en": "Jiuhua Huayuan Pharmaceutical Co., Ltd.",
+    "query_term": "Jiuhua Huayuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海博志研新药物研究有限公司": {
+    "sponsor_en": "Shanghai Bozhi Yanxin Pharmaceutical Research Co., Ltd.",
+    "query_term": "Shanghai Bozhi Yanxin  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上饶市康可得生物科技有限公司": {
+    "sponsor_en": "Shangrao Kangkede Biotechnology Co., Ltd.",
+    "query_term": "Shangrao Kangkede  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Merck Sharp & Dahme LLC/ 默沙东研发（中国）有限公司/ Catalent Indiana, LLC": {
+    "sponsor_en": "Merck Sharp & Dahme LLC / Merck Research Laboratories (China) Co., Ltd. / Catalent Indiana, LLC",
+    "query_term": "Merck Sharp & Dahme LLC",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
