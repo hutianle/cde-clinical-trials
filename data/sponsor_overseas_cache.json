@@ -9028,5 +9028,41 @@
     "query_term": "Hainan Zhonghe  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "GlaxoSmithKline Research & Development Limited/ 葛兰素史克（中国）投资有限公司/ GlaxoSmithKline Manufacturing S.p.A.": {
+    "sponsor_en": "GlaxoSmithKline Research & Development Limited / GlaxoSmithKline (China) Investment Co., Ltd. / GlaxoSmithKline Manufacturing S.p.A.",
+    "query_term": "GlaxoSmithKline Research & Development",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "太极集团重庆涪陵制药厂有限公司": {
+    "sponsor_en": "Taiji Group Chongqing Fuling Pharmaceutical Co., Ltd.",
+    "query_term": "Taiji  Chongqing Fuling  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州九源基因工程有限公司": {
+    "sponsor_en": "Hangzhou Jiuyuan Gene Engineering Co., Ltd.",
+    "query_term": "Hangzhou Jiuyuan Gene Engineering .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Boehringer Ingelheim International GmbH/ 勃林格殷格翰(中国)投资有限公司/ Almac Pharma Services Limited/ Almac Clinical Services Limited;Boehringer Ingelheim Pharma GmbH & Co. KG": {
+    "sponsor_en": "Boehringer Ingelheim International GmbH / Boehringer Ingelheim (China) Investment Co., Ltd. / Almac Pharma Services Limited / Almac Clinical Services Limited;Boehringer Ingelheim Pharma GmbH & Co. KG",
+    "query_term": "Boehringer Ingelheim",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01948141",
+      "NCT01525628",
+      "NCT00152971",
+      "NCT06558344",
+      "NCT07607678"
+    ]
+  },
+  "河南真实生物科技有限公司/ 河南师范大学/ 河南美泰宝生物制药有限公司": {
+    "sponsor_en": "Henan Zhenshi Biotechnology Co., Ltd. / Henan Normal University / Henan Meitaibao Biopharmaceutical Co., Ltd.",
+    "query_term": "Henan Zhenshi  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
