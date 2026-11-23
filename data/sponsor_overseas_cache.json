@@ -8700,5 +8700,65 @@
     "query_term": "Hengjing Hechuang Biopharmaceuticals (Zhejiang) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "重庆华森制药股份有限公司": {
+    "sponsor_en": "(Chongqing Huasen Pharmaceutical Co., Ltd.)",
+    "query_term": "(Chongqing Huasen  .)",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海璃道医药科技有限公司": {
+    "sponsor_en": "Shanghai Lidao Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Lidao   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东方盛融科药业有限公司/ 湖南方盛制药股份有限公司": {
+    "sponsor_en": "Guangdong Fangsheng Rongke Pharmaceutical Co., Ltd. / Hunan Fangsheng Pharmaceutical Co., Ltd.",
+    "query_term": "Guangdong Fangsheng Rongke  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天津华域药业有限公司": {
+    "sponsor_en": "Tianjin Huayu Pharmaceutical Co., Ltd.",
+    "query_term": "Tianjin Huayu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海爱博医药科技有限公司": {
+    "sponsor_en": "Shanghai Aibo Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Aibo   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都安特金生物技术有限公司": {
+    "sponsor_en": "Chengdu Antaijin Biotechnology Co., Ltd.",
+    "query_term": "Chengdu Antaijin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳博雅感知药业有限公司": {
+    "sponsor_en": "Shenzhen Boya Sensing Pharmaceutical Co., Ltd.",
+    "query_term": "Shenzhen Boya Sensing  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江海昶生物医药技术有限公司": {
+    "sponsor_en": "Zhejiang Haichang Biotech Co., Ltd.",
+    "query_term": "Zhejiang Haichang Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Janssen Pharmaceutica NV; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH/ Janssen Pharmaceutica NV": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Janssen Pharmaceutica NV; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH / Janssen Pharmaceutica NV",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01569750",
+      "NCT04087681",
+      "NCT01823016",
+      "NCT05071664",
+      "NCT01362699"
+    ]
   }
 }
