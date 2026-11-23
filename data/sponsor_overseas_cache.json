@@ -8880,5 +8880,47 @@
     "query_term": "Chongqing  () .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "广州顺健生物医药科技有限公司/ 江苏宣泰药业有限公司": {
+    "sponsor_en": "Guangzhou Shunjian Biomedical Technology Co., Ltd. / Jiangsu Xuantai Pharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Shunjian   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京境奥生物医药科技有限公司": {
+    "sponsor_en": "Nanjing Jingao Biomedical Technology Co., Ltd.",
+    "query_term": "Nanjing Jingao   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京海一药业有限公司": {
+    "sponsor_en": "Beijing Haiyi Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Haiyi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Janssen Pharmaceutica NV/ Janssen Pharmaceutica NV; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Janssen Pharmaceutica NV / Janssen Pharmaceutica NV; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01569750",
+      "NCT04087681",
+      "NCT01823016",
+      "NCT05071664",
+      "NCT01362699"
+    ]
+  },
+  "浙江医药股份有限公司新昌制药厂/ 浙江创新生物有限公司": {
+    "sponsor_en": "Xinchang Pharmaceutical Factory of Zhejiang Pharmaceutical Co., Ltd. / Zhejiang Innovation Biotechnology Co., Ltd.",
+    "query_term": "Xinchang  Factory of Zhejiang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖北生物医药产业技术研究院有限公司": {
+    "sponsor_en": "Hubei Biomedical Industry Technology Research Institute Co., Ltd.",
+    "query_term": "Hubei  Industry  Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
