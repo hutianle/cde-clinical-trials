@@ -8922,5 +8922,65 @@
     "query_term": "Hubei  Industry  Research Institute .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "成都新诺明生物科技有限公司/ 成都欧林生物科技股份有限公司/ 兰州百灵生物技术有限公司": {
+    "sponsor_en": "Chengdu Xinnuoming Biotechnology Co., Ltd. / Chengdu Olin Biotechnology Co., Ltd. / Lanzhou Bailin Biotechnology Co., Ltd.",
+    "query_term": "Chengdu Xinnuoming  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉汉密顿生物科技股份有限公司": {
+    "sponsor_en": "Wuhan Hamilton Biotechnology Co., Ltd.",
+    "query_term": "Wuhan Hamilton  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州达歌生物医药科技有限公司": {
+    "sponsor_en": "Hangzhou Dage Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Hangzhou Dage   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "拜耳医药保健有限公司/ 无锡合全药业有限公司": {
+    "sponsor_en": "Bayer Healthcare, LLC / WuXi AppTec Co., Ltd.",
+    "query_term": "Bayer Healthcare, LLC",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "椎元医学技术（上海）有限公司": {
+    "sponsor_en": "Zhuaiyuan Medical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Zhuaiyuan Medical  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市中核海得威生物科技有限公司": {
+    "sponsor_en": "SHENZHEN ZHONGHE HEADWAY BIO SCI&TECH CO., LTD",
+    "query_term": "SHENZHEN ZHONGHE HEADWAY BIO SCI&TECH",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Patheon Inc., Toronto Region Operations": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Patheon Inc., Toronto Region Operations",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01154335",
+      "NCT02138929",
+      "NCT07226986",
+      "NCT00129831",
+      "NCT05230537"
+    ]
+  },
+  "Sanofi-Aventis Recherche & Développement/ 赛诺菲（中国）投资有限公司/ Contract Pharmaceuticals Limited": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement / Sanofi (China) Investment Co., Ltd. / Contract Pharmaceuticals Limited",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山西振东安欣生物制药有限公司": {
+    "sponsor_en": "Shanxi Zhendong Anxin Biopharmaceutical Co., Ltd.",
+    "query_term": "Shanxi Zhendong Anxin  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }

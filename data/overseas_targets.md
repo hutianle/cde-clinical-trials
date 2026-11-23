@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-23 | **Identified High-Priority Sponsors:** 156
+> - **Generated Date:** 2026-11-23 | **Identified High-Priority Sponsors:** 157
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -164,6 +164,7 @@
 | 154 | Guangdong Hengrui Medicine Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. | 广东恒瑞医药有限公司/ 上海恒瑞医药有限公司 | US Trial Site | CTR20254504 | NCT03463187, NCT04447118 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 155 | Shanghai Hengrui Medicine Co., Ltd. / Beijing Shengdi Pharmaceutical Co., Ltd. | 上海恒瑞医药有限公司/ 北京盛迪医药有限公司 | US Trial Site | CTR20254336 | NCT03463187, NCT04447118 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 156 | Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Janssen Pharmaceutica NV / Janssen Pharmaceutica NV; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH | Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Janssen Pharmaceutica NV/ Janssen Pharmaceutica NV; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH | US Trial Site | CTR20254293 | NCT01569750, NCT04087681 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 157 | Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Patheon Inc., Toronto Region Operations | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Patheon Inc., Toronto Region Operations | US Trial Site | CTR20254246 | NCT01154335, NCT02138929 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
