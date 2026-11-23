@@ -8571,5 +8571,74 @@
     "query_term": "Shanghai Zhimeng   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ BSP Pharmaceuticals S. p.A": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / BSP Pharmaceuticals S. p.A",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康诺亚生物医药科技（成都）有限公司/ 成都康诺行生物医药科技有限公司": {
+    "sponsor_en": "Conway Biopharm (Chengdu) Co., Ltd. / Chengdu Connaught Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Conway Biopharm (Chengdu) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "青龙高科技股份有限公司": {
+    "sponsor_en": "Qinglong High-Tech Co., Ltd.",
+    "query_term": "Qinglong High-Tech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "生元泽通（上海）医药有限公司": {
+    "sponsor_en": "Sheng Yuan Zetong (Shanghai) Pharmaceutical Co., Ltd.",
+    "query_term": "Sheng Yuan Zetong (Shanghai)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖南科伦制药有限公司": {
+    "sponsor_en": "Hunan Kelun Pharmaceutical Co., Ltd.",
+    "query_term": "Hunan Kelun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康投资（中国）有限公司/ Baxter Oncology GmbH": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Investment (China) Co., Ltd. / Baxter Oncology GmbH",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "健民药业集团股份有限公司": {
+    "sponsor_en": "Jianmin Pharmaceutical Group Co., Ltd.",
+    "query_term": "Jianmin   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Hetero Labs Limited/ 广州汉光药业股份有限公司": {
+    "sponsor_en": "Hetero Labs Limited / Guangzhou Hangwang Pharmaceutical Co., Ltd.",
+    "query_term": "Hetero Labs",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00404989",
+      "NCT01733082"
+    ]
+  },
+  "Idorsia Pharmaceuticals Ltd/ 晖致医药有限公司/ Corden Pharma GmbH/ Catalent Germany Schorndorf GmbH; Fisher Clinical Services GmbH": {
+    "sponsor_en": "Idorsia Pharmaceuticals Ltd / HuiZhi Pharmaceutical Co., Ltd. / Corden Pharma GmbH / Catalent Germany Schorndorf GmbH; Fisher Clinical Services GmbH",
+    "query_term": "Idorsia  Ltd",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海博芮健制药有限公司": {
+    "sponsor_en": "Shanghai BrightGene Therapeutics Co., Ltd.",
+    "query_term": "Shanghai BrightGene Therapeutics .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖南先施制药有限公司": {
+    "sponsor_en": "Hunan साइनस Pharmaceutical Co., Ltd.",
+    "query_term": "Hunan साइनस  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }

@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-23 | **Identified High-Priority Sponsors:** 150
+> - **Generated Date:** 2026-11-23 | **Identified High-Priority Sponsors:** 151
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -158,6 +158,7 @@
 | 148 | Qilu Pharmaceutical (Hainan) Co., Ltd. | 齐鲁制药（海南）有限公司 | US Trial Site | CTR20254742 | NCT00404989 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 149 | Celgene Corporation / Bristol Myers Squibb (China) Investment Co., Ltd. / &None; &None / Bristol Myers Squibb | Celgene Corporation/ 百时美施贵宝（中国）投资有限公司/ 无；无/ Bristol Myers Squibb | US Trial Site | CTR20254564 | NCT00040391, NCT01600053 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 150 | Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Corden Pharma S.p.A; Novartis Pharmaceutical Manufacturing GmbH | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Corden Pharma S.p.A; Novartis Pharmaceutical Manufacturing GmbH | US Trial Site | CTR20254585 | NCT01154335, NCT02138929 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 151 | Hetero Labs Limited / Guangzhou Hangwang Pharmaceutical Co., Ltd. | Hetero Labs Limited/ 广州汉光药业股份有限公司 | US Trial Site | CTR20254529 | NCT00404989, NCT01733082 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
