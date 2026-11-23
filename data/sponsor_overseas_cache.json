@@ -8512,5 +8512,64 @@
     "query_term": "Suzhou Ruihe   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Corden Pharma S.p.A; Novartis Pharmaceutical Manufacturing GmbH": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Corden Pharma S.p.A; Novartis Pharmaceutical Manufacturing GmbH",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01154335",
+      "NCT02138929",
+      "NCT07226986",
+      "NCT00129831",
+      "NCT05230537"
+    ]
+  },
+  "北京凯晋科技有限公司": {
+    "sponsor_en": "Beijing Kaijin Technology Co., Ltd.",
+    "query_term": "Beijing Kaijin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京征祥医药有限公司": {
+    "sponsor_en": "Nanjing Zhengxiang Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Zhengxiang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州华东医药集团生物医药有限公司/ 杭州邦顺制药有限公司": {
+    "sponsor_en": "Hangzhou Huadong Medicine Group Biomedicine Co., Ltd. / Hangzhou Bangshun Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Huadong Medicine  Biomedicine .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏贵琼药业有限公司/ 江苏核泰生物有限公司": {
+    "sponsor_en": "Jiangsu Guiqiong Pharmaceutical Co., Ltd. / Jiangsu Hetai Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Guiqiong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Bristol-Myers Squibb Company/ 百时美施贵宝（中国）投资有限公司/ Bristol Myers Squibb Company": {
+    "sponsor_en": "Bristol-Myers Squibb Company / Bristol Myers Squibb (China) Investment Co., Ltd. / Bristol Myers Squibb Company",
+    "query_term": "Bristol-Myers Squibb Company",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Celgene Corporation/ 百时美施贵宝（中国）投资有限公司/ 无；无/ Bristol Myers Squibb": {
+    "sponsor_en": "Celgene Corporation / Bristol Myers Squibb (China) Investment Co., Ltd. / &None; &None / Bristol Myers Squibb",
+    "query_term": "Celgene Corporation",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00040391",
+      "NCT01600053",
+      "NCT03196401",
+      "NCT00729612"
+    ]
+  },
+  "上海挚盟医药科技有限公司": {
+    "sponsor_en": "Shanghai Zhimeng Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Zhimeng   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
