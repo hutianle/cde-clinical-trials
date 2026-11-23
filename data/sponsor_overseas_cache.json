@@ -9212,5 +9212,29 @@
     "query_term": "Beijing Huonuo  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海新黄河制药有限公司": {
+    "sponsor_en": "Shanghai New Yellow River Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai New Yellow River  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州必扬医药科技有限公司": {
+    "sponsor_en": "Suzhou Beyond Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Suzhou Beyond   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "远大医学营养科学（武汉）有限公司": {
+    "sponsor_en": "YuanDa Medical Nutrition Science (Wuhan) Co., Ltd.",
+    "query_term": "YuanDa Medical Nutrition Science (Wuhan) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "普方生物制药（苏州）有限公司": {
+    "sponsor_en": "Pufang Biopharmaceuticals (Suzhou) Co., Ltd.",
+    "query_term": "Pufang Biopharmaceuticals (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
