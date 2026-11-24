@@ -10296,5 +10296,31 @@
     "query_term": "Zhen'ao Honeysuckle  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "东莞市东阳光生物药研发有限公司/ 广东东阳光药业股份有限公司": {
+    "sponsor_en": "Dongguan Tongyang Biopharmaceutical Research and Development Co., Ltd. / Guangdong Dongyangguang Pharmaceutical Co., Ltd.",
+    "query_term": "Dongguan Tongyang  Research and Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州达博生物制品有限公司/ 创智行（广州）生物科技有限公司": {
+    "sponsor_en": "Guangzhou Dabao Biological Products Co., Ltd. / Chuangzhixing (Guangzhou) Biotechnology Co., Ltd.",
+    "query_term": "Guangzhou Dabao Biological Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "F. Hoffmann-La Roche Ltd/ 罗氏（中国）投资有限公司/ Genentech Inc.": {
+    "sponsor_en": "F. Hoffmann-La Roche Ltd / Roche (China) Investment Co., Ltd. / Genentech Inc.",
+    "query_term": "F. Hoffmann-La Roche Ltd",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04895436"
+    ]
+  },
+  "吉林省奇健生物技术有限公司": {
+    "sponsor_en": "Jilin Qijian Biotechnology Co., Ltd.",
+    "query_term": "Jilin Qijian  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
