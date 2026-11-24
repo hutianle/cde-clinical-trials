@@ -10322,5 +10322,35 @@
     "query_term": "Jilin Qijian  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "原研港（上海）医药有限公司/ 原研药港生命科学（辽宁）集团有限公司": {
+    "sponsor_en": "Yuanjian (Shanghai) Pharmaceutical Co., Ltd. / Originator Drug Port Life Sciences (Liaoning) Group Co., Ltd.",
+    "query_term": "Yuanjian (Shanghai)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山西康宝生物制品股份有限公司": {
+    "sponsor_en": "Shanxi Kangbao Biological Products Co., Ltd.",
+    "query_term": "Shanxi Kangbao Biological Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康投资（中国）有限公司/ Amgen Inc.": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Investment (China) Co., Ltd. / Amgen Inc.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳深信生物科技有限公司": {
+    "sponsor_en": "Shenzhen Shenxin Biotechnology Co., Ltd.",
+    "query_term": "Shenzhen Shenxin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "乘典（苏州）生物医药有限公司": {
+    "sponsor_en": "Chengdian (Suzhou) Biopharmaceuticals Co., Ltd.",
+    "query_term": "Chengdian (Suzhou) Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
