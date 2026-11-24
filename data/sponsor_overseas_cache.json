@@ -9636,5 +9636,47 @@
       "NCT06792552",
       "NCT05940883"
     ]
+  },
+  "温州医科大学": {
+    "sponsor_en": "Wenzhou Medical University",
+    "query_term": "Wenzhou Medical University",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "哈尔滨市康隆药业有限责任公司": {
+    "sponsor_en": "Harbin Kanglong Pharmaceutical Co., Ltd.",
+    "query_term": "Harbin Kanglong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东鲁抗医药股份有限公司、济南美鲁威生物科技有限公司、上海中拓医药科技有限公司/ 山东鲁抗医药股份有限公司": {
+    "sponsor_en": "Shandong Lukang Pharmaceutical Co., Ltd., Jinan Meiluwei Biotechnology Co., Ltd., Shanghai Zhongtuo Pharmaceutical Technology Co., Ltd. / Amicogen China Biopharm Co Ltd",
+    "query_term": "Shandong Lukang  ., Jinan Meiluwei  ., Shanghai Zhongtuo   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉人福创新药物研发中心有限公司/ 上海复活石医药科技有限公司": {
+    "sponsor_en": "Wuhan Humanwell Innovative Drug Research and Development Center Co., Ltd. / Shanghai Fuhuo Stone Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Humanwell",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Développement/ 富启睿医药研发（北京）有限公司/ Sanofi-Aventis Recherche & Développement；Eurofins CDMO (Amatsigroup SAS)": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement / Fukirui Pharmaceutical R&D (Beijing) Co., Ltd. / Sanofi-Aventis Recherche & Développement; Eurofins CDMO (Amatsigroup SAS)",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州艾博生物科技有限公司/ 艾博生物科技（上海）有限公司/ 艾博生物科技(上海)有限公司": {
+    "sponsor_en": "Suzhou Abogen Biosciences Co., Ltd. / Abbisko Therapeutics (Shanghai) Co., Ltd. / Abbisko Therapeutics (Shanghai) Co., Ltd.",
+    "query_term": "Suzhou Abogen Biosciences .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康诺亚生物医药科技（成都）有限公司/ 北京康诺亚生物医药有限公司/ 成都康诺行生物医药科技有限公司": {
+    "sponsor_en": "Conway Biopharm (Chengdu) Co., Ltd. / Beijing Conpro Biotechnology Co., Ltd. / Chengdu Connaught Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Conway Biopharm (Chengdu) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
