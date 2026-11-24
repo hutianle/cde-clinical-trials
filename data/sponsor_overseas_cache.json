@@ -9762,5 +9762,47 @@
       "NCT02894905",
       "NCT02833831"
     ]
+  },
+  "上海济煜医药科技有限公司/ 浙江杭煜制药有限公司": {
+    "sponsor_en": "Shanghai Jiyu Pharmaceutical Technology Co., Ltd. / Zhejiang Hangyu Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Jiyu   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京辉粒科技有限公司/ 宜昌人福药业有限责任公司/ 百仕康（杭州）生物医药有限公司": {
+    "sponsor_en": "Beijing Huili Technology Co., Ltd. / Yichang Humanwell Pharmaceutical Co., Ltd. / Baishengkang (Hangzhou) Biopharmaceutical Co., Ltd.",
+    "query_term": "Humanwell",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都嘉葆药银医药科技有限公司": {
+    "sponsor_en": "Chengdu Jiabao Yinyin Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Chengdu Jiabao Yinyin   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳瀛晟生物医药有限公司": {
+    "sponsor_en": "Shenzhen Yingsheng Biopharmaceutical Co., Ltd.",
+    "query_term": "Shenzhen Yingsheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中国医学科学院药物研究所/ 山西振东制药股份有限公司": {
+    "sponsor_en": "Institute of Materia Medica, Chinese Academy of Medical Sciences / Shanxi Zhendong Pharmaceutical Co., Ltd.",
+    "query_term": "Institute of Materia Medica, Chinese Academy of Medical Sciences",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "斯莱普泰（上海）生物医药科技有限公司": {
+    "sponsor_en": "Sleipnir (Shanghai) Biomedicine Technology Co., Ltd.",
+    "query_term": "Sleipnir (Shanghai) Biomedicine  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海复宏汉霖生物技术股份有限公司/ 复星汉霖（深圳）生物技术有限公司": {
+    "sponsor_en": "Shanghai Henlius Biotech, Inc. / Fosun Pharma (Shenzhen) Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Henlius Biotech, Inc.",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
