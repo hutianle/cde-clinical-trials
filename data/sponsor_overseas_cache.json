@@ -10230,5 +10230,35 @@
     "query_term": "Bristol-Myers Squibb Company",
     "has_us_site": false,
     "us_trials": []
+  },
+  "智新浩正（上海）医药科技有限公司": {
+    "sponsor_en": "Zhi Xin Haozheng (Shanghai) Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Zhi Xin Haozheng (Shanghai)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "嘉和生物药业有限公司": {
+    "sponsor_en": "CSPC Pharmaceutical Group Limited",
+    "query_term": "CSPC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03553914"
+    ]
+  },
+  "Pfizer Inc./ 辉瑞（中国）研究开发有限公司": {
+    "sponsor_en": "Pfizer Inc. / Pfizer (China) Research and Development Co., Ltd.",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Celgene Corporation/ 百时美施贵宝（中国）投资有限公司/ Bristol Myers Squibb Company": {
+    "sponsor_en": "Celgene Corporation / Bristol Myers Squibb (China) Investment Co., Ltd. / Bristol Myers Squibb Company",
+    "query_term": "Celgene Corporation",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02280525",
+      "NCT00607438",
+      "NCT00179725"
+    ]
   }
 }
