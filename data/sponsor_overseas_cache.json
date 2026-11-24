@@ -10183,5 +10183,52 @@
     "query_term": "Jiangsu Kanion  Co Ltd",
     "has_us_site": false,
     "us_trials": []
+  },
+  "AbbVie Inc./ 艾伯维医药贸易（上海）有限公司/ Patheon Italia S.P.A/ AbbVie Deutschland GmbH & Co. KG；AbbVie Biotechnology Ltd.": {
+    "sponsor_en": "AbbVie Inc. / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd. / Patheon Italia S.P.A / AbbVie Deutschland GmbH & Co. KG; AbbVie Biotechnology Ltd.",
+    "query_term": "AbbVie Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "海思科医药集团股份有限公司/ 辽宁海思科制药有限公司": {
+    "sponsor_en": "Haisco Pharmaceutical Group Co., Ltd. / Liaoning Hisun Pharmaceutical Co., Ltd.",
+    "query_term": "Haisco   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Takeda Development Center Americas, Inc./ 武田亚太生物医药研发有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG": {
+    "sponsor_en": "Takeda Development Center Americas, Inc. / Takeda Asia Pacific Biomedical R&D Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co. KG",
+    "query_term": "Takeda Development Center Americas, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04259138",
+      "NCT03943446",
+      "NCT03393975",
+      "NCT03245840"
+    ]
+  },
+  "呈诺再生医学科技（珠海横琴新区）有限公司": {
+    "sponsor_en": "Chengnuo Regenerative Medicine Technology (Zhuhai Hengqin New District) Co., Ltd.",
+    "query_term": "Chengnuo Regenerative Medicine  (Zhuhai Hengqin New District) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Astellas Pharma Global Development,Inc./ 安斯泰来（中国）投资有限公司/ Baxter Oncology GmbH": {
+    "sponsor_en": "Astellas Pharma Global Development,Inc. / Astellas (China) Investment Co., Ltd. / Baxter Oncology GmbH",
+    "query_term": "Astellas Pharma Global Development,Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Biogen MA Inc./ 渤健生物科技（上海）有限公司/ Biogen US Corporation": {
+    "sponsor_en": "Biogen MA Inc. / Biogen (Shanghai) Co., Ltd. / Biogen US Corporation",
+    "query_term": "Biogen MA Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Bristol-Myers Squibb Company/ 百时美施贵宝（中国）投资有限公司/ Quotient Sciences - Philadelphia, LLC；Bristol Myers Squibb Co./ Bristol Myers Squibb Co.; Fisher Clinical Services Inc": {
+    "sponsor_en": "Bristol-Myers Squibb Company / Bristol Myers Squibb (China) Investment Co., Ltd. / Quotient Sciences - Philadelphia, LLC; Bristol Myers Squibb Co. / Bristol Myers Squibb Co.; Fisher Clinical Services Inc",
+    "query_term": "Bristol-Myers Squibb Company",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
