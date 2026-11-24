@@ -10009,5 +10009,47 @@
     "query_term": "Gilead Sciences, Inc.",
     "has_us_site": false,
     "us_trials": []
+  },
+  "苏州赞荣医药科技有限公司": {
+    "sponsor_en": "Suzhou Zanrong Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Suzhou Zanrong   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "百奥泰生物科技（广州）有限公司": {
+    "sponsor_en": "BioT Biotech (Guangzhou) Co., Ltd.",
+    "query_term": "BioT Biotech (Guangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州新济药业科技有限公司/ 山东京卫制药有限公司": {
+    "sponsor_en": "Guangzhou Xinji Pharmaceutical Technology Co., Ltd. / Shandong Jingwei Pharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Xinji   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "一线医药（杭州）有限公司": {
+    "sponsor_en": "Yixian Pharmaceutical (Hangzhou) Co., Ltd.",
+    "query_term": "Yixian  (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川省中医药科学院": {
+    "sponsor_en": "Sichuan Academy of Chinese Medical Sciences",
+    "query_term": "Sichuan Academy of Chinese Medical Sciences",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京五和博澳药业股份有限公司": {
+    "sponsor_en": "Beijing Wuhe Boao Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Wuhe Boao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京诺博特生物科技有限公司": {
+    "sponsor_en": "Beijing Nobort Biotechnology Co., Ltd.",
+    "query_term": "Beijing Nobort  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
