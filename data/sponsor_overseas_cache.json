@@ -10496,5 +10496,64 @@
     "query_term": "Beijing Yiling  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "不适用/ 艾伯维医药贸易（上海）有限公司": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "N"
+  },
+  "迈得诺医疗科技集团有限公司/ 通瑞生物制药（成都）有限公司": {
+    "sponsor_en": "Medeno Medical Technology Group Co., Ltd. / Tongrui Biopharmaceuticals (Chengdu) Co., Ltd.",
+    "query_term": "Medeno Medical   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州先为达生物科技有限公司": {
+    "sponsor_en": "Hangzhou Xianweida Biotechnology Co., Ltd.",
+    "query_term": "Hangzhou Xianweida  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江普康生物技术股份有限公司": {
+    "sponsor_en": "Zhejiang Pukang Biotechnology Co., Ltd.",
+    "query_term": "Zhejiang Pukang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州康宁杰瑞生物科技有限公司/ 长春钻智制药有限公司": {
+    "sponsor_en": "Suzhou KingMed Genomics Co., Ltd. / Changchun Zhuanzhi Pharmaceutical Co., Ltd.",
+    "query_term": "Suzhou KingMed Genomics .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "MedImmune LLC/ 阿斯利康投资（中国）有限公司/ Catalent Indiana, LLC": {
+    "sponsor_en": "MedImmune LLC / AstraZeneca Investment (China) Co., Ltd. / Catalent Indiana, LLC",
+    "query_term": "MedImmune LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00081315",
+      "NCT00946699",
+      "NCT03351738",
+      "NCT03106428",
+      "NCT02669667"
+    ]
+  },
+  "Novartis Pharma Schweiz AG/ 北京诺华制药有限公司/ Novartis Pharma Stein AG": {
+    "sponsor_en": "Novartis Pharma Schweiz AG / Novartis Pharmaceuticals (Beijing) Co., Ltd. / Novartis Pharma Stein AG",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00201955",
+      "NCT06463626",
+      "NCT01854606",
+      "NCT03940352",
+      "NCT02015663"
+    ]
+  },
+  "苏州迈得诺意医疗技术有限公司": {
+    "sponsor_en": "Suzhou Medinoy Medical Technology Co., Ltd.",
+    "query_term": "Suzhou Medinoy Medical  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
