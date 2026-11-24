@@ -10260,5 +10260,41 @@
       "NCT00607438",
       "NCT00179725"
     ]
+  },
+  "上海美雅珂生物技术有限责任公司": {
+    "sponsor_en": "Shanghai Meiya Ke Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Meiya Ke  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Adicet Therapeutics, Inc./ 上海埃笛晟生物科技有限公司/ Charles River Laboratories Inc.": {
+    "sponsor_en": "Adicet Therapeutics, Inc. / Shanghai Edison Biotechnology Co., Ltd. / Charles River Laboratories Inc.",
+    "query_term": "Adicet Therapeutics, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海市中医医院": {
+    "sponsor_en": "Shanghai Municipal Hospital of Traditional Chinese Medicine",
+    "query_term": "Shanghai Municipal Hospital of Traditional Chinese Medicine",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "原研药港生命科学（辽宁）集团有限公司": {
+    "sponsor_en": "Originator Drug Port Life Sciences (Liaoning) Group Co., Ltd.",
+    "query_term": "Originator Drug Port Life Sciences (Liaoning)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "智翔（上海）医药科技有限公司/ 重庆智翔金泰生物制药有限公司": {
+    "sponsor_en": "Zhixiang (Shanghai) Pharmaceutical Technology Co., Ltd. / Chongqing Zhixiang Jintai Biopharmaceutical Co., Ltd.",
+    "query_term": "Zhixiang",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "真奥金银花药业有限公司": {
+    "sponsor_en": "Zhen'ao Honeysuckle Pharmaceutical Co., Ltd.",
+    "query_term": "Zhen'ao Honeysuckle  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
