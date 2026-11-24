@@ -9678,5 +9678,29 @@
     "query_term": "Conway Biopharm (Chengdu) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "法玛蒂斯制药有限公司/ 怡康（广州）咨询服务有限公司": {
+    "sponsor_en": "Pharmatis Pharmaceutical Co., Ltd. / Yikang (Guangzhou) Consulting Services Co., Ltd.",
+    "query_term": "Pharmatis  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都倍特得诺药业有限公司": {
+    "sponsor_en": "Chengdu Betterdone Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Betterdone  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳扬厉医药技术有限公司": {
+    "sponsor_en": "Shenzhen Yangli Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shenzhen Yangli   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "亘喜生物科技（上海）有限公司/ 苏州亘喜生物科技有限公司": {
+    "sponsor_en": "Geneuity Biotech (Shanghai) Co., Ltd. / Suzhou GeneScience Biotech Co., Ltd.",
+    "query_term": "Geneuity Biotech (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
