@@ -10579,5 +10579,65 @@
     "query_term": "Xingmeng Biopharmaceuticals (Suzhou) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Eli Lilly and Company/ 礼来苏州制药有限公司/ Almac Pharma – Charnwood": {
+    "sponsor_en": "Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Almac Pharma – Charnwood",
+    "query_term": "Eli Lilly",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04623138",
+      "NCT04133116",
+      "NCT03954834",
+      "NCT07881458",
+      "NCT01897493"
+    ]
+  },
+  "天津星联肽生物科技有限公司": {
+    "sponsor_en": "Tianjin Xinglian Peptide Biotechnology Co., Ltd.",
+    "query_term": "Tianjin Xinglian Peptide  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "威尚（上海）生物医药有限公司/ 康龙化成（北京）新药技术股份有限公司": {
+    "sponsor_en": "Wison (Shanghai) Biopharmaceuticals Co., Ltd. / Pharmaron (Beijing) Co., Ltd.",
+    "query_term": "Wison (Shanghai) Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京普德康利医药科技发展有限公司": {
+    "sponsor_en": "Beijing Pude Kangli Pharmaceutical Technology Development Co., Ltd.",
+    "query_term": "Beijing Pude Kangli   Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州白云山医药集团股份有限公司白云山制药总厂": {
+    "sponsor_en": "Baiyunshan Pharmaceutical General Factory, Guangzhou Baiyunshan Pharmaceutical Holdings Co., Ltd.",
+    "query_term": "Baiyunshan  General Factory, Guangzhou Baiyunshan   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京可诺医药科技有限公司/ 兆科药业（广州）有限公司": {
+    "sponsor_en": "Beijing Conno Pharmaceutical Technology Co., Ltd. / Zhaoke Pharmaceutical (Guangzhou) Co., Ltd.",
+    "query_term": "Beijing Conno   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川汇宇海玥医药科技有限公司/ 四川汇宇制药股份有限公司": {
+    "sponsor_en": "Sichuan Huiyu Haiyue Pharmaceutical Technology Co., Ltd. / Sichuan Huiyu Pharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Huiyu Haiyue   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "珠海联邦制药股份有限公司": {
+    "sponsor_en": "Zhuhai United Laboratories Co., Ltd.",
+    "query_term": "Zhuhai United Laboratories .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "仲景宛西制药股份有限公司": {
+    "sponsor_en": "Zhongjing Wanxi Pharmaceutical Co., Ltd.",
+    "query_term": "Zhongjing Wanxi  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
