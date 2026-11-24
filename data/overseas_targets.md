@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-24 | **Identified High-Priority Sponsors:** 175
+> - **Generated Date:** 2026-11-24 | **Identified High-Priority Sponsors:** 177
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -183,6 +183,8 @@
 | 173 | CSPC Pharmaceutical Group Limited | 嘉和生物药业有限公司 | US Trial Site | CTR20253063 | NCT03553914 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 174 | Celgene Corporation / Bristol Myers Squibb (China) Investment Co., Ltd. / Bristol Myers Squibb Company | Celgene Corporation/ 百时美施贵宝（中国）投资有限公司/ Bristol Myers Squibb Company | US Trial Site | CTR20253038 | NCT02280525, NCT00607438 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 175 | F. Hoffmann-La Roche Ltd / Roche (China) Investment Co., Ltd. / Genentech Inc. | F. Hoffmann-La Roche Ltd/ 罗氏（中国）投资有限公司/ Genentech Inc. | US Trial Site | CTR20252960 | NCT04895436 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 176 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Lilly del Caribe,Inc. | Eli Lilly and Company/ 礼来苏州制药有限公司/ Lilly del Caribe,Inc. | US Trial Site | CTR20252855 | NCT04623138, NCT04133116 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 177 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd | Eli Lilly and Company/ 礼来苏州制药有限公司 | US Trial Site | CTR20252857 | NCT04623138, NCT04133116 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
