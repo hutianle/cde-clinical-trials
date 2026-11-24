@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-24 | **Identified High-Priority Sponsors:** 174
+> - **Generated Date:** 2026-11-24 | **Identified High-Priority Sponsors:** 175
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -12,7 +12,7 @@
 | 2 | Jiangsu Hansoh Pharmaceutical Group Co Ltd Lianyungang Hongchuang Pharmaceutical Co Ltd of Jiangsu Hansoh Pharmaceutical Group Co Ltd / Shanghai Hansoh Biopharmaceuticals Co., Ltd. | 江苏豪森药业集团有限公司/ 上海翰森生物医药科技有限公司 | US Trial Site | CTR20263920, CTR20263872, CTR20263898, CTR20263826, CTR20263544, CTR20263545, CTR20263016, CTR20263038, CTR20263056, CTR20262827, CTR20262774, CTR20262524, CTR20262609, CTR20262272, CTR20262173, CTR20261910, CTR20261719, CTR20261467, CTR20261426, CTR20261348, CTR20260707, CTR20260554, CTR20260520, CTR20260290, CTR20254605, CTR20254280, CTR20254127, CTR20253102, CTR20253043 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 3 | China Cell Engineering Co., Ltd. | 神州细胞工程有限公司 | US Trial Site | CTR20264236, CTR20264087, CTR20263775, CTR20263621, CTR20263618, CTR20262378, CTR20262379, CTR20262058, CTR20262021, CTR20261814, CTR20261828, CTR20261827, CTR20261522, CTR20261510, CTR20261382, CTR20261346, CTR20254956, CTR20254732, CTR20254727, CTR20254744 | NCT04644185 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 4 | Guangdong Hengrui Medicine Co., Ltd. | 广东恒瑞医药有限公司 | US Trial Site | CTR20263395, CTR20262906, CTR20261699, CTR20262007, CTR20260121, CTR20255058, CTR20254772, CTR20254700, CTR20254655, CTR20254413, CTR20254204, CTR20254172, CTR20254171, CTR20253993, CTR20253269 | NCT02500199, NCT04446260 | Pending BD Review | Pending BD Review | Tier 1 (High) |
-| 5 | BeiGene (Suzhou) Biotechnology Co., Ltd. | 百济神州（苏州）生物科技有限公司 | US Trial Site | CTR20264238, CTR20262770, CTR20262498, CTR20262054, CTR20261365, CTR20260609, CTR20255228, CTR20255156, CTR20254960, CTR20254444, CTR20253625 | NCT05635708, NCT04746924 | Pending BD Review | Pending BD Review | Tier 1 (High) |
+| 5 | BeiGene (Suzhou) Biotechnology Co., Ltd. | 百济神州（苏州）生物科技有限公司 | US Trial Site | CTR20264238, CTR20262770, CTR20262498, CTR20262054, CTR20261365, CTR20260609, CTR20255228, CTR20255156, CTR20254960, CTR20254444, CTR20253625, CTR20252981 | NCT05635708, NCT04746924 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 6 | Chengdu Kanghong Pharmaceutical group co Ltd | 成都康弘药业集团股份有限公司 | US Trial Site | CTR20264423, CTR20264334, CTR20263973, CTR20262786, CTR20262787, CTR20262373, CTR20262374, CTR20261811, CTR20254563, CTR20254367 | NCT03577899, NCT03630952 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 7 | Novartis Pharma AG/ Novartis (China) Biomedical Research Co., Ltd./ Novartis Pharma Stein AG | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Novartis Pharma Stein AG | US Trial Site | CTR20264186, CTR20263478, CTR20263228, CTR20263185, CTR20262739, CTR20261246, CTR20254295, CTR20254088, CTR20254290, CTR20253059 | NCT00183833, NCT04929249 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 8 | Shanghai Hansen Biomedical Technology Co., Ltd./Changzhou Hengbang Pharmaceutical Co., Ltd. | 上海翰森生物医药科技有限公司/ 常州恒邦药业有限公司 | US Trial Site | CTR20264229, CTR20263999, CTR20263419, CTR20263174, CTR20263734, CTR20263186, CTR20262262, CTR20260641, CTR20254166 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
@@ -182,6 +182,7 @@
 | 172 | Sanofi Pasteur / Sanofi Pasteur Biologics (Shenzhen) Co., Ltd. | 赛诺菲巴斯德/ 深圳赛诺菲巴斯德生物制品有限公司 | US Trial Site | CTR20253146 | NCT05426174, NCT04762680 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 173 | CSPC Pharmaceutical Group Limited | 嘉和生物药业有限公司 | US Trial Site | CTR20253063 | NCT03553914 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 174 | Celgene Corporation / Bristol Myers Squibb (China) Investment Co., Ltd. / Bristol Myers Squibb Company | Celgene Corporation/ 百时美施贵宝（中国）投资有限公司/ Bristol Myers Squibb Company | US Trial Site | CTR20253038 | NCT02280525, NCT00607438 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 175 | F. Hoffmann-La Roche Ltd / Roche (China) Investment Co., Ltd. / Genentech Inc. | F. Hoffmann-La Roche Ltd/ 罗氏（中国）投资有限公司/ Genentech Inc. | US Trial Site | CTR20252960 | NCT04895436 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
