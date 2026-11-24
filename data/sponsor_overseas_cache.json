@@ -9804,5 +9804,46 @@
     "query_term": "Shanghai Henlius Biotech, Inc.",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海才致药成生物科技有限公司": {
+    "sponsor_en": "Shanghai Caizhi Yaocheng Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Caizhi Yaocheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "不适用/ 天境生物科技（杭州）有限公司": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "N"
+  },
+  "上海健信生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Jianxin Biomedical Technology Co., Ltd.",
+    "query_term": "Shanghai Jianxin   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "荣昌制药（淄博）有限公司": {
+    "sponsor_en": "Rongchang Pharmaceutical (Zibo) Co., Ltd.",
+    "query_term": "Rongchang  (Zibo) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东暨大基因药物工程研究中心有限公司/ 温州医科大学": {
+    "sponsor_en": "Guangdong Jinda Gene Pharmaceutical Engineering Research Center Co., Ltd. / Wenzhou Medical University",
+    "query_term": "Guangdong Jinda Gene  Engineering Research Center .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海药苑生物科技有限公司": {
+    "sponsor_en": "Shanghai Yaoyuan Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Yaoyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "科笛生物医药（无锡）有限公司": {
+    "sponsor_en": "Codi Biotherapeutics (Wuxi) Co., Ltd.",
+    "query_term": "Codi Biotherapeutics (Wuxi) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
