@@ -10051,5 +10051,50 @@
     "query_term": "Beijing Nobort  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "力品药业（厦门）股份有限公司": {
+    "sponsor_en": "Lipin Pharmaceutical (Xiamen) Co., Ltd.",
+    "query_term": "Lipin  (Xiamen) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海柏全生物科技有限公司": {
+    "sponsor_en": "Shanghai Boquan Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Boquan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康众（北京）生物科技有限公司/ 康维众和（中山）生物药业有限公司": {
+    "sponsor_en": "Kangzhong (Beijing) Biotechnology Co., Ltd. / Kangweizhonghe (Zhongshan) Biopharmaceutical Co., Ltd.",
+    "query_term": "Kangzhong (Beijing)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "GlaxoSmithKline Biologicals SA/ 葛兰素史克（中国）投资有限公司/ GlaxoSmithKline Biologicals": {
+    "sponsor_en": "GlaxoSmithKline Biologicals SA / GlaxoSmithKline (China) Investment Co., Ltd. / GlaxoSmithKline Biologicals",
+    "query_term": "GlaxoSmithKline Biologicals SA",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都康弘制药有限公司/ 四川济生堂药业有限公司": {
+    "sponsor_en": "Chengdu KANGHONG pharmaceutical co. , ltd. / Sichuan Jishengtang pharmaceutical co. , ltd.",
+    "query_term": "Kanghong",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03577899",
+      "NCT03630952"
+    ]
+  },
+  "国药集团武汉生物制药有限公司": {
+    "sponsor_en": "Sinopharm Wuhan Biological Products Co., Ltd.",
+    "query_term": "Sinopharm Wuhan Biological Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "标新生物医药科技（上海）有限公司": {
+    "sponsor_en": "Biaoxin Biomedicine Technology (Shanghai) Co., Ltd.",
+    "query_term": "Biaoxin Biomedicine  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
