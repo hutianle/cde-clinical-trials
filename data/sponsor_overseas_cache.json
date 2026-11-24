@@ -10144,5 +10144,44 @@
     "query_term": "Takeda  U.S.A., Inc.",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海精缮生物科技有限责任公司": {
+    "sponsor_en": "Shanghai Jingshan Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Jingshan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "赛诺菲巴斯德/ 深圳赛诺菲巴斯德生物制品有限公司": {
+    "sponsor_en": "Sanofi Pasteur / Sanofi Pasteur Biologics (Shenzhen) Co., Ltd.",
+    "query_term": "Sanofi Pasteur",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05426174",
+      "NCT04762680"
+    ]
+  },
+  "上海洛启生物医药技术有限公司": {
+    "sponsor_en": "Shanghai Luoqi Biomedical Technology Co., Ltd.",
+    "query_term": "Shanghai Luoqi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "九芝堂美科（北京）细胞技术有限公司": {
+    "sponsor_en": "Juzitang Meike (Beijing) Cell Technology Co., Ltd.",
+    "query_term": "Juzitang Meike (Beijing) Cell  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Aligos Therapeutics, Inc./ 富启睿医药研发（北京）有限公司/ Almac Pharma Services Limited/ Almac Clinical Services Limited": {
+    "sponsor_en": "Aligos Therapeutics, Inc. / Fukirui Pharmaceutical R&D (Beijing) Co., Ltd. / Almac Pharma Services Limited / Almac Clinical Services Limited",
+    "query_term": "Aligos Therapeutics, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏康缘药业股份有限公司/ 北京华医神农医药科技有限公司": {
+    "sponsor_en": "Jiangsu Kanion Pharmaceutical Co Ltd / Beijing Huayi Shennong Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Jiangsu Kanion  Co Ltd",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
