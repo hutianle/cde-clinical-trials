@@ -9702,5 +9702,65 @@
     "query_term": "Geneuity Biotech (Shanghai) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "南京圣和药业股份有限公司": {
+    "sponsor_en": "Nanjing Shenghe Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Shenghe  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AbbVie Inc./ 艾伯维医药贸易（上海）有限公司/ AbbVie Deutschland GmbH & Co. KG": {
+    "sponsor_en": "AbbVie Inc. / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd. / AbbVie Deutschland GmbH & Co. KG",
+    "query_term": "AbbVie Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ Patheon Manufacturing Services LLC": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / Patheon Manufacturing Services LLC",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海翰森生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Hansoh Biopharmaceuticals Co., Ltd.",
+    "query_term": "Hansoh",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06846710",
+      "NCT02981108",
+      "NCT06892379"
+    ]
+  },
+  "Santen Oy/ 参天制药（中国）有限公司/ EXCELVISION/ SERVIPAC": {
+    "sponsor_en": "Santen Oy / Santen Pharmaceuticals (China) Co., Ltd. / EXCELVISION / SERVIPAC",
+    "query_term": "Santen Oy",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02102750"
+    ]
+  },
+  "三福生医股份有限公司/ 上海康德弘翼医学临床研究有限公司/ Shionogi Pharma Co., Ltd.": {
+    "sponsor_en": "Sanfu Medical Technology Co., Ltd. / Shanghai Kangde Hongyi Medical Clinical Research Co., Ltd. / Shionogi Pharma Co., Ltd.",
+    "query_term": "Sanfu Medical  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州威瑞宝生物医药有限公司": {
+    "sponsor_en": "Hangzhou WZB Biopharmaceuticals Co., Ltd.",
+    "query_term": "Hangzhou WZB Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Janssen Pharmaceutica NV, Division Janssen Research and Development; NACS, Inc/ Catalent Pharma Solutions, LLC; Catalent Germany Schorndorf GmbH; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Janssen Pharmaceutica NV, Division Janssen Research and Development; NACS, Inc / Catalent Pharma Solutions, LLC; Catalent Germany Schorndorf GmbH; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03371381",
+      "NCT02156375",
+      "NCT05784441",
+      "NCT02894905",
+      "NCT02833831"
+    ]
   }
 }
