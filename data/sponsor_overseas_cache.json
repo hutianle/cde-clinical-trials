@@ -10442,5 +10442,59 @@
     "query_term": "Jiangxi Qingfeng  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "浙江生创精准医疗科技有限公司": {
+    "sponsor_en": "Zhejiang Shengchuang Precision Medicine Technology Co., Ltd.",
+    "query_term": "Zhejiang Shengchuang Precision Medicine  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东润中药业有限公司/ 中国科学院上海药物研究所/ 烟台新药创制山东省实验室": {
+    "sponsor_en": "Shandong Runzhong Pharmaceutical Co., Ltd. / Shanghai Institute of Materia Medica, Chinese Academy of Sciences / Shandong Provincial Laboratory for New Drug Development in Yantai",
+    "query_term": "Shandong Runzhong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京双鹭药业股份有限公司": {
+    "sponsor_en": "Beijing Shuanglu Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Shuanglu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东诚创蓝海医药科技有限公司/ 蓬莱诺康药业有限公司": {
+    "sponsor_en": "Shandong Chengchuang Lanhai Pharmaceutical Technology Co., Ltd. / Penglai Nucon Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Chengchuang Lanhai   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "东阿阿胶股份有限公司": {
+    "sponsor_en": "Dong-E-E-Jiao Co., Ltd.",
+    "query_term": "Dong-E-E-Jiao .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "西安乐健生物科技有限公司": {
+    "sponsor_en": "Xi'an Lejian Biotechnology Co., Ltd.",
+    "query_term": "Xi'an Lejian  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海循曜生物科技有限公司": {
+    "sponsor_en": "Shanghai Xunyao Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Xunyao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "凡恩世制药（北京）有限公司": {
+    "sponsor_en": "Vianex Pharmaceutical (Beijing) Co., Ltd.",
+    "query_term": "Vianex  (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京以岭药业有限公司/ 石家庄以岭药业股份有限公司": {
+    "sponsor_en": "Beijing Yiling Pharmaceutical Co., Ltd. / Shijiazhuang Yiling Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Yiling  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
