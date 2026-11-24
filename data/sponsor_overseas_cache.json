@@ -10639,5 +10639,47 @@
     "query_term": "Zhongjing Wanxi  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "浙江康恩贝中药有限公司": {
+    "sponsor_en": "Zhejiang Conba Traditional Chinese Medicine Co., Ltd.",
+    "query_term": "Zhejiang Conba Traditional Chinese Medicine .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "唐传生物科技（厦门）有限公司": {
+    "sponsor_en": "Tangchuan Biotechnology (Xiamen) Co., Ltd.",
+    "query_term": "Tangchuan  (Xiamen) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "万邦德制药集团股份有限公司/ 中国科学院上海药物研究所": {
+    "sponsor_en": "Wanbangde Pharmaceutical Group Co., Ltd. / Shanghai Institute of Materia Medica, Chinese Academy of Sciences",
+    "query_term": "Wanbangde   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华博生物医药技术(上海)有限公司/ 上海华奥泰生物药业股份有限公司": {
+    "sponsor_en": "Huabo Biomedical Technology (Shanghai) Co., Ltd. / Shanghai Huatide Biological Pharmaceuticals Co., Ltd.",
+    "query_term": "Huabo   (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "国药集团广东环球制药有限公司": {
+    "sponsor_en": "Sinopharm Group Guangdong Global Pharmaceutical Co., Ltd.",
+    "query_term": "Sinopharm  Guangdong Global  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州和康药业有限公司": {
+    "sponsor_en": "Hangzhou Hekang Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Hekang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖南华纳大药厂有限公司": {
+    "sponsor_en": "Hunan Warner Pharmaceutical Co., Ltd.",
+    "query_term": "Hunan Warner  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
