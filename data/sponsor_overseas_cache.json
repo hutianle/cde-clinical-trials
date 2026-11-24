@@ -10096,5 +10096,53 @@
     "query_term": "Biaoxin Biomedicine  (Shanghai) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "合肥合源药业有限公司": {
+    "sponsor_en": "Hefei Heyuan Pharmaceutical Co., Ltd.",
+    "query_term": "Hefei Heyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京北生研医药科技有限公司/ 江苏奥赛康药业有限公司": {
+    "sponsor_en": "Beijing Beishengyan Pharmaceutical Technology Co., Ltd. / Jiangsu Ausonpharm Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Beishengyan   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "无锡济煜山禾医药科技有限公司/ 无锡济煜山禾药业股份有限公司": {
+    "sponsor_en": "Wuxi Jiyu Shanhe Pharmaceutical Technology Co., Ltd. / Wuxi Jiyu Shanhe Pharmaceutical Co., Ltd.",
+    "query_term": "Wuxi Jiyu Shanhe   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "神瞻医药（深圳）有限公司": {
+    "sponsor_en": "ShenZhan Medical (Shenzhen) Co., Ltd.",
+    "query_term": "ShenZhan Medical (Shenzhen) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海宇道生物技术有限公司": {
+    "sponsor_en": "Shanghai Yudao Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Yudao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Vifor Fresenius Medical Care Renal Pharma Ltd./ 浙江医学科技开发有限公司/ Siegfried Hameln GmbH": {
+    "sponsor_en": "Vifor Fresenius Medical Care Renal Pharma Ltd. / Zhejiang Medical Technology Development Co., Ltd. / Siegfried Hameln GmbH",
+    "query_term": "Vifor Fresenius Medical Care Renal Pharma Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏润邦药业有限公司/ 济宁为民制药有限公司": {
+    "sponsor_en": "Jiangsu Runbang Pharmaceutical Co., Ltd. / Jining Weimin Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Runbang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Takeda Pharmaceuticals U.S.A., Inc./ 武田（中国）国际贸易有限公司/ Baxalta US Inc.": {
+    "sponsor_en": "Takeda Pharmaceuticals U.S.A., Inc. / Takeda (China) International Trading Co., Ltd. / Baxalta US Inc.",
+    "query_term": "Takeda  U.S.A., Inc.",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
