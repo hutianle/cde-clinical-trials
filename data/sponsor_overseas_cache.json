@@ -10555,5 +10555,29 @@
     "query_term": "Suzhou Medinoy Medical  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "宜昌人福药业有限责任公司/ 百仕康（杭州）生物医药有限公司/ 北京辉粒科技有限公司": {
+    "sponsor_en": "Yichang Humanwell Pharmaceutical Co., Ltd. / Baishengkang (Hangzhou) Biopharmaceutical Co., Ltd. / Beijing Huili Technology Co., Ltd.",
+    "query_term": "Humanwell",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华中药业股份有限公司": {
+    "sponsor_en": "Huazhong Pharmaceutical Co., Ltd.",
+    "query_term": "Huazhong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Neurelis,Inc./ 深圳市康哲药业有限公司/ Renaissance Lakewood, LLC/ Sharp Packaging Services, LLC": {
+    "sponsor_en": "Neurelis,Inc. / Shenzhen Kangzhe Pharmaceutical Co., Ltd. / Renaissance Lakewood, LLC / Sharp Packaging Services, LLC",
+    "query_term": "Neurelis,Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "兴盟生物医药（苏州）有限公司": {
+    "sponsor_en": "Xingmeng Biopharmaceuticals (Suzhou) Co., Ltd.",
+    "query_term": "Xingmeng Biopharmaceuticals (Suzhou) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
