@@ -9955,5 +9955,59 @@
     "query_term": "Nanjing Huagai  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Daiichi Sankyo, Inc./ 第一三共（中国）投资有限公司/ Daiichi Sankyo Co., Ltd.; BSP Pharmaceuticals S.p.A.": {
+    "sponsor_en": "Daiichi Sankyo, Inc. / Daiichi Sankyo (China) Investment Co., Ltd. / Daiichi Sankyo Co., Ltd.; BSP Pharmaceuticals S.p.A.",
+    "query_term": "Daiichi Sankyo, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海中医药大学": {
+    "sponsor_en": "Shanghai University of Traditional Chinese Medicine",
+    "query_term": "Shanghai University of Traditional Chinese Medicine",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "保盛药业股份有限公司/ 长春金赛药业有限责任公司/ 保盛药业股份有限公司中坜厂/ 保盛药业股份有限公司中坜二厂；健乔信元医药生技股份有限公司健乔厂": {
+    "sponsor_en": "Bao Sheng Pharmaceutical Co., Ltd. / Changchun Jinsai Pharmaceutical Co., Ltd. / Bros Pharmaceutical Co., Ltd. Zhongli Plant / Pharmatech (Taiwan) Co., Ltd., Zhongli Plant II; Twi East Pharmaceutical Factory of Twi East Pharmaceutical Co., Ltd.",
+    "query_term": "Bao Sheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "辉诺生物医药科技(杭州)有限公司": {
+    "sponsor_en": "Huinuo Biopharmaceutical Technology (Hangzhou) Co., Ltd.",
+    "query_term": "Huinuo   (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州韬略生物科技股份有限公司": {
+    "sponsor_en": "Suzhou Taolue Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Taolue  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "应世生物科技（上海）有限公司": {
+    "sponsor_en": "Yingshi Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Yingshi  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中子科学（重庆）研究院有限公司": {
+    "sponsor_en": "Neutron Science (Chongqing) Research Institute Co., Ltd.",
+    "query_term": "Neutron Science (Chongqing) Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏迈度药物研发有限公司": {
+    "sponsor_en": "Jiangsu Medo Pharmaceutical R&D Co., Ltd.",
+    "query_term": "Jiangsu Medo  R&D .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Gilead Sciences, Inc./ 吉利德（上海）医药科技有限公司/ Lonza Tampa LLC": {
+    "sponsor_en": "Gilead Sciences, Inc. / Gilead (Shanghai) Pharmaceutical Technology Co., Ltd. / Lonza Tampa LLC",
+    "query_term": "Gilead Sciences, Inc.",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
