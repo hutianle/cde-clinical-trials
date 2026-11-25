@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-25 | **Identified High-Priority Sponsors:** 183
+> - **Generated Date:** 2026-11-25 | **Identified High-Priority Sponsors:** 184
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -16,10 +16,10 @@
 | 6 | Chengdu Kanghong Pharmaceutical group co Ltd | 成都康弘药业集团股份有限公司 | US Trial Site | CTR20264423, CTR20264334, CTR20263973, CTR20262786, CTR20262787, CTR20262373, CTR20262374, CTR20261811, CTR20254563, CTR20254367 | NCT03577899, NCT03630952 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 7 | Shanghai Hansen Biomedical Technology Co., Ltd./Changzhou Hengbang Pharmaceutical Co., Ltd. | 上海翰森生物医药科技有限公司/ 常州恒邦药业有限公司 | US Trial Site | CTR20264229, CTR20263999, CTR20263419, CTR20263174, CTR20263734, CTR20263186, CTR20262262, CTR20260641, CTR20254166, CTR20252644 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 8 | Novartis Pharma AG/ Novartis (China) Biomedical Research Co., Ltd./ Novartis Pharma Stein AG | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Novartis Pharma Stein AG | US Trial Site | CTR20264186, CTR20263478, CTR20263228, CTR20263185, CTR20262739, CTR20261246, CTR20254295, CTR20254088, CTR20254290, CTR20253059 | NCT00183833, NCT04929249 | Pending BD Review | Pending BD Review | Tier 1 (High) |
-| 9 | Suzhou Shengdiya Biopharmaceuticals Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. | 苏州盛迪亚生物医药有限公司/ 上海恒瑞医药有限公司 | US Trial Site | CTR20263014, CTR20262457, CTR20260740, CTR20260558, CTR20260404, CTR20254944, CTR20254318, CTR20254159, CTR20253188 | NCT02500199, NCT04446260 | Pending BD Review | Pending BD Review | Tier 1 (High) |
+| 9 | Suzhou Shengdiya Biopharmaceuticals Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. | 苏州盛迪亚生物医药有限公司/ 上海恒瑞医药有限公司 | US Trial Site | CTR20263014, CTR20262457, CTR20260740, CTR20260558, CTR20260404, CTR20254944, CTR20254318, CTR20254159, CTR20253188, CTR20252306 | NCT02500199, NCT04446260 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 10 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Lilly del Caribe, Inc. | Eli Lilly and Company/ 礼来苏州制药有限公司/ Lilly del Caribe, Inc. | US Trial Site | CTR20263408, CTR20263226, CTR20254736, CTR20254568, CTR20254566, CTR20253466, CTR20252895, CTR20252894 | NCT00083720, NCT03936959 | Pending BD Review | Pending BD Review | Tier 1 (High) |
-| 11 | Changchun Baike Biotechnology Co., Ltd. | 长春百克生物科技股份公司 | US Trial Site | CTR20264188, CTR20262065, CTR20261178, CTR20260088, CTR20253498, CTR20253111 | NCT07454915, NCT03098550 | Pending BD Review | Pending BD Review | Tier 1 (High) |
-| 12 | Shanghai Zhengda Tianqing Pharmaceutical Technology Development Co., Ltd. | 上海正大天晴医药科技开发有限公司 | US Trial Site | CTR20263729, CTR20262826, CTR20261675, CTR20254646, CTR20253778, CTR20253012 | NCT03625401, NCT02087917 | Pending BD Review | Pending BD Review | Tier 1 (High) |
+| 11 | Shanghai Zhengda Tianqing Pharmaceutical Technology Development Co., Ltd. | 上海正大天晴医药科技开发有限公司 | US Trial Site | CTR20263729, CTR20262826, CTR20261675, CTR20254646, CTR20253778, CTR20253012, CTR20252325 | NCT03625401, NCT02087917 | Pending BD Review | Pending BD Review | Tier 1 (High) |
+| 12 | Changchun Baike Biotechnology Co., Ltd. | 长春百克生物科技股份公司 | US Trial Site | CTR20264188, CTR20262065, CTR20261178, CTR20260088, CTR20253498, CTR20253111 | NCT07454915, NCT03098550 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 13 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Incog Biopharma Services, Inc. | Eli Lilly and Company/ 礼来苏州制药有限公司/ Incog Biopharma Services, Inc. | US Trial Site | CTR20260330, CTR20260283, CTR20255016, CTR20255108, CTR20255150, CTR20255012 | NCT00251524, NCT00547508 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 14 | N/A / Novartis (China) BioMedical Research Co., Ltd. | 不适用/ 诺华（中国）生物医学研究有限公司 | US Trial Site | CTR20263889, CTR20262818, CTR20262784, CTR20254664, CTR20252589 | NCT00183833, NCT04929249 | Pending BD Review | Pending BD Review | Tier 1 (High) |
 | 15 | Jiangsu Hansoh Pharmaceutical Group Co., Ltd. | 江苏豪森药业集团有限公司 | US Trial Site | CTR20264242, CTR20253482, CTR20253481, CTR20252543, CTR20252390 | NCT02981108, NCT06846710 | Pending BD Review | Pending BD Review | Tier 1 (High) |
@@ -191,6 +191,7 @@
 | 181 | Eli Lilly and Company / Lilly Suzhou Pharmaceutical Co.,Ltd / Almac Pharma – Charnwood | Eli Lilly and Company/ 礼来苏州制药有限公司/ Almac Pharma – Charnwood | US Trial Site | CTR20252656 | NCT04623138, NCT04133116 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 182 | Celgene Corporation / Bristol Myers Squibb (China) Investment Co., Ltd. / Catalent Pharma Solutions, LLC | Celgene Corporation/ 百时美施贵宝（中国）投资有限公司/ Catalent Pharma Solutions, LLC | US Trial Site | CTR20252534 | NCT02280525, NCT00607438 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 183 | MedImmune LLC / AstraZeneca Investment (China) Co., Ltd. / Vetter Pharma-Fertigung GmbH & CO. KG | MedImmune LLC/ 阿斯利康投资（中国）有限公司/ Vetter Pharma-Fertigung GmbH & CO. KG | US Trial Site | CTR20252535 | NCT00081315, NCT00946699 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 184 | Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Sofie Co. | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Sofie Co. | US Trial Site | CTR20252315 | NCT00201955, NCT06463626 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
