@@ -10870,5 +10870,47 @@
     "query_term": "Kangrong Dongfang (Guangdong)  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "杭州民生药业股份有限公司": {
+    "sponsor_en": "Hangzhou Minsheng Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Minsheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Arrowhead Pharmaceuticals, Inc./ 赛诺菲（中国）投资有限公司/ Ajinomoto Althea, Inc.": {
+    "sponsor_en": "Arrowhead Pharmaceuticals, Inc. / Sanofi (China) Investment Co., Ltd. / Ajinomoto Althea, Inc.",
+    "query_term": "Arrowhead , Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏正阳药业有限公司": {
+    "sponsor_en": "Jiangsu Zhengyang Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Zhengyang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东亦度生物技术有限公司": {
+    "sponsor_en": "Shandong Yidu Biotechnology Co., Ltd.",
+    "query_term": "Shandong Yidu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "鞍石药业（宁波）有限责任公司": {
+    "sponsor_en": "Anshi Pharmaceutical (Ningbo) Co., Ltd.",
+    "query_term": "Anshi  (Ningbo) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京吉源生物科技有限公司": {
+    "sponsor_en": "Beijing Jiyuan Biotechnology Co., Ltd.",
+    "query_term": "Beijing Jiyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Europe MA EEIG/ 辉瑞投资有限公司/ Pfizer Ireland Pharmaceuticals/ Pfizer Manufacturing Belgium NV/ Pfizer Manufacturing Belgium N.V.": {
+    "sponsor_en": "Pfizer Europe MA EEIG / Pfizer Inc. / Pfizer Ireland Pharmaceuticals / Pfizer Manufacturing Belgium NV / Pfizer Manufacturing Belgium N.V.",
+    "query_term": "Pfizer Europe MA EEIG",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
