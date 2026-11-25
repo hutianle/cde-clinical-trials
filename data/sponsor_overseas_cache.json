@@ -11481,5 +11481,35 @@
     "query_term": "Mirati Therapeutics, Inc., a Bristol-Myers Squibb Company",
     "has_us_site": false,
     "us_trials": []
+  },
+  "杰科（天津）生物医药有限公司": {
+    "sponsor_en": "Jaco (Tianjin) Biopharmaceutical Co., Ltd.",
+    "query_term": "Jaco (Tianjin)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Mitsubishi Tanabe Pharma Corporation/ 田边三菱制药研发（北京）有限公司/ Mitsubishi Tanabe Pharma Factory Ltd., Onoda Plant": {
+    "sponsor_en": "Mitsubishi Tanabe Pharma Corporation / Tanabe Mitsubishi Pharmaceutical Research and Development (Beijing) Co., Ltd. / Mitsubishi Tanabe Pharma Factory Ltd., Onoda Plant",
+    "query_term": "Mitsubishi Tanabe Pharma Corporation",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞投资有限公司/ Catalent Pharma Solutions Limited": {
+    "sponsor_en": "Pfizer Inc. / Pfizer Inc. / Catalent Pharma Solutions Limited",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "沈阳三生制药有限责任公司/ 浙江万晟药业有限公司": {
+    "sponsor_en": "Shenyang Sansheng Pharmaceutical Co., Ltd. / Zhejiang Vansheng Pharmaceutical Co., Ltd.",
+    "query_term": "Shenyang Sansheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "合肥立方制药股份有限公司": {
+    "sponsor_en": "Hefei Lifang Pharmaceutical Co., Ltd.",
+    "query_term": "Hefei Lifang  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
