@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-25 | **Identified High-Priority Sponsors:** 184
+> - **Generated Date:** 2026-11-25 | **Identified High-Priority Sponsors:** 185
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -192,6 +192,7 @@
 | 182 | Celgene Corporation / Bristol Myers Squibb (China) Investment Co., Ltd. / Catalent Pharma Solutions, LLC | Celgene Corporation/ 百时美施贵宝（中国）投资有限公司/ Catalent Pharma Solutions, LLC | US Trial Site | CTR20252534 | NCT02280525, NCT00607438 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 183 | MedImmune LLC / AstraZeneca Investment (China) Co., Ltd. / Vetter Pharma-Fertigung GmbH & CO. KG | MedImmune LLC/ 阿斯利康投资（中国）有限公司/ Vetter Pharma-Fertigung GmbH & CO. KG | US Trial Site | CTR20252535 | NCT00081315, NCT00946699 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 184 | Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Sofie Co. | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Sofie Co. | US Trial Site | CTR20252315 | NCT00201955, NCT06463626 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 185 | Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Advanced Accelerator Applications (Italy) S.R.L.; Advanced Accelerator Applications Ibérica S.L.U. | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Advanced Accelerator Applications (Italy) S.R.L.；Advanced Accelerator Applications Ibérica S.L.U. | US Trial Site | CTR20252270 | NCT00201955, NCT06463626 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.

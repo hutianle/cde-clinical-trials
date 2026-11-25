@@ -10954,5 +10954,65 @@
     "query_term": "Hefei Afana  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "武汉汉密顿生物科技股份有限公司/ 广州汉密顿生物科技有限公司": {
+    "sponsor_en": "Wuhan Hamilton Biotechnology Co., Ltd. / Guangzhou Hamilton Biotechnology Co., Ltd.",
+    "query_term": "Wuhan Hamilton  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京天广实医药科技有限公司": {
+    "sponsor_en": "Beijing Tianguangshi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Tianguangshi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "国药集团容生制药有限公司": {
+    "sponsor_en": "Sinopharm Group RongSheng Pharmaceutical Co., Ltd.",
+    "query_term": "Sinopharm  RongSheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市祥根生物有限公司": {
+    "sponsor_en": "Shenzhen Xianggen Biotechnology Co., Ltd.",
+    "query_term": "Shenzhen Xianggen  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Horizon Therapeutics Ireland DAC/ 安进生物技术咨询（上海）有限公司/ Patheon Italia S.p.A.": {
+    "sponsor_en": "Horizon Therapeutics Ireland DAC / Amgen Biotechnology Consulting (Shanghai) Co., Ltd. / Patheon Italia S.p.A.",
+    "query_term": "Horizon Therapeutics Ireland DAC",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "艾美荣誉（宁波）生物制药有限公司": {
+    "sponsor_en": "Aimei Rongyao (Ningbo) Biopharmaceutical Co., Ltd.",
+    "query_term": "Aimei Rongyao (Ningbo)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川海思科制药有限公司": {
+    "sponsor_en": "Sichuan Hisun Pharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Hisun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "赛灵药业科技集团股份有限公司/ 北京赛灵之光生物科技有限公司": {
+    "sponsor_en": "Salubris Pharmaceuticals Ltd. / Beijing Silingguang Biotechnology Co., Ltd.",
+    "query_term": "Salubris  Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Advanced Accelerator Applications (Italy) S.R.L.；Advanced Accelerator Applications Ibérica S.L.U.": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Advanced Accelerator Applications (Italy) S.R.L.; Advanced Accelerator Applications Ibérica S.L.U.",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00201955",
+      "NCT06463626",
+      "NCT01854606",
+      "NCT03940352",
+      "NCT02015663"
+    ]
   }
 }
