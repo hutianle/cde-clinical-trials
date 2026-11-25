@@ -11199,5 +11199,47 @@
     "query_term": "Guangzhou Boji   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海西泰利生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Xitaili Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Xitaili   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "普华赛尔生物医疗科技有限公司/ 中国医学科学院肿瘤医院": {
+    "sponsor_en": "Puhuasai'er Biomedical Technology Co., Ltd. / Cancer Hospital Chinese Academy of Medical Sciences",
+    "query_term": "Puhuasai'er   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Daiichi Sankyo, Inc./ 第一三共（中国）投资有限公司/ Daiichi Sankyo Propharma Co., Ltd.": {
+    "sponsor_en": "Daiichi Sankyo, Inc. / Daiichi Sankyo (China) Investment Co., Ltd. / Daiichi Sankyo Propharma Co., Ltd.",
+    "query_term": "Daiichi Sankyo, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东瑞顺生物技术有限公司": {
+    "sponsor_en": "Guangdong Ruishun Biotechnology Co., Ltd.",
+    "query_term": "Guangdong Ruishun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "青岛国信制药有限公司": {
+    "sponsor_en": "Qingdao Guoxin Pharmaceutical Co., Ltd.",
+    "query_term": "Qingdao Guoxin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东步长制药股份有限公司": {
+    "sponsor_en": "Shandong Buchang Pharmaceuticals Co., Ltd.",
+    "query_term": "Shandong Buchang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Basilea Pharmaceutica International Ltd, Allschwil/ 精鼎医药研究开发（上海）有限公司/ Patheon Manufacturing Services LLC": {
+    "sponsor_en": "Basilea Pharmaceutica International Ltd, Allschwil / Jingding Pharmaceutical Research and Development (Shanghai) Co., Ltd. / Patheon Manufacturing Services LLC",
+    "query_term": "Basilea Pharmaceutica International Ltd, Allschwil",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
