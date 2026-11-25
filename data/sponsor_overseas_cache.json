@@ -11559,5 +11559,59 @@
     "query_term": "Beijing Wangshi Wisdom  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "大连天宇制药有限公司/ 广东中科药物研究有限公司": {
+    "sponsor_en": "Dalian Tianyu Pharmaceutical Co., Ltd. / Guangdong Zhongke Pharmaceutical Research Co., Ltd.",
+    "query_term": "Dalian Tianyu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京慧宝源生物技术股份有限公司": {
+    "sponsor_en": "Beijing Huibaoyuan Biotechnology Co., Ltd.",
+    "query_term": "Beijing Huibaoyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州舶临医药科技有限公司": {
+    "sponsor_en": "Hangzhou Bolin Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Hangzhou Bolin   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "沈阳药科大学/ 沈阳鑫泰格尔医药科技开发有限公司/ 本溪经济开发区康迈斯医药有限公司": {
+    "sponsor_en": "Shenyang Pharmaceutical University / Shenyang Xintaiger Pharmaceutical Technology Development Co., Ltd. / Benxi Economic Development Zone Kangmais Pharmaceutical Co., Ltd.",
+    "query_term": "Shenyang  University",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "安达生物药物开发（深圳）有限公司": {
+    "sponsor_en": "Anda Biopharmaceuticals Development (Shenzhen) Co., Ltd.",
+    "query_term": "Anda Biopharmaceuticals Development (Shenzhen) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京远大九和药业有限公司": {
+    "sponsor_en": "Beijing Yuanda Jiuhe Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Yuanda Jiuhe  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "非同（成都）生物科技有限公司": {
+    "sponsor_en": "Fitone (Chengdu) Biotechnology Co., Ltd.",
+    "query_term": "Fitone (Chengdu)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Biogen Idec Research Limited/ 渤健生物科技（上海）有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG": {
+    "sponsor_en": "Biogen Idec Research Limited / Biogen (Shanghai) Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co. KG",
+    "query_term": "Biogen Idec Research",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "argenx BV/ 爱恩康临床医学研究（北京）有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG": {
+    "sponsor_en": "argenx BV / ICON Clinical Research (Beijing) Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co. KG",
+    "query_term": "argenx BV",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
