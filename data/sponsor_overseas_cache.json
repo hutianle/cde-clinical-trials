@@ -11373,5 +11373,65 @@
     "query_term": "Nanjing Hengdao   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康投资（中国）有限公司/ Catalent Indiana, LLC": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Investment (China) Co., Ltd. / Catalent Indiana, LLC",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京海纳医药科技股份有限公司/ 南京海纳制药有限公司": {
+    "sponsor_en": "Nanjing Haina Pharmaceutical Technology Co., Ltd. / Nanjing Haina Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Haina   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏亚虹医药科技股份有限公司/ 上海合全医药有限公司": {
+    "sponsor_en": "Jiangsu Yahong Pharmaceutical Technology Co., Ltd. / Shanghai Hovione Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Yahong   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京中因制药有限公司": {
+    "sponsor_en": "Beijing Zhongyin Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Zhongyin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市海普瑞药业集团股份有限公司": {
+    "sponsor_en": "Shenzhen Hepalink Pharmaceutical Group Co., Ltd.",
+    "query_term": "Shenzhen Hepalink   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Seagen Inc./ 辉瑞投资有限公司/ BSP Pharmaceuticals S.p.A": {
+    "sponsor_en": "Seagen Inc. / Pfizer Inc. / BSP Pharmaceuticals S.p.A",
+    "query_term": "Seagen Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01700751",
+      "NCT02848248",
+      "NCT01026415",
+      "NCT01196208",
+      "NCT00650572"
+    ]
+  },
+  "药华医药股份有限公司/ 药华生物科技（北京）有限公司/ 药华医药股份有限公司台中分公司": {
+    "sponsor_en": "Yaohua Pharmaceutical Co., Ltd. / Yaohua Biotechnology (Beijing) Co., Ltd. / Yaohua Pharmaceutical Co., Ltd. Taichung Branch",
+    "query_term": "Yaohua  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏恒瑞医药股份有限公司/ 上海恒瑞医药有限公司/ 成都盛迪医药有限公司": {
+    "sponsor_en": "Jiangsu Hengrui Medicine Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd. / Chengdu ShengDi Pharmaceuticals Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04446260",
+      "NCT07796763",
+      "NCT03398720",
+      "NCT03203811",
+      "NCT03463187"
+    ]
   }
 }
