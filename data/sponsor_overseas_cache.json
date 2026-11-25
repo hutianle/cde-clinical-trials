@@ -11175,5 +11175,29 @@
     "query_term": "Guangzhou CellEra Stem Cell  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海复星医药产业发展有限公司/ 重庆复创医药研究有限公司": {
+    "sponsor_en": "Shanghai Fosun Pharmaceutical Industrial Development Co., Ltd. / Chongqing Fuchuang Pharmaceutical Research Co., Ltd.",
+    "query_term": "Shanghai Fosun  Industrial Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中国医学科学院药物研究所/ 长春钻智制药有限公司": {
+    "sponsor_en": "Institute of Materia Medica, Chinese Academy of Medical Sciences / Changchun Zhuanzhi Pharmaceutical Co., Ltd.",
+    "query_term": "Institute of Materia Medica, Chinese Academy of Medical Sciences",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "普米斯生物技术（珠海）有限公司/ 百欧恩泰（上海）医药有限公司": {
+    "sponsor_en": "Promis Biotechnology (Zhuhai) Co., Ltd. / Biontech (Shanghai) Pharmaceutical Co., Ltd.",
+    "query_term": "Promis  (Zhuhai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州博济医药生物技术股份有限公司": {
+    "sponsor_en": "Guangzhou Boji Pharmaceutical Biotechnology Co., Ltd.",
+    "query_term": "Guangzhou Boji   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
