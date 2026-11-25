@@ -11127,5 +11127,53 @@
     "query_term": "Jiangxi Kerui  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "河北龙海药业有限公司": {
+    "sponsor_en": "Hebei Longhai Pharmaceutical Co., Ltd.",
+    "query_term": "Hebei Longhai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "迪哲（江苏）医药股份有限公司/ 迪哲（上海）医药有限公司": {
+    "sponsor_en": "Dizhi (Jiangsu) Pharmaceutical Co., Ltd. / Dizhi (Shanghai) Pharmaceutical Co., Ltd.",
+    "query_term": "Dizhi (Jiangsu)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东方盛融大药业有限公司/ 湖南方盛制药股份有限公司": {
+    "sponsor_en": "Guangdong Fangsheng Rongda Pharmaceutical Co., Ltd. / Hunan Fangsheng Pharmaceutical Co., Ltd.",
+    "query_term": "Guangdong Fangsheng Rongda  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江西新赣江药业股份有限公司": {
+    "sponsor_en": "Jiangxi New Ganjiang Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangxi New Ganjiang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州博之锐生物制药有限公司": {
+    "sponsor_en": "Hangzhou Bozhirui Biopharmaceuticals Co., Ltd.",
+    "query_term": "Hangzhou Bozhirui Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江仙琚萃泽医药科技有限公司": {
+    "sponsor_en": "Zhejiang Xianju Cuize Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Zhejiang Xianju Cuize   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏奥赛康药业股份有限公司": {
+    "sponsor_en": "Jiangsu Ausonpharm Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Ausonpharm  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州赛莱拉干细胞科技股份有限公司": {
+    "sponsor_en": "Guangzhou CellEra Stem Cell Technology Co., Ltd.",
+    "query_term": "Guangzhou CellEra Stem Cell  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
