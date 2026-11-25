@@ -11091,5 +11091,41 @@
     "query_term": "Yangtze River   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海奥全生物医药科技有限公司/ 浙江江北药业有限公司": {
+    "sponsor_en": "Shanghai Oquan Biomedical Technology Co., Ltd. / Zhejiang Jiangbei Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Oquan   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "吉诺卫（上海）生物制品有限公司/ 北京吉诺卫生物科技有限公司/ 吉诺卫（廊坊临空自贸区）生物制品有限公司": {
+    "sponsor_en": "Genor (Shanghai) Biopharmaceutical Co., Ltd. / Beijing Genovatech Biotechnology Co., Ltd. / Genovax (Langfang Airport Economic Zone) Biological Products Co., Ltd.",
+    "query_term": "Genor (Shanghai)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京康乐卫士生物技术股份有限公司": {
+    "sponsor_en": "Beijing Kanglweishi Biotechnology Co., Ltd.",
+    "query_term": "Beijing Kanglweishi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "argenx BV/ 再鼎医药（上海）有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG": {
+    "sponsor_en": "argenx BV / Zai Lab (Shanghai) Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co. KG",
+    "query_term": "argenx BV",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "诺未生物技术（无锡）有限公司": {
+    "sponsor_en": "Nuowei Biotechnology (Wuxi) Co., Ltd.",
+    "query_term": "Nuowei  (Wuxi) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江西科睿药业有限公司/ 江西青峰药业有限公司": {
+    "sponsor_en": "Jiangxi Kerui Pharmaceutical Co., Ltd. / Jiangxi Qingfeng Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangxi Kerui  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
