@@ -11014,5 +11014,29 @@
       "NCT03940352",
       "NCT02015663"
     ]
+  },
+  "Pfizer Inc./ 辉瑞投资有限公司/ Wyeth BioPharma Division of Wyeth Pharmaceuticals LLC": {
+    "sponsor_en": "Pfizer Inc. / Pfizer Inc. / Wyeth BioPharma Division of Wyeth Pharmaceuticals LLC",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京吉诺卫生物科技有限公司/ 吉诺卫（河北）生物科技有限公司/ 吉诺卫（廊坊临空自贸区）生物制品有限公司": {
+    "sponsor_en": "Beijing Genovatech Biotechnology Co., Ltd. / Genovet (Hebei) Biotechnology Co., Ltd. / Genovax (Langfang Airport Economic Zone) Biological Products Co., Ltd.",
+    "query_term": "Beijing Genovatech  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京万泰生物药业股份有限公司": {
+    "sponsor_en": "Beijing Wantai Biological Pharmacy Enterprise Co., Ltd.",
+    "query_term": "Beijing Wantai Biological Pharmacy Enterprise .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "inibio co., ltd./ 北京玉琢生物科技有限公司": {
+    "sponsor_en": "inibio co., ltd. / Beijing Yuzhuo Biotechnology Co., Ltd.",
+    "query_term": "inibio .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
