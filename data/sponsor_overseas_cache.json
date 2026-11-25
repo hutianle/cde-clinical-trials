@@ -10798,5 +10798,53 @@
     "query_term": "Galderma SA",
     "has_us_site": false,
     "us_trials": []
+  },
+  "武汉滨会生物科技股份有限公司生物创新园分公司": {
+    "sponsor_en": "Wuhan Binhui Biotechnology Co., Ltd. Bio-Innovation Park Branch",
+    "query_term": "Wuhan Binhui  . Bio-Innovation Park Branch",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "长春生物制品研究所有限责任公司": {
+    "sponsor_en": "Changchun Institute of Biological Products Co., Ltd.",
+    "query_term": "Changchun Institute of Biological Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州易文赛生物技术有限公司": {
+    "sponsor_en": "Hangzhou Yiwensai Biotechnology Co., Ltd.",
+    "query_term": "Hangzhou Yiwensai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "信中医药科技（北京）有限公司/ 上海勉亦生物科技有限公司/ 上海信致医药科技有限公司": {
+    "sponsor_en": "Xinyu Pharmaceutical Technology (Beijing) Co., Ltd. / Shanghai Mianyi Biotechnology Co., Ltd. / Shanghai Xinzhi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Xinyu   (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州希灵生物科技有限公司": {
+    "sponsor_en": "Guangzhou Xiling Biotechnology Co., Ltd.",
+    "query_term": "Guangzhou Xiling  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京正科医药股份有限公司": {
+    "sponsor_en": "Nanjing Zhengke Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Zhengke  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳赛保尔生物药业有限公司/ 北方药谷德生（沈阳）生物科技有限责任公司": {
+    "sponsor_en": "Shenzhen Saibaoer Biopharmaceutical Co., Ltd. / North Pharmaceutical Valley Desheng (Shenyang) Biotechnology Co., Ltd.",
+    "query_term": "Shenzhen Saibaoer  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sirtex Medical Pty Ltd/ 远大医药（中国）有限公司/ Sirtex Singapore Manufacturing Pte Ltd": {
+    "sponsor_en": "Sirtex Medical Pty Ltd / Grand Pharmaceutical (China) Co., Ltd. / Sirtex Singapore Manufacturing Pte Ltd",
+    "query_term": "Sirtex Medical Pty Ltd",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
