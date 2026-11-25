@@ -10912,5 +10912,47 @@
     "query_term": "Pfizer Europe MA EEIG",
     "has_us_site": false,
     "us_trials": []
+  },
+  "天方药业有限公司/ 中国科学院上海药物研究所/ 上海特化医药科技有限公司/ 山东特珐曼医药原料有限公司/ 山东特珐曼药业有限公司": {
+    "sponsor_en": "Tianfang Pharmaceutical Co., Ltd. / Shanghai Institute of Materia Medica, Chinese Academy of Sciences / Shanghai Tehua Pharmaceutical Technology Co., Ltd. / Shandong Tefaman Pharmaceutical Raw Materials Co., Ltd. / Shandong Tefaman Pharmaceutical Co., Ltd.",
+    "query_term": "Tianfang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "合肥康诺生物制药有限公司/ 开封康诺药业有限公司": {
+    "sponsor_en": "Hefei Conno Biopharmaceutical Co., Ltd. / Kaifeng Connaught Pharmaceutical Co., Ltd.",
+    "query_term": "Hefei Conno  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "辽宁成大生物股份有限公司/ 北京成大天和生物科技有限公司/ 成大生物（本溪）有限公司": {
+    "sponsor_en": "Liaoning Chengda Biotechnology Co., Ltd. / Beijing Chengda Tianhe Biotechnology Co., Ltd. / Chengda Biotechnology (Benxi) Co., Ltd.",
+    "query_term": "Liaoning Chengda  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "科瑞华生物技术有限公司/ 北京智康博药肿瘤医学研究有限公司/ Patheon Italia S.p.A.": {
+    "sponsor_en": "Co-Win Biotech Co., Ltd. / Beijing Zhikangbo Pharmaceutical Oncology Research Co., Ltd. / Patheon Italia S.p.A.",
+    "query_term": "Co-Win Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Sofie Co.": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Sofie Co.",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00201955",
+      "NCT06463626",
+      "NCT01854606",
+      "NCT03940352",
+      "NCT02015663"
+    ]
+  },
+  "合肥阿法纳生物科技有限公司": {
+    "sponsor_en": "Hefei Afana Biotechnology Co., Ltd.",
+    "query_term": "Hefei Afana  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
