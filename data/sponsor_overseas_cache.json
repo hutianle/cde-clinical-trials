@@ -11511,5 +11511,53 @@
     "query_term": "Hefei Lifang  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "云核医药（天津）有限公司": {
+    "sponsor_en": "Yunhe Pharmaceutical (Tianjin) Co., Ltd.",
+    "query_term": "Yunhe  (Tianjin) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "新疆银朵兰药业股份有限公司": {
+    "sponsor_en": "Xinjiang Yinduo Lan Pharmaceutical Co., Ltd.",
+    "query_term": "Xinjiang Yinduo Lan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "通化万通药业股份有限公司": {
+    "sponsor_en": "Tonghua Wantong Pharmaceutical Co., Ltd.",
+    "query_term": "Tonghua Wantong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都盛迪医药有限公司/ 江苏恒瑞医药股份有限公司/ 上海恒瑞医药有限公司": {
+    "sponsor_en": "Chengdu ShengDi Pharmaceuticals Co., Ltd. / Jiangsu Hengrui Medicine Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04446260",
+      "NCT07796763",
+      "NCT03398720",
+      "NCT03203811",
+      "NCT03463187"
+    ]
+  },
+  "四川宏明博思药业有限公司": {
+    "sponsor_en": "Sichuan Hongming Boshi Pharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Hongming Boshi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京质肽生物医药科技有限公司/ 北京诺博特生物科技有限公司": {
+    "sponsor_en": "Beijing Zhitai Biomedical Technology Co., Ltd. / Beijing Nobort Biotechnology Co., Ltd.",
+    "query_term": "Beijing Zhitai   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京望实智慧科技有限公司": {
+    "sponsor_en": "Beijing Wangshi Wisdom Technology Co., Ltd.",
+    "query_term": "Beijing Wangshi Wisdom  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
