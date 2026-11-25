@@ -10681,5 +10681,51 @@
     "query_term": "Hunan Warner  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "北京硕佰医药科技有限责任公司/ 安徽硕佰制药有限公司": {
+    "sponsor_en": "Beijing Shuobai Pharmaceutical Technology Co., Ltd. / Anhui Shuobai Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Shuobai   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Enliven Therapeutics, Inc./ 诺思格（北京）医药科技股份有限公司/ Latitude Pharmaceuticals": {
+    "sponsor_en": "Enliven Therapeutics, Inc. / Northgrass (Beijing) Pharmaceutical Technology Co., Ltd. / Latitude Pharmaceuticals",
+    "query_term": "Enliven Therapeutics, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "赛乐医药科技（上海）有限公司": {
+    "sponsor_en": "Salus Pharmaceuticals (Shanghai) Co., Ltd.",
+    "query_term": "Salus  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京中泰邦医药科技有限公司": {
+    "sponsor_en": "Beijing Zhongtaibang Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Zhongtaibang   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "MedImmune LLC/ 阿斯利康投资（中国）有限公司/ Vetter Pharma-Fertigung GmbH & CO. KG": {
+    "sponsor_en": "MedImmune LLC / AstraZeneca Investment (China) Co., Ltd. / Vetter Pharma-Fertigung GmbH & CO. KG",
+    "query_term": "MedImmune LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00081315",
+      "NCT00946699",
+      "NCT03351738",
+      "NCT03106428",
+      "NCT02669667"
+    ]
+  },
+  "Celgene Corporation/ 百时美施贵宝（中国）投资有限公司/ Catalent Pharma Solutions, LLC": {
+    "sponsor_en": "Celgene Corporation / Bristol Myers Squibb (China) Investment Co., Ltd. / Catalent Pharma Solutions, LLC",
+    "query_term": "Celgene Corporation",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02280525",
+      "NCT00607438",
+      "NCT00179725"
+    ]
   }
 }
