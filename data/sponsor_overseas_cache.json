@@ -11463,5 +11463,23 @@
     "query_term": "Shandong Zhitai   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "湖北人福成田药业有限公司": {
+    "sponsor_en": "Hubei Renfu Chengtian Pharmaceutical Co., Ltd.",
+    "query_term": "Humanwell",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "山东华铂凯盛生物科技有限公司/ 鲁南贝特制药有限公司": {
+    "sponsor_en": "Shandong Huabo Kaisheng Biotechnology Co., Ltd. / Lunan Better Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Huabo Kaisheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Mirati Therapeutics, Inc., a Bristol-Myers Squibb Company/ 百时美施贵宝（中国）投资有限公司/ Patheon Inc./ Patheon Inc.; Bristol-Myers Squibb Company": {
+    "sponsor_en": "Mirati Therapeutics, Inc., a Bristol-Myers Squibb Company / Bristol Myers Squibb (China) Investment Co., Ltd. / Patheon Inc. / Patheon Inc.; Bristol-Myers Squibb Company",
+    "query_term": "Mirati Therapeutics, Inc., a Bristol-Myers Squibb Company",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
