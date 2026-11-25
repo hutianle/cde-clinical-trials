@@ -11241,5 +11241,47 @@
     "query_term": "Basilea Pharmaceutica International Ltd, Allschwil",
     "has_us_site": false,
     "us_trials": []
+  },
+  "南京相元生物医药科技有限公司/ 哈尔滨三联药业股份有限公司": {
+    "sponsor_en": "Nanjing Xiangyuan Biomedical Technology Co., Ltd. / Harbin Sanlian Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Xiangyuan   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京硕佰医药科技有限责任公司": {
+    "sponsor_en": "Beijing Shuobai Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Shuobai   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东恒瑞医药有限公司/ 上海盛迪医药有限公司/ 上海恒瑞医药有限公司": {
+    "sponsor_en": "Guangdong Hengrui Medicine Co., Ltd. / Shanghai Shengdi Pharmaceutical Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04446260",
+      "NCT07796763",
+      "NCT03398720",
+      "NCT03203811",
+      "NCT03463187"
+    ]
+  },
+  "Eccogene Inc./ 阿斯利康全球研发（中国）有限公司/ Hovione Farmaciencia S.A.": {
+    "sponsor_en": "Eccogene Inc. / AstraZeneca Global R&D (China) Co., Ltd. / Hovione Farmaciencia S.A.",
+    "query_term": "Eccogene Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "复星安特金（成都）生物制药有限公司": {
+    "sponsor_en": "Fosun Anteng (Chengdu) Biopharmaceuticals Co., Ltd.",
+    "query_term": "Fosun Anteng (Chengdu) Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "珠海菲鹏制药有限公司": {
+    "sponsor_en": "Zhuhai Feipeng Pharmaceutical Co., Ltd.",
+    "query_term": "Zhuhai Feipeng  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
