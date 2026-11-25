@@ -11319,5 +11319,17 @@
     "query_term": "Shandong Xinhua  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "百明信康生物技术（浙江）有限公司": {
+    "sponsor_en": "Baimingxinkang Biotechnology (Zhejiang) Co., Ltd.",
+    "query_term": "Baimingxinkang  (Zhejiang) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "丹生医药技术（上海）有限公司": {
+    "sponsor_en": "Dansheng Pharmaceutical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Dansheng   (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
