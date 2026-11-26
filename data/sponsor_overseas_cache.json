@@ -11929,5 +11929,35 @@
     "query_term": "Qingdao Marine  Research Institute",
     "has_us_site": false,
     "us_trials": []
+  },
+  "普米斯生物技术（珠海）有限公司": {
+    "sponsor_en": "Promis Biotechnology (Zhuhai) Co., Ltd.",
+    "query_term": "Promis  (Zhuhai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏金迪克生物技术有限公司": {
+    "sponsor_en": "Jiangsu Jindeike Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Jindeike  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞投资有限公司": {
+    "sponsor_en": "Pfizer Inc. / Pfizer Inc.",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏拓弘康恒医药有限公司": {
+    "sponsor_en": "Jiangsu Tuohong Kangheng Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Tuohong Kangheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海元熙医药科技有限公司": {
+    "sponsor_en": "Shanghai Yuanxi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Yuanxi   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
