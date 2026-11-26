@@ -12286,5 +12286,46 @@
     "query_term": "Sanofi-Aventis Recherche & Developpement",
     "has_us_site": false,
     "us_trials": []
+  },
+  "赛德特生物制药有限公司": {
+    "sponsor_en": "Saidete Biopharmaceuticals Co., Ltd.",
+    "query_term": "Saidete Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海致真生物科技有限公司/ 浙江莎普爱思药业股份有限公司": {
+    "sponsor_en": "Shanghai Zhizhen Biotechnology Co., Ltd. / Zhejiang Sapu Aisi Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Zhizhen  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "不适用/ 赛诺菲（中国）投资有限公司": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "N"
+  },
+  "辽宁天安生物制药股份有限公司": {
+    "sponsor_en": "Liaoning Tianan Biopharmaceutical Co., Ltd.",
+    "query_term": "Liaoning Tianan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Inmunotek S.L./ 上海浩欧博生物医药有限责任公司/ INMUNOTEK, S.L.": {
+    "sponsor_en": "Inmunotek S.L. / Shanghai HOOBIO Biotechnology Co., Ltd. / INMUNOTEK, S.L.",
+    "query_term": "Inmunotek S.L.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "远大赛威信生命科学（南京）有限公司/ 远大赛威信生命科学(杭州)有限公司": {
+    "sponsor_en": "Yuan Da Saiwei Life Sciences (Nanjing) Co., Ltd. / Yuan Da Saiwei Life Sciences (Hangzhou) Co., Ltd.",
+    "query_term": "Yuan Da Saiwei Life Sciences (Nanjing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华润双鹤利民药业（济南）有限公司": {
+    "sponsor_en": "China Resources Double-Crane Limin Pharmaceutical (Jinan) Co., Ltd.",
+    "query_term": "China Resources Double-Crane Limin  (Jinan) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
