@@ -11959,5 +11959,40 @@
     "query_term": "Shanghai Yuanxi   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "西安尚益康医药研究所": {
+    "sponsor_en": "Xi'an Shangyikang Pharmaceutical Research Institute",
+    "query_term": "Xi'an Shangyikang  Research Institute",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中山大学中山眼科中心": {
+    "sponsor_en": "Zhongshan Eye Center, Sun Yat-sen University",
+    "query_term": "Zhongshan Eye Center, Sun Yat-sen University",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Immedica Pharma AB/ 浙江医学科技开发有限公司/ Unimedic AB": {
+    "sponsor_en": "Immedica Pharma AB / Zhejiang Medical Technology Development Co., Ltd. / Unimedic AB",
+    "query_term": "Immedica Pharma AB",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02561234",
+      "NCT03371979",
+      "NCT03378531",
+      "NCT02732184"
+    ]
+  },
+  "江苏恒瑞医药股份有限公司/ 上海迈晋生物医药科技有限公司": {
+    "sponsor_en": "Jiangsu Hengrui Medicine Co., Ltd. / Shanghai Maijin Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04446260",
+      "NCT07796763",
+      "NCT03398720",
+      "NCT03203811",
+      "NCT03463187"
+    ]
   }
 }
