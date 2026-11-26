@@ -11893,5 +11893,41 @@
     "query_term": "Beijing Lianxin  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "仲颐（广州）科技创新研究有限公司/ 中国中医科学院中药研究所": {
+    "sponsor_en": "Zhongyi (Guangzhou) Technology Innovation Research Co., Ltd. / Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences",
+    "query_term": "Zhongyi (Guangzhou)  Innovation Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳微芯生物科技股份有限公司": {
+    "sponsor_en": "Shenzhen Chipscreen Biosciences Co., Ltd.",
+    "query_term": "Shenzhen Chipscreen Biosciences .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "微境生物医药科技（上海）有限公司": {
+    "sponsor_en": "Weijing Biomedical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Weijing   (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东省创新药转化医学研究院有限公司/ 深圳市原力生命科学有限公司/ 佛山市原力生物科技有限公司/ 上海聚原生物科技有限公司": {
+    "sponsor_en": "Guangdong Innovative Drug Translational Medicine Research Institute Co., Ltd. / Shenzhen Yuanli Life Sciences Co., Ltd. / Foshan Yuanli Biotechnology Co., Ltd. / Shanghai Joyuan Biotechnology Co., Ltd.",
+    "query_term": "Guangdong Innovative Drug Translational Medicine Research Institute .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "medac Gesellschaft für klinische Spezialpr？parate mbH/ 深圳市康哲生物科技有限公司/ Oncotec Pharma Produktion GmbH": {
+    "sponsor_en": "medac Gesellschaft für klinische Spezialpr？parate mbH / Shenzhen Kangzhe Biotechnology Co., Ltd. / Oncotec Pharma Produktion GmbH",
+    "query_term": "medac Gesellschaft für klinische Spezialpr？parate mbH",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "青岛海洋生物医药研究院/ 中国海洋大学/ 正大制药（青岛）有限公司": {
+    "sponsor_en": "Qingdao Marine Biomedical Research Institute / Ocean University of China / Zhengda Pharmaceutical (Qingdao) Co., Ltd.",
+    "query_term": "Qingdao Marine  Research Institute",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
