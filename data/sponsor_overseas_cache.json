@@ -12036,5 +12036,76 @@
     "query_term": "Shanghai Haihe  Research and Development .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "石家庄沃泰生物科技有限公司": {
+    "sponsor_en": "Shijiazhuang Wotai Biotechnology Co., Ltd.",
+    "query_term": "Shijiazhuang Wotai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Raziel Therapeutics (RT) Ltd./ 天津星魅生物科技有限公司/ Patheon Italia S.p.A.": {
+    "sponsor_en": "Raziel Therapeutics (RT) Ltd. / Tianjin Xingmei Biotechnology Co., Ltd. / Patheon Italia S.p.A.",
+    "query_term": "Raziel Therapeutics (RT) Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Taiho Oncology, Inc./ 赛纽仕医药信息咨询（北京）有限公司/ Penn Pharmaceutical Services Limited": {
+    "sponsor_en": "Taiho Oncology, Inc. / Syneos Health Information Consulting (Beijing) Co., Ltd. / Penn Pharmaceutical Services Limited",
+    "query_term": "Taiho Oncology, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04507503",
+      "NCT03762161",
+      "NCT04024436",
+      "NCT04657081"
+    ]
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Cilag AG/ Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC/ Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC; Almac Clinical Services; Almac Clinical Services/ Patheon Italia S.P.A. (Thermo Fisher Scientific)": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Cilag AG / Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC / Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC; Almac Clinical Services; Almac Clinical Services / Patheon Italia S.P.A. (Thermo Fisher Scientific)",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05083169",
+      "NCT04978337",
+      "NCT04513912",
+      "NCT02715011",
+      "NCT02207244"
+    ]
+  },
+  "厦门特宝生物工程股份有限公司/ 厦门伯赛基因转录技术有限公司": {
+    "sponsor_en": "Xiamen TTBio Technology Co., Ltd. / Xiamen Bose Gene Transcription Technology Co., Ltd.",
+    "query_term": "Xiamen TTBio  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "合肥今越制药有限公司": {
+    "sponsor_en": "Hefei Jinyue Pharmaceutical Co., Ltd.",
+    "query_term": "Hefei Jinyue  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东乾晖生物科技有限公司": {
+    "sponsor_en": "Guangdong Qianhui Biotechnology Co., Ltd.",
+    "query_term": "Guangdong Qianhui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "靖因药业（上海）有限公司": {
+    "sponsor_en": "Jinyin Pharmaceutical (Shanghai) Co., Ltd.",
+    "query_term": "Jinyin  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Gilead Sciences, Inc./ 吉利德（上海）医药科技有限公司/ BSP Pharmaceuticals S.p.A.": {
+    "sponsor_en": "Gilead Sciences, Inc. / Gilead (Shanghai) Pharmaceutical Technology Co., Ltd. / BSP Pharmaceuticals S.p.A.",
+    "query_term": "Gilead Sciences, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康方汇科（上海）生物有限公司": {
+    "sponsor_en": "KangFangHuiKe ( Shanghai ) Bio Co., Ltd.",
+    "query_term": "KangFangHuiKe ( Shanghai ) Bio .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
