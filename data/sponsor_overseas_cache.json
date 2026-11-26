@@ -12256,5 +12256,35 @@
     "query_term": "Liti (Hangzhou)   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "深圳欧科健生物医药科技有限公司": {
+    "sponsor_en": "Shenzhen Oukejian Biomedical Technology Co., Ltd.",
+    "query_term": "Shenzhen Oukejian   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京力博维制药有限公司/ 南京优科制药有限公司": {
+    "sponsor_en": "Nanjing Libowei Pharmaceutical Co., Ltd. / Nanjing Youke Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Libowei  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "松鹤免疫生物医疗（深圳）有限公司/ 归气丹生物医药（中山）有限公司": {
+    "sponsor_en": "Songhe Immunobiology Medical (Shenzhen) Co., Ltd. / Guiqi Dan Biomedicine (Zhongshan) Co., Ltd.",
+    "query_term": "Songhe Immunobiology Medical (Shenzhen) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳市卫光生物制品股份有限公司": {
+    "sponsor_en": "Shenzhen Weigang Biological Products Co., Ltd.",
+    "query_term": "Shenzhen Weigang Biological Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Developpement/ 赛诺菲（中国）投资有限公司/ Genzyme Ireland Ltd.,;Sanofi-Aventis Deutschland GmbH": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Developpement / Sanofi (China) Investment Co., Ltd. / Genzyme Ireland Ltd.,;Sanofi-Aventis Deutschland GmbH",
+    "query_term": "Sanofi-Aventis Recherche & Developpement",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
