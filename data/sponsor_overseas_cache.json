@@ -11753,5 +11753,56 @@
     "query_term": "Jingwei   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "长风药业股份有限公司": {
+    "sponsor_en": "Changfeng Pharmaceutical Co., Ltd.",
+    "query_term": "Changfeng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京协和药厂/ 河南真实生物科技有限公司": {
+    "sponsor_en": "Beijing Union Pharmaceutical Factory / Henan Zhenshi Biotechnology Co., Ltd.",
+    "query_term": "Beijing Union  Factory",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天津药物研究院有限公司": {
+    "sponsor_en": "Tianjin Institute of Pharmaceutical Research Co., Ltd.",
+    "query_term": "Tianjin Institute of  Research .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "黑龙江珍宝岛药业股份有限公司/ 哈尔滨珍宝制药有限公司": {
+    "sponsor_en": "Heilongjiang Zhenbao Island Pharmaceutical Co., Ltd. / Harbin Zhenbao Pharmaceutical Co., Ltd.",
+    "query_term": "Heilongjiang Zhenbao Island  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "FBD Biologics Limited/ 上海汉科生物有限公司/ 友杏生技医药股份有限公司中科分公司": {
+    "sponsor_en": "FBD Biologics Limited / Shanghai Hanko Biotechnology Co., Ltd. / Youxing Biotechnology Pharmaceutical Co., Ltd. Zhongke Branch",
+    "query_term": "FBD Biologics",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05892718",
+      "NCT06487624"
+    ]
+  },
+  "河北华晨药业集团有限公司": {
+    "sponsor_en": "Hebei Huachen Pharmaceutical Group Co., Ltd.",
+    "query_term": "Hebei Huachen   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "海南斯达制药有限公司": {
+    "sponsor_en": "Hainan Star Pharmaceutical Co., Ltd.",
+    "query_term": "Hainan Star  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "郑州莱士血液制品有限公司": {
+    "sponsor_en": "Zhengzhou Lapis Blood Products Co., Ltd.",
+    "query_term": "Zhengzhou Lapis Blood Products .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
