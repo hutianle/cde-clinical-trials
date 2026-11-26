@@ -11651,5 +11651,35 @@
     "query_term": "Sichuan Tiandao  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "上海润石医药科技有限公司": {
+    "sponsor_en": "Shanghai Runshi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Runshi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江同源康医药股份有限公司": {
+    "sponsor_en": "Zhejiang Tongyuankang Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Tongyuankang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "GlaxoSmithKline (Ireland) Limited/ 葛兰素史克（中国）投资有限公司/ Glaxo Operations UK Limited": {
+    "sponsor_en": "GlaxoSmithKline (Ireland) Limited / GlaxoSmithKline (China) Investment Co., Ltd. / Glaxo Operations UK Limited",
+    "query_term": "GlaxoSmithKline (Ireland)",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京优科制药有限公司": {
+    "sponsor_en": "Nanjing Youke Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Youke  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Alexion Pharmaceuticals, Inc./ 阿斯利康全球研发（中国）有限公司/ Rechon Life Science AB": {
+    "sponsor_en": "Alexion Pharmaceuticals, Inc. / AstraZeneca Global R&D (China) Co., Ltd. / Rechon Life Science AB",
+    "query_term": "Alexion , Inc.",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
