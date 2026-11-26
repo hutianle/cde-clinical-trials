@@ -12238,5 +12238,23 @@
     "query_term": "Shanghai Huaiyue  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Daiichi Sankyo, Inc./ 第一三共（中国）投资有限公司/ Daiichi Sankyo Propharma Co., Ltd.; BSP Pharmaceuticals S.p.A.": {
+    "sponsor_en": "Daiichi Sankyo, Inc. / Daiichi Sankyo (China) Investment Co., Ltd. / Daiichi Sankyo Propharma Co., Ltd.; BSP Pharmaceuticals S.p.A.",
+    "query_term": "Daiichi Sankyo, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江养生堂生物科技有限公司/ 养生堂有限公司/ 厦门大学": {
+    "sponsor_en": "Zhejiang Yongsheng Biotechnology Co., Ltd. / Yangsheng Hall Co., Ltd. / Xiamen University",
+    "query_term": "Zhejiang Yongsheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "励缔（杭州）医药科技有限公司": {
+    "sponsor_en": "Liti (Hangzhou) Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Liti (Hangzhou)   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
