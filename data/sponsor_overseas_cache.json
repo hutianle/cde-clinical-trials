@@ -11613,5 +11613,43 @@
     "query_term": "argenx BV",
     "has_us_site": false,
     "us_trials": []
+  },
+  "格物生物技术（江苏）有限公司": {
+    "sponsor_en": "Gevity Biotechnology (Jiangsu) Co., Ltd.",
+    "query_term": "Gevity  (Jiangsu) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京科莱博医药开发有限责任公司": {
+    "sponsor_en": "Beijing Colabor Pharmaceutical Development Co., Ltd.",
+    "query_term": "Beijing Colabor  Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东普罗凯融生物医药科技有限公司": {
+    "sponsor_en": "Guangdong Procare Biomedical Technology Co., Ltd.",
+    "query_term": "Guangdong Procare   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "F. Hoffmann-La Roche Ltd/ 罗氏（中国）投资有限公司": {
+    "sponsor_en": "F. Hoffmann-La Roche Ltd / Roche (China) Investment Co., Ltd.",
+    "query_term": "F. Hoffmann-La Roche Ltd",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04895436"
+    ]
+  },
+  "上海懿峰生物科技有限公司": {
+    "sponsor_en": "Shanghai Yifeng Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Yifeng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川天道制药有限公司": {
+    "sponsor_en": "Sichuan Tiandao Pharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Tiandao  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
