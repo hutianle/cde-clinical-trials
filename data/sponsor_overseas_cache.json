@@ -12441,5 +12441,29 @@
     "query_term": "Actelion  Ltd",
     "has_us_site": false,
     "us_trials": []
+  },
+  "苏州君境生物医药科技有限公司": {
+    "sponsor_en": "Suzhou Junjing Biomedical Technology Co., Ltd.",
+    "query_term": "Suzhou Junjing   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京东方运嘉科技发展有限公司": {
+    "sponsor_en": "Beijing Dongfang Yunjia Technology Development Co., Ltd.",
+    "query_term": "Beijing Dongfang Yunjia  Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Mirati Therapeutics, Inc./ 再鼎医药（上海）有限公司/ Patheon Inc.": {
+    "sponsor_en": "Mirati Therapeutics, Inc. / Zai Lab (Shanghai) Co., Ltd. / Patheon Inc.",
+    "query_term": "Mirati Therapeutics, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "乐普药业股份有限公司": {
+    "sponsor_en": "LEPU PHARMACEUTICAL Co Ltd",
+    "query_term": "LEPU  Co Ltd",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
