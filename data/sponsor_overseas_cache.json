@@ -12489,5 +12489,39 @@
     "query_term": "Guangzhou Kenta   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "贵阳新天药业股份有限公司": {
+    "sponsor_en": "Guiyang Xintian Pharmaceutical Co., Ltd.",
+    "query_term": "Guiyang Xintian  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京安龙生物医药有限公司": {
+    "sponsor_en": "Beijing Anlong Biopharmaceutical Co., Ltd.",
+    "query_term": "Beijing Anlong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "---/ 优时比贸易（上海）有限公司": {
+    "sponsor_en": "--- / U-TIMES Trading (Shanghai) Co., Ltd.",
+    "query_term": "UCB",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT01458522",
+      "NCT00624351",
+      "NCT01711866"
+    ]
+  },
+  "AbbVie Inc./ 艾伯维医药贸易（上海）有限公司/ Patheon Italia S.p.A.": {
+    "sponsor_en": "AbbVie Inc. / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd. / Patheon Italia S.p.A.",
+    "query_term": "AbbVie Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京百奥药业有限责任公司": {
+    "sponsor_en": "Beijing Bio-Health Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Bio-Health  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
