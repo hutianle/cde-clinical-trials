@@ -12107,5 +12107,65 @@
     "query_term": "KangFangHuiKe ( Shanghai ) Bio .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "武汉人福药业有限责任公司/ 武汉人福利康药业有限公司": {
+    "sponsor_en": "Wuhan Humanwell Pharmaceutical Co., Ltd. / Wuhan Renfulikang Pharmaceutical Co., Ltd.",
+    "query_term": "Humanwell",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "重庆精准生物技术有限公司": {
+    "sponsor_en": "Chongqing Jingzhun Biotechnology Co., Ltd.",
+    "query_term": "Chongqing Jingzhun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京浦润奥生物科技有限责任公司": {
+    "sponsor_en": "Beijing Purunao Biotechnology Co., Ltd.",
+    "query_term": "Beijing Purunao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "先声药业有限公司": {
+    "sponsor_en": "Perrigo Pharmaceutical Co., Ltd.",
+    "query_term": "Simcere",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06792552",
+      "NCT05569057",
+      "NCT05940883",
+      "NCT05781360",
+      "NCT06375044"
+    ]
+  },
+  "武汉人福药业有限责任公司": {
+    "sponsor_en": "Wuhan Humanwell Pharmaceutical Co., Ltd.",
+    "query_term": "Humanwell",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海镔铁生物科技有限责任公司/ 药华医药生物科技（上海）有限公司": {
+    "sponsor_en": "Shanghai BinTie Biotechnology Co., Ltd. / Yaohua Pharmaceutical Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Shanghai BinTie  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "恒翼生物医药科技（上海）有限公司": {
+    "sponsor_en": "Hengyi Biopharmaceutical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Hengyi   (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "仁景（苏州）生物科技有限公司": {
+    "sponsor_en": "Renjing (Suzhou) Biotechnology Co., Ltd.",
+    "query_term": "Renjing (Suzhou)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Basilea Pharmaceutica International Ltd, Allschwil/ 精鼎医药研究开发（上海）有限公司/ Quotient Sciences – Philadelphia, LLC": {
+    "sponsor_en": "Basilea Pharmaceutica International Ltd, Allschwil / Jingding Pharmaceutical Research and Development (Shanghai) Co., Ltd. / Quotient Sciences – Philadelphia, LLC",
+    "query_term": "Basilea Pharmaceutica International Ltd, Allschwil",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
