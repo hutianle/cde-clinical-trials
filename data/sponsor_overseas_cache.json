@@ -12167,5 +12167,29 @@
     "query_term": "Basilea Pharmaceutica International Ltd, Allschwil",
     "has_us_site": false,
     "us_trials": []
+  },
+  "山东信诺维医药科技有限公司": {
+    "sponsor_en": "Shandong Xinnuowei Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shandong Xinnuowei   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Corxel Pharmaceuticals, Inc./ 箕星药业科技（上海）有限公司/ Fuji Yakuhin Co., Ltd": {
+    "sponsor_en": "Corxel Pharmaceuticals, Inc. / Jixing Pharmaceutical Technology (Shanghai) Co., Ltd. / Fuji Yakuhin Co., Ltd",
+    "query_term": "Corxel , Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京康乐卫士生物技术股份有限公司/ 辽宁成大生物股份有限公司": {
+    "sponsor_en": "Beijing Kanglweishi Biotechnology Co., Ltd. / Liaoning Chengda Biotechnology Co., Ltd.",
+    "query_term": "Beijing Kanglweishi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海弘医堂生物医药科技有限公司": {
+    "sponsor_en": "Shanghai Hongyitang Biomedicine Technology Co., Ltd.",
+    "query_term": "Shanghai Hongyitang Biomedicine  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
