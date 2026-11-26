@@ -12465,5 +12465,29 @@
     "query_term": "LEPU  Co Ltd",
     "has_us_site": false,
     "us_trials": []
+  },
+  "AbbVie Deutschland GmbH & Co. KG/ 艾伯维医药贸易（上海）有限公司/ AbbVie Ireland NL B.V./ AbbVie S.r.l.": {
+    "sponsor_en": "AbbVie Deutschland GmbH & Co. KG / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd. / AbbVie Ireland NL B.V. / AbbVie S.r.l.",
+    "query_term": "AbbVie Deutschland GmbH & Co. KG",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "复星汉霖（深圳）生物技术有限公司/ 上海复宏汉霖生物技术股份有限公司": {
+    "sponsor_en": "Fosun Pharma (Shenzhen) Biotechnology Co., Ltd. / Shanghai Henlius Biotech, Inc.",
+    "query_term": "Fosun Pharma (Shenzhen)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京纽维珀奥医药科技有限公司": {
+    "sponsor_en": "Beijing NewViper Medical Technology Co., Ltd.",
+    "query_term": "Beijing NewViper Medical  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州科恩泰生物医药科技有限公司": {
+    "sponsor_en": "Guangzhou Kenta Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Guangzhou Kenta   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
