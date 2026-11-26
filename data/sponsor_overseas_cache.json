@@ -11804,5 +11804,40 @@
     "query_term": "Zhengzhou Lapis Blood Products .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "江苏柯菲平医药股份有限公司/ 南京柯菲平盛辉制药有限公司": {
+    "sponsor_en": "Jiangsu Kefeiping Pharmaceutical Co., Ltd. / Nanjing Keffi Ping ShengHui Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Kefeiping  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma Schweiz AG/ 诺华（中国）生物医学研究有限公司/ Novartis Singapore Pharmaceutical Manufacturing Pte. Ltd./ Novartis Pharma Stein AG": {
+    "sponsor_en": "Novartis Pharma Schweiz AG / Novartis (China) BioMedical Research Co., Ltd. / Novartis Singapore Pharmaceutical Manufacturing Pte. Ltd. / Novartis Pharma Stein AG",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00600275",
+      "NCT02201212",
+      "NCT00101803",
+      "NCT01179737"
+    ]
+  },
+  "Takeda Development Center Americas, Inc./ 武田（中国）国际贸易有限公司/ Hovione FarmaCiencia SA/ Fisher Clinical Services Inc.": {
+    "sponsor_en": "Takeda Development Center Americas, Inc. / Takeda (China) International Trading Co., Ltd. / Hovione FarmaCiencia SA / Fisher Clinical Services Inc.",
+    "query_term": "Takeda Development Center Americas, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07042685",
+      "NCT02927067",
+      "NCT03879135",
+      "NCT04683003",
+      "NCT01922440"
+    ]
+  },
+  "山东青佰欣达医药科技有限公司": {
+    "sponsor_en": "Shandong Qingbaixinda Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shandong Qingbaixinda   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
