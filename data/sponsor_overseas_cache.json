@@ -11681,5 +11681,77 @@
     "query_term": "Alexion , Inc.",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Institut de Recherches Internationales Servier/ 施维雅（北京）医药研发有限公司/ Siegfried Hameln GmbH": {
+    "sponsor_en": "Institut de Recherches Internationales Servier / Servier (Beijing) Pharmaceutical Research and Development Co., Ltd. / Siegfried Hameln GmbH",
+    "query_term": "Institut de Recherches Internationales Servier",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07286292",
+      "NCT04737187",
+      "NCT05674474",
+      "NCT04164901",
+      "NCT06127407"
+    ]
+  },
+  "Institut de Recherches Internationales Servier/ 施维雅（北京）医药研发有限公司/ Patheon Inc./ PCI Pharma Services (AndersonBrecon Inc.)": {
+    "sponsor_en": "Institut de Recherches Internationales Servier / Servier (Beijing) Pharmaceutical Research and Development Co., Ltd. / Patheon Inc. / PCI Pharma Services (AndersonBrecon Inc.)",
+    "query_term": "Institut de Recherches Internationales Servier",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07286292",
+      "NCT04737187",
+      "NCT05674474",
+      "NCT04164901",
+      "NCT06127407"
+    ]
+  },
+  "华北制药集团新药研究开发有限责任公司": {
+    "sponsor_en": "North China Pharmaceutical Group New Drug Research and Development Co., Ltd.",
+    "query_term": "North China   New Drug Research and Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "石药集团百克（山东）生物制药股份有限公司": {
+    "sponsor_en": "Shiyao Group Baike (Shandong) Biopharmaceutical Co., Ltd.",
+    "query_term": "Shiyao  Baike (Shandong)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海先祥医药科技有限公司": {
+    "sponsor_en": "Shanghai Xianxiang Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Xianxiang   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏吉贝尔药业股份有限公司": {
+    "sponsor_en": "Jiangsu Kanion Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Kanion  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Institut de Recherches Internationales Servier/ 施维雅（北京）医药研发有限公司/ Rottendorf Pharma GmbH": {
+    "sponsor_en": "Institut de Recherches Internationales Servier / Servier (Beijing) Pharmaceutical Research and Development Co., Ltd. / Rottendorf Pharma GmbH",
+    "query_term": "Institut de Recherches Internationales Servier",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07286292",
+      "NCT04737187",
+      "NCT05674474",
+      "NCT04164901",
+      "NCT06127407"
+    ]
+  },
+  "上海赛默罗德生物科技有限公司": {
+    "sponsor_en": "Shanghai Thermorode Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Thermorode  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "劲威生物医药科技有限公司": {
+    "sponsor_en": "Jingwei Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Jingwei   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
