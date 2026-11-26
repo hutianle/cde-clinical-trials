@@ -11994,5 +11994,47 @@
       "NCT03203811",
       "NCT03463187"
     ]
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Catalent Maryland BioPark (BPK)/ Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Catalent Pharma Solutions LLC": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Catalent Maryland BioPark (BPK) / Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Catalent Pharma Solutions LLC",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05083169",
+      "NCT04978337",
+      "NCT04513912",
+      "NCT02715011",
+      "NCT02207244"
+    ]
+  },
+  "北京盛迪医药有限公司/ 福建盛迪医药有限公司/ 北京拓界生物医药科技有限公司": {
+    "sponsor_en": "Beijing Shengdi Pharmaceutical Co., Ltd. / Fujian Shengdi Pharmaceutical Co., Ltd. / Beijing Tuojie Biomedical Technology Co., Ltd.",
+    "query_term": "Beijing Shengdi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海上药第一生化药业有限公司": {
+    "sponsor_en": "Shanghai Shyndec First Biochemical Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Shyndec First Biochemical  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南通本草八达医药科技香港有限公司/ 精鼎医药研究开发（上海）有限公司/ Corden Pharma Latina S.p.A./ NerPharMa S.r.l.": {
+    "sponsor_en": "Nantong Bencao Bada Pharmaceutical Technology Hong Kong Co., Ltd. / Jingding Pharmaceutical Research and Development (Shanghai) Co., Ltd. / Corden Pharma Latina S.p.A. / NerPharMa S.r.l.",
+    "query_term": "Nantong Bencao Bada   Hong Kong .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "无锡济煜山禾药业股份有限公司/ 江西艾施特制药有限公司": {
+    "sponsor_en": "Wuxi Jiyu Shanhe Pharmaceutical Co., Ltd. / Jiangxi Aishite Pharmaceutical Co., Ltd.",
+    "query_term": "Wuxi Jiyu Shanhe  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海海和药物研究开发有限公司": {
+    "sponsor_en": "Shanghai Haihe Pharmaceutical Research and Development Co., Ltd.",
+    "query_term": "Shanghai Haihe  Research and Development .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
