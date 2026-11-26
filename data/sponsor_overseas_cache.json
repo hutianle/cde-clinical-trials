@@ -12191,5 +12191,52 @@
     "query_term": "Shanghai Hongyitang Biomedicine  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Pfizer Inc./ 辉瑞投资有限公司/ Pharmacia & Upjohn Company LLC": {
+    "sponsor_en": "Pfizer Inc. / Pfizer Inc. / Pharmacia & Upjohn Company LLC",
+    "query_term": "Pfizer Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏杜瑞制药有限公司": {
+    "sponsor_en": "Jiangsu Durey Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Durey  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康全球研发（中国）有限公司/ AstraZeneca AB R&D Gothenburg": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Global R&D (China) Co., Ltd. / AstraZeneca AB R&D Gothenburg",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 北京诺华制药有限公司/ Sofie Co.": {
+    "sponsor_en": "Novartis Pharma AG / Novartis Pharmaceuticals (Beijing) Co., Ltd. / Sofie Co.",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00600275",
+      "NCT02201212",
+      "NCT00101803",
+      "NCT01179737"
+    ]
+  },
+  "保定天浩制药有限公司/ 杨凌步长制药有限公司": {
+    "sponsor_en": "Baoding Tianhao Pharmaceutical Co., Ltd. / Yangling Buchang Pharmaceutical Co., Ltd.",
+    "query_term": "Baoding Tianhao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "珠海丽凡达生物技术有限公司": {
+    "sponsor_en": "Zhuhai Lifanda Biotechnology Co., Ltd.",
+    "query_term": "Zhuhai Lifanda  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海怀越生物科技有限公司": {
+    "sponsor_en": "Shanghai Huaiyue Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Huaiyue  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
