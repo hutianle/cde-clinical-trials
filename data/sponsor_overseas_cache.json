@@ -12393,5 +12393,53 @@
     "query_term": "Beijing Huageng Anbang  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "山东罗欣药业集团股份有限公司/ 罗欣药业（上海）有限公司": {
+    "sponsor_en": "Shandong Luoxin Pharmaceutical Group Co Ltd / Luoxin Pharmaceutical (Shanghai) Co., Ltd.",
+    "query_term": "Shandong Luoxin   Co Ltd",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州银诺医药集团股份有限公司": {
+    "sponsor_en": "Guangzhou Yinnuo Pharmaceutical Group Co., Ltd.",
+    "query_term": "Guangzhou Yinnuo   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川好医生攀西药业有限责任公司/ 罗欣安若维他药业（成都）有限公司": {
+    "sponsor_en": "Sichuan Haoyisheng Panxi Pharmaceutical Co., Ltd. / Rossin Anruo Vita Pharmaceutical (Chengdu) Co., Ltd.",
+    "query_term": "Sichuan Haoyisheng Panxi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "霍尔果斯邀月咨询有限公司/ 四川大学华西医院/ 成都力思特制药股份有限公司": {
+    "sponsor_en": "Horgos Yaoyue Consulting Co., Ltd. / West China Hospital, Sichuan University / Chengdu Lisi Special Pharmaceutical Co., Ltd.",
+    "query_term": "Horgos Yaoyue Consulting .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖北福人药业股份有限公司": {
+    "sponsor_en": "Hubei Furin Pharmaceutical Co., Ltd.",
+    "query_term": "Hubei Furin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京哲源科技有限责任公司": {
+    "sponsor_en": "Beijing Zheyuan Technology Co., Ltd.",
+    "query_term": "Beijing Zheyuan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康希诺生物股份公司": {
+    "sponsor_en": "CanSino Biologics Inc.",
+    "query_term": "CanSino Biologics Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Actelion Pharmaceuticals Ltd/ 强生（中国）投资有限公司/ Excella GmbH & Co KG/ Janssen Pharmaceutica NV, Division Janssen Research and Development; Catalent CTS, LLC; Catalent Pharma Solutions LLC.; Catalent Germany Schorndorf GmbH; Fisher Clinical Services GmbH": {
+    "sponsor_en": "Actelion Pharmaceuticals Ltd / Johnson & Johnson (China) Investment Co., Ltd. / Excella GmbH & Co KG / Janssen Pharmaceutica NV, Division Janssen Research and Development; Catalent CTS, LLC; Catalent Pharma Solutions LLC.; Catalent Germany Schorndorf GmbH; Fisher Clinical Services GmbH",
+    "query_term": "Actelion  Ltd",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
