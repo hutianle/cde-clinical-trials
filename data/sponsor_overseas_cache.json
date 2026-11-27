@@ -12645,5 +12645,59 @@
     "query_term": "Nanjing Shunxin  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "成都可恩生物科技有限公司": {
+    "sponsor_en": "Chengdu Conen Biotechnology Co., Ltd.",
+    "query_term": "Chengdu Conen  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "安徽智飞龙科马生物制药有限公司": {
+    "sponsor_en": "Anhui Zhifei Longcom Biopharmaceutical Co., Ltd.",
+    "query_term": "Anhui Zhifei Longcom  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都欧林生物科技股份有限公司/ 兰州百灵生物技术有限公司/ 成都新诺明生物科技有限公司": {
+    "sponsor_en": "Chengdu Olin Biotechnology Co., Ltd. / Lanzhou Bailin Biotechnology Co., Ltd. / Chengdu Xinnuoming Biotechnology Co., Ltd.",
+    "query_term": "Chengdu Olin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Incyte Corporation/ 因塞特医药科技（上海）有限公司/ Vetter Pharma-Fertigung GmbH & Co. KG": {
+    "sponsor_en": "Incyte Corporation / Incepta Pharmaceutical Technology (Shanghai) Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co. KG",
+    "query_term": "Incyte Corporation",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05750823",
+      "NCT02298153",
+      "NCT07548983",
+      "NCT04472429",
+      "NCT03358472"
+    ]
+  },
+  "贵州世领制药有限公司/ 上海世领制药有限公司": {
+    "sponsor_en": "Guizhou Shiling Pharmaceutical Co., Ltd. / Shanghai Shiling Pharmaceutical Co., Ltd.",
+    "query_term": "Guizhou Shiling  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京科兴中维生物技术有限公司/ 北京科兴生物制品有限公司": {
+    "sponsor_en": "Sinovac Biotech Co., Ltd. / Sinovac Biotech Co., Ltd.",
+    "query_term": "Sinovac Biotech .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Vifor Fresenius Medical Care Renal Pharma Ltd./ 杭州泰格医药科技股份有限公司/ Vifor SA": {
+    "sponsor_en": "Vifor Fresenius Medical Care Renal Pharma Ltd. / Hangzhou Tigermed Consulting Co., Ltd. / Vifor SA",
+    "query_term": "Vifor Fresenius Medical Care Renal Pharma Ltd.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "GlaxoSmithKline Research & Development Limited/ 葛兰素史克（中国）投资有限公司/ Glaxo Operations UK Limited (trading as Glaxo Wellcome Operations)": {
+    "sponsor_en": "GlaxoSmithKline Research & Development Limited / GlaxoSmithKline (China) Investment Co., Ltd. / Glaxo Operations UK Limited (trading as Glaxo Wellcome Operations)",
+    "query_term": "GlaxoSmithKline Research & Development",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
