@@ -13081,5 +13081,65 @@
     "query_term": "Beijing Zhongyin  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "AstraZeneca AB/ 阿斯利康投资（中国）有限公司/ Vetter Development Services USA, Inc./ Fisher Clinical Services Inc.": {
+    "sponsor_en": "AstraZeneca AB / AstraZeneca Investment (China) Co., Ltd. / Vetter Development Services USA, Inc. / Fisher Clinical Services Inc.",
+    "query_term": "AstraZeneca AB",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "启德医药科技（苏州）有限公司": {
+    "sponsor_en": "QiDe Pharmaceutical Technology ( Suzhou ) Co., Ltd.",
+    "query_term": "QiDe   ( Suzhou ) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AstraZeneca Pharmaceuticals LP/ 阿斯利康全球研发（中国）有限公司/ AstraZeneca Dunkerque Production": {
+    "sponsor_en": "AstraZeneca Pharmaceuticals LP / AstraZeneca Global R&D (China) Co., Ltd. / AstraZeneca Dunkerque Production",
+    "query_term": "AstraZeneca  LP",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州中美华东制药有限公司/ 湖北舒邦药业有限公司": {
+    "sponsor_en": "Hangzhou Sino-American Huadong Pharmaceutical Co., Ltd. / HuBeiShuBang Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Sino-American Huadong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Daiichi Sankyo, Inc./ 第一三共（中国）投资有限公司/ Patheon France": {
+    "sponsor_en": "Daiichi Sankyo, Inc. / Daiichi Sankyo (China) Investment Co., Ltd. / Patheon France",
+    "query_term": "Daiichi Sankyo, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Mayne Pharma International Pty Ltd/ 国药集团药业股份有限公司/ Aspen Pharma Pty Ltd": {
+    "sponsor_en": "Mayne Pharma International Pty Ltd / GuoYaoJiTuan Pharmaceutical Co., Ltd. / Aspen Pharma Pty Ltd",
+    "query_term": "Mayne Pharma International Pty Ltd",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03980223",
+      "NCT03738800",
+      "NCT03996252",
+      "NCT04809649",
+      "NCT03992261"
+    ]
+  },
+  "苏州特瑞药业股份有限公司": {
+    "sponsor_en": "Suzhou TeRui Pharmaceutical Co., Ltd.",
+    "query_term": "Suzhou TeRui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海君赛生物科技有限公司": {
+    "sponsor_en": "Shanghai JunSai Biotechnology Co., Ltd.",
+    "query_term": "Shanghai JunSai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京柏雅联合药物研究所有限公司/ 广东众生药业股份有限公司": {
+    "sponsor_en": "Beijing BaiYaLianHeYaoWu Research Institute Co., Ltd. / GuangDongZhongSheng Pharmaceutical Co., Ltd.",
+    "query_term": "Zhongsheng",
+    "has_us_site": false,
+    "us_trials": []
   }
 }

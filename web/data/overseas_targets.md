@@ -4,7 +4,7 @@
 > - **US Site Signal (`us_site`):** Confirmed clinical trial with sites in the United States registered on ClinicalTrials.gov (API v2).
 > - **Dual Filing Signal (`dual_filing`):** CDE Class 1 innovative candidate in Phase II/III with international trial registration identifier.
 > - **Manual BD Columns:** FDA IND/Orphan Drug designations and recent licensing/financing news are reserved as manual diligence fields.
-> - **Generated Date:** 2026-11-27 | **Identified High-Priority Sponsors:** 215
+> - **Generated Date:** 2026-11-27 | **Identified High-Priority Sponsors:** 216
 
 | # | Sponsor (English) | Sponsor (Chinese) | Overseas Signal(s) | China CDE Trial(s) | US Trial NCT(s) | FDA IND / Orphan Status | Licensing / Financing News | Priority |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -223,6 +223,7 @@
 | 213 | Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Cilag AG / Janssen R&D, a Division of Janssen Pharmaceutica, NV; Fisher Clinical Services; Fisher Clinical Services GmbH; Catalent Germany Schorndorf GmbH; Catalent Pharma Solutions, LLC | Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Cilag AG/ Janssen R&D, a Division of Janssen Pharmaceutica, NV; Fisher Clinical Services; Fisher Clinical Services GmbH; Catalent Germany Schorndorf GmbH; Catalent Pharma Solutions, LLC | US Trial Site | CTR20250192 | NCT05083169, NCT04978337 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 214 | Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Advanced Accelerator Applications Ibérica S.L.; Advanced Accelerator Applications (Italy) S.R.L. | Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Advanced Accelerator Applications Ibérica S.L.; Advanced Accelerator Applications（Italy）S.R.L. | US Trial Site | CTR20250047 | NCT00600275, NCT02201212 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 | 215 | Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Janssen Pharmaceutica NV; Janssen-Cilag SpA / Janssen Pharmaceutica NV; Janssen-Cilag SpA; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH | Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Janssen Pharmaceutica NV; Janssen-Cilag SpA/ Janssen Pharmaceutica NV; Janssen-Cilag SpA; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH | US Trial Site | CTR20244975 | NCT05083169, NCT04978337 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
+| 216 | Mayne Pharma International Pty Ltd / GuoYaoJiTuan Pharmaceutical Co., Ltd. / Aspen Pharma Pty Ltd | Mayne Pharma International Pty Ltd/ 国药集团药业股份有限公司/ Aspen Pharma Pty Ltd | US Trial Site | CTR20244778 | NCT03980223, NCT03738800 | Pending BD Review | Pending BD Review | Tier 2 (Active) |
 
 ### Strategic BD Guidance:
 1. **Cross-Border Licensing:** Sponsors with active US clinical trials have existing regulatory momentum and overseas clinical operations.
