@@ -13141,5 +13141,47 @@
     "query_term": "Zhongsheng",
     "has_us_site": false,
     "us_trials": []
+  },
+  "北京湃驰泰克医药科技有限公司/ 兰西哈三联制药有限公司": {
+    "sponsor_en": "Beijing Paitchi Technology Pharmaceutical Co., Ltd. / Lanxi Ha Sanlian Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Paitchi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海柯君医药科技有限公司": {
+    "sponsor_en": "Shanghai Kejun Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Kejun   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "劲牌持正堂药业有限公司": {
+    "sponsor_en": "Jingpai Chizhengtang Pharmaceutical Co., Ltd.",
+    "query_term": "Jingpai Chizhengtang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "长沙托阳医药技术有限公司/ 湖南九典制药有限公司": {
+    "sponsor_en": "Changsha Tuoyang Pharmaceutical Technology Co., Ltd. / Hunan Jiudian Pharmaceutical Co., Ltd.",
+    "query_term": "Changsha Tuoyang   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "徕特康（苏州）生物制药有限公司": {
+    "sponsor_en": "Leitekang (Suzhou) Biopharmaceutical Co., Ltd.",
+    "query_term": "Leitekang (Suzhou)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Développement/ 赛诺菲（中国）投资有限公司/ Sanofi Winthrop Industrie": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement / Sanofi (China) Investment Co., Ltd. / Sanofi Winthrop Industrie",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州百吉生物制药有限公司": {
+    "sponsor_en": "Guangzhou Baiji Biopharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Baiji  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
