@@ -13213,5 +13213,69 @@
     "query_term": "Jiangsu Simcare  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "ITM Solucin GmbH/ 远大医药（中国）有限公司/ 无；无": {
+    "sponsor_en": "ITM Solucin GmbH / Grand Pharmaceutical (China) Co., Ltd. / &None; &None",
+    "query_term": "ITM Solucin GmbH",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT06441331",
+      "NCT03049189",
+      "NCT04919226"
+    ]
+  },
+  "山东达因海洋生物制药股份有限公司": {
+    "sponsor_en": "Shandong Dayin Marine Biological Pharmaceutical Co., Ltd.",
+    "query_term": "Shandong Dayin Marine Biological  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Sanofi-Aventis Recherche & Développement/ 赛诺菲（中国）投资有限公司/ Vetter Development Services Austria GmbH": {
+    "sponsor_en": "Sanofi-Aventis Recherche & Développement / Sanofi (China) Investment Co., Ltd. / Vetter Development Services Austria GmbH",
+    "query_term": "Sanofi-Aventis Recherche & Développement",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AbbVie Inc./ 艾伯维医药贸易（上海）有限公司/ AbbVie Inc.; Abbvie Ireland NL.B.V.": {
+    "sponsor_en": "AbbVie Inc. / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd. / AbbVie Inc.; Abbvie Ireland NL.B.V.",
+    "query_term": "AbbVie Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AbbVie Inc./ 艾伯维医药贸易（上海）有限公司": {
+    "sponsor_en": "AbbVie Inc. / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd.",
+    "query_term": "AbbVie Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "合肥市未来药物开发有限公司/ 江苏万禾制药有限公司": {
+    "sponsor_en": "Hefei Future Pharmaceutical Development Co., Ltd. / Jiangsu Wanhe Pharmaceutical Co., Ltd.",
+    "query_term": "Hefei Future  Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "东莞市凯法生物医药有限公司/ 海南中玉药业有限公司": {
+    "sponsor_en": "Dongguan Kaifa Biopharmaceuticals Co., Ltd. / Hainan Zhongyu Pharmaceutical Co., Ltd.",
+    "query_term": "Dongguan Kaifa Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "昆明邦宇制药有限公司": {
+    "sponsor_en": "Kunming Bangyu Pharmaceutical Co., Ltd.",
+    "query_term": "Kunming Bangyu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州泛恩生物科技有限公司": {
+    "sponsor_en": "Guangzhou Fanen Biotechnology Co., Ltd.",
+    "query_term": "Guangzhou Fanen  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海睿跃生物科技有限公司": {
+    "sponsor_en": "Shanghai Ruoyue Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Ruoyue  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
