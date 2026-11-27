@@ -13337,5 +13337,45 @@
     "query_term": "AbbVie Inc.",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Intercept Pharmaceuticals, Inc./ 赛纽仕医药信息咨询（北京）有限公司/ Almac Pharma Services Limited": {
+    "sponsor_en": "Intercept Pharmaceuticals, Inc. / Syneos Health Information Consulting (Beijing) Co., Ltd. / Almac Pharma Services Limited",
+    "query_term": "Intercept , Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏诺泰澳赛诺生物制药股份有限公司": {
+    "sponsor_en": "Jiangsu Nhwa Oceano Biopharmaceuticals Co., Ltd.",
+    "query_term": "Jiangsu Nhwa Oceano Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉波睿达生物科技有限公司": {
+    "sponsor_en": "Wuhan Borida Biotechnology Co., Ltd.",
+    "query_term": "Wuhan Borida  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Praxis Precision Medicines/ 元羿生物科技（上海）有限公司/ Catalent Pharma Solutions, LLC": {
+    "sponsor_en": "Praxis Precision Medicines / Yuan Yi Biotechnology (Shanghai) Co., Ltd. / Catalent Pharma Solutions, LLC",
+    "query_term": "Praxis Precision Medicines",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04832425",
+      "NCT05021978",
+      "NCT06087276"
+    ]
+  },
+  "广东鹍鹏肽灵生物科技有限公司": {
+    "sponsor_en": "Guangdong Pengpeng Tailing Biotechnology Co., Ltd.",
+    "query_term": "Guangdong Pengpeng Tailing  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉禾元生物科技股份有限公司": {
+    "sponsor_en": "Wuhan Heyuan Biotechnology Co., Ltd.",
+    "query_term": "Wuhan Heyuan  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
