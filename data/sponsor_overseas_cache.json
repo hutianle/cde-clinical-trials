@@ -13467,5 +13467,38 @@
     "query_term": "Qingdao Wanming Cyber Biomedicine .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "华普生物技术（河北）股份有限公司/ 华普石家庄医药有限公司/ 赋生康(上海)生物科技有限公司": {
+    "sponsor_en": "Huapu Biotechnology (Hebei) Co., Ltd. / Huapu Shijiazhuang Pharmaceutical Co., Ltd. / FuShengKang( Shanghai ) Biotechnology Co., Ltd.",
+    "query_term": "Huapu  (Hebei) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖南省中医药研究院": {
+    "sponsor_en": "HuNanShengZhong Pharmaceuticals Research Institute",
+    "query_term": "HuNanShengZhong  Research Institute",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏中慧元通生物科技股份有限公司": {
+    "sponsor_en": "Jiangsu Zhonghui Yuantong Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Zhonghui Yuantong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "CSL Behring GmbH/ 精鼎医药研究开发（上海）有限公司": {
+    "sponsor_en": "CSL Behring GmbH / Jingding Pharmaceutical Research and Development (Shanghai) Co., Ltd.",
+    "query_term": "CSL Behring GmbH",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Alpine Immune Sciences, Inc./ 再鼎医药（上海）有限公司/ Ajinomoto Bio-Pharma Services/ Fisher Clinical Services": {
+    "sponsor_en": "Alpine Immune Sciences, Inc. / Zai Lab (Shanghai) Co., Ltd. / Ajinomoto Bio-Pharma Services / Fisher Clinical Services",
+    "query_term": "Alpine Immune Sciences, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04186637",
+      "NCT05732402"
+    ]
   }
 }
