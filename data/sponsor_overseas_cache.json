@@ -13057,5 +13057,29 @@
     "query_term": "Bristol-Myers Squibb Company",
     "has_us_site": false,
     "us_trials": []
+  },
+  "广州南鑫药业有限公司": {
+    "sponsor_en": "Guangzhou Nanxin Pharmaceutical Co., Ltd.",
+    "query_term": "Guangzhou Nanxin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海麦济生物技术有限公司/ 宝船生物医药科技（上海）有限公司": {
+    "sponsor_en": "Shanghai Maizi Biotechnology Co., Ltd. / Baoship Biotechnology Co., Ltd. (Shanghai)",
+    "query_term": "Shanghai Maizi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海谊众药业股份有限公司": {
+    "sponsor_en": "Shanghai Yizhong Pharmaceutical Co., Ltd.",
+    "query_term": "Shanghai Yizhong  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京中因科技有限公司": {
+    "sponsor_en": "Beijing Zhongyin Technology Co., Ltd.",
+    "query_term": "Beijing Zhongyin  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
