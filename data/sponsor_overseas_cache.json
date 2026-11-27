@@ -12795,5 +12795,40 @@
     "query_term": "Suzhou Fuent  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "苏州诺洁贝生物技术有限公司": {
+    "sponsor_en": "Suzhou Nuojiebei Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Nuojiebei  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Novartis Pharma AG/ 诺华（中国）生物医学研究有限公司/ Alcami Carolinas Corporation": {
+    "sponsor_en": "Novartis Pharma AG / Novartis (China) BioMedical Research Co., Ltd. / Alcami Carolinas Corporation",
+    "query_term": "Novartis",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT00600275",
+      "NCT02201212",
+      "NCT00101803",
+      "NCT01179737"
+    ]
+  },
+  "科兴（大连）疫苗技术有限公司/ 北京科兴中维生物技术有限公司": {
+    "sponsor_en": "Sinovac (Dalian) Vaccine Technology Co., Ltd. / Sinovac Biotech Co., Ltd.",
+    "query_term": "Sinovac (Dalian) Vaccine  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "嘉晨西海（杭州）生物技术有限公司": {
+    "sponsor_en": "Jiachen Xihai (Hangzhou) Biotechnology Co., Ltd.",
+    "query_term": "Jiachen Xihai (Hangzhou)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Marinus Pharmaceuticals, Inc./ 元羿生物科技（上海）有限公司/ Altasciences CDMO Philadelphia, LLC.": {
+    "sponsor_en": "Marinus Pharmaceuticals, Inc. / Yuan Yi Biotechnology (Shanghai) Co., Ltd. / Altasciences CDMO Philadelphia, LLC.",
+    "query_term": "Marinus , Inc.",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
