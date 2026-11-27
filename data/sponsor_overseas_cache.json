@@ -13307,5 +13307,35 @@
     "query_term": "Yangzhou Zhongbao  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "江苏安必生制药有限公司": {
+    "sponsor_en": "Jiangsu Anbios Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Anbios  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都先导药物开发股份有限公司": {
+    "sponsor_en": "Chengdu Pioneer Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Pioneer  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "赛岚（杭州）生物医药科技有限公司": {
+    "sponsor_en": "Siran (Hangzhou) Biomedical Technology Co., Ltd.",
+    "query_term": "Siran (Hangzhou)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "成都华昊中天药业有限公司": {
+    "sponsor_en": "Chengdu Huahao Zhongtian Pharmaceutical Co., Ltd.",
+    "query_term": "Chengdu Huahao Zhongtian  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AbbVie Inc./ 艾伯维医药贸易（上海）有限公司/ Vetter Pharma-Fertigung GmbH & Co.KG": {
+    "sponsor_en": "AbbVie Inc. / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd. / Vetter Pharma-Fertigung GmbH & Co.KG",
+    "query_term": "AbbVie Inc.",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
