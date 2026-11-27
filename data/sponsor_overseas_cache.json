@@ -13377,5 +13377,65 @@
     "query_term": "Wuhan Heyuan  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "益方生物科技（上海）有限公司": {
+    "sponsor_en": "Yifang Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Yifang  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京绿竹生物技术股份有限公司/ 绿竹生物制药（珠海市）有限公司": {
+    "sponsor_en": "Beijing Luzhu Biotechnology Co., Ltd. / Luzhu Biopharmaceuticals (Zhuhai) Co., Ltd.",
+    "query_term": "Beijing Luzhu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "福建中医药大学": {
+    "sponsor_en": "Fujian University of Traditional Chinese Medicine",
+    "query_term": "Fujian University of Traditional Chinese Medicine",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Alexion Europe SAS/ 阿斯利康投资（中国）有限公司/ Alexion Athlone Manufacturing Facility (AAMF)/ Alexion Pharma International Operations Unlimited Company (APIOUC)": {
+    "sponsor_en": "Alexion Europe SAS / AstraZeneca Investment (China) Co., Ltd. / Alexion Athlone Manufacturing Facility (AAMF) / Alexion Pharma International Operations Unlimited Company (APIOUC)",
+    "query_term": "Alexion Europe SAS",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Cilag AG/ Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Cilag AG / Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services.; Fisher Clinical Services; Catalent Pharma Solutions LLC",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04252287",
+      "NCT02889367",
+      "NCT03586843",
+      "NCT03333317",
+      "NCT02065791"
+    ]
+  },
+  "苏州盛迪亚生物医药有限公司/ 上海盛迪医药有限公司/ 上海恒瑞医药有限公司": {
+    "sponsor_en": "Suzhou Shengdiya Biopharmaceuticals Co., Ltd. / Shanghai Shengdi Pharmaceutical Co., Ltd. / Shanghai Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03764293",
+      "NCT04663282",
+      "NCT02500199",
+      "NCT05277168",
+      "NCT04446260"
+    ]
+  },
+  "株洲千金药业股份有限公司/ 浙江安宝药业有限公司": {
+    "sponsor_en": "Zhuzhou Qianjin Pharmaceutical Co., Ltd. / Zhejiang Anbao Pharmaceutical Co., Ltd.",
+    "query_term": "Zhuzhou Qianjin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东中昊药业有限公司/ 北京文丰天济医药科技有限公司/ 深圳天济药业有限公司": {
+    "sponsor_en": "Guangdong Zhonghao Pharmaceutical Co., Ltd. / Beijing Wenfeng Tianji Pharmaceutical Technology Co., Ltd. / Shenzhen Tianji Pharmaceutical Co., Ltd.",
+    "query_term": "Guangdong Zhonghao  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
