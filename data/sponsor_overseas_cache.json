@@ -12854,5 +12854,29 @@
     "query_term": "Shanghai Kezhou  Research and Development .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "浙江医药股份有限公司新昌制药厂/ 南京烁慧医药科技有限公司": {
+    "sponsor_en": "Xinchang Pharmaceutical Factory of Zhejiang Pharmaceutical Co., Ltd. / Nanjing Shuohui Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Xinchang  Factory of Zhejiang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州拓华生物科技有限公司": {
+    "sponsor_en": "Suzhou Tuohua Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Tuohua  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Santen Pharmaceutical Co., Ltd./ 参天制药（中国）有限公司/ Santen Pharmaceutical Co., Ltd. Shiga Plant": {
+    "sponsor_en": "Santen Pharmaceutical Co., Ltd. / Santen Pharmaceuticals (China) Co., Ltd. / Santen Pharmaceutical Co., Ltd. Shiga Plant",
+    "query_term": "Santen  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "吉林省拓华生物科技有限公司": {
+    "sponsor_en": "Jilin Tuohua Biotechnology Co., Ltd.",
+    "query_term": "Jilin Tuohua  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
