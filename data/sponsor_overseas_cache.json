@@ -12985,5 +12985,35 @@
       "NCT02715011",
       "NCT02207244"
     ]
+  },
+  "广州智耀生物科技有限公司/ 苏州智耀生物科技有限公司": {
+    "sponsor_en": "Guangzhou Zhiyao Biotechnology Co., Ltd. / Suzhou Zhiyao Biotechnology Co., Ltd.",
+    "query_term": "Guangzhou Zhiyao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "新疆银朵兰药业股份有限公司，北京中医药大学/ 新疆银朵兰药业股份有限公司": {
+    "sponsor_en": "Xinjiang Yinduo Pharmaceutical Co., Ltd., Beijing University of Chinese Medicine / Xinjiang Yinduo Lan Pharmaceutical Co., Ltd.",
+    "query_term": "Xinjiang Yinduo  ., Beijing University of Chinese Medicine",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江兄弟药业有限公司/ 南京海纳制药有限公司": {
+    "sponsor_en": "Zhejiang Brothers Pharmaceutical Co., Ltd. / Nanjing Haina Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Brothers  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "GlaxoSmithKline Trading Services Limited/ 葛兰素史克（中国）投资有限公司/ Glaxo Operations UK Limited (Trading As Glaxo Wellcome Operations)": {
+    "sponsor_en": "GlaxoSmithKline Trading Services Limited / GlaxoSmithKline (China) Investment Co., Ltd. / Glaxo Operations UK Limited (Trading As Glaxo Wellcome Operations)",
+    "query_term": "GlaxoSmithKline Trading Services",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "信立泰（成都）生物技术有限公司/ 信立泰（苏州）药业有限公司/ 深圳信立泰药业股份有限公司": {
+    "sponsor_en": "Xinfutai (Chengdu) Biotechnology Co., Ltd. / Sinli Tai (Suzhou) Pharmaceutical Co., Ltd. / Shenzhen Xinlitai Pharmaceutical Co., Ltd.",
+    "query_term": "Xinfutai (Chengdu)  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
