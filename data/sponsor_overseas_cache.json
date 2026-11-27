@@ -12597,5 +12597,53 @@
     "query_term": "Zhejiang Sansheng Mandi  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "珠海岐微生物科技有限公司": {
+    "sponsor_en": "Zhuhai Qiqi Biotechnology Co., Ltd.",
+    "query_term": "Zhuhai Qiqi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州华毅乐健生物科技有限公司": {
+    "sponsor_en": "Suzhou Huayilejian Biotechnology Co., Ltd.",
+    "query_term": "Suzhou Huayilejian  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海礼邦医药科技有限公司/ 礼邦生物医药（江苏）有限公司": {
+    "sponsor_en": "Shanghai Libang Pharmaceutical Technology Co., Ltd. / Libang Biopharmaceuticals (Jiangsu) Co., Ltd.",
+    "query_term": "Shanghai Libang   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "恺兴生命科技（上海）有限公司/ 上海科济制药有限公司": {
+    "sponsor_en": "Kaixing Life Science Technology (Shanghai) Co., Ltd. / Shanghai Cellular Therapeutics Co., Ltd.",
+    "query_term": "Kaixing Life Science  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中山万汉制药有限公司/ 深圳市健翔生物制药有限公司": {
+    "sponsor_en": "Zhongshan Wanhan Pharmaceutical Co., Ltd. / Shenzhen Jianxiang Biopharmaceutical Co., Ltd.",
+    "query_term": "Zhongshan Wanhan  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "康臣药业（内蒙古）有限责任公司": {
+    "sponsor_en": "Kangchen Pharmaceutical (Inner Mongolia) Co., Ltd.",
+    "query_term": "Kangchen  (Inner Mongolia) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海亚虹医药科技有限公司": {
+    "sponsor_en": "Shanghai Yahong Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Yahong   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京顺欣制药有限公司/ 正大天晴药业集团股份有限公司": {
+    "sponsor_en": "Nanjing Shunxin Pharmaceutical Co., Ltd. / Zhengda Tianqing Pharmaceutical Group Co., Ltd.",
+    "query_term": "Nanjing Shunxin  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
