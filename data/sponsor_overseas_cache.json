@@ -13183,5 +13183,35 @@
     "query_term": "Guangzhou Baiji  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "四川汇宇制药股份有限公司": {
+    "sponsor_en": "Sichuan Huiyu Pharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Huiyu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京恩瑞尼生物科技股份有限公司": {
+    "sponsor_en": "Beijing Enreini Biotechnology Co., Ltd.",
+    "query_term": "Beijing Enreini  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海盛迪医药有限公司/ 江苏恒瑞医药股份有限公司": {
+    "sponsor_en": "Shanghai Shengdi Pharmaceutical Co., Ltd. / Jiangsu Hengrui Medicine Co., Ltd.",
+    "query_term": "Hengrui",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03764293",
+      "NCT04663282",
+      "NCT02500199",
+      "NCT05277168",
+      "NCT04446260"
+    ]
+  },
+  "江苏施美康药业股份有限公司/ 泰州启瑞医药科技有限公司": {
+    "sponsor_en": "Jiangsu Simcare Pharmaceutical Co., Ltd. / Taizhou Qirui Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Jiangsu Simcare  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
