@@ -12943,5 +12943,47 @@
     "query_term": "Yangtze River   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "Amgen Inc./ 安进生物技术咨询（上海）有限公司/ Amgen Inc.；Patheon Inc./ Amgen Europe B.V.": {
+    "sponsor_en": "Amgen Inc. / Amgen Biotechnology Consulting (Shanghai) Co., Ltd. / Amgen Inc.; Patheon Inc. / Amgen Europe B.V.",
+    "query_term": "Amgen Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州前进药业有限公司": {
+    "sponsor_en": "Hangzhou Qianjin Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Qianjin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "揽月生物医药科技（杭州）有限公司": {
+    "sponsor_en": "Lanyue Biopharmaceutical Technology (Hangzhou) Co., Ltd.",
+    "query_term": "Lanyue   (Hangzhou) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Amgen Europe B.V./ 安进生物技术咨询（上海）有限公司/ Amgen Manufacturing Limited": {
+    "sponsor_en": "Amgen Europe B.V. / Amgen Biotechnology Consulting (Shanghai) Co., Ltd. / Amgen Manufacturing Limited",
+    "query_term": "Amgen Europe B.V.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "重庆博唯佰泰生物制药有限公司/ 上海博唯生物科技有限公司": {
+    "sponsor_en": "Chongqing Bowei Baitai Biopharmaceutical Co., Ltd. / Shanghai Bowei Biotechnology Co., Ltd.",
+    "query_term": "Chongqing Bowei Baitai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Janssen Pharmaceutica NV; Janssen-Cilag SpA/ Janssen Pharmaceutica NV; Janssen-Cilag SpA; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Janssen Pharmaceutica NV; Janssen-Cilag SpA / Janssen Pharmaceutica NV; Janssen-Cilag SpA; Fisher Clinical Services Inc.; Fisher Clinical Services GmbH",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05083169",
+      "NCT04978337",
+      "NCT04513912",
+      "NCT02715011",
+      "NCT02207244"
+    ]
   }
 }
