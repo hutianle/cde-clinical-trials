@@ -13500,5 +13500,58 @@
       "NCT04186637",
       "NCT05732402"
     ]
+  },
+  "宜昌人福药业有限责任公司/ 海南双成药业股份有限公司": {
+    "sponsor_en": "Yichang Humanwell Pharmaceutical Co., Ltd. / Hainan Shuangcheng Pharmaceutical Co., Ltd.",
+    "query_term": "Humanwell",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "重庆迪康尔乐制药有限公司": {
+    "sponsor_en": "Chongqing Dikang'erle Pharmaceutical Co., Ltd.",
+    "query_term": "Chongqing Dikang'erle  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "甘李药业山东有限公司/ 华益药业科技（安徽）有限公司": {
+    "sponsor_en": "Gan & Lee Pharmaceuticals Shandong Co., Ltd. / Huayi Pharmaceutical Technology (Anhui) Co., Ltd.",
+    "query_term": "Gan & Lee  Shandong .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "AbbVie Inc./ 艾伯维医药贸易（上海）有限公司/ Patheon Italia S.P.A/ Boehringer Ingelheim Pharma GmbH & Co KG/ AbbVie Biotechnology, Ltd./ AbbVie Deutschland GmbH & Co. KG/ Boehringer Ingelheim Pharma GmbH & Co KG; AbbVie Biotechnology LTD": {
+    "sponsor_en": "AbbVie Inc. / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd. / Patheon Italia S.P.A / Boehringer Ingelheim Pharma GmbH & Co KG / AbbVie Biotechnology, Ltd. / AbbVie Deutschland GmbH & Co. KG / Boehringer Ingelheim Pharma GmbH & Co KG; AbbVie Biotechnology LTD",
+    "query_term": "Boehringer Ingelheim",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT02467478",
+      "NCT03820726",
+      "NCT01669798",
+      "NCT00793793"
+    ]
+  },
+  "北京清博汇能医药科技有限公司": {
+    "sponsor_en": "Beijing Qingbo Huineng Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Qingbo Huineng   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州翰思生物医药有限公司": {
+    "sponsor_en": "Hangzhou Hansun Biomedicine Co., Ltd.",
+    "query_term": "Hangzhou Hansun Biomedicine .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "聚协昌（北京）药业有限公司": {
+    "sponsor_en": "Juxiechang (Beijing) Pharmaceutical Co., Ltd.",
+    "query_term": "Juxiechang (Beijing)  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京辰光医药科技有限公司/ 辰光（天津）制药有限公司": {
+    "sponsor_en": "Beijing Chenguang Pharmaceutical Technology Co., Ltd. / Chenguang (Tianjin) Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Chenguang   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
