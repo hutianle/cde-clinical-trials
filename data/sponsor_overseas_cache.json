@@ -12699,5 +12699,53 @@
     "query_term": "GlaxoSmithKline Research & Development",
     "has_us_site": false,
     "us_trials": []
+  },
+  "杭州嘉因生物科技有限公司": {
+    "sponsor_en": "Hangzhou Jiayin Biotechnology Co., Ltd.",
+    "query_term": "Hangzhou Jiayin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海爱萨尔生物科技有限公司": {
+    "sponsor_en": "Shanghai Aisair Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Aisair  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏诺和必拓新药研发有限公司/ 北京百奥药业有限责任公司": {
+    "sponsor_en": "Jiangsu Novo Biotech New Drug Research and Development Co., Ltd. / Beijing Bio-Health Pharmaceutical Co., Ltd.",
+    "query_term": "Jiangsu Novo Biotech New Drug Research and Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州中药研究所有限公司": {
+    "sponsor_en": "Suzhou Institute of Traditional Chinese Medicine Co., Ltd.",
+    "query_term": "Suzhou Institute of Traditional Chinese Medicine .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "德昇济医药（无锡）有限公司": {
+    "sponsor_en": "Deshengji Pharmaceutical (Wuxi) Co., Ltd.",
+    "query_term": "Deshengji  (Wuxi) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "厦门再妙生物科技有限公司": {
+    "sponsor_en": "Xiamen Zaimiao Biotechnology Co., Ltd.",
+    "query_term": "Xiamen Zaimiao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江沣华医药科技有限公司/ 浙江仙琚制药股份有限公司": {
+    "sponsor_en": "Zhejiang Fenghua Pharmaceutical Technology Co., Ltd. / Zhejiang Xianju Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Fenghua   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "主流源生物科技（上海）有限公司/ 中山主流源生物科技有限公司": {
+    "sponsor_en": "Mainstream Source Biotechnology (Shanghai) Co., Ltd. / Zhongshan Mainstream Biological Technology Co., Ltd.",
+    "query_term": "Mainstream Source  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
