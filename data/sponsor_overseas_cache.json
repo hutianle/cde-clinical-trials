@@ -13437,5 +13437,35 @@
     "query_term": "Guangdong Zhonghao  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "北京诺惟生物医药科技有限公司": {
+    "sponsor_en": "Beijing Nuowei Biomedical Technology Co., Ltd.",
+    "query_term": "Beijing Nuowei   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京盛迪医药有限公司/ 北京拓界生物医药科技有限公司/ 上海迈晋生物医药科技有限公司": {
+    "sponsor_en": "Beijing Shengdi Pharmaceutical Co., Ltd. / Beijing Tuojie Biomedical Technology Co., Ltd. / Shanghai Maijin Biopharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Shengdi  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "青岛奥克生物开发有限公司": {
+    "sponsor_en": "Qingdao Ouke Biological Development Co., Ltd.",
+    "query_term": "Qingdao Ouke Biological Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州爱德程医药科技有限公司/ 南京爱德程宁欣药物研发有限公司/ 南京爱德程医药科技有限公司": {
+    "sponsor_en": "Hangzhou AIDC Pharmaceutical Technology Co., Ltd. / Nanjing Edc Ningxin Pharmaceutical Research and Development Co., Ltd. / Nanjing AIDC Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Hangzhou AIDC   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "青岛万明赛伯生物医药有限公司": {
+    "sponsor_en": "Qingdao Wanming Cyber Biomedicine Co., Ltd.",
+    "query_term": "Qingdao Wanming Cyber Biomedicine .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
