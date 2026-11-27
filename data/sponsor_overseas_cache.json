@@ -13015,5 +13015,23 @@
     "query_term": "Xinfutai (Chengdu)  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "兰州生物技术开发有限公司": {
+    "sponsor_en": "Lanzhou Biotechnology Development Co., Ltd.",
+    "query_term": "Lanzhou  Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "辰欣药业股份有限公司": {
+    "sponsor_en": "Chenxin Pharmaceutical Co., Ltd.",
+    "query_term": "Chenxin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "南京爱德程宁欣药物研发有限公司/ 正大天晴药业集团股份有限公司": {
+    "sponsor_en": "Nanjing Edc Ningxin Pharmaceutical Research and Development Co., Ltd. / Zhengda Tianqing Pharmaceutical Group Co., Ltd.",
+    "query_term": "Nanjing Edc Ningxin  Research and Development .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
