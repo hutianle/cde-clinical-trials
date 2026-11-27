@@ -13277,5 +13277,35 @@
     "query_term": "Shanghai Ruoyue  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "湖南九典制药有限公司/ 湖南普道医药技术有限公司": {
+    "sponsor_en": "Hunan Jiudian Pharmaceutical Co., Ltd. / Hunan Putao Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Hunan Jiudian  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "武汉药谷科技开发有限公司/ 武汉军谷坊科技开发有限公司": {
+    "sponsor_en": "Wuhan Yaogu Technology Development Co., Ltd. / Wuhan Jungufang Technology Development Co., Ltd.",
+    "query_term": "Wuhan Yaogu  Development .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华夏生生药业（北京）有限公司": {
+    "sponsor_en": "Huaxia Shengsheng Pharmaceutical (Beijing) Co., Ltd.",
+    "query_term": "Huaxia Shengsheng  (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "辽宁华润本溪三药有限公司": {
+    "sponsor_en": "Liaoning China Resources Benxi Sanyao Co., Ltd.",
+    "query_term": "Liaoning China Resources Benxi Sanyao .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "扬州中宝药业股份有限公司": {
+    "sponsor_en": "Yangzhou Zhongbao Pharmaceutical Co., Ltd.",
+    "query_term": "Yangzhou Zhongbao  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
