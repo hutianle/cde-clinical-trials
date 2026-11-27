@@ -12747,5 +12747,53 @@
     "query_term": "Mainstream Source  (Shanghai) .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "南京恒生制药有限公司": {
+    "sponsor_en": "Nanjing Hengsheng Pharmaceutical Co., Ltd.",
+    "query_term": "Nanjing Hengsheng  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京北陆药业股份有限公司": {
+    "sponsor_en": "Beijing Beilu Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Beilu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Takeda Development Center Americas, Inc./ 武田亚太生物医药研发有限公司/ Spera Pharma, Inc.": {
+    "sponsor_en": "Takeda Development Center Americas, Inc. / Takeda Asia Pacific Biomedical R&D Co., Ltd. / Spera Pharma, Inc.",
+    "query_term": "Takeda Development Center Americas, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT07042685",
+      "NCT02927067",
+      "NCT03879135",
+      "NCT04683003",
+      "NCT01922440"
+    ]
+  },
+  "上海医药集团股份有限公司": {
+    "sponsor_en": "Shanghai Pharmaceutical Group Co., Ltd.",
+    "query_term": "Shanghai   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Cilag AG/ Janssen R&D, a Division of Janssen Pharmaceutica, NV; Fisher Clinical Services; Fisher Clinical Services GmbH; Catalent Germany Schorndorf GmbH; Catalent Pharma Solutions, LLC": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Cilag AG / Janssen R&D, a Division of Janssen Pharmaceutica, NV; Fisher Clinical Services; Fisher Clinical Services GmbH; Catalent Germany Schorndorf GmbH; Catalent Pharma Solutions, LLC",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT05083169",
+      "NCT04978337",
+      "NCT04513912",
+      "NCT02715011",
+      "NCT02207244"
+    ]
+  },
+  "苏州复恩特药业有限公司": {
+    "sponsor_en": "Suzhou Fuent Pharmaceutical Co., Ltd.",
+    "query_term": "Suzhou Fuent  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
