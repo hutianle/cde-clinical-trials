@@ -12830,5 +12830,29 @@
     "query_term": "Marinus , Inc.",
     "has_us_site": false,
     "us_trials": []
+  },
+  "AbbVie Inc./ 艾伯维医药贸易（上海）有限公司/ Forest Laboratories Ireland Limited": {
+    "sponsor_en": "AbbVie Inc. / AbbVie Pharmaceuticals Trading (Shanghai) Co., Ltd. / Forest Laboratories Ireland Limited",
+    "query_term": "AbbVie Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海赛比曼生物科技有限公司": {
+    "sponsor_en": "Shanghai Cibman Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Cibman  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "苏州旺山旺水生物医药股份有限公司/ 南通和风连旺医药科技有限公司": {
+    "sponsor_en": "Suzhou Wangshan Wangshui Biomedical Co., Ltd. / Nantong Hefeng Lianwang Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Suzhou Wangshan Wangshui  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海科州药物研发有限公司": {
+    "sponsor_en": "Shanghai Kezhou Pharmaceutical Research and Development Co., Ltd.",
+    "query_term": "Shanghai Kezhou  Research and Development .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
