@@ -13738,5 +13738,65 @@
       "NCT05493618",
       "NCT03341143"
     ]
+  },
+  "上海糖霁生物科技有限公司/ 中国科学院上海药物研究所": {
+    "sponsor_en": "Shanghai Tangji Biotechnology Co., Ltd. / Shanghai Institute of Materia Medica, Chinese Academy of Sciences",
+    "query_term": "Shanghai Tangji  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "嘉亨（珠海横琴）医药科技有限公司/ 成都中医药大学附属医院（四川省中医医院）": {
+    "sponsor_en": "Jiaheng (Zhuhai Hengqin) Pharmaceutical Technology Co., Ltd. / Affiliated Hospital of Chengdu University of Traditional Chinese Medicine (Sichuan Provincial Hospital of Traditional Chinese Medicine)",
+    "query_term": "Jiaheng (Zhuhai Hengqin)   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州百诚医药科技股份有限公司/ 浙江赛默制药有限公司": {
+    "sponsor_en": "Hangzhou Baicheng Pharmaceutical Technology Co., Ltd. / Zhejiang Simo Pharmaceutical Co., Ltd.",
+    "query_term": "Hangzhou Baicheng   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "天士力制药集团股份有限公司/ 北京军区临床药物研究所": {
+    "sponsor_en": "Tasly Pharmaceutical Group Co., Ltd. / Beijing Military Region Clinical Drug Research Institute",
+    "query_term": "Tasly   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Takeda Pharmaceuticals U.S.A., Inc./ 武田（中国）国际贸易有限公司/ Catalent CTS, LLC/ Takeda Ireland Limited": {
+    "sponsor_en": "Takeda Pharmaceuticals U.S.A., Inc. / Takeda (China) International Trading Co., Ltd. / Catalent CTS, LLC / Takeda Ireland Limited",
+    "query_term": "Takeda  U.S.A., Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海邦耀生物科技有限公司": {
+    "sponsor_en": "Shanghai Bangyao Biotechnology Co., Ltd.",
+    "query_term": "Shanghai Bangyao  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "合肥阿法纳生物科技有限公司/ 安徽安科生物工程（集团）股份有限公司/ 合肥阿法纳安科生物科技有限公司": {
+    "sponsor_en": "Hefei Afana Biotechnology Co., Ltd. / Anhui Anke Biotechnology (Group) Co., Ltd. / Hefei Afana Anke Biotechnology Co., Ltd.",
+    "query_term": "Hefei Afana  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "华兰生物疫苗股份有限公司": {
+    "sponsor_en": "Hualan Biological Vaccine Co., Ltd.",
+    "query_term": "Hualan",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Alexion Europe SAS/ 阿斯利康投资（中国）有限公司/ Alexion Athlone Manufacturing Facility (AAMF)/ Alexion Pharma International Operation Unlimited Company (APIOUC)/ Alexion Pharma International Operations Unlimited Company (APIOUC)": {
+    "sponsor_en": "Alexion Europe SAS / AstraZeneca Investment (China) Co., Ltd. / Alexion Athlone Manufacturing Facility (AAMF) / Alexion Pharma International Operation Unlimited Company (APIOUC) / Alexion Pharma International Operations Unlimited Company (APIOUC)",
+    "query_term": "Alexion Europe SAS",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Genzyme Corporation/ 赛诺菲（中国）投资有限公司/ Genzyme Ireland Limited": {
+    "sponsor_en": "Genzyme Corporation / Sanofi (China) Investment Co., Ltd. / Genzyme Ireland Limited",
+    "query_term": "Genzyme Corporation",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
