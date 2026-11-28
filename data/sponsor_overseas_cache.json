@@ -13642,5 +13642,47 @@
     "query_term": "Huisheng Biopharmaceuticals .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "通化康缘玉金药业有限公司": {
+    "sponsor_en": "Tonghua Kangyuan Yujin Pharmaceutical Co., Ltd.",
+    "query_term": "Tonghua Kangyuan Yujin  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "千寿制药科技（北京）有限公司": {
+    "sponsor_en": "Sensus Pharmaceutical Technology (Beijing) Co., Ltd.",
+    "query_term": "Sensus   (Beijing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "杭州领业医药科技有限公司": {
+    "sponsor_en": "Hangzhou Lingye Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Hangzhou Lingye   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Areteia Therapeutics, Inc./ 精鼎医药研究开发（上海）有限公司/ Catalent Pharma Solutions, LLC/ Yourway Transport, Inc.": {
+    "sponsor_en": "Areteia Therapeutics, Inc. / Jingding Pharmaceutical Research and Development (Shanghai) Co., Ltd. / Catalent Pharma Solutions, LLC / Yourway Transport, Inc.",
+    "query_term": "Areteia Therapeutics, Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "四川科伦药业股份有限公司": {
+    "sponsor_en": "Sichuan Kelun Pharmaceutical Co., Ltd.",
+    "query_term": "Sichuan Kelun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "长春普莱医药生物技术有限公司/ 江苏普莱医药生物技术有限公司": {
+    "sponsor_en": "Changchun Puli Pharmaceutical Biotechnology Co., Ltd. / Jiangsu Puli Pharmaceutical Biotechnology Co., Ltd.",
+    "query_term": "Changchun Puli   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "正大天晴药业集团股份有限公司/ 南京爱德程宁欣药物研发有限公司": {
+    "sponsor_en": "Zhengda Tianqing Pharmaceutical Group Co., Ltd. / Nanjing Edc Ningxin Pharmaceutical Research and Development Co., Ltd.",
+    "query_term": "Zhengda Tianqing   .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
