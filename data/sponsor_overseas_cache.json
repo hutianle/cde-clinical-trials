@@ -13798,5 +13798,47 @@
     "query_term": "Genzyme Corporation",
     "has_us_site": false,
     "us_trials": []
+  },
+  "礼邦药业（上海）有限公司": {
+    "sponsor_en": "Libang Pharmaceutical (Shanghai) Co., Ltd.",
+    "query_term": "Libang  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "远大赛威信生命科学（南京）有限公司": {
+    "sponsor_en": "Yuan Da Saiwei Life Sciences (Nanjing) Co., Ltd.",
+    "query_term": "Yuan Da Saiwei Life Sciences (Nanjing) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "REMD Biotherapeutics Inc./ 北京科信美德生物医药科技有限公司/ Ajinomoto Bio-Pharma Services": {
+    "sponsor_en": "REMD Biotherapeutics Inc. / Beijing Kexin Mede Biomedical Technology Co., Ltd. / Ajinomoto Bio-Pharma Services",
+    "query_term": "REMD Biotherapeutics Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Janssen Research & Development, LLC/ 强生（中国）投资有限公司/ Janssen Research & Development, A Division of Janssen Pharmaceutica NV/ Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services; Fisher Clinical Services; Fisher Clinical Services; Catalent Germany Schorndorf GmbH; Fisher Bio Services; Catalent Pharma Solutions, LLC/ Patheon Italia S.P.A": {
+    "sponsor_en": "Janssen Research & Development, LLC / Johnson & Johnson (China) Investment Co., Ltd. / Janssen Research & Development, A Division of Janssen Pharmaceutica NV / Janssen Research & Development, A Division of Janssen Pharmaceutica NV; Fisher Clinical Services; Fisher Clinical Services; Fisher Clinical Services; Catalent Germany Schorndorf GmbH; Fisher Bio Services; Catalent Pharma Solutions, LLC / Patheon Italia S.P.A",
+    "query_term": "Janssen Research & Development, LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04252287",
+      "NCT02889367",
+      "NCT03586843",
+      "NCT03333317",
+      "NCT02065791"
+    ]
+  },
+  "Pliant Therapeutics, Inc./ 艾昆纬医药科技（上海）有限公司/ Quotient Sciences - Philadelphia, LLC; Patheon Inc./ Anderson Brecon, Inc., dba PCI Pharma Services": {
+    "sponsor_en": "Pliant Therapeutics, Inc. / IQVIA Pharmaceutical Technology (Shanghai) Co., Ltd. / Quotient Sciences - Philadelphia, LLC; Patheon Inc. / Anderson Brecon, Inc., dba PCI Pharma Services",
+    "query_term": "Pliant Therapeutics, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04480840",
+      "NCT06097260",
+      "NCT04396756",
+      "NCT05621252",
+      "NCT04072315"
+    ]
   }
 }
