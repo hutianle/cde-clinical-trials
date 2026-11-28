@@ -13962,5 +13962,29 @@
     "query_term": "Shenzhen Qianhai Jiao Health  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "欣凯医药化工中间体（上海）有限公司/ 欣凯医药科技（上海）有限公司": {
+    "sponsor_en": "Xinkai Pharmaceutical Chemical Intermediates (Shanghai) Co., Ltd. / Xinkai Pharmaceutical Technology (Shanghai) Co., Ltd.",
+    "query_term": "Xinkai  Chemical Intermediates (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "扬子江药业集团有限公司/ 扬子江药业集团江苏紫龙药业有限公司": {
+    "sponsor_en": "Yangtze River Pharmaceutical Group Co., Ltd. / Yangtze River Pharmaceutical Group Jiangsu Zilong Pharmaceutical Co., Ltd.",
+    "query_term": "Yangtze River   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Les Laboratoires Servier/ Ajinomoto Althea Inc./ Baxter Oncology GmbH/ 施维雅（天津）制药有限公司": {
+    "sponsor_en": "Les Laboratoires Servier / Ajinomoto Althea Inc. / Baxter Oncology GmbH / Servier (Tianjin) Pharmaceutical Co., Ltd.",
+    "query_term": "Les Laboratoires Servier",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广州白云山和记黄埔中药有限公司": {
+    "sponsor_en": "Guangzhou Baiyunshan Hutchison Whampoa Traditional Chinese Medicine Co., Ltd.",
+    "query_term": "Guangzhou Baiyunshan Hutchison Whampoa Traditional Chinese Medicine .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
