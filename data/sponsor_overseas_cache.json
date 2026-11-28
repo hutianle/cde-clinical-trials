@@ -13986,5 +13986,47 @@
     "query_term": "Guangzhou Baiyunshan Hutchison Whampoa Traditional Chinese Medicine .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "国药瑞福莱药业有限公司": {
+    "sponsor_en": "Sinopharm Ruifulai Pharmaceutical Co., Ltd.",
+    "query_term": "Sinopharm Ruifulai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江华海药业股份有限公司": {
+    "sponsor_en": "Zhejiang Huahai Pharmaceutical Co., Ltd.",
+    "query_term": "Zhejiang Huahai  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "江苏沃森生物技术有限公司": {
+    "sponsor_en": "Jiangsu Walvax Biotechnology Co., Ltd.",
+    "query_term": "Jiangsu Walvax  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "长春雷允上药业有限公司": {
+    "sponsor_en": "Changchun Lei Yunshang Pharmaceutical Co., Ltd.",
+    "query_term": "Changchun Lei Yunshang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Stemline Therapeutics, Inc./ 赛生医药（中国）有限公司/ Catalent Greenville, Inc.": {
+    "sponsor_en": "Stemline Therapeutics, Inc. / CSPC Pharmaceutical Group Limited (China) / Catalent Greenville, Inc.",
+    "query_term": "Stemline Therapeutics, Inc.",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT03113643",
+      "NCT07467772",
+      "NCT07148180",
+      "NCT06126575",
+      "NCT02667873"
+    ]
+  },
+  "海南广升誉制药有限公司/ 南京海纳制药有限公司": {
+    "sponsor_en": "Hainan Guangshengyu Pharmaceutical Co., Ltd. / Nanjing Haina Pharmaceutical Co., Ltd.",
+    "query_term": "Hainan Guangshengyu  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
