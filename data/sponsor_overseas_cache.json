@@ -13914,5 +13914,53 @@
     "query_term": "Shanghai Maikekang  .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "江苏太平洋美诺克生物药业有限公司": {
+    "sponsor_en": "Jiangsu Pacific Meinuoke Biopharmaceutical Co.,Ltd",
+    "query_term": "Jiangsu Pacific Meinuoke",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "云南舜喜再生医学工程有限公司": {
+    "sponsor_en": "Yunnan Shunxi Regenerative Medicine Engineering Co., Ltd.",
+    "query_term": "Yunnan Shunxi Regenerative Medicine Engineering .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "丽珠集团丽珠医药研究所/ 丽珠集团丽珠制药厂": {
+    "sponsor_en": "Livzon Group Livzon Pharmaceutical Research Institute / Lizhu Group Lizhu Pharmaceutical Factory",
+    "query_term": "Livzon  Livzon  Research Institute",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "盐野义制药株式会社/ Shionogi Pharma Co., Ltd. Kanegasaki Plant/ 北京华卫医药有限责任公司": {
+    "sponsor_en": "Shionogi & Co., Ltd. / Shionogi Pharma Co., Ltd. Kanegasaki Plant / Beijing Huawai Pharmaceutical Co., Ltd.",
+    "query_term": "Shionogi & .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Menarini International Operations Luxembourg S.A./ 赛生医药（中国）有限公司/ ACS Dobfar,S.p.A.": {
+    "sponsor_en": "Menarini International Operations Luxembourg S.A. / CSPC Pharmaceutical Group Limited (China) / ACS Dobfar,S.p.A.",
+    "query_term": "Menarini International Operations Luxembourg S.A.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Allergan Pharmaceuticals Ireland/ 艾尔建信息咨询（上海）有限公司": {
+    "sponsor_en": "Allergan Pharmaceuticals Ireland / Allergan Information Consulting (Shanghai) Co., Ltd.",
+    "query_term": "Allergan  Ireland",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "科妍生物科技股份有限公司生技一厂/ 江苏佳时泰医药生物科技有限公司": {
+    "sponsor_en": "Scinopharm Biotechnology Plant 1 / Jiangsu Jieshitai Pharmaceutical Biotechnology Co., Ltd.",
+    "query_term": "Scinopharm  Plant 1",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "深圳前海吉奥健康科技有限公司": {
+    "sponsor_en": "Shenzhen Qianhai Jiao Health Technology Co., Ltd.",
+    "query_term": "Shenzhen Qianhai Jiao Health  .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
