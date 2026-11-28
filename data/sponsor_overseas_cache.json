@@ -13840,5 +13840,35 @@
       "NCT05621252",
       "NCT04072315"
     ]
+  },
+  "Takeda Development Center Americas,Inc./ 武田（中国）国际贸易有限公司/ Takeda GmbH/ Fisher Clinical Services GmbH": {
+    "sponsor_en": "Takeda Development Center Americas,Inc. / Takeda (China) International Trading Co., Ltd. / Takeda GmbH / Fisher Clinical Services GmbH",
+    "query_term": "Takeda Development Center Americas,Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "日本米诺发源制药株式会社/ 深圳万乐药业有限公司/ Catalent Pharma Solutions，LLC/ Bushu Pharmaceuticals Ltd. Kawagoe Factory": {
+    "sponsor_en": "RiBenMiNuoFaYuan Pharma ZhuShiHuiShe / ShenZhenWanLe Pharmaceutical Co., Ltd. / Catalent Pharma Solutions, LLC / Bushu Pharmaceuticals Ltd. Kawagoe Factory",
+    "query_term": "RiBenMiNuoFaYuan Pharma ZhuShiHuiShe",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "宜明昂科生物医药技术（上海）有限公司": {
+    "sponsor_en": "YiMingAngKe Biomedicine JiShu ( Shanghai ) Co., Ltd.",
+    "query_term": "YiMingAngKe Biomedicine JiShu ( Shanghai ) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "湖北丽益医药科技有限公司": {
+    "sponsor_en": "HuBeiLiYi Pharmaceutical Technology Co., Ltd.",
+    "query_term": "HuBeiLiYi   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "中山医诺维申新药研发有限公司": {
+    "sponsor_en": "ZhongShanYiNuoWeiShenXinYaoYanFa Co., Ltd.",
+    "query_term": "ZhongShanYiNuoWeiShenXinYaoYanFa .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
