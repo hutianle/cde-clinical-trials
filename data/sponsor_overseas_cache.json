@@ -13684,5 +13684,59 @@
     "query_term": "Zhengda Tianqing   .",
     "has_us_site": false,
     "us_trials": []
+  },
+  "阿斯利康投资（中国）有限公司/ Baxter Oncology GmbH/ Daiichi Sankyo, Inc.": {
+    "sponsor_en": "AstraZeneca Investment (China) Co., Ltd. / Baxter Oncology GmbH / Daiichi Sankyo, Inc.",
+    "query_term": "AstraZeneca Investment (China) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "博致生物科技（上海）有限公司": {
+    "sponsor_en": "Borgward Biotechnology (Shanghai) Co., Ltd.",
+    "query_term": "Borgward  (Shanghai) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "常山凯捷健生物药物研发（河北）有限公司/ 河北常山生化药业股份有限公司": {
+    "sponsor_en": "Changshan Kaijiejian Biopharmaceutical R&D (Hebei) Co., Ltd. / Hebei Changshan Biochemical Pharmaceutical Co., Ltd.",
+    "query_term": "Changshan Kaijiejian  R&D (Hebei) .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "浙江和沐康医药科技有限公司": {
+    "sponsor_en": "Zhejiang Hemu Kang Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Zhejiang Hemu Kang   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京君科华元医药科技有限公司": {
+    "sponsor_en": "Beijing Junke Huayuan Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Beijing Junke Huayuan   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "国药集团贵州血液制品有限公司": {
+    "sponsor_en": "Sinopharm Group Guizhou Blood Products Co., Ltd.",
+    "query_term": "Sinopharm  Guizhou Blood Products .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "上海银诺医药技术有限公司/ 昆明银诺医药技术有限公司": {
+    "sponsor_en": "Shanghai Yinnuo Pharmaceutical Technology Co., Ltd. / Kunming Yinnuo Pharmaceutical Technology Co., Ltd.",
+    "query_term": "Shanghai Yinnuo   .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "Merck Sharp & Dohme LLC/ 默沙东研发（中国）有限公司/ Baxter Oncology GmbH": {
+    "sponsor_en": "Merck Sharp & Dohme LLC / Merck Research Laboratories (China) Co., Ltd. / Baxter Oncology GmbH",
+    "query_term": "Merck Sharp & Dohme LLC",
+    "has_us_site": true,
+    "us_trials": [
+      "NCT04892472",
+      "NCT02382406",
+      "NCT02170025",
+      "NCT05493618",
+      "NCT03341143"
+    ]
   }
 }
