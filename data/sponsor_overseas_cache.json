@@ -13595,5 +13595,16 @@
       "NCT03333317",
       "NCT02065791"
     ]
+  },
+  "苏州康乃德生物医药有限公司": {
+    "sponsor_en": "Suzhou Coned Biopharmaceuticals Co., Ltd.",
+    "query_term": "Suzhou Coned Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "不适用/ 上海复宏汉霖生物技术股份有限公司/ Catalent Greenville, Inc.": {
+    "has_us_site": false,
+    "us_trials": [],
+    "query_term": "N"
   }
 }
