@@ -13606,5 +13606,41 @@
     "has_us_site": false,
     "us_trials": [],
     "query_term": "N"
+  },
+  "北京康抗生物技术有限公司/ 上海康抗生物技术有限公司": {
+    "sponsor_en": "Beijing Kangkang Biotechnology Co., Ltd. / Shanghai Kangkang Biotechnology Co., Ltd.",
+    "query_term": "Beijing Kangkang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "广东红珊瑚药业有限公司": {
+    "sponsor_en": "Guangdong Hongshanhu Pharmaceutical Co., Ltd.",
+    "query_term": "Guangdong Hongshanhu  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "CASI Pharmaceuticals, Inc./ 凯信远达医药（中国）有限公司/ Patheon Manufacturing Services LLC": {
+    "sponsor_en": "CASI Pharmaceuticals, Inc. / CSPC Pharmaceutical Group Limited (China) / Patheon Manufacturing Services LLC",
+    "query_term": "CASI , Inc.",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "北京红太阳药业有限公司": {
+    "sponsor_en": "Beijing Red Sun Pharmaceutical Co., Ltd.",
+    "query_term": "Beijing Red Sun  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "海南灵康制药有限公司/ 南京海纳制药有限公司": {
+    "sponsor_en": "Hainan Lingkang Pharmaceutical Co., Ltd. / Nanjing Haina Pharmaceutical Co., Ltd.",
+    "query_term": "Hainan Lingkang  .",
+    "has_us_site": false,
+    "us_trials": []
+  },
+  "惠升生物制药股份有限公司": {
+    "sponsor_en": "Huisheng Biopharmaceuticals Co., Ltd.",
+    "query_term": "Huisheng Biopharmaceuticals .",
+    "has_us_site": false,
+    "us_trials": []
   }
 }
